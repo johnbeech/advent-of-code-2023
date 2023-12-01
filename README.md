@@ -1,12 +1,10 @@
 # Advent of Code 2023
 
-Advent of Code Template using Node JS for 2023.
+Advent of Code Solutions using Node JS for 2023.
 
 ## Setup
 
-
 Clone this repo, then run `npm install` to install dependencies.
-
 
 ## Running
 
