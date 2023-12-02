@@ -50,7 +50,8 @@
       "green": 15,
       "blue": 8,
       "red": 10
-    }
+    },
+    "power": 1200
   },
   {
     "game": "Game 2",
@@ -94,7 +95,8 @@
       "red": 2,
       "green": 12,
       "blue": 3
-    }
+    },
+    "power": 72
   },
   {
     "game": "Game 3",
@@ -145,7 +147,8 @@
       "red": 20,
       "green": 13,
       "blue": 3
-    }
+    },
+    "power": 780
   },
   {
     "game": "Game 4",
@@ -189,7 +192,8 @@
       "red": 4,
       "blue": 19,
       "green": 5
-    }
+    },
+    "power": 380
   },
   {
     "game": "Game 5",
@@ -221,7 +225,8 @@
       "blue": 11,
       "red": 4,
       "green": 6
-    }
+    },
+    "power": 264
   },
   {
     "game": "Game 6",
@@ -265,7 +270,8 @@
       "red": 9,
       "blue": 13,
       "green": 12
-    }
+    },
+    "power": 1404
   },
   {
     "game": "Game 7",
@@ -303,7 +309,8 @@
       "green": 4,
       "red": 18,
       "blue": 1
-    }
+    },
+    "power": 72
   },
   {
     "game": "Game 8",
@@ -341,7 +348,8 @@
       "red": 12,
       "green": 16,
       "blue": 13
-    }
+    },
+    "power": 2496
   },
   {
     "game": "Game 9",
@@ -379,7 +387,8 @@
       "green": 6,
       "red": 17,
       "blue": 9
-    }
+    },
+    "power": 918
   },
   {
     "game": "Game 10",
@@ -418,7 +427,8 @@
       "blue": 4,
       "red": 17,
       "green": 15
-    }
+    },
+    "power": 1020
   },
   {
     "game": "Game 11",
@@ -457,7 +467,8 @@
       "green": 16,
       "blue": 11,
       "red": 7
-    }
+    },
+    "power": 1232
   },
   {
     "game": "Game 12",
@@ -488,7 +499,8 @@
       "green": 13,
       "red": 3,
       "blue": 8
-    }
+    },
+    "power": 312
   },
   {
     "game": "Game 13",
@@ -518,7 +530,8 @@
       "blue": 2,
       "green": 5,
       "red": 2
-    }
+    },
+    "power": 20
   },
   {
     "game": "Game 14",
@@ -555,7 +568,8 @@
       "red": 7,
       "green": 18,
       "blue": 4
-    }
+    },
+    "power": 504
   },
   {
     "game": "Game 15",
@@ -605,7 +619,8 @@
       "blue": 10,
       "green": 8,
       "red": 15
-    }
+    },
+    "power": 1200
   },
   {
     "game": "Game 16",
@@ -650,7 +665,8 @@
       "green": 11,
       "blue": 13,
       "red": 14
-    }
+    },
+    "power": 2002
   },
   {
     "game": "Game 17",
@@ -693,7 +709,8 @@
       "red": 10,
       "green": 10,
       "blue": 9
-    }
+    },
+    "power": 900
   },
   {
     "game": "Game 18",
@@ -731,7 +748,8 @@
       "blue": 8,
       "red": 16,
       "green": 16
-    }
+    },
+    "power": 2048
   },
   {
     "game": "Game 19",
@@ -768,7 +786,8 @@
       "green": 10,
       "blue": 17,
       "red": 7
-    }
+    },
+    "power": 1190
   },
   {
     "game": "Game 20",
@@ -806,7 +825,8 @@
       "green": 7,
       "red": 9,
       "blue": 9
-    }
+    },
+    "power": 567
   },
   {
     "game": "Game 21",
@@ -842,7 +862,8 @@
       "green": 1,
       "red": 11,
       "blue": 7
-    }
+    },
+    "power": 77
   },
   {
     "game": "Game 22",
@@ -874,7 +895,8 @@
       "blue": 9,
       "red": 14,
       "green": 5
-    }
+    },
+    "power": 630
   },
   {
     "game": "Game 23",
@@ -910,7 +932,8 @@
       "blue": 10,
       "red": 12,
       "green": 1
-    }
+    },
+    "power": 120
   },
   {
     "game": "Game 24",
@@ -940,7 +963,8 @@
       "blue": 5,
       "green": 2,
       "red": 4
-    }
+    },
+    "power": 40
   },
   {
     "game": "Game 25",
@@ -984,7 +1008,8 @@
       "blue": 17,
       "green": 8,
       "red": 5
-    }
+    },
+    "power": 680
   },
   {
     "game": "Game 26",
@@ -1034,7 +1059,8 @@
       "green": 13,
       "red": 19,
       "blue": 7
-    }
+    },
+    "power": 1729
   },
   {
     "game": "Game 27",
@@ -1071,7 +1097,8 @@
       "red": 7,
       "green": 18,
       "blue": 1
-    }
+    },
+    "power": 126
   },
   {
     "game": "Game 28",
@@ -1118,7 +1145,8 @@
       "blue": 6,
       "red": 1,
       "green": 1
-    }
+    },
+    "power": 6
   },
   {
     "game": "Game 29",
@@ -1162,7 +1190,8 @@
       "blue": 17,
       "red": 12,
       "green": 2
-    }
+    },
+    "power": 408
   },
   {
     "game": "Game 30",
@@ -1200,7 +1229,8 @@
       "blue": 9,
       "green": 6,
       "red": 18
-    }
+    },
+    "power": 972
   },
   {
     "game": "Game 31",
@@ -1252,7 +1282,8 @@
       "blue": 6,
       "green": 13,
       "red": 10
-    }
+    },
+    "power": 780
   },
   {
     "game": "Game 32",
@@ -1287,7 +1318,8 @@
       "blue": 11,
       "green": 2,
       "red": 1
-    }
+    },
+    "power": 22
   },
   {
     "game": "Game 33",
@@ -1317,7 +1349,8 @@
       "red": 1,
       "green": 7,
       "blue": 17
-    }
+    },
+    "power": 119
   },
   {
     "game": "Game 34",
@@ -1367,7 +1400,8 @@
       "red": 16,
       "green": 3,
       "blue": 4
-    }
+    },
+    "power": 192
   },
   {
     "game": "Game 35",
@@ -1398,7 +1432,8 @@
       "blue": 9,
       "red": 13,
       "green": 8
-    }
+    },
+    "power": 936
   },
   {
     "game": "Game 36",
@@ -1435,7 +1470,8 @@
       "blue": 5,
       "red": 6,
       "green": 9
-    }
+    },
+    "power": 270
   },
   {
     "game": "Game 37",
@@ -1465,7 +1501,8 @@
       "blue": 14,
       "red": 5,
       "green": 2
-    }
+    },
+    "power": 140
   },
   {
     "game": "Game 38",
@@ -1517,7 +1554,8 @@
       "red": 6,
       "green": 18,
       "blue": 6
-    }
+    },
+    "power": 648
   },
   {
     "game": "Game 39",
@@ -1556,7 +1594,8 @@
       "green": 6,
       "blue": 13,
       "red": 1
-    }
+    },
+    "power": 78
   },
   {
     "game": "Game 40",
@@ -1592,7 +1631,8 @@
       "red": 18,
       "green": 2,
       "blue": 5
-    }
+    },
+    "power": 180
   },
   {
     "game": "Game 41",
@@ -1636,7 +1676,8 @@
       "red": 15,
       "green": 15,
       "blue": 17
-    }
+    },
+    "power": 3825
   },
   {
     "game": "Game 42",
@@ -1668,7 +1709,8 @@
       "green": 3,
       "blue": 8,
       "red": 2
-    }
+    },
+    "power": 48
   },
   {
     "game": "Game 43",
@@ -1707,7 +1749,8 @@
       "green": 11,
       "red": 10,
       "blue": 10
-    }
+    },
+    "power": 1100
   },
   {
     "game": "Game 44",
@@ -1752,7 +1795,8 @@
       "green": 6,
       "blue": 4,
       "red": 16
-    }
+    },
+    "power": 384
   },
   {
     "game": "Game 45",
@@ -1782,7 +1826,8 @@
       "blue": 5,
       "red": 3,
       "green": 17
-    }
+    },
+    "power": 255
   },
   {
     "game": "Game 46",
@@ -1821,7 +1866,8 @@
       "blue": 9,
       "green": 11,
       "red": 9
-    }
+    },
+    "power": 891
   },
   {
     "game": "Game 47",
@@ -1859,7 +1905,8 @@
       "green": 4,
       "red": 12,
       "blue": 7
-    }
+    },
+    "power": 336
   },
   {
     "game": "Game 48",
@@ -1890,7 +1937,8 @@
       "green": 8,
       "blue": 12,
       "red": 16
-    }
+    },
+    "power": 1536
   },
   {
     "game": "Game 49",
@@ -1929,7 +1977,8 @@
       "green": 19,
       "blue": 4,
       "red": 9
-    }
+    },
+    "power": 684
   },
   {
     "game": "Game 50",
@@ -1979,7 +2028,8 @@
       "blue": 8,
       "red": 12,
       "green": 1
-    }
+    },
+    "power": 96
   },
   {
     "game": "Game 51",
@@ -2008,7 +2058,8 @@
       "red": 5,
       "green": 8,
       "blue": 4
-    }
+    },
+    "power": 160
   },
   {
     "game": "Game 52",
@@ -2050,7 +2101,8 @@
       "blue": 7,
       "red": 13,
       "green": 5
-    }
+    },
+    "power": 455
   },
   {
     "game": "Game 53",
@@ -2087,7 +2139,8 @@
       "blue": 12,
       "green": 1,
       "red": 4
-    }
+    },
+    "power": 48
   },
   {
     "game": "Game 54",
@@ -2137,7 +2190,8 @@
       "blue": 5,
       "green": 7,
       "red": 5
-    }
+    },
+    "power": 175
   },
   {
     "game": "Game 55",
@@ -2182,7 +2236,8 @@
       "green": 8,
       "blue": 20,
       "red": 3
-    }
+    },
+    "power": 480
   },
   {
     "game": "Game 56",
@@ -2218,7 +2273,8 @@
       "red": 5,
       "green": 1,
       "blue": 10
-    }
+    },
+    "power": 50
   },
   {
     "game": "Game 57",
@@ -2262,7 +2318,8 @@
       "green": 2,
       "red": 4,
       "blue": 20
-    }
+    },
+    "power": 160
   },
   {
     "game": "Game 58",
@@ -2298,7 +2355,8 @@
       "green": 15,
       "blue": 14,
       "red": 5
-    }
+    },
+    "power": 1050
   },
   {
     "game": "Game 59",
@@ -2328,7 +2386,8 @@
       "blue": 2,
       "green": 5,
       "red": 15
-    }
+    },
+    "power": 150
   },
   {
     "game": "Game 60",
@@ -2360,7 +2419,8 @@
       "green": 10,
       "blue": 6,
       "red": 16
-    }
+    },
+    "power": 960
   },
   {
     "game": "Game 61",
@@ -2399,7 +2459,8 @@
       "green": 9,
       "blue": 7,
       "red": 18
-    }
+    },
+    "power": 1134
   },
   {
     "game": "Game 62",
@@ -2444,7 +2505,8 @@
       "red": 8,
       "blue": 7,
       "green": 13
-    }
+    },
+    "power": 728
   },
   {
     "game": "Game 63",
@@ -2480,7 +2542,8 @@
       "red": 10,
       "blue": 5,
       "green": 3
-    }
+    },
+    "power": 150
   },
   {
     "game": "Game 64",
@@ -2518,7 +2581,8 @@
       "blue": 14,
       "green": 12,
       "red": 9
-    }
+    },
+    "power": 1512
   },
   {
     "game": "Game 65",
@@ -2570,7 +2634,8 @@
       "red": 12,
       "blue": 14,
       "green": 11
-    }
+    },
+    "power": 1848
   },
   {
     "game": "Game 66",
@@ -2607,7 +2672,8 @@
       "red": 6,
       "green": 8,
       "blue": 6
-    }
+    },
+    "power": 288
   },
   {
     "game": "Game 67",
@@ -2644,7 +2710,8 @@
       "green": 5,
       "blue": 8,
       "red": 8
-    }
+    },
+    "power": 320
   },
   {
     "game": "Game 68",
@@ -2689,7 +2756,8 @@
       "green": 8,
       "blue": 16,
       "red": 6
-    }
+    },
+    "power": 768
   },
   {
     "game": "Game 69",
@@ -2739,7 +2807,8 @@
       "red": 18,
       "green": 1,
       "blue": 9
-    }
+    },
+    "power": 162
   },
   {
     "game": "Game 70",
@@ -2792,7 +2861,8 @@
       "blue": 10,
       "green": 7,
       "red": 9
-    }
+    },
+    "power": 630
   },
   {
     "game": "Game 71",
@@ -2835,7 +2905,8 @@
       "green": 2,
       "blue": 11,
       "red": 3
-    }
+    },
+    "power": 66
   },
   {
     "game": "Game 72",
@@ -2867,7 +2938,8 @@
       "blue": 10,
       "red": 11,
       "green": 4
-    }
+    },
+    "power": 440
   },
   {
     "game": "Game 73",
@@ -2899,7 +2971,8 @@
       "red": 12,
       "green": 17,
       "blue": 5
-    }
+    },
+    "power": 1020
   },
   {
     "game": "Game 74",
@@ -2941,7 +3014,8 @@
       "green": 5,
       "blue": 6,
       "red": 4
-    }
+    },
+    "power": 120
   },
   {
     "game": "Game 75",
@@ -2971,7 +3045,8 @@
       "blue": 10,
       "red": 3,
       "green": 14
-    }
+    },
+    "power": 420
   },
   {
     "game": "Game 76",
@@ -3014,7 +3089,8 @@
       "blue": 10,
       "green": 15,
       "red": 10
-    }
+    },
+    "power": 1500
   },
   {
     "game": "Game 77",
@@ -3045,7 +3121,8 @@
       "green": 15,
       "red": 14,
       "blue": 8
-    }
+    },
+    "power": 1680
   },
   {
     "game": "Game 78",
@@ -3097,7 +3174,8 @@
       "blue": 13,
       "green": 10,
       "red": 5
-    }
+    },
+    "power": 650
   },
   {
     "game": "Game 79",
@@ -3142,7 +3220,8 @@
       "red": 9,
       "green": 2,
       "blue": 18
-    }
+    },
+    "power": 324
   },
   {
     "game": "Game 80",
@@ -3181,7 +3260,8 @@
       "blue": 16,
       "green": 8,
       "red": 8
-    }
+    },
+    "power": 1024
   },
   {
     "game": "Game 81",
@@ -3212,7 +3292,8 @@
       "green": 15,
       "blue": 5,
       "red": 3
-    }
+    },
+    "power": 225
   },
   {
     "game": "Game 82",
@@ -3256,7 +3337,8 @@
       "red": 17,
       "green": 12,
       "blue": 15
-    }
+    },
+    "power": 3060
   },
   {
     "game": "Game 83",
@@ -3294,7 +3376,8 @@
       "green": 3,
       "red": 9,
       "blue": 7
-    }
+    },
+    "power": 189
   },
   {
     "game": "Game 84",
@@ -3340,7 +3423,8 @@
       "red": 6,
       "green": 10,
       "blue": 16
-    }
+    },
+    "power": 960
   },
   {
     "game": "Game 85",
@@ -3384,7 +3468,8 @@
       "red": 14,
       "green": 8,
       "blue": 6
-    }
+    },
+    "power": 672
   },
   {
     "game": "Game 86",
@@ -3429,7 +3514,8 @@
       "red": 5,
       "green": 11,
       "blue": 14
-    }
+    },
+    "power": 770
   },
   {
     "game": "Game 87",
@@ -3473,7 +3559,8 @@
       "blue": 11,
       "green": 5,
       "red": 4
-    }
+    },
+    "power": 220
   },
   {
     "game": "Game 88",
@@ -3526,7 +3613,8 @@
       "red": 5,
       "blue": 9,
       "green": 13
-    }
+    },
+    "power": 585
   },
   {
     "game": "Game 89",
@@ -3564,7 +3652,8 @@
       "green": 17,
       "red": 12,
       "blue": 14
-    }
+    },
+    "power": 2856
   },
   {
     "game": "Game 90",
@@ -3595,7 +3684,8 @@
       "green": 12,
       "red": 7,
       "blue": 5
-    }
+    },
+    "power": 420
   },
   {
     "game": "Game 91",
@@ -3647,7 +3737,8 @@
       "red": 11,
       "green": 10,
       "blue": 15
-    }
+    },
+    "power": 1650
   },
   {
     "game": "Game 92",
@@ -3677,7 +3768,8 @@
       "green": 1,
       "red": 6,
       "blue": 6
-    }
+    },
+    "power": 36
   },
   {
     "game": "Game 93",
@@ -3729,7 +3821,8 @@
       "red": 19,
       "green": 11,
       "blue": 10
-    }
+    },
+    "power": 2090
   },
   {
     "game": "Game 94",
@@ -3778,7 +3871,8 @@
       "red": 11,
       "green": 4,
       "blue": 1
-    }
+    },
+    "power": 44
   },
   {
     "game": "Game 95",
@@ -3830,7 +3924,8 @@
       "green": 16,
       "blue": 10,
       "red": 8
-    }
+    },
+    "power": 1280
   },
   {
     "game": "Game 96",
@@ -3862,7 +3957,8 @@
       "blue": 6,
       "green": 5,
       "red": 6
-    }
+    },
+    "power": 180
   },
   {
     "game": "Game 97",
@@ -3892,7 +3988,8 @@
       "red": 13,
       "green": 10,
       "blue": 3
-    }
+    },
+    "power": 390
   },
   {
     "game": "Game 98",
@@ -3930,7 +4027,8 @@
       "green": 5,
       "red": 18,
       "blue": 2
-    }
+    },
+    "power": 180
   },
   {
     "game": "Game 99",
@@ -3976,7 +4074,8 @@
       "green": 19,
       "red": 11,
       "blue": 19
-    }
+    },
+    "power": 3971
   },
   {
     "game": "Game 100",
@@ -4026,6 +4125,7 @@
       "blue": 5,
       "green": 18,
       "red": 1
-    }
+    },
+    "power": 90
   }
 ]

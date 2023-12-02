@@ -27,7 +27,10 @@ function parserGameLine (line) {
     })
     return maximums
   }, {})
-  return { game, gameId, sets, maximums }
+  const power = Object.values(maximums).reduce((power, value) => {
+    return power * value
+  }, 1)
+  return { game, gameId, sets, maximums, power }
 }
 
 function parseGameSet (set) {
@@ -71,7 +74,12 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const games = parseGames(input)
+  const sumOfPowers = games.reduce((sum, game) => {
+    return sum + game.power
+  }, 0)
+
+  const solution = sumOfPowers
   report('Solution 2:', solution)
 }
 
