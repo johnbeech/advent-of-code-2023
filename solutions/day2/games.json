@@ -1,0 +1,4031 @@
+[
+  {
+    "game": "Game 1",
+    "gameId": 1,
+    "sets": [
+      {
+        "colors": {
+          "green": 14,
+          "blue": 8,
+          "red": 9
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "green": 4,
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "blue": 4,
+          "green": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 3,
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 10,
+          "blue": 3,
+          "green": 15
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "green": 6,
+          "blue": 3
+        }
+      }
+    ],
+    "maximums": {
+      "green": 15,
+      "blue": 8,
+      "red": 10
+    }
+  },
+  {
+    "game": "Game 2",
+    "gameId": 2,
+    "sets": [
+      {
+        "colors": {
+          "red": 1,
+          "green": 12,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "blue": 1,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 10,
+          "blue": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "red": 2,
+          "blue": 2
+        }
+      }
+    ],
+    "maximums": {
+      "red": 2,
+      "green": 12,
+      "blue": 3
+    }
+  },
+  {
+    "game": "Game 3",
+    "gameId": 3,
+    "sets": [
+      {
+        "colors": {
+          "red": 16,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 7,
+          "red": 15,
+          "blue": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "red": 20,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 12,
+          "green": 13,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 8,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 16,
+          "green": 7
+        }
+      }
+    ],
+    "maximums": {
+      "red": 20,
+      "green": 13,
+      "blue": 3
+    }
+  },
+  {
+    "game": "Game 4",
+    "gameId": 4,
+    "sets": [
+      {
+        "colors": {
+          "red": 3,
+          "blue": 7
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 19,
+          "red": 1,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 16,
+          "red": 4,
+          "green": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "blue": 19,
+          "green": 3
+        }
+      }
+    ],
+    "maximums": {
+      "red": 4,
+      "blue": 19,
+      "green": 5
+    }
+  },
+  {
+    "game": "Game 5",
+    "gameId": 5,
+    "sets": [
+      {
+        "colors": {
+          "blue": 7,
+          "red": 4,
+          "green": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "green": 3,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "blue": 11,
+          "red": 1,
+          "green": 5
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 11,
+      "red": 4,
+      "green": 6
+    }
+  },
+  {
+    "game": "Game 6",
+    "gameId": 6,
+    "sets": [
+      {
+        "colors": {
+          "red": 7,
+          "blue": 13
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 9,
+          "blue": 7
+        }
+      },
+      {
+        "colors": {
+          "green": 7,
+          "red": 3,
+          "blue": 12
+        }
+      },
+      {
+        "colors": {
+          "green": 11,
+          "blue": 3,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "green": 12,
+          "blue": 10
+        }
+      }
+    ],
+    "maximums": {
+      "red": 9,
+      "blue": 13,
+      "green": 12
+    }
+  },
+  {
+    "game": "Game 7",
+    "gameId": 7,
+    "sets": [
+      {
+        "colors": {
+          "green": 2,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "blue": 1,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 1,
+          "red": 18
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "red": 12,
+          "blue": 1
+        }
+      }
+    ],
+    "maximums": {
+      "green": 4,
+      "red": 18,
+      "blue": 1
+    }
+  },
+  {
+    "game": "Game 8",
+    "gameId": 8,
+    "sets": [
+      {
+        "colors": {
+          "red": 12,
+          "green": 9,
+          "blue": 11
+        }
+      },
+      {
+        "colors": {
+          "blue": 13,
+          "red": 1,
+          "green": 16
+        }
+      },
+      {
+        "colors": {
+          "blue": 12,
+          "green": 12
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "blue": 7,
+          "red": 2
+        }
+      }
+    ],
+    "maximums": {
+      "red": 12,
+      "green": 16,
+      "blue": 13
+    }
+  },
+  {
+    "game": "Game 9",
+    "gameId": 9,
+    "sets": [
+      {
+        "colors": {
+          "green": 1,
+          "red": 9,
+          "blue": 9
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 17,
+          "green": 6,
+          "blue": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "blue": 1,
+          "red": 12
+        }
+      }
+    ],
+    "maximums": {
+      "green": 6,
+      "red": 17,
+      "blue": 9
+    }
+  },
+  {
+    "game": "Game 10",
+    "gameId": 10,
+    "sets": [
+      {
+        "colors": {
+          "blue": 2,
+          "red": 11,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "red": 11,
+          "green": 13
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "green": 15,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 3,
+          "red": 17
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 4,
+      "red": 17,
+      "green": 15
+    }
+  },
+  {
+    "game": "Game 11",
+    "gameId": 11,
+    "sets": [
+      {
+        "colors": {
+          "green": 9,
+          "blue": 3,
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 11,
+          "green": 16,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 7,
+          "red": 3,
+          "green": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 7,
+          "green": 8,
+          "blue": 10
+        }
+      }
+    ],
+    "maximums": {
+      "green": 16,
+      "blue": 11,
+      "red": 7
+    }
+  },
+  {
+    "game": "Game 12",
+    "gameId": 12,
+    "sets": [
+      {
+        "colors": {
+          "green": 13,
+          "red": 2,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "green": 6
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "red": 3,
+          "blue": 8
+        }
+      }
+    ],
+    "maximums": {
+      "green": 13,
+      "red": 3,
+      "blue": 8
+    }
+  },
+  {
+    "game": "Game 13",
+    "gameId": 13,
+    "sets": [
+      {
+        "colors": {
+          "blue": 2,
+          "green": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 2,
+          "green": 4
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 2,
+      "green": 5,
+      "red": 2
+    }
+  },
+  {
+    "game": "Game 14",
+    "gameId": 14,
+    "sets": [
+      {
+        "colors": {
+          "red": 4,
+          "green": 2,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 7,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "green": 18,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "blue": 1
+        }
+      }
+    ],
+    "maximums": {
+      "red": 7,
+      "green": 18,
+      "blue": 4
+    }
+  },
+  {
+    "game": "Game 15",
+    "gameId": 15,
+    "sets": [
+      {
+        "colors": {
+          "blue": 2,
+          "green": 5,
+          "red": 12
+        }
+      },
+      {
+        "colors": {
+          "red": 13,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 10,
+          "red": 6,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 9,
+          "red": 7
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 15
+        }
+      },
+      {
+        "colors": {
+          "blue": 9,
+          "green": 3,
+          "red": 14
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 10,
+      "green": 8,
+      "red": 15
+    }
+  },
+  {
+    "game": "Game 16",
+    "gameId": 16,
+    "sets": [
+      {
+        "colors": {
+          "green": 8,
+          "blue": 11,
+          "red": 14
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 4,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "blue": 13,
+          "red": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 9,
+          "blue": 8,
+          "green": 11
+        }
+      }
+    ],
+    "maximums": {
+      "green": 11,
+      "blue": 13,
+      "red": 14
+    }
+  },
+  {
+    "game": "Game 17",
+    "gameId": 17,
+    "sets": [
+      {
+        "colors": {
+          "red": 8,
+          "green": 6
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "green": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 10,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "blue": 9,
+          "green": 10,
+          "red": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "green": 3,
+          "blue": 5
+        }
+      }
+    ],
+    "maximums": {
+      "red": 10,
+      "green": 10,
+      "blue": 9
+    }
+  },
+  {
+    "game": "Game 18",
+    "gameId": 18,
+    "sets": [
+      {
+        "colors": {
+          "blue": 8,
+          "red": 10
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "blue": 5,
+          "green": 6
+        }
+      },
+      {
+        "colors": {
+          "green": 16,
+          "blue": 6,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 16,
+          "green": 3,
+          "blue": 5
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 8,
+      "red": 16,
+      "green": 16
+    }
+  },
+  {
+    "game": "Game 19",
+    "gameId": 19,
+    "sets": [
+      {
+        "colors": {
+          "green": 2,
+          "blue": 17
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "green": 4,
+          "red": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "blue": 12
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "red": 5,
+          "green": 10
+        }
+      }
+    ],
+    "maximums": {
+      "green": 10,
+      "blue": 17,
+      "red": 7
+    }
+  },
+  {
+    "game": "Game 20",
+    "gameId": 20,
+    "sets": [
+      {
+        "colors": {
+          "green": 4,
+          "red": 8,
+          "blue": 9
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "green": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "green": 7,
+          "red": 9
+        }
+      },
+      {
+        "colors": {
+          "red": 9,
+          "blue": 9,
+          "green": 6
+        }
+      }
+    ],
+    "maximums": {
+      "green": 7,
+      "red": 9,
+      "blue": 9
+    }
+  },
+  {
+    "game": "Game 21",
+    "gameId": 21,
+    "sets": [
+      {
+        "colors": {
+          "green": 1,
+          "red": 11,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "blue": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 7
+        }
+      }
+    ],
+    "maximums": {
+      "green": 1,
+      "red": 11,
+      "blue": 7
+    }
+  },
+  {
+    "game": "Game 22",
+    "gameId": 22,
+    "sets": [
+      {
+        "colors": {
+          "blue": 8,
+          "red": 1,
+          "green": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "green": 4,
+          "red": 14
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "red": 8,
+          "blue": 9
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 9,
+      "red": 14,
+      "green": 5
+    }
+  },
+  {
+    "game": "Game 23",
+    "gameId": 23,
+    "sets": [
+      {
+        "colors": {
+          "blue": 4,
+          "red": 12,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 10
+        }
+      },
+      {
+        "colors": {
+          "red": 11,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 1
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 10,
+      "red": 12,
+      "green": 1
+    }
+  },
+  {
+    "game": "Game 24",
+    "gameId": 24,
+    "sets": [
+      {
+        "colors": {
+          "blue": 5,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "blue": 2,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "blue": 5
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 5,
+      "green": 2,
+      "red": 4
+    }
+  },
+  {
+    "game": "Game 25",
+    "gameId": 25,
+    "sets": [
+      {
+        "colors": {
+          "blue": 13,
+          "green": 5,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 17
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "green": 8,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 1,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "green": 3
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 17,
+      "green": 8,
+      "red": 5
+    }
+  },
+  {
+    "game": "Game 26",
+    "gameId": 26,
+    "sets": [
+      {
+        "colors": {
+          "green": 2,
+          "red": 9,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "red": 19
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 16,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "green": 11,
+          "red": 4,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 8,
+          "green": 13
+        }
+      },
+      {
+        "colors": {
+          "blue": 7
+        }
+      }
+    ],
+    "maximums": {
+      "green": 13,
+      "red": 19,
+      "blue": 7
+    }
+  },
+  {
+    "game": "Game 27",
+    "gameId": 27,
+    "sets": [
+      {
+        "colors": {
+          "red": 1,
+          "green": 17,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 7,
+          "red": 7
+        }
+      },
+      {
+        "colors": {
+          "green": 18,
+          "red": 2
+        }
+      }
+    ],
+    "maximums": {
+      "red": 7,
+      "green": 18,
+      "blue": 1
+    }
+  },
+  {
+    "game": "Game 28",
+    "gameId": 28,
+    "sets": [
+      {
+        "colors": {
+          "blue": 6,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "green": 1,
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 1
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 6,
+      "red": 1,
+      "green": 1
+    }
+  },
+  {
+    "game": "Game 29",
+    "gameId": 29,
+    "sets": [
+      {
+        "colors": {
+          "blue": 15,
+          "red": 8,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "green": 2,
+          "blue": 17
+        }
+      },
+      {
+        "colors": {
+          "blue": 13,
+          "red": 12
+        }
+      },
+      {
+        "colors": {
+          "blue": 12,
+          "green": 2,
+          "red": 12
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 14
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 17,
+      "red": 12,
+      "green": 2
+    }
+  },
+  {
+    "game": "Game 30",
+    "gameId": 30,
+    "sets": [
+      {
+        "colors": {
+          "blue": 4,
+          "green": 6,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 3,
+          "green": 2,
+          "red": 9
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "red": 18
+        }
+      },
+      {
+        "colors": {
+          "blue": 9,
+          "red": 16,
+          "green": 5
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 9,
+      "green": 6,
+      "red": 18
+    }
+  },
+  {
+    "game": "Game 31",
+    "gameId": 31,
+    "sets": [
+      {
+        "colors": {
+          "blue": 6,
+          "green": 7,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "green": 8,
+          "blue": 6,
+          "red": 10
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "green": 2,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "blue": 4,
+          "red": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "green": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 7,
+          "green": 13,
+          "blue": 2
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 6,
+      "green": 13,
+      "red": 10
+    }
+  },
+  {
+    "game": "Game 32",
+    "gameId": 32,
+    "sets": [
+      {
+        "colors": {
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "blue": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "blue": 6,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "blue": 11
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 11,
+      "green": 2,
+      "red": 1
+    }
+  },
+  {
+    "game": "Game 33",
+    "gameId": 33,
+    "sets": [
+      {
+        "colors": {
+          "red": 1,
+          "green": 7,
+          "blue": 17
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "blue": 14,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 13
+        }
+      }
+    ],
+    "maximums": {
+      "red": 1,
+      "green": 7,
+      "blue": 17
+    }
+  },
+  {
+    "game": "Game 34",
+    "gameId": 34,
+    "sets": [
+      {
+        "colors": {
+          "red": 12,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 11,
+          "blue": 1,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 16,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "red": 9,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 15,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 4,
+          "red": 8
+        }
+      }
+    ],
+    "maximums": {
+      "red": 16,
+      "green": 3,
+      "blue": 4
+    }
+  },
+  {
+    "game": "Game 35",
+    "gameId": 35,
+    "sets": [
+      {
+        "colors": {
+          "blue": 6,
+          "red": 13,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 8,
+          "blue": 9,
+          "green": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 12,
+          "green": 8
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 9,
+      "red": 13,
+      "green": 8
+    }
+  },
+  {
+    "game": "Game 36",
+    "gameId": 36,
+    "sets": [
+      {
+        "colors": {
+          "blue": 5,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 9,
+          "red": 6,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 3,
+          "red": 4,
+          "green": 9
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 5,
+      "red": 6,
+      "green": 9
+    }
+  },
+  {
+    "game": "Game 37",
+    "gameId": 37,
+    "sets": [
+      {
+        "colors": {
+          "blue": 14,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 2,
+          "blue": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 11,
+          "red": 5
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 14,
+      "red": 5,
+      "green": 2
+    }
+  },
+  {
+    "game": "Game 38",
+    "gameId": 38,
+    "sets": [
+      {
+        "colors": {
+          "red": 3,
+          "green": 18,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "green": 12,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "blue": 5,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "red": 6,
+          "green": 17
+        }
+      },
+      {
+        "colors": {
+          "green": 17,
+          "blue": 6,
+          "red": 3
+        }
+      }
+    ],
+    "maximums": {
+      "red": 6,
+      "green": 18,
+      "blue": 6
+    }
+  },
+  {
+    "game": "Game 39",
+    "gameId": 39,
+    "sets": [
+      {
+        "colors": {
+          "green": 5,
+          "blue": 13,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 6,
+          "red": 1,
+          "blue": 12
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "green": 2,
+          "blue": 11
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "green": 2,
+          "blue": 12
+        }
+      }
+    ],
+    "maximums": {
+      "green": 6,
+      "blue": 13,
+      "red": 1
+    }
+  },
+  {
+    "game": "Game 40",
+    "gameId": 40,
+    "sets": [
+      {
+        "colors": {
+          "red": 15
+        }
+      },
+      {
+        "colors": {
+          "red": 14,
+          "green": 2,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 13,
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "green": 1,
+          "red": 18
+        }
+      }
+    ],
+    "maximums": {
+      "red": 18,
+      "green": 2,
+      "blue": 5
+    }
+  },
+  {
+    "game": "Game 41",
+    "gameId": 41,
+    "sets": [
+      {
+        "colors": {
+          "red": 2,
+          "green": 15
+        }
+      },
+      {
+        "colors": {
+          "red": 11,
+          "green": 6,
+          "blue": 17
+        }
+      },
+      {
+        "colors": {
+          "green": 10,
+          "red": 15,
+          "blue": 9
+        }
+      },
+      {
+        "colors": {
+          "red": 8,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 13,
+          "red": 13
+        }
+      }
+    ],
+    "maximums": {
+      "red": 15,
+      "green": 15,
+      "blue": 17
+    }
+  },
+  {
+    "game": "Game 42",
+    "gameId": 42,
+    "sets": [
+      {
+        "colors": {
+          "green": 3,
+          "blue": 3,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 8,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 7,
+          "red": 2,
+          "green": 1
+        }
+      }
+    ],
+    "maximums": {
+      "green": 3,
+      "blue": 8,
+      "red": 2
+    }
+  },
+  {
+    "game": "Game 43",
+    "gameId": 43,
+    "sets": [
+      {
+        "colors": {
+          "green": 8,
+          "red": 10,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "green": 11,
+          "blue": 10
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "blue": 5,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 9,
+          "red": 10,
+          "blue": 4
+        }
+      }
+    ],
+    "maximums": {
+      "green": 11,
+      "red": 10,
+      "blue": 10
+    }
+  },
+  {
+    "game": "Game 44",
+    "gameId": 44,
+    "sets": [
+      {
+        "colors": {
+          "green": 3,
+          "blue": 4,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 10,
+          "green": 5,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "red": 16
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 15,
+          "green": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 13,
+          "blue": 2,
+          "green": 4
+        }
+      }
+    ],
+    "maximums": {
+      "green": 6,
+      "blue": 4,
+      "red": 16
+    }
+  },
+  {
+    "game": "Game 45",
+    "gameId": 45,
+    "sets": [
+      {
+        "colors": {
+          "blue": 5,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "blue": 3,
+          "green": 17
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 3
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 5,
+      "red": 3,
+      "green": 17
+    }
+  },
+  {
+    "game": "Game 46",
+    "gameId": 46,
+    "sets": [
+      {
+        "colors": {
+          "blue": 9,
+          "green": 10,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "blue": 5,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "green": 8,
+          "red": 9
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 4,
+          "green": 11
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 9,
+      "green": 11,
+      "red": 9
+    }
+  },
+  {
+    "game": "Game 47",
+    "gameId": 47,
+    "sets": [
+      {
+        "colors": {
+          "green": 3,
+          "red": 7,
+          "blue": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 12,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "green": 4,
+          "red": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "blue": 5,
+          "green": 1
+        }
+      }
+    ],
+    "maximums": {
+      "green": 4,
+      "red": 12,
+      "blue": 7
+    }
+  },
+  {
+    "game": "Game 48",
+    "gameId": 48,
+    "sets": [
+      {
+        "colors": {
+          "green": 5,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 8,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 16,
+          "blue": 12,
+          "green": 8
+        }
+      }
+    ],
+    "maximums": {
+      "green": 8,
+      "blue": 12,
+      "red": 16
+    }
+  },
+  {
+    "game": "Game 49",
+    "gameId": 49,
+    "sets": [
+      {
+        "colors": {
+          "green": 19,
+          "blue": 4,
+          "red": 9
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "blue": 1,
+          "red": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 7,
+          "blue": 1,
+          "green": 14
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "green": 7,
+          "red": 2
+        }
+      }
+    ],
+    "maximums": {
+      "green": 19,
+      "blue": 4,
+      "red": 9
+    }
+  },
+  {
+    "game": "Game 50",
+    "gameId": 50,
+    "sets": [
+      {
+        "colors": {
+          "blue": 6,
+          "red": 11
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 8,
+          "red": 11
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "red": 12,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "red": 6,
+          "blue": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 7,
+          "red": 5
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 8,
+      "red": 12,
+      "green": 1
+    }
+  },
+  {
+    "game": "Game 51",
+    "gameId": 51,
+    "sets": [
+      {
+        "colors": {
+          "red": 5,
+          "green": 7
+        }
+      },
+      {
+        "colors": {
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "green": 7,
+          "red": 2
+        }
+      }
+    ],
+    "maximums": {
+      "red": 5,
+      "green": 8,
+      "blue": 4
+    }
+  },
+  {
+    "game": "Game 52",
+    "gameId": 52,
+    "sets": [
+      {
+        "colors": {
+          "blue": 3,
+          "red": 12,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 13,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 7,
+          "red": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 7,
+          "red": 9
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "green": 5
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 7,
+      "red": 13,
+      "green": 5
+    }
+  },
+  {
+    "game": "Game 53",
+    "gameId": 53,
+    "sets": [
+      {
+        "colors": {
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "red": 4,
+          "blue": 12
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 7,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 8,
+          "green": 1,
+          "red": 4
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 12,
+      "green": 1,
+      "red": 4
+    }
+  },
+  {
+    "game": "Game 54",
+    "gameId": 54,
+    "sets": [
+      {
+        "colors": {
+          "blue": 2,
+          "green": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "green": 1,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 5,
+          "green": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 5,
+          "green": 6
+        }
+      },
+      {
+        "colors": {
+          "green": 7
+        }
+      },
+      {
+        "colors": {
+          "green": 7,
+          "blue": 2,
+          "red": 5
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 5,
+      "green": 7,
+      "red": 5
+    }
+  },
+  {
+    "game": "Game 55",
+    "gameId": 55,
+    "sets": [
+      {
+        "colors": {
+          "green": 2,
+          "blue": 20,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "blue": 14,
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 11
+        }
+      },
+      {
+        "colors": {
+          "green": 8,
+          "blue": 4,
+          "red": 2
+        }
+      }
+    ],
+    "maximums": {
+      "green": 8,
+      "blue": 20,
+      "red": 3
+    }
+  },
+  {
+    "game": "Game 56",
+    "gameId": 56,
+    "sets": [
+      {
+        "colors": {
+          "red": 5,
+          "green": 1,
+          "blue": 10
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 8
+        }
+      }
+    ],
+    "maximums": {
+      "red": 5,
+      "green": 1,
+      "blue": 10
+    }
+  },
+  {
+    "game": "Game 57",
+    "gameId": 57,
+    "sets": [
+      {
+        "colors": {
+          "green": 1,
+          "red": 4,
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 20,
+          "red": 4,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 17,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 10,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "blue": 17
+        }
+      }
+    ],
+    "maximums": {
+      "green": 2,
+      "red": 4,
+      "blue": 20
+    }
+  },
+  {
+    "game": "Game 58",
+    "gameId": 58,
+    "sets": [
+      {
+        "colors": {
+          "green": 15,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 15,
+          "blue": 4,
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 14,
+          "red": 5,
+          "green": 15
+        }
+      },
+      {
+        "colors": {
+          "green": 15
+        }
+      }
+    ],
+    "maximums": {
+      "green": 15,
+      "blue": 14,
+      "red": 5
+    }
+  },
+  {
+    "game": "Game 59",
+    "gameId": 59,
+    "sets": [
+      {
+        "colors": {
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "red": 8,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 15,
+          "blue": 2,
+          "green": 1
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 2,
+      "green": 5,
+      "red": 15
+    }
+  },
+  {
+    "game": "Game 60",
+    "gameId": 60,
+    "sets": [
+      {
+        "colors": {
+          "green": 3,
+          "blue": 4,
+          "red": 16
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "green": 10,
+          "red": 10
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 13,
+          "green": 8
+        }
+      }
+    ],
+    "maximums": {
+      "green": 10,
+      "blue": 6,
+      "red": 16
+    }
+  },
+  {
+    "game": "Game 61",
+    "gameId": 61,
+    "sets": [
+      {
+        "colors": {
+          "green": 2,
+          "blue": 2,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 7,
+          "red": 15,
+          "green": 9
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "blue": 1,
+          "red": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "green": 6,
+          "red": 18
+        }
+      }
+    ],
+    "maximums": {
+      "green": 9,
+      "blue": 7,
+      "red": 18
+    }
+  },
+  {
+    "game": "Game 62",
+    "gameId": 62,
+    "sets": [
+      {
+        "colors": {
+          "red": 5,
+          "blue": 7,
+          "green": 13
+        }
+      },
+      {
+        "colors": {
+          "green": 7,
+          "blue": 6,
+          "red": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "red": 8,
+          "green": 12
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 4,
+          "green": 5
+        }
+      }
+    ],
+    "maximums": {
+      "red": 8,
+      "blue": 7,
+      "green": 13
+    }
+  },
+  {
+    "game": "Game 63",
+    "gameId": 63,
+    "sets": [
+      {
+        "colors": {
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 10,
+          "green": 1,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "red": 4,
+          "green": 3
+        }
+      }
+    ],
+    "maximums": {
+      "red": 10,
+      "blue": 5,
+      "green": 3
+    }
+  },
+  {
+    "game": "Game 64",
+    "gameId": 64,
+    "sets": [
+      {
+        "colors": {
+          "blue": 7,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "green": 6,
+          "blue": 14
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 12,
+          "red": 9
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "red": 8,
+          "green": 12
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 14,
+      "green": 12,
+      "red": 9
+    }
+  },
+  {
+    "game": "Game 65",
+    "gameId": 65,
+    "sets": [
+      {
+        "colors": {
+          "red": 12,
+          "blue": 12
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "blue": 12,
+          "red": 11
+        }
+      },
+      {
+        "colors": {
+          "green": 6,
+          "red": 3,
+          "blue": 14
+        }
+      },
+      {
+        "colors": {
+          "green": 11,
+          "red": 4,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 11,
+          "green": 3,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 13,
+          "red": 9,
+          "green": 5
+        }
+      }
+    ],
+    "maximums": {
+      "red": 12,
+      "blue": 14,
+      "green": 11
+    }
+  },
+  {
+    "game": "Game 66",
+    "gameId": 66,
+    "sets": [
+      {
+        "colors": {
+          "red": 1,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 3,
+          "red": 6,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "green": 1,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "green": 8,
+          "red": 1
+        }
+      }
+    ],
+    "maximums": {
+      "red": 6,
+      "green": 8,
+      "blue": 6
+    }
+  },
+  {
+    "game": "Game 67",
+    "gameId": 67,
+    "sets": [
+      {
+        "colors": {
+          "green": 2,
+          "blue": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 7,
+          "green": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 8,
+          "green": 5,
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 1
+        }
+      }
+    ],
+    "maximums": {
+      "green": 5,
+      "blue": 8,
+      "red": 8
+    }
+  },
+  {
+    "game": "Game 68",
+    "gameId": 68,
+    "sets": [
+      {
+        "colors": {
+          "green": 3,
+          "blue": 14,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 16,
+          "green": 7,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 10,
+          "red": 6
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "blue": 3,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 14,
+          "green": 8
+        }
+      }
+    ],
+    "maximums": {
+      "green": 8,
+      "blue": 16,
+      "red": 6
+    }
+  },
+  {
+    "game": "Game 69",
+    "gameId": 69,
+    "sets": [
+      {
+        "colors": {
+          "red": 11,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 4,
+          "red": 13
+        }
+      },
+      {
+        "colors": {
+          "red": 18,
+          "blue": 3
+        }
+      },
+      {
+        "colors": {
+          "red": 7,
+          "green": 1,
+          "blue": 9
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "red": 1,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "blue": 4
+        }
+      }
+    ],
+    "maximums": {
+      "red": 18,
+      "green": 1,
+      "blue": 9
+    }
+  },
+  {
+    "game": "Game 70",
+    "gameId": 70,
+    "sets": [
+      {
+        "colors": {
+          "blue": 10,
+          "green": 2,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "red": 4,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 7,
+          "red": 5,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 7,
+          "red": 3,
+          "blue": 10
+        }
+      },
+      {
+        "colors": {
+          "green": 7,
+          "blue": 2,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "red": 9,
+          "green": 2
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 10,
+      "green": 7,
+      "red": 9
+    }
+  },
+  {
+    "game": "Game 71",
+    "gameId": 71,
+    "sets": [
+      {
+        "colors": {
+          "green": 1,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "blue": 10,
+          "red": 2,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 8,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 11,
+          "green": 2,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 10
+        }
+      }
+    ],
+    "maximums": {
+      "green": 2,
+      "blue": 11,
+      "red": 3
+    }
+  },
+  {
+    "game": "Game 72",
+    "gameId": 72,
+    "sets": [
+      {
+        "colors": {
+          "blue": 10,
+          "red": 3,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 11,
+          "green": 4,
+          "blue": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "red": 4,
+          "green": 3
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 10,
+      "red": 11,
+      "green": 4
+    }
+  },
+  {
+    "game": "Game 73",
+    "gameId": 73,
+    "sets": [
+      {
+        "colors": {
+          "red": 8,
+          "green": 17,
+          "blue": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "red": 10,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "green": 9,
+          "red": 12,
+          "blue": 3
+        }
+      }
+    ],
+    "maximums": {
+      "red": 12,
+      "green": 17,
+      "blue": 5
+    }
+  },
+  {
+    "game": "Game 74",
+    "gameId": 74,
+    "sets": [
+      {
+        "colors": {
+          "green": 5,
+          "blue": 4,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 3,
+          "green": 1,
+          "red": 3
+        }
+      }
+    ],
+    "maximums": {
+      "green": 5,
+      "blue": 6,
+      "red": 4
+    }
+  },
+  {
+    "game": "Game 75",
+    "gameId": 75,
+    "sets": [
+      {
+        "colors": {
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "blue": 10,
+          "green": 14
+        }
+      },
+      {
+        "colors": {
+          "blue": 8,
+          "red": 3,
+          "green": 11
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 10,
+      "red": 3,
+      "green": 14
+    }
+  },
+  {
+    "game": "Game 76",
+    "gameId": 76,
+    "sets": [
+      {
+        "colors": {
+          "blue": 10,
+          "green": 15,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "green": 14
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "red": 10,
+          "green": 13
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 10,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "blue": 6
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 10,
+      "green": 15,
+      "red": 10
+    }
+  },
+  {
+    "game": "Game 77",
+    "gameId": 77,
+    "sets": [
+      {
+        "colors": {
+          "green": 3,
+          "red": 5,
+          "blue": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 14,
+          "green": 15
+        }
+      },
+      {
+        "colors": {
+          "green": 14,
+          "blue": 1,
+          "red": 2
+        }
+      }
+    ],
+    "maximums": {
+      "green": 15,
+      "red": 14,
+      "blue": 8
+    }
+  },
+  {
+    "game": "Game 78",
+    "gameId": 78,
+    "sets": [
+      {
+        "colors": {
+          "blue": 5,
+          "green": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 9,
+          "green": 2,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "blue": 4,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "green": 10,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "blue": 12,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "red": 5,
+          "blue": 13
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 13,
+      "green": 10,
+      "red": 5
+    }
+  },
+  {
+    "game": "Game 79",
+    "gameId": 79,
+    "sets": [
+      {
+        "colors": {
+          "red": 6,
+          "green": 1,
+          "blue": 18
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 11,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 4,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 7,
+          "blue": 17
+        }
+      },
+      {
+        "colors": {
+          "red": 9,
+          "green": 1,
+          "blue": 3
+        }
+      }
+    ],
+    "maximums": {
+      "red": 9,
+      "green": 2,
+      "blue": 18
+    }
+  },
+  {
+    "game": "Game 80",
+    "gameId": 80,
+    "sets": [
+      {
+        "colors": {
+          "blue": 5,
+          "green": 6,
+          "red": 6
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "green": 8,
+          "red": 8
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "blue": 16,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 3,
+          "blue": 1
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 16,
+      "green": 8,
+      "red": 8
+    }
+  },
+  {
+    "game": "Game 81",
+    "gameId": 81,
+    "sets": [
+      {
+        "colors": {
+          "green": 11,
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 10,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "blue": 3,
+          "green": 15
+        }
+      }
+    ],
+    "maximums": {
+      "green": 15,
+      "blue": 5,
+      "red": 3
+    }
+  },
+  {
+    "game": "Game 82",
+    "gameId": 82,
+    "sets": [
+      {
+        "colors": {
+          "red": 14,
+          "green": 11
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "blue": 11
+        }
+      },
+      {
+        "colors": {
+          "blue": 9,
+          "green": 7,
+          "red": 7
+        }
+      },
+      {
+        "colors": {
+          "blue": 13,
+          "red": 17,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 12,
+          "blue": 15,
+          "red": 8
+        }
+      }
+    ],
+    "maximums": {
+      "red": 17,
+      "green": 12,
+      "blue": 15
+    }
+  },
+  {
+    "game": "Game 83",
+    "gameId": 83,
+    "sets": [
+      {
+        "colors": {
+          "green": 2,
+          "red": 9,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "blue": 4,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "green": 2,
+          "red": 9,
+          "blue": 7
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "green": 3
+        }
+      }
+    ],
+    "maximums": {
+      "green": 3,
+      "red": 9,
+      "blue": 7
+    }
+  },
+  {
+    "game": "Game 84",
+    "gameId": 84,
+    "sets": [
+      {
+        "colors": {
+          "red": 4,
+          "green": 3,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 5,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 6,
+          "red": 1,
+          "green": 10
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 1,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 16,
+          "red": 6,
+          "green": 2
+        }
+      }
+    ],
+    "maximums": {
+      "red": 6,
+      "green": 10,
+      "blue": 16
+    }
+  },
+  {
+    "game": "Game 85",
+    "gameId": 85,
+    "sets": [
+      {
+        "colors": {
+          "red": 14,
+          "green": 4,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 11,
+          "green": 2,
+          "blue": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 9
+        }
+      },
+      {
+        "colors": {
+          "blue": 3,
+          "red": 13,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "blue": 2,
+          "red": 8
+        }
+      }
+    ],
+    "maximums": {
+      "red": 14,
+      "green": 8,
+      "blue": 6
+    }
+  },
+  {
+    "game": "Game 86",
+    "gameId": 86,
+    "sets": [
+      {
+        "colors": {
+          "red": 4,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 14,
+          "red": 3,
+          "green": 2
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "green": 3,
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 13,
+          "green": 11,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 1,
+          "blue": 14,
+          "red": 3
+        }
+      }
+    ],
+    "maximums": {
+      "red": 5,
+      "green": 11,
+      "blue": 14
+    }
+  },
+  {
+    "game": "Game 87",
+    "gameId": 87,
+    "sets": [
+      {
+        "colors": {
+          "blue": 1,
+          "green": 2,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 11,
+          "green": 3,
+          "red": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 11
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "blue": 11,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 4,
+          "green": 5,
+          "red": 2
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 11,
+      "green": 5,
+      "red": 4
+    }
+  },
+  {
+    "game": "Game 88",
+    "gameId": 88,
+    "sets": [
+      {
+        "colors": {
+          "red": 1,
+          "blue": 1,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "blue": 1,
+          "red": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 9,
+          "red": 5,
+          "green": 5
+        }
+      },
+      {
+        "colors": {
+          "blue": 3,
+          "red": 5,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 3,
+          "green": 13
+        }
+      },
+      {
+        "colors": {
+          "blue": 8,
+          "red": 3,
+          "green": 9
+        }
+      }
+    ],
+    "maximums": {
+      "red": 5,
+      "blue": 9,
+      "green": 13
+    }
+  },
+  {
+    "game": "Game 89",
+    "gameId": 89,
+    "sets": [
+      {
+        "colors": {
+          "green": 3,
+          "red": 12,
+          "blue": 11
+        }
+      },
+      {
+        "colors": {
+          "red": 10,
+          "green": 7,
+          "blue": 14
+        }
+      },
+      {
+        "colors": {
+          "green": 17,
+          "blue": 9
+        }
+      },
+      {
+        "colors": {
+          "green": 15,
+          "red": 1,
+          "blue": 3
+        }
+      }
+    ],
+    "maximums": {
+      "green": 17,
+      "red": 12,
+      "blue": 14
+    }
+  },
+  {
+    "game": "Game 90",
+    "gameId": 90,
+    "sets": [
+      {
+        "colors": {
+          "green": 12,
+          "red": 7,
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "green": 12,
+          "blue": 1,
+          "red": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "green": 3
+        }
+      }
+    ],
+    "maximums": {
+      "green": 12,
+      "red": 7,
+      "blue": 5
+    }
+  },
+  {
+    "game": "Game 91",
+    "gameId": 91,
+    "sets": [
+      {
+        "colors": {
+          "red": 11,
+          "green": 10,
+          "blue": 15
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "green": 6,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 3,
+          "red": 9,
+          "green": 7
+        }
+      },
+      {
+        "colors": {
+          "red": 11,
+          "green": 1,
+          "blue": 15
+        }
+      },
+      {
+        "colors": {
+          "blue": 10,
+          "green": 4
+        }
+      },
+      {
+        "colors": {
+          "red": 9,
+          "green": 7,
+          "blue": 14
+        }
+      }
+    ],
+    "maximums": {
+      "red": 11,
+      "green": 10,
+      "blue": 15
+    }
+  },
+  {
+    "game": "Game 92",
+    "gameId": 92,
+    "sets": [
+      {
+        "colors": {
+          "green": 1,
+          "red": 6,
+          "blue": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 6,
+          "blue": 6
+        }
+      }
+    ],
+    "maximums": {
+      "green": 1,
+      "red": 6,
+      "blue": 6
+    }
+  },
+  {
+    "game": "Game 93",
+    "gameId": 93,
+    "sets": [
+      {
+        "colors": {
+          "red": 19,
+          "green": 8,
+          "blue": 9
+        }
+      },
+      {
+        "colors": {
+          "blue": 7,
+          "red": 1,
+          "green": 9
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "blue": 9,
+          "green": 11
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 4,
+          "red": 10
+        }
+      },
+      {
+        "colors": {
+          "blue": 10,
+          "red": 11
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "blue": 8,
+          "red": 16
+        }
+      }
+    ],
+    "maximums": {
+      "red": 19,
+      "green": 11,
+      "blue": 10
+    }
+  },
+  {
+    "game": "Game 94",
+    "gameId": 94,
+    "sets": [
+      {
+        "colors": {
+          "red": 11,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "red": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 2,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "green": 4,
+          "red": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 2,
+          "red": 9
+        }
+      }
+    ],
+    "maximums": {
+      "red": 11,
+      "green": 4,
+      "blue": 1
+    }
+  },
+  {
+    "game": "Game 95",
+    "gameId": 95,
+    "sets": [
+      {
+        "colors": {
+          "green": 6,
+          "blue": 7,
+          "red": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "green": 7
+        }
+      },
+      {
+        "colors": {
+          "green": 16,
+          "blue": 2,
+          "red": 3
+        }
+      },
+      {
+        "colors": {
+          "green": 5,
+          "blue": 10,
+          "red": 8
+        }
+      },
+      {
+        "colors": {
+          "red": 5,
+          "green": 16,
+          "blue": 3
+        }
+      },
+      {
+        "colors": {
+          "red": 4,
+          "blue": 10,
+          "green": 12
+        }
+      }
+    ],
+    "maximums": {
+      "green": 16,
+      "blue": 10,
+      "red": 8
+    }
+  },
+  {
+    "game": "Game 96",
+    "gameId": 96,
+    "sets": [
+      {
+        "colors": {
+          "blue": 6,
+          "green": 5,
+          "red": 6
+        }
+      },
+      {
+        "colors": {
+          "red": 3,
+          "blue": 5,
+          "green": 4
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "red": 2,
+          "green": 3
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 6,
+      "green": 5,
+      "red": 6
+    }
+  },
+  {
+    "game": "Game 97",
+    "gameId": 97,
+    "sets": [
+      {
+        "colors": {
+          "red": 3,
+          "green": 8
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "red": 13,
+          "green": 10,
+          "blue": 3
+        }
+      }
+    ],
+    "maximums": {
+      "red": 13,
+      "green": 10,
+      "blue": 3
+    }
+  },
+  {
+    "game": "Game 98",
+    "gameId": 98,
+    "sets": [
+      {
+        "colors": {
+          "green": 4,
+          "red": 9,
+          "blue": 2
+        }
+      },
+      {
+        "colors": {
+          "blue": 1,
+          "green": 5,
+          "red": 18
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "red": 16
+        }
+      },
+      {
+        "colors": {
+          "red": 15,
+          "green": 1,
+          "blue": 2
+        }
+      }
+    ],
+    "maximums": {
+      "green": 5,
+      "red": 18,
+      "blue": 2
+    }
+  },
+  {
+    "game": "Game 99",
+    "gameId": 99,
+    "sets": [
+      {
+        "colors": {
+          "green": 7,
+          "red": 2,
+          "blue": 5
+        }
+      },
+      {
+        "colors": {
+          "red": 9,
+          "green": 17,
+          "blue": 19
+        }
+      },
+      {
+        "colors": {
+          "red": 8,
+          "blue": 12,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 11,
+          "green": 11,
+          "blue": 10
+        }
+      },
+      {
+        "colors": {
+          "green": 19,
+          "blue": 4,
+          "red": 2
+        }
+      }
+    ],
+    "maximums": {
+      "green": 19,
+      "red": 11,
+      "blue": 19
+    }
+  },
+  {
+    "game": "Game 100",
+    "gameId": 100,
+    "sets": [
+      {
+        "colors": {
+          "blue": 4,
+          "green": 3
+        }
+      },
+      {
+        "colors": {
+          "blue": 5,
+          "green": 12
+        }
+      },
+      {
+        "colors": {
+          "green": 16,
+          "red": 1,
+          "blue": 1
+        }
+      },
+      {
+        "colors": {
+          "blue": 2,
+          "green": 1
+        }
+      },
+      {
+        "colors": {
+          "red": 1,
+          "blue": 3,
+          "green": 18
+        }
+      },
+      {
+        "colors": {
+          "green": 3,
+          "red": 1,
+          "blue": 3
+        }
+      }
+    ],
+    "maximums": {
+      "blue": 5,
+      "green": 18,
+      "red": 1
+    }
+  }
+]
