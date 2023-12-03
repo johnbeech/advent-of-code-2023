@@ -1,0 +1,51 @@
+[
+  {
+    "x": 1,
+    "y": 0,
+    "val": 467,
+    "xEnd": 3,
+    "part": true
+  },
+  {
+    "x": 3,
+    "y": 2,
+    "val": 35,
+    "xEnd": 4,
+    "part": true
+  },
+  {
+    "x": 7,
+    "y": 2,
+    "val": 633,
+    "xEnd": 9,
+    "part": true
+  },
+  {
+    "x": 3,
+    "y": 6,
+    "val": 592,
+    "xEnd": 5,
+    "part": true
+  },
+  {
+    "x": 7,
+    "y": 7,
+    "val": 755,
+    "xEnd": 9,
+    "part": true
+  },
+  {
+    "x": 2,
+    "y": 9,
+    "val": 664,
+    "xEnd": 4,
+    "part": true
+  },
+  {
+    "x": 6,
+    "y": 9,
+    "val": 598,
+    "xEnd": 8,
+    "part": true
+  }
+]
