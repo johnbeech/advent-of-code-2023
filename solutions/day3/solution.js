@@ -86,7 +86,13 @@ function parseDiagram (input) {
 
   diagram.parts = [...new Set(Object.values(diagram.items).filter(n => n.part))]
   diagram.notParts = [...new Set(Object.values(diagram.items).filter(n => n.part !== true && n.val > 0))]
+  diagram.gears = diagram.symbolItems.filter(item => item.sym === '*' && item.neighbours.length === 2).map(item => {
+    item.gearRatio = item.neighbourVals[0] * item.neighbourVals[1]
+    return item
+  })
+
   diagram.partsSum = diagram.parts.reduce((sum, part) => sum + part.val, 0)
+  diagram.gearSum = diagram.gears.reduce((sum, gear) => sum + gear.gearRatio, 0)
 
   return diagram
 }
@@ -116,7 +122,9 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const diagram = parseDiagram(input)
+
+  const solution = diagram.gearSum
   report('Solution 2:', solution)
 }
 
