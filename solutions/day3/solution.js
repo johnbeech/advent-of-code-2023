@@ -124,6 +124,8 @@ async function solveForFirstStar (input) {
 async function solveForSecondStar (input) {
   const diagram = parseDiagram(input)
 
+  await write(fromHere('diagram-gears.json'), JSON.stringify(diagram.gears, null, 2), 'utf8')
+
   const solution = diagram.gearSum
   report('Solution 2:', solution)
 }
