@@ -24,58 +24,39 @@ const searchCoords = [
 function parseDiagramLine (line, y) {
   const items = {}
   let buffer = ''
-  let char = ''
   let x = 0
 
   // Scan line
   while (x < line.length) {
+    buffer += line.charAt(x)
+    const lookAhead = String(line).charAt(x + 1)
     const coordKey = `${x},${y}`
-    const bufferInt = parseInt(buffer)
     const bufferOnlyContainsDigits = /^[\d]+$/.test(buffer)
-    char = line.charAt(x)
-    if (char === '.') {
-      if (bufferOnlyContainsDigits) {
-        const item = { x: x - buffer.length + 1, y, val: bufferInt, xEnd: x }
-        for (let i = 0; i < buffer.length; i++) {
-          const xOffset = x - buffer.length + 1 + i
-          items[`${xOffset},${y}`] = item
-        }
-      } else if (buffer !== '') {
-        items[coordKey] = { x, y, sym: buffer }
+    const lookAheadIsDigit = /^[\d]+$/.test(lookAhead)
+    if (buffer === '.') {
+      // Reset buffer
+      buffer = ''
+    } else if (bufferOnlyContainsDigits && lookAheadIsDigit) {
+      // Do nothing
+    } else if (bufferOnlyContainsDigits && !lookAheadIsDigit) {
+      // Store number
+      const val = parseInt(buffer)
+      const valItem = { x: x - buffer.length + 1, y, val }
+      for (let i = 0; i < buffer.length; i++) {
+        const coordKey = `${x - buffer.length + i + 1},${y}`
+        items[coordKey] = valItem
       }
       buffer = ''
+    } else if (!bufferOnlyContainsDigits) {
+      // Store symbol
+      const symItem = { x, y, sym: buffer }
+      items[coordKey] = symItem
+      buffer = ''
     } else {
-      // Store symbol followed by number
-      const charIsDigit = char >= '0' && char <= '9'
-      if (charIsDigit) {
-        buffer += char
-      } else {
-        if (bufferOnlyContainsDigits) {
-          const item = { x: x - buffer.length + 1, y, val: bufferInt, xEnd: x }
-          for (let i = 0; i < buffer.length; i++) {
-            const xOffset = x - buffer.length + 1 + i
-            items[`${xOffset},${y}`] = item
-          }
-        }
-        buffer = char
-      }
+      throw new Error(`Unexpected state: ${buffer} ${lookAhead}`)
     }
-    x++
-  }
 
-  // Handle end of line
-  const bufferInt = parseInt(buffer)
-  const bufferOnlyContainsDigits = /^[\d]+$/.test(buffer)
-  if (bufferOnlyContainsDigits) {
-    const item = { x: x - buffer.length + 1, y, val: bufferInt, xEnd: x }
-    for (let i = 0; i < buffer.length; i++) {
-      const xOffset = x - buffer.length + 1 + i
-      items[`${xOffset},${y}`] = item
-    }
-  }
-  if (buffer !== '') {
-    const coordKey = `${x},${y}`
-    items[coordKey] = { x, y, sym: buffer }
+    x++
   }
 
   return items
