@@ -4,7 +4,7 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
@@ -31,9 +31,10 @@ function parseDiagramLine (line, y) {
   while (x < line.length) {
     const coordKey = `${x},${y}`
     const bufferInt = parseInt(buffer)
+    const bufferOnlyContainsDigits = /^[\d]+$/.test(buffer)
     char = line.charAt(x)
     if (char === '.') {
-      if (Number.isNaN(bufferInt) === false) {
+      if (bufferOnlyContainsDigits) {
         const item = { x: x - buffer.length + 1, y, val: bufferInt, xEnd: x }
         for (let i = 0; i < buffer.length; i++) {
           const xOffset = x - buffer.length + 1 + i
@@ -46,11 +47,17 @@ function parseDiagramLine (line, y) {
     } else {
       // Store symbol followed by number
       const charIsDigit = char >= '0' && char <= '9'
-      if (charIsDigit && Number.isNaN(bufferInt) && buffer !== '') {
-        items[coordKey] = { x, y, sym: buffer }
-        buffer = ''
-      } else {
+      if (charIsDigit) {
         buffer += char
+      } else {
+        if (bufferOnlyContainsDigits) {
+          const item = { x: x - buffer.length + 1, y, val: bufferInt, xEnd: x }
+          for (let i = 0; i < buffer.length; i++) {
+            const xOffset = x - buffer.length + 1 + i
+            items[`${xOffset},${y}`] = item
+          }
+        }
+        buffer = char
       }
     }
     x++
@@ -58,7 +65,8 @@ function parseDiagramLine (line, y) {
 
   // Handle end of line
   const bufferInt = parseInt(buffer)
-  if (Number.isNaN(bufferInt) === false) {
+  const bufferOnlyContainsDigits = /^[\d]+$/.test(buffer)
+  if (bufferOnlyContainsDigits) {
     const item = { x: x - buffer.length + 1, y, val: bufferInt, xEnd: x }
     for (let i = 0; i < buffer.length; i++) {
       const xOffset = x - buffer.length + 1 + i
