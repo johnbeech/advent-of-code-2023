@@ -33,12 +33,16 @@ function parseCardLine (line) {
   const pickedNumbers = firstHalf.split(' ').filter(n => n).map(n => parseInt(n, 10))
   const drawnNumbers = secondHalf.split(' ').filter(n => n).map(n => parseInt(n, 10))
   const winningNumbers = pickedNumbers.filter(n => drawnNumbers.includes(n))
+  const cardsToCopy = winningNumbers.map((n, i) => Number.parseInt(cardNumber) + i + 1)
+
   return {
-    card: cardNumber,
+    card: Number.parseInt(cardNumber),
     pickedNumbers,
     drawnNumbers,
     winningNumbers,
-    points: winningNumbers.length ? Math.pow(2, winningNumbers.length - 1) : 0
+    points: winningNumbers.length ? Math.pow(2, winningNumbers.length - 1) : 0,
+    cardsToCopy,
+    copies: 1
   }
 }
 
@@ -55,7 +59,17 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const cards = parseCardsFromInput(input)
+  cards.forEach(card => {
+    console.log('Card:', card)
+    card.cardsToCopy.forEach(cardId => {
+      const cardToCopy = cards.find(card => card.card === cardId)
+      cardToCopy.copies = cardToCopy.copies + card.copies
+    })
+  })
+
+  const sumOfCopies = cards.reduce((total, card) => total + card.copies, 0)
+  const solution = sumOfCopies
   report('Solution 2:', solution)
 }
 
