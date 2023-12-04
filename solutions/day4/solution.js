@@ -38,7 +38,7 @@ function parseCardLine (line) {
     pickedNumbers,
     drawnNumbers,
     winningNumbers,
-    points: Math.pow(2, winningNumbers.length)
+    points: winningNumbers.length ? Math.pow(2, winningNumbers.length - 1) : 0
   }
 }
 
