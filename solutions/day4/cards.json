@@ -127,7 +127,7 @@
       8,
       9
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 3,
@@ -183,7 +183,7 @@
       6,
       7
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 4,
@@ -247,7 +247,7 @@
       11,
       12
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 5,
@@ -309,7 +309,7 @@
       11,
       12
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 6,
@@ -377,7 +377,7 @@
       15,
       16
     ],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 7,
@@ -439,7 +439,7 @@
       13,
       14
     ],
-    "copies": 1
+    "copies": 64
   },
   {
     "card": 8,
@@ -507,7 +507,7 @@
       17,
       18
     ],
-    "copies": 1
+    "copies": 124
   },
   {
     "card": 9,
@@ -561,7 +561,7 @@
       11,
       12
     ],
-    "copies": 1
+    "copies": 248
   },
   {
     "card": 10,
@@ -611,7 +611,7 @@
     "cardsToCopy": [
       11
     ],
-    "copies": 1
+    "copies": 494
   },
   {
     "card": 11,
@@ -657,7 +657,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 988
   },
   {
     "card": 12,
@@ -703,7 +703,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 493
   },
   {
     "card": 13,
@@ -769,7 +769,7 @@
       21,
       22
     ],
-    "copies": 1
+    "copies": 221
   },
   {
     "card": 14,
@@ -837,7 +837,7 @@
       23,
       24
     ],
-    "copies": 1
+    "copies": 442
   },
   {
     "card": 15,
@@ -887,7 +887,7 @@
     "cardsToCopy": [
       16
     ],
-    "copies": 1
+    "copies": 820
   },
   {
     "card": 16,
@@ -949,7 +949,7 @@
       22,
       23
     ],
-    "copies": 1
+    "copies": 1640
   },
   {
     "card": 17,
@@ -995,7 +995,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 2428
   },
   {
     "card": 18,
@@ -1045,7 +1045,7 @@
     "cardsToCopy": [
       19
     ],
-    "copies": 1
+    "copies": 2428
   },
   {
     "card": 19,
@@ -1101,7 +1101,7 @@
       22,
       23
     ],
-    "copies": 1
+    "copies": 4732
   },
   {
     "card": 20,
@@ -1157,7 +1157,7 @@
       23,
       24
     ],
-    "copies": 1
+    "copies": 7036
   },
   {
     "card": 21,
@@ -1211,7 +1211,7 @@
       23,
       24
     ],
-    "copies": 1
+    "copies": 14072
   },
   {
     "card": 22,
@@ -1261,7 +1261,7 @@
     "cardsToCopy": [
       23
     ],
-    "copies": 1
+    "copies": 28144
   },
   {
     "card": 23,
@@ -1311,7 +1311,7 @@
     "cardsToCopy": [
       24
     ],
-    "copies": 1
+    "copies": 56067
   },
   {
     "card": 24,
@@ -1357,7 +1357,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 77618
   },
   {
     "card": 25,
@@ -1493,7 +1493,7 @@
       35,
       36
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 27,
@@ -1561,7 +1561,7 @@
       36,
       37
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 28,
@@ -1629,7 +1629,7 @@
       37,
       38
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 29,
@@ -1683,7 +1683,7 @@
       31,
       32
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 30,
@@ -1751,7 +1751,7 @@
       39,
       40
     ],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 31,
@@ -1819,7 +1819,7 @@
       40,
       41
     ],
-    "copies": 1
+    "copies": 64
   },
   {
     "card": 32,
@@ -1865,7 +1865,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 128
   },
   {
     "card": 33,
@@ -1923,7 +1923,7 @@
       37,
       38
     ],
-    "copies": 1
+    "copies": 112
   },
   {
     "card": 34,
@@ -1969,7 +1969,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 224
   },
   {
     "card": 35,
@@ -2031,7 +2031,7 @@
       41,
       42
     ],
-    "copies": 1
+    "copies": 224
   },
   {
     "card": 36,
@@ -2093,7 +2093,7 @@
       42,
       43
     ],
-    "copies": 1
+    "copies": 447
   },
   {
     "card": 37,
@@ -2147,7 +2147,7 @@
       39,
       40
     ],
-    "copies": 1
+    "copies": 892
   },
   {
     "card": 38,
@@ -2199,7 +2199,7 @@
       39,
       40
     ],
-    "copies": 1
+    "copies": 1780
   },
   {
     "card": 39,
@@ -2257,7 +2257,7 @@
       43,
       44
     ],
-    "copies": 1
+    "copies": 3440
   },
   {
     "card": 40,
@@ -2307,7 +2307,7 @@
     "cardsToCopy": [
       41
     ],
-    "copies": 1
+    "copies": 6880
   },
   {
     "card": 41,
@@ -2353,7 +2353,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 11056
   },
   {
     "card": 42,
@@ -2403,7 +2403,7 @@
     "cardsToCopy": [
       43
     ],
-    "copies": 1
+    "copies": 4112
   },
   {
     "card": 43,
@@ -2455,7 +2455,7 @@
       44,
       45
     ],
-    "copies": 1
+    "copies": 8000
   },
   {
     "card": 44,
@@ -2501,7 +2501,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 11441
   },
   {
     "card": 45,
@@ -2547,7 +2547,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 8001
   },
   {
     "card": 46,
@@ -2675,7 +2675,7 @@
       56,
       57
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 48,
@@ -2743,7 +2743,7 @@
       57,
       58
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 49,
@@ -2799,7 +2799,7 @@
       52,
       53
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 50,
@@ -2861,7 +2861,7 @@
       56,
       57
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 51,
@@ -2911,7 +2911,7 @@
     "cardsToCopy": [
       52
     ],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 52,
@@ -2957,7 +2957,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 64
   },
   {
     "card": 53,
@@ -3013,7 +3013,7 @@
       56,
       57
     ],
-    "copies": 1
+    "copies": 31
   },
   {
     "card": 54,
@@ -3063,7 +3063,7 @@
     "cardsToCopy": [
       55
     ],
-    "copies": 1
+    "copies": 54
   },
   {
     "card": 55,
@@ -3109,7 +3109,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 108
   },
   {
     "card": 56,
@@ -3169,7 +3169,7 @@
       61,
       62
     ],
-    "copies": 1
+    "copies": 54
   },
   {
     "card": 57,
@@ -3221,7 +3221,7 @@
       58,
       59
     ],
-    "copies": 1
+    "copies": 108
   },
   {
     "card": 58,
@@ -3277,7 +3277,7 @@
       61,
       62
     ],
-    "copies": 1
+    "copies": 167
   },
   {
     "card": 59,
@@ -3335,7 +3335,7 @@
       63,
       64
     ],
-    "copies": 1
+    "copies": 330
   },
   {
     "card": 60,
@@ -3389,7 +3389,7 @@
       62,
       63
     ],
-    "copies": 1
+    "copies": 552
   },
   {
     "card": 61,
@@ -3447,7 +3447,7 @@
       65,
       66
     ],
-    "copies": 1
+    "copies": 1104
   },
   {
     "card": 62,
@@ -3499,7 +3499,7 @@
       63,
       64
     ],
-    "copies": 1
+    "copies": 2208
   },
   {
     "card": 63,
@@ -3549,7 +3549,7 @@
     "cardsToCopy": [
       64
     ],
-    "copies": 1
+    "copies": 4195
   },
   {
     "card": 64,
@@ -3595,7 +3595,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 7838
   },
   {
     "card": 65,
@@ -3645,7 +3645,7 @@
     "cardsToCopy": [
       66
     ],
-    "copies": 1
+    "copies": 1105
   },
   {
     "card": 66,
@@ -3691,7 +3691,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 2210
   },
   {
     "card": 67,
@@ -3823,7 +3823,7 @@
       77,
       78
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 69,
@@ -3889,7 +3889,7 @@
       77,
       78
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 70,
@@ -3957,7 +3957,7 @@
       79,
       80
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 71,
@@ -4025,7 +4025,7 @@
       80,
       81
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 72,
@@ -4093,7 +4093,7 @@
       81,
       82
     ],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 73,
@@ -4147,7 +4147,7 @@
       75,
       76
     ],
-    "copies": 1
+    "copies": 64
   },
   {
     "card": 74,
@@ -4215,7 +4215,7 @@
       83,
       84
     ],
-    "copies": 1
+    "copies": 128
   },
   {
     "card": 75,
@@ -4271,7 +4271,7 @@
       78,
       79
     ],
-    "copies": 1
+    "copies": 256
   },
   {
     "card": 76,
@@ -4331,7 +4331,7 @@
       81,
       82
     ],
-    "copies": 1
+    "copies": 511
   },
   {
     "card": 77,
@@ -4399,7 +4399,7 @@
       86,
       87
     ],
-    "copies": 1
+    "copies": 958
   },
   {
     "card": 78,
@@ -4455,7 +4455,7 @@
       81,
       82
     ],
-    "copies": 1
+    "copies": 1916
   },
   {
     "card": 79,
@@ -4501,7 +4501,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 3826
   },
   {
     "card": 80,
@@ -4563,7 +4563,7 @@
       86,
       87
     ],
-    "copies": 1
+    "copies": 3570
   },
   {
     "card": 81,
@@ -4609,7 +4609,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 7132
   },
   {
     "card": 82,
@@ -4663,7 +4663,7 @@
       84,
       85
     ],
-    "copies": 1
+    "copies": 7116
   },
   {
     "card": 83,
@@ -4713,7 +4713,7 @@
     "cardsToCopy": [
       84
     ],
-    "copies": 1
+    "copies": 11773
   },
   {
     "card": 84,
@@ -4759,7 +4759,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 23546
   },
   {
     "card": 85,
@@ -4811,7 +4811,7 @@
       86,
       87
     ],
-    "copies": 1
+    "copies": 11645
   },
   {
     "card": 86,
@@ -4865,7 +4865,7 @@
       88,
       89
     ],
-    "copies": 1
+    "copies": 16174
   },
   {
     "card": 87,
@@ -4915,7 +4915,7 @@
     "cardsToCopy": [
       88
     ],
-    "copies": 1
+    "copies": 32348
   },
   {
     "card": 88,
@@ -4965,7 +4965,7 @@
     "cardsToCopy": [
       89
     ],
-    "copies": 1
+    "copies": 48523
   },
   {
     "card": 89,
@@ -5011,7 +5011,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 64698
   },
   {
     "card": 90,
@@ -5141,7 +5141,7 @@
       100,
       101
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 92,
@@ -5201,7 +5201,7 @@
       97,
       98
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 93,
@@ -5267,7 +5267,7 @@
       101,
       102
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 94,
@@ -5325,7 +5325,7 @@
       98,
       99
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 95,
@@ -5393,7 +5393,7 @@
       104,
       105
     ],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 96,
@@ -5449,7 +5449,7 @@
       99,
       100
     ],
-    "copies": 1
+    "copies": 64
   },
   {
     "card": 97,
@@ -5505,7 +5505,7 @@
       100,
       101
     ],
-    "copies": 1
+    "copies": 128
   },
   {
     "card": 98,
@@ -5571,7 +5571,7 @@
       106,
       107
     ],
-    "copies": 1
+    "copies": 255
   },
   {
     "card": 99,
@@ -5631,7 +5631,7 @@
       104,
       105
     ],
-    "copies": 1
+    "copies": 506
   },
   {
     "card": 100,
@@ -5685,7 +5685,7 @@
       102,
       103
     ],
-    "copies": 1
+    "copies": 996
   },
   {
     "card": 101,
@@ -5739,7 +5739,7 @@
       103,
       104
     ],
-    "copies": 1
+    "copies": 1928
   },
   {
     "card": 102,
@@ -5791,7 +5791,7 @@
       103,
       104
     ],
-    "copies": 1
+    "copies": 3726
   },
   {
     "card": 103,
@@ -5837,7 +5837,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 7444
   },
   {
     "card": 104,
@@ -5887,7 +5887,7 @@
     "cardsToCopy": [
       105
     ],
-    "copies": 1
+    "copies": 6448
   },
   {
     "card": 105,
@@ -5937,7 +5937,7 @@
     "cardsToCopy": [
       106
     ],
-    "copies": 1
+    "copies": 7242
   },
   {
     "card": 106,
@@ -5989,7 +5989,7 @@
       107,
       108
     ],
-    "copies": 1
+    "copies": 7498
   },
   {
     "card": 107,
@@ -6035,7 +6035,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 7754
   },
   {
     "card": 108,
@@ -6087,7 +6087,7 @@
       109,
       110
     ],
-    "copies": 1
+    "copies": 7499
   },
   {
     "card": 109,
@@ -6133,7 +6133,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 7500
   },
   {
     "card": 110,
@@ -6179,7 +6179,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 7500
   },
   {
     "card": 111,
@@ -6349,7 +6349,7 @@
       120,
       121
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 114,
@@ -6405,7 +6405,7 @@
       117,
       118
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 115,
@@ -6459,7 +6459,7 @@
       117,
       118
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 116,
@@ -6527,7 +6527,7 @@
       125,
       126
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 117,
@@ -6573,7 +6573,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 118,
@@ -6635,7 +6635,7 @@
       124,
       125
     ],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 119,
@@ -6699,7 +6699,7 @@
       126,
       127
     ],
-    "copies": 1
+    "copies": 51
   },
   {
     "card": 120,
@@ -6753,7 +6753,7 @@
       122,
       123
     ],
-    "copies": 1
+    "copies": 102
   },
   {
     "card": 121,
@@ -6811,7 +6811,7 @@
       125,
       126
     ],
-    "copies": 1
+    "copies": 204
   },
   {
     "card": 122,
@@ -6873,7 +6873,7 @@
       128,
       129
     ],
-    "copies": 1
+    "copies": 406
   },
   {
     "card": 123,
@@ -6925,7 +6925,7 @@
       124,
       125
     ],
-    "copies": 1
+    "copies": 812
   },
   {
     "card": 124,
@@ -6985,7 +6985,7 @@
       129,
       130
     ],
-    "copies": 1
+    "copies": 1522
   },
   {
     "card": 125,
@@ -7031,7 +7031,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 3044
   },
   {
     "card": 126,
@@ -7077,7 +7077,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 2200
   },
   {
     "card": 127,
@@ -7131,7 +7131,7 @@
       129,
       130
     ],
-    "copies": 1
+    "copies": 1980
   },
   {
     "card": 128,
@@ -7177,7 +7177,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 3909
   },
   {
     "card": 129,
@@ -7227,7 +7227,7 @@
     "cardsToCopy": [
       130
     ],
-    "copies": 1
+    "copies": 3909
   },
   {
     "card": 130,
@@ -7273,7 +7273,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 7412
   },
   {
     "card": 131,
@@ -7403,7 +7403,7 @@
       138,
       139
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 133,
@@ -7463,7 +7463,7 @@
       138,
       139
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 134,
@@ -7521,7 +7521,7 @@
       138,
       139
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 135,
@@ -7577,7 +7577,7 @@
       138,
       139
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 136,
@@ -7627,7 +7627,7 @@
     "cardsToCopy": [
       137
     ],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 137,
@@ -7677,7 +7677,7 @@
     "cardsToCopy": [
       138
     ],
-    "copies": 1
+    "copies": 64
   },
   {
     "card": 138,
@@ -7739,7 +7739,7 @@
       144,
       145
     ],
-    "copies": 1
+    "copies": 96
   },
   {
     "card": 139,
@@ -7797,7 +7797,7 @@
       143,
       144
     ],
-    "copies": 1
+    "copies": 128
   },
   {
     "card": 140,
@@ -7851,7 +7851,7 @@
       142,
       143
     ],
-    "copies": 1
+    "copies": 226
   },
   {
     "card": 141,
@@ -7907,7 +7907,7 @@
       144,
       145
     ],
-    "copies": 1
+    "copies": 452
   },
   {
     "card": 142,
@@ -7961,7 +7961,7 @@
       144,
       145
     ],
-    "copies": 1
+    "copies": 903
   },
   {
     "card": 143,
@@ -8017,7 +8017,7 @@
       146,
       147
     ],
-    "copies": 1
+    "copies": 1806
   },
   {
     "card": 144,
@@ -8077,7 +8077,7 @@
       149,
       150
     ],
-    "copies": 1
+    "copies": 3386
   },
   {
     "card": 145,
@@ -8129,7 +8129,7 @@
       146,
       147
     ],
-    "copies": 1
+    "copies": 6644
   },
   {
     "card": 146,
@@ -8181,7 +8181,7 @@
       147,
       148
     ],
-    "copies": 1
+    "copies": 11837
   },
   {
     "card": 147,
@@ -8239,7 +8239,7 @@
       151,
       152
     ],
-    "copies": 1
+    "copies": 23674
   },
   {
     "card": 148,
@@ -8285,7 +8285,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 38898
   },
   {
     "card": 149,
@@ -8337,7 +8337,7 @@
       150,
       151
     ],
-    "copies": 1
+    "copies": 27061
   },
   {
     "card": 150,
@@ -8383,7 +8383,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 54122
   },
   {
     "card": 151,
@@ -8435,7 +8435,7 @@
       152,
       153
     ],
-    "copies": 1
+    "copies": 50736
   },
   {
     "card": 152,
@@ -8485,7 +8485,7 @@
     "cardsToCopy": [
       153
     ],
-    "copies": 1
+    "copies": 74411
   },
   {
     "card": 153,
@@ -8531,7 +8531,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 125148
   },
   {
     "card": 154,
@@ -8699,7 +8699,7 @@
       158,
       159
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 157,
@@ -8765,7 +8765,7 @@
       165,
       166
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 158,
@@ -8829,7 +8829,7 @@
       165,
       166
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 159,
@@ -8885,7 +8885,7 @@
       162,
       163
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 160,
@@ -8939,7 +8939,7 @@
       162,
       163
     ],
-    "copies": 1
+    "copies": 30
   },
   {
     "card": 161,
@@ -8995,7 +8995,7 @@
       164,
       165
     ],
-    "copies": 1
+    "copies": 60
   },
   {
     "card": 162,
@@ -9053,7 +9053,7 @@
       166,
       167
     ],
-    "copies": 1
+    "copies": 120
   },
   {
     "card": 163,
@@ -9115,7 +9115,7 @@
       169,
       170
     ],
-    "copies": 1
+    "copies": 240
   },
   {
     "card": 164,
@@ -9175,7 +9175,7 @@
       169,
       170
     ],
-    "copies": 1
+    "copies": 434
   },
   {
     "card": 165,
@@ -9229,7 +9229,7 @@
       167,
       168
     ],
-    "copies": 1
+    "copies": 868
   },
   {
     "card": 166,
@@ -9279,7 +9279,7 @@
     "cardsToCopy": [
       167
     ],
-    "copies": 1
+    "copies": 1675
   },
   {
     "card": 167,
@@ -9329,7 +9329,7 @@
     "cardsToCopy": [
       168
     ],
-    "copies": 1
+    "copies": 3338
   },
   {
     "card": 168,
@@ -9383,7 +9383,7 @@
       170,
       171
     ],
-    "copies": 1
+    "copies": 4881
   },
   {
     "card": 169,
@@ -9435,7 +9435,7 @@
       170,
       171
     ],
-    "copies": 1
+    "copies": 5556
   },
   {
     "card": 170,
@@ -9481,7 +9481,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 11112
   },
   {
     "card": 171,
@@ -9527,7 +9527,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 10438
   },
   {
     "card": 172,
@@ -9663,7 +9663,7 @@
       182,
       183
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 174,
@@ -9731,7 +9731,7 @@
       183,
       184
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 175,
@@ -9785,7 +9785,7 @@
       177,
       178
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 176,
@@ -9853,7 +9853,7 @@
       185,
       186
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 177,
@@ -9921,7 +9921,7 @@
       186,
       187
     ],
-    "copies": 1
+    "copies": 32
   },
   {
     "card": 178,
@@ -9987,7 +9987,7 @@
       186,
       187
     ],
-    "copies": 1
+    "copies": 64
   },
   {
     "card": 179,
@@ -10055,7 +10055,7 @@
       188,
       189
     ],
-    "copies": 1
+    "copies": 120
   },
   {
     "card": 180,
@@ -10123,7 +10123,7 @@
       189,
       190
     ],
-    "copies": 1
+    "copies": 240
   },
   {
     "card": 181,
@@ -10191,7 +10191,7 @@
       190,
       191
     ],
-    "copies": 1
+    "copies": 480
   },
   {
     "card": 182,
@@ -10249,7 +10249,7 @@
       186,
       187
     ],
-    "copies": 1
+    "copies": 960
   },
   {
     "card": 183,
@@ -10311,7 +10311,7 @@
       189,
       190
     ],
-    "copies": 1
+    "copies": 1919
   },
   {
     "card": 184,
@@ -10377,7 +10377,7 @@
       192,
       193
     ],
-    "copies": 1
+    "copies": 3836
   },
   {
     "card": 185,
@@ -10435,7 +10435,7 @@
       189,
       190
     ],
-    "copies": 1
+    "copies": 7668
   },
   {
     "card": 186,
@@ -10497,7 +10497,7 @@
       192,
       193
     ],
-    "copies": 1
+    "copies": 15336
   },
   {
     "card": 187,
@@ -10543,7 +10543,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 30656
   },
   {
     "card": 188,
@@ -10605,7 +10605,7 @@
       194,
       195
     ],
-    "copies": 1
+    "copies": 29600
   },
   {
     "card": 189,
@@ -10665,7 +10665,7 @@
       194,
       195
     ],
-    "copies": 1
+    "copies": 59200
   },
   {
     "card": 190,
@@ -10721,7 +10721,7 @@
       193,
       194
     ],
-    "copies": 1
+    "copies": 118280
   },
   {
     "card": 191,
@@ -10771,7 +10771,7 @@
     "cardsToCopy": [
       192
     ],
-    "copies": 1
+    "copies": 226733
   },
   {
     "card": 192,
@@ -10827,7 +10827,7 @@
       195,
       196
     ],
-    "copies": 1
+    "copies": 452986
   },
   {
     "card": 193,
@@ -10873,7 +10873,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 679239
   },
   {
     "card": 194,
@@ -10925,7 +10925,7 @@
       195,
       196
     ],
-    "copies": 1
+    "copies": 660067
   },
   {
     "card": 195,
@@ -10975,7 +10975,7 @@
     "cardsToCopy": [
       196
     ],
-    "copies": 1
+    "copies": 1201854
   },
   {
     "card": 196,
@@ -11021,7 +11021,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 2314908
   },
   {
     "card": 197,
@@ -11189,7 +11189,7 @@
       201,
       202
     ],
-    "copies": 1
+    "copies": 2
   },
   {
     "card": 200,
@@ -11255,7 +11255,7 @@
       208,
       209
     ],
-    "copies": 1
+    "copies": 4
   },
   {
     "card": 201,
@@ -11311,7 +11311,7 @@
       204,
       205
     ],
-    "copies": 1
+    "copies": 8
   },
   {
     "card": 202,
@@ -11365,7 +11365,7 @@
       204,
       205
     ],
-    "copies": 1
+    "copies": 16
   },
   {
     "card": 203,
@@ -11421,7 +11421,7 @@
       206,
       207
     ],
-    "copies": 1
+    "copies": 30
   },
   {
     "card": 204,
@@ -11483,7 +11483,7 @@
       210,
       211
     ],
-    "copies": 1
+    "copies": 60
   },
   {
     "card": 205,
@@ -11535,7 +11535,7 @@
       206,
       207
     ],
-    "copies": 1
+    "copies": 120
   },
   {
     "card": 206,
@@ -11581,7 +11581,7 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 216
   },
   {
     "card": 207,
@@ -11637,7 +11637,7 @@
       210,
       211
     ],
-    "copies": 1
+    "copies": 216
   },
   {
     "card": 208,
@@ -11689,7 +11689,7 @@
       209,
       210
     ],
-    "copies": 1
+    "copies": 282
   },
   {
     "card": 209,
@@ -11739,7 +11739,7 @@
     "cardsToCopy": [
       210
     ],
-    "copies": 1
+    "copies": 563
   },
   {
     "card": 210,
@@ -11791,7 +11791,7 @@
       211,
       212
     ],
-    "copies": 1
+    "copies": 1122
   },
   {
     "card": 211,
@@ -11843,7 +11843,7 @@
       212,
       213
     ],
-    "copies": 1
+    "copies": 1399
   },
   {
     "card": 212,
@@ -11893,7 +11893,7 @@
     "cardsToCopy": [
       213
     ],
-    "copies": 1
+    "copies": 2522
   },
   {
     "card": 213,
@@ -11939,6 +11939,6 @@
     "winningNumbers": [],
     "points": 0,
     "cardsToCopy": [],
-    "copies": 1
+    "copies": 3922
   }
 ]

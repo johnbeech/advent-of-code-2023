@@ -50,8 +50,6 @@ async function solveForFirstStar (input) {
   const cards = parseCardsFromInput(input)
   console.log('Cards', cards)
 
-  await write(fromHere('cards.json'), JSON.stringify(cards, null, 2), 'utf8')
-
   const totalPoints = cards.reduce((total, card) => total + card.points, 0)
   const solution = totalPoints
 
@@ -71,6 +69,16 @@ async function solveForSecondStar (input) {
   const sumOfCopies = cards.reduce((total, card) => total + card.copies, 0)
   const solution = sumOfCopies
   report('Solution 2:', solution)
+
+  const mostCopiedCard = cards.reduce((mostCopied, card) => {
+    if (card.copies > mostCopied.copies) {
+      return card
+    }
+    return mostCopied
+  }, { copies: 0 })
+  console.log('Most copied card:', mostCopiedCard)
+
+  await write(fromHere('cards.json'), JSON.stringify(cards, null, 2), 'utf8')
 }
 
 run()
