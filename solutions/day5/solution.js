@@ -9,9 +9,25 @@ async function run () {
   await solveForSecondStar(input)
 }
 
+const mapMap = {}
+
 function parseAlamac (input) {
   const lines = input.split('\n').map(line => line.trim()).filter(line => line.length)
   const seeds = lines.shift().split(':')[1].trim().split(' ').map(Number)
+  const seedPairs = seeds.reduce((acc, seed) => {
+    // group seeds into pairs
+    if (acc.length) {
+      const lastPair = acc[acc.length - 1]
+      if (lastPair.length === 1) {
+        lastPair.push(seed)
+      } else {
+        acc.push([seed])
+      }
+    } else {
+      acc.push([seed])
+    }
+    return acc
+  }, [])
 
   const testLine = /([A-z-]+) map:/
   const maps = lines.reduce((acc, line) => {
@@ -37,21 +53,20 @@ function parseAlamac (input) {
   }, {})
 
   Object.values(maps).forEach(map => {
-    map.nextMap = () => {
-      return Object.values(maps).find(m2 => m2.source === map.destination)
-    }
+    mapMap[map.source] = map
   })
 
   delete maps.currentMap
 
   return {
     seeds,
+    seedPairs,
     maps
   }
 }
 
-function getSeed (alamac, seed, source) {
-  const sourceMap = Object.values(alamac.maps).find(map => map.source === source)
+function convertSeed (alamac, seed, source, log = false) {
+  const sourceMap = mapMap[source]
   let value = null
 
   const match = sourceMap.items.find(item => seed >= item.sourceRangeStart && seed < item.sourceRangeStart + item.rangeLength)
@@ -61,37 +76,35 @@ function getSeed (alamac, seed, source) {
     value = seed
   }
 
-  const seedInfo = {
-    seed,
-    source,
-    destination: sourceMap.destination,
-    value,
-    match
+  if (log) {
+    // console.log('[getSeed]', seedInfo)
+    console.log(source, seed, sourceMap.destination, value)
   }
 
-  // console.log('[getSeed]', seedInfo)
-  console.log(source, seed, sourceMap.destination, value)
-
-  return seedInfo
+  return value
 }
 
-function resolveSeed (alamac, seed, source, destination) {
-  const seedInfo = getSeed(alamac, seed, source)
-  if (seedInfo.destination === destination) {
-    return seedInfo.value
+function resolveSeed (alamac, seed, source, destination, log = false) {
+  const sourceMap = mapMap[source]
+  const destinationMap = mapMap[sourceMap.destination]
+  if (destinationMap === undefined) {
+    return convertSeed(alamac, seed, source, log)
   } else {
-    return resolveSeed(alamac, seedInfo.value, seedInfo.destination, destination)
+    const newSeed = convertSeed(alamac, seed, source, log)
+    return resolveSeed(alamac, newSeed, sourceMap.destination, destination)
   }
 }
 
 async function solveForFirstStar (input) {
   const alamac = parseAlamac(input)
 
+  console.log('Map map', mapMap)
+
   await write(fromHere('alamac.json'), JSON.stringify(alamac, null, 2), 'utf8')
 
   const locations = alamac.seeds.map(seed => {
     console.log('Searching for location from seed', seed)
-    const location = resolveSeed(alamac, seed, 'seed', 'location')
+    const location = resolveSeed(alamac, seed, 'seed', 'location', true)
     console.log('Found location', location, 'from', seed)
     console.log('---------------')
     return { seed, location }
@@ -100,13 +113,26 @@ async function solveForFirstStar (input) {
   await write(fromHere('locations.json'), JSON.stringify(locations, null, 2), 'utf8')
 
   const lowestLocation = locations.sort((a, b) => a.location - b.location)[0]
+
   const solution = lowestLocation.location
-  // report('Input:', input)
   report('Solution 1:', solution)
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const alamac = parseAlamac(input)
+
+  let lowestLocation
+  alamac.seedPairs.forEach(seedPair => {
+    console.log('Searching for location from seed pair', seedPair)
+    const rangeStart = seedPair[0]
+    const rangeEnd = rangeStart + seedPair[1]
+    for (let seed = rangeStart; seed < rangeEnd; seed++) {
+      const location = resolveSeed(alamac, seed, 'seed', 'location')
+      lowestLocation = lowestLocation === undefined || location < lowestLocation ? location : lowestLocation
+    }
+  })
+
+  const solution = lowestLocation
   report('Solution 2:', solution)
 }
 
