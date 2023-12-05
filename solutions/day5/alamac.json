@@ -1,9 +1,25 @@
 {
   "seeds": [
-    79,
-    14,
-    55,
-    13
+    2880930400,
+    17599561,
+    549922357,
+    200746426,
+    1378552684,
+    43534336,
+    155057073,
+    56546377,
+    824205101,
+    378503603,
+    1678376802,
+    130912435,
+    2685513694,
+    137778160,
+    2492361384,
+    188575752,
+    3139914842,
+    1092214826,
+    2989476473,
+    58874625
   ],
   "maps": {
     "seed-to-soil": {
@@ -12,14 +28,159 @@
       "destination": "soil",
       "items": [
         {
-          "destinationRangeStart": 50,
-          "sourceRangeStart": 98,
-          "rangeLength": 2
+          "destinationRangeStart": 341680072,
+          "sourceRangeStart": 47360832,
+          "rangeLength": 98093750
         },
         {
-          "destinationRangeStart": 52,
-          "sourceRangeStart": 50,
-          "rangeLength": 48
+          "destinationRangeStart": 1677587229,
+          "sourceRangeStart": 1836834678,
+          "rangeLength": 160297919
+        },
+        {
+          "destinationRangeStart": 1122651749,
+          "sourceRangeStart": 4014790961,
+          "rangeLength": 280176335
+        },
+        {
+          "destinationRangeStart": 2279929873,
+          "sourceRangeStart": 2689269992,
+          "rangeLength": 53644948
+        },
+        {
+          "destinationRangeStart": 3916120104,
+          "sourceRangeStart": 1199400457,
+          "rangeLength": 172302726
+        },
+        {
+          "destinationRangeStart": 0,
+          "sourceRangeStart": 381576527,
+          "rangeLength": 58197295
+        },
+        {
+          "destinationRangeStart": 1402828084,
+          "sourceRangeStart": 3450816018,
+          "rangeLength": 274759145
+        },
+        {
+          "destinationRangeStart": 3909949227,
+          "sourceRangeStart": 2540063154,
+          "rangeLength": 6170877
+        },
+        {
+          "destinationRangeStart": 802918801,
+          "sourceRangeStart": 2384227172,
+          "rangeLength": 155835982
+        },
+        {
+          "destinationRangeStart": 4088422830,
+          "sourceRangeStart": 3244271552,
+          "rangeLength": 206544466
+        },
+        {
+          "destinationRangeStart": 958754783,
+          "sourceRangeStart": 1997132597,
+          "rangeLength": 28874650
+        },
+        {
+          "destinationRangeStart": 58197295,
+          "sourceRangeStart": 306349987,
+          "rangeLength": 75226540
+        },
+        {
+          "destinationRangeStart": 180784667,
+          "sourceRangeStart": 145454582,
+          "rangeLength": 160895405
+        },
+        {
+          "destinationRangeStart": 2334903647,
+          "sourceRangeStart": 1543332738,
+          "rangeLength": 293501940
+        },
+        {
+          "destinationRangeStart": 3699983017,
+          "sourceRangeStart": 2997982209,
+          "rangeLength": 25342830
+        },
+        {
+          "destinationRangeStart": 2333574821,
+          "sourceRangeStart": 2687941166,
+          "rangeLength": 1328826
+        },
+        {
+          "destinationRangeStart": 3111317969,
+          "sourceRangeStart": 1371703183,
+          "rangeLength": 171629555
+        },
+        {
+          "destinationRangeStart": 2806959198,
+          "sourceRangeStart": 2135774873,
+          "rangeLength": 248452299
+        },
+        {
+          "destinationRangeStart": 2766721604,
+          "sourceRangeStart": 717118138,
+          "rangeLength": 40237594
+        },
+        {
+          "destinationRangeStart": 3055411497,
+          "sourceRangeStart": 2632034694,
+          "rangeLength": 55906472
+        },
+        {
+          "destinationRangeStart": 2628405587,
+          "sourceRangeStart": 3023325039,
+          "rangeLength": 138316017
+        },
+        {
+          "destinationRangeStart": 1837885148,
+          "sourceRangeStart": 757355732,
+          "rangeLength": 442044725
+        },
+        {
+          "destinationRangeStart": 3725325847,
+          "sourceRangeStart": 2813358829,
+          "rangeLength": 184623380
+        },
+        {
+          "destinationRangeStart": 3353391413,
+          "sourceRangeStart": 2026007247,
+          "rangeLength": 109767626
+        },
+        {
+          "destinationRangeStart": 987629433,
+          "sourceRangeStart": 3962399141,
+          "rangeLength": 10015813
+        },
+        {
+          "destinationRangeStart": 717118138,
+          "sourceRangeStart": 2546234031,
+          "rangeLength": 85800663
+        },
+        {
+          "destinationRangeStart": 3282947524,
+          "sourceRangeStart": 2742914940,
+          "rangeLength": 70443889
+        },
+        {
+          "destinationRangeStart": 1080275742,
+          "sourceRangeStart": 3972414954,
+          "rangeLength": 42376007
+        },
+        {
+          "destinationRangeStart": 133423835,
+          "sourceRangeStart": 0,
+          "rangeLength": 47360832
+        },
+        {
+          "destinationRangeStart": 3463159039,
+          "sourceRangeStart": 3725575163,
+          "rangeLength": 236823978
+        },
+        {
+          "destinationRangeStart": 997645246,
+          "sourceRangeStart": 3161641056,
+          "rangeLength": 82630496
         }
       ]
     },
@@ -29,19 +190,239 @@
       "destination": "fertilizer",
       "items": [
         {
+          "destinationRangeStart": 303672059,
+          "sourceRangeStart": 1087423328,
+          "rangeLength": 103502353
+        },
+        {
+          "destinationRangeStart": 171922589,
+          "sourceRangeStart": 2907629744,
+          "rangeLength": 91556518
+        },
+        {
+          "destinationRangeStart": 2064217168,
+          "sourceRangeStart": 468859004,
+          "rangeLength": 91214014
+        },
+        {
+          "destinationRangeStart": 1129888530,
+          "sourceRangeStart": 1046445685,
+          "rangeLength": 40977643
+        },
+        {
+          "destinationRangeStart": 3698610046,
+          "sourceRangeStart": 4215442249,
+          "rangeLength": 79525047
+        },
+        {
+          "destinationRangeStart": 1045870106,
+          "sourceRangeStart": 1586657152,
+          "rangeLength": 41455160
+        },
+        {
+          "destinationRangeStart": 1170866173,
+          "sourceRangeStart": 1322928302,
+          "rangeLength": 17679660
+        },
+        {
+          "destinationRangeStart": 4160148003,
+          "sourceRangeStart": 3332238470,
+          "rangeLength": 107558461
+        },
+        {
+          "destinationRangeStart": 4267706464,
+          "sourceRangeStart": 3853049576,
+          "rangeLength": 27260832
+        },
+        {
           "destinationRangeStart": 0,
-          "sourceRangeStart": 15,
-          "rangeLength": 37
+          "sourceRangeStart": 3007612896,
+          "rangeLength": 90771201
         },
         {
-          "destinationRangeStart": 37,
-          "sourceRangeStart": 52,
-          "rangeLength": 2
+          "destinationRangeStart": 3447204990,
+          "sourceRangeStart": 3880310408,
+          "rangeLength": 249339913
         },
         {
-          "destinationRangeStart": 39,
+          "destinationRangeStart": 1189561657,
+          "sourceRangeStart": 1438888401,
+          "rangeLength": 43309463
+        },
+        {
+          "destinationRangeStart": 4019710828,
+          "sourceRangeStart": 3219712242,
+          "rangeLength": 104981462
+        },
+        {
+          "destinationRangeStart": 2226263856,
+          "sourceRangeStart": 2187322171,
+          "rangeLength": 114088350
+        },
+        {
+          "destinationRangeStart": 553216166,
+          "sourceRangeStart": 1847338068,
+          "rangeLength": 182148047
+        },
+        {
+          "destinationRangeStart": 3217647099,
+          "sourceRangeStart": 3439796931,
+          "rangeLength": 229557891
+        },
+        {
+          "destinationRangeStart": 2832115692,
+          "sourceRangeStart": 1482197864,
+          "rangeLength": 23307900
+        },
+        {
+          "destinationRangeStart": 867366834,
+          "sourceRangeStart": 94995931,
+          "rangeLength": 178503272
+        },
+        {
+          "destinationRangeStart": 1969221237,
           "sourceRangeStart": 0,
-          "rangeLength": 15
+          "rangeLength": 94995931
+        },
+        {
+          "destinationRangeStart": 3785679859,
+          "sourceRangeStart": 3704810535,
+          "rangeLength": 148239041
+        },
+        {
+          "destinationRangeStart": 1095751900,
+          "sourceRangeStart": 2693816297,
+          "rangeLength": 34136630
+        },
+        {
+          "destinationRangeStart": 4124692290,
+          "sourceRangeStart": 3669354822,
+          "rangeLength": 35455713
+        },
+        {
+          "destinationRangeStart": 454935727,
+          "sourceRangeStart": 1340607962,
+          "rangeLength": 98280439
+        },
+        {
+          "destinationRangeStart": 2204466075,
+          "sourceRangeStart": 1628112312,
+          "rangeLength": 21797781
+        },
+        {
+          "destinationRangeStart": 1947833351,
+          "sourceRangeStart": 2164918461,
+          "rangeLength": 21387886
+        },
+        {
+          "destinationRangeStart": 2634687717,
+          "sourceRangeStart": 1649910093,
+          "rangeLength": 197427975
+        },
+        {
+          "destinationRangeStart": 263479107,
+          "sourceRangeStart": 2850768768,
+          "rangeLength": 40192952
+        },
+        {
+          "destinationRangeStart": 3696544903,
+          "sourceRangeStart": 3217647099,
+          "rangeLength": 2065143
+        },
+        {
+          "destinationRangeStart": 735364213,
+          "sourceRangeStart": 1190925681,
+          "rangeLength": 132002621
+        },
+        {
+          "destinationRangeStart": 3050783393,
+          "sourceRangeStart": 2337205982,
+          "rangeLength": 47600704
+        },
+        {
+          "destinationRangeStart": 1087325266,
+          "sourceRangeStart": 2999186262,
+          "rangeLength": 8426634
+        },
+        {
+          "destinationRangeStart": 3778135093,
+          "sourceRangeStart": 3324693704,
+          "rangeLength": 7544766
+        },
+        {
+          "destinationRangeStart": 2855423592,
+          "sourceRangeStart": 273499203,
+          "rangeLength": 195359801
+        },
+        {
+          "destinationRangeStart": 90771201,
+          "sourceRangeStart": 1505505764,
+          "rangeLength": 81151388
+        },
+        {
+          "destinationRangeStart": 2340352206,
+          "sourceRangeStart": 560073018,
+          "rangeLength": 290906919
+        },
+        {
+          "destinationRangeStart": 1531641800,
+          "sourceRangeStart": 939263745,
+          "rangeLength": 107181940
+        },
+        {
+          "destinationRangeStart": 1188545833,
+          "sourceRangeStart": 2186306347,
+          "rangeLength": 1015824
+        },
+        {
+          "destinationRangeStart": 1355686961,
+          "sourceRangeStart": 850979937,
+          "rangeLength": 88283808
+        },
+        {
+          "destinationRangeStart": 1492181516,
+          "sourceRangeStart": 2029486115,
+          "rangeLength": 39460284
+        },
+        {
+          "destinationRangeStart": 1638823740,
+          "sourceRangeStart": 2384806686,
+          "rangeLength": 309009611
+        },
+        {
+          "destinationRangeStart": 2155431182,
+          "sourceRangeStart": 2894390312,
+          "rangeLength": 13239432
+        },
+        {
+          "destinationRangeStart": 1443970769,
+          "sourceRangeStart": 2068946399,
+          "rangeLength": 48210747
+        },
+        {
+          "destinationRangeStart": 1232871120,
+          "sourceRangeStart": 2727952927,
+          "rangeLength": 122815841
+        },
+        {
+          "destinationRangeStart": 3933918900,
+          "sourceRangeStart": 4129650321,
+          "rangeLength": 85791928
+        },
+        {
+          "destinationRangeStart": 2631259125,
+          "sourceRangeStart": 2890961720,
+          "rangeLength": 3428592
+        },
+        {
+          "destinationRangeStart": 407174412,
+          "sourceRangeStart": 2117157146,
+          "rangeLength": 47761315
+        },
+        {
+          "destinationRangeStart": 2168670614,
+          "sourceRangeStart": 2301410521,
+          "rangeLength": 35795461
         }
       ]
     },
@@ -51,24 +432,229 @@
       "destination": "water",
       "items": [
         {
-          "destinationRangeStart": 49,
-          "sourceRangeStart": 53,
-          "rangeLength": 8
+          "destinationRangeStart": 4253126168,
+          "sourceRangeStart": 3603943470,
+          "rangeLength": 41841128
+        },
+        {
+          "destinationRangeStart": 3150812716,
+          "sourceRangeStart": 3873122781,
+          "rangeLength": 161556325
+        },
+        {
+          "destinationRangeStart": 4132148538,
+          "sourceRangeStart": 3445929121,
+          "rangeLength": 16652907
+        },
+        {
+          "destinationRangeStart": 4071215062,
+          "sourceRangeStart": 2557593856,
+          "rangeLength": 10373731
+        },
+        {
+          "destinationRangeStart": 3585414898,
+          "sourceRangeStart": 2401284809,
+          "rangeLength": 61555959
+        },
+        {
+          "destinationRangeStart": 124617758,
+          "sourceRangeStart": 989226185,
+          "rangeLength": 56063423
+        },
+        {
+          "destinationRangeStart": 1311995731,
+          "sourceRangeStart": 916233018,
+          "rangeLength": 72993167
+        },
+        {
+          "destinationRangeStart": 180681181,
+          "sourceRangeStart": 891200267,
+          "rangeLength": 25032751
+        },
+        {
+          "destinationRangeStart": 1577315548,
+          "sourceRangeStart": 1448436684,
+          "rangeLength": 231921083
+        },
+        {
+          "destinationRangeStart": 69948934,
+          "sourceRangeStart": 1391916079,
+          "rangeLength": 39397864
+        },
+        {
+          "destinationRangeStart": 2730663795,
+          "sourceRangeStart": 3577458422,
+          "rangeLength": 26485048
+        },
+        {
+          "destinationRangeStart": 2453473122,
+          "sourceRangeStart": 3255362867,
+          "rangeLength": 102306532
+        },
+        {
+          "destinationRangeStart": 4148801445,
+          "sourceRangeStart": 3801350502,
+          "rangeLength": 12292818
+        },
+        {
+          "destinationRangeStart": 3002725397,
+          "sourceRangeStart": 3107275548,
+          "rangeLength": 148087319
+        },
+        {
+          "destinationRangeStart": 3525935437,
+          "sourceRangeStart": 3813643320,
+          "rangeLength": 59479461
+        },
+        {
+          "destinationRangeStart": 3982955340,
+          "sourceRangeStart": 3357669399,
+          "rangeLength": 88259722
+        },
+        {
+          "destinationRangeStart": 2631712351,
+          "sourceRangeStart": 2567967587,
+          "rangeLength": 98951444
+        },
+        {
+          "destinationRangeStart": 628324302,
+          "sourceRangeStart": 2038793089,
+          "rangeLength": 109830184
+        },
+        {
+          "destinationRangeStart": 3427245435,
+          "sourceRangeStart": 3721480891,
+          "rangeLength": 3936914
+        },
+        {
+          "destinationRangeStart": 796140554,
+          "sourceRangeStart": 1045289608,
+          "rangeLength": 36965524
+        },
+        {
+          "destinationRangeStart": 939693576,
+          "sourceRangeStart": 1140241200,
+          "rangeLength": 24301167
+        },
+        {
+          "destinationRangeStart": 205713932,
+          "sourceRangeStart": 1680357767,
+          "rangeLength": 358435322
+        },
+        {
+          "destinationRangeStart": 4161094263,
+          "sourceRangeStart": 2666919031,
+          "rangeLength": 92031905
+        },
+        {
+          "destinationRangeStart": 1103981621,
+          "sourceRangeStart": 0,
+          "rangeLength": 206162329
+        },
+        {
+          "destinationRangeStart": 1809236631,
+          "sourceRangeStart": 761213122,
+          "rangeLength": 129987145
+        },
+        {
+          "destinationRangeStart": 1310143950,
+          "sourceRangeStart": 1431313943,
+          "rangeLength": 1851781
+        },
+        {
+          "destinationRangeStart": 4081588793,
+          "sourceRangeStart": 3056715803,
+          "rangeLength": 50559745
+        },
+        {
+          "destinationRangeStart": 738154486,
+          "sourceRangeStart": 1082255132,
+          "rangeLength": 57986068
+        },
+        {
+          "destinationRangeStart": 564149254,
+          "sourceRangeStart": 206162329,
+          "rangeLength": 64175048
+        },
+        {
+          "destinationRangeStart": 3722667150,
+          "sourceRangeStart": 4034679106,
+          "rangeLength": 260288190
+        },
+        {
+          "destinationRangeStart": 3431182349,
+          "sourceRangeStart": 2462840768,
+          "rangeLength": 94753088
+        },
+        {
+          "destinationRangeStart": 109346798,
+          "sourceRangeStart": 1433165724,
+          "rangeLength": 15270960
+        },
+        {
+          "destinationRangeStart": 2757148843,
+          "sourceRangeStart": 2811139249,
+          "rangeLength": 245576554
+        },
+        {
+          "destinationRangeStart": 1044349135,
+          "sourceRangeStart": 2294919620,
+          "rangeLength": 59632486
+        },
+        {
+          "destinationRangeStart": 833106078,
+          "sourceRangeStart": 270337377,
+          "rangeLength": 106587498
+        },
+        {
+          "destinationRangeStart": 3646970857,
+          "sourceRangeStart": 3645784598,
+          "rangeLength": 75696293
         },
         {
           "destinationRangeStart": 0,
-          "sourceRangeStart": 11,
-          "rangeLength": 42
+          "sourceRangeStart": 2354552106,
+          "rangeLength": 4006979
         },
         {
-          "destinationRangeStart": 42,
-          "sourceRangeStart": 0,
-          "rangeLength": 7
+          "destinationRangeStart": 1974270838,
+          "sourceRangeStart": 376924875,
+          "rangeLength": 384288247
         },
         {
-          "destinationRangeStart": 57,
-          "sourceRangeStart": 7,
-          "rangeLength": 4
+          "destinationRangeStart": 3312369041,
+          "sourceRangeStart": 3462582028,
+          "rangeLength": 114876394
+        },
+        {
+          "destinationRangeStart": 2401284809,
+          "sourceRangeStart": 2758950936,
+          "rangeLength": 52188313
+        },
+        {
+          "destinationRangeStart": 1384988898,
+          "sourceRangeStart": 1199589429,
+          "rangeLength": 192326650
+        },
+        {
+          "destinationRangeStart": 963994743,
+          "sourceRangeStart": 2214565228,
+          "rangeLength": 80354392
+        },
+        {
+          "destinationRangeStart": 1939223776,
+          "sourceRangeStart": 1164542367,
+          "rangeLength": 35047062
+        },
+        {
+          "destinationRangeStart": 4006979,
+          "sourceRangeStart": 2148623273,
+          "rangeLength": 65941955
+        },
+        {
+          "destinationRangeStart": 2555779654,
+          "sourceRangeStart": 3725417805,
+          "rangeLength": 75932697
         }
       ]
     },
@@ -78,14 +664,219 @@
       "destination": "light",
       "items": [
         {
-          "destinationRangeStart": 88,
-          "sourceRangeStart": 18,
-          "rangeLength": 7
+          "destinationRangeStart": 1553071310,
+          "sourceRangeStart": 2767299260,
+          "rangeLength": 81555093
         },
         {
-          "destinationRangeStart": 18,
-          "sourceRangeStart": 25,
-          "rangeLength": 70
+          "destinationRangeStart": 1638385137,
+          "sourceRangeStart": 3758734,
+          "rangeLength": 7165416
+        },
+        {
+          "destinationRangeStart": 3923895602,
+          "sourceRangeStart": 3742459208,
+          "rangeLength": 355646104
+        },
+        {
+          "destinationRangeStart": 2563492152,
+          "sourceRangeStart": 40550035,
+          "rangeLength": 317968
+        },
+        {
+          "destinationRangeStart": 357175543,
+          "sourceRangeStart": 151852464,
+          "rangeLength": 53516575
+        },
+        {
+          "destinationRangeStart": 756535305,
+          "sourceRangeStart": 2730597762,
+          "rangeLength": 36701498
+        },
+        {
+          "destinationRangeStart": 1142337672,
+          "sourceRangeStart": 1915537677,
+          "rangeLength": 164067723
+        },
+        {
+          "destinationRangeStart": 436470886,
+          "sourceRangeStart": 2848854353,
+          "rangeLength": 61956232
+        },
+        {
+          "destinationRangeStart": 1316538987,
+          "sourceRangeStart": 1679005354,
+          "rangeLength": 102639946
+        },
+        {
+          "destinationRangeStart": 609765571,
+          "sourceRangeStart": 2079605400,
+          "rangeLength": 146769734
+        },
+        {
+          "destinationRangeStart": 1306405395,
+          "sourceRangeStart": 2660382036,
+          "rangeLength": 10133592
+        },
+        {
+          "destinationRangeStart": 3817572860,
+          "sourceRangeStart": 3406157555,
+          "rangeLength": 106322742
+        },
+        {
+          "destinationRangeStart": 2023184953,
+          "sourceRangeStart": 353497588,
+          "rangeLength": 62195869
+        },
+        {
+          "destinationRangeStart": 3531543848,
+          "sourceRangeStart": 4223491605,
+          "rangeLength": 71475691
+        },
+        {
+          "destinationRangeStart": 410692118,
+          "sourceRangeStart": 126073696,
+          "rangeLength": 25778768
+        },
+        {
+          "destinationRangeStart": 4279541706,
+          "sourceRangeStart": 3727562743,
+          "rangeLength": 14896465
+        },
+        {
+          "destinationRangeStart": 2903607795,
+          "sourceRangeStart": 1495097536,
+          "rangeLength": 74179449
+        },
+        {
+          "destinationRangeStart": 1794747312,
+          "sourceRangeStart": 2279656479,
+          "rangeLength": 95385933
+        },
+        {
+          "destinationRangeStart": 2783150325,
+          "sourceRangeStart": 2269091374,
+          "rangeLength": 10565105
+        },
+        {
+          "destinationRangeStart": 3406157555,
+          "sourceRangeStart": 4098105312,
+          "rangeLength": 125386293
+        },
+        {
+          "destinationRangeStart": 2145462956,
+          "sourceRangeStart": 205369039,
+          "rangeLength": 148128549
+        },
+        {
+          "destinationRangeStart": 2833741244,
+          "sourceRangeStart": 2401175172,
+          "rangeLength": 69866551
+        },
+        {
+          "destinationRangeStart": 793236803,
+          "sourceRangeStart": 685594104,
+          "rangeLength": 306384629
+        },
+        {
+          "destinationRangeStart": 1645550553,
+          "sourceRangeStart": 2511185277,
+          "rangeLength": 149196759
+        },
+        {
+          "destinationRangeStart": 1419178933,
+          "sourceRangeStart": 1781645300,
+          "rangeLength": 133892377
+        },
+        {
+          "destinationRangeStart": 1634626403,
+          "sourceRangeStart": 0,
+          "rangeLength": 3758734
+        },
+        {
+          "destinationRangeStart": 3274934245,
+          "sourceRangeStart": 2471041723,
+          "rangeLength": 36449164
+        },
+        {
+          "destinationRangeStart": 0,
+          "sourceRangeStart": 1097896179,
+          "rangeLength": 357175543
+        },
+        {
+          "destinationRangeStart": 2563810120,
+          "sourceRangeStart": 991978733,
+          "rangeLength": 105917446
+        },
+        {
+          "destinationRangeStart": 4294438171,
+          "sourceRangeStart": 3727033618,
+          "rangeLength": 529125
+        },
+        {
+          "destinationRangeStart": 2688189328,
+          "sourceRangeStart": 1569276985,
+          "rangeLength": 94960997
+        },
+        {
+          "destinationRangeStart": 2669727566,
+          "sourceRangeStart": 2507490887,
+          "rangeLength": 3694390
+        },
+        {
+          "destinationRangeStart": 3311383409,
+          "sourceRangeStart": 10924150,
+          "rangeLength": 29625885
+        },
+        {
+          "destinationRangeStart": 1099621432,
+          "sourceRangeStart": 2226375134,
+          "rangeLength": 42716240
+        },
+        {
+          "destinationRangeStart": 1890133245,
+          "sourceRangeStart": 2910810585,
+          "rangeLength": 133051708
+        },
+        {
+          "destinationRangeStart": 583632811,
+          "sourceRangeStart": 2375042412,
+          "rangeLength": 26132760
+        },
+        {
+          "destinationRangeStart": 498427118,
+          "sourceRangeStart": 40868003,
+          "rangeLength": 85205693
+        },
+        {
+          "destinationRangeStart": 2293591505,
+          "sourceRangeStart": 415693457,
+          "rangeLength": 269900647
+        },
+        {
+          "destinationRangeStart": 2673421956,
+          "sourceRangeStart": 1664237982,
+          "rangeLength": 14767372
+        },
+        {
+          "destinationRangeStart": 2085380822,
+          "sourceRangeStart": 2670515628,
+          "rangeLength": 60082134
+        },
+        {
+          "destinationRangeStart": 3603019539,
+          "sourceRangeStart": 3512480297,
+          "rangeLength": 214553321
+        },
+        {
+          "destinationRangeStart": 2977787244,
+          "sourceRangeStart": 3043862293,
+          "rangeLength": 297147001
+        },
+        {
+          "destinationRangeStart": 2793715430,
+          "sourceRangeStart": 1455071722,
+          "rangeLength": 40025814
         }
       ]
     },
@@ -95,19 +886,104 @@
       "destination": "temperature",
       "items": [
         {
-          "destinationRangeStart": 45,
-          "sourceRangeStart": 77,
-          "rangeLength": 23
+          "destinationRangeStart": 3752181853,
+          "sourceRangeStart": 3850028427,
+          "rangeLength": 61847460
         },
         {
-          "destinationRangeStart": 81,
-          "sourceRangeStart": 45,
-          "rangeLength": 19
+          "destinationRangeStart": 3392702182,
+          "sourceRangeStart": 4061054452,
+          "rangeLength": 68370555
         },
         {
-          "destinationRangeStart": 68,
-          "sourceRangeStart": 64,
-          "rangeLength": 13
+          "destinationRangeStart": 3610251302,
+          "sourceRangeStart": 4129425007,
+          "rangeLength": 141930551
+        },
+        {
+          "destinationRangeStart": 2019529001,
+          "sourceRangeStart": 2633762146,
+          "rangeLength": 55812503
+        },
+        {
+          "destinationRangeStart": 1423059901,
+          "sourceRangeStart": 2612524947,
+          "rangeLength": 21237199
+        },
+        {
+          "destinationRangeStart": 1637625157,
+          "sourceRangeStart": 3160312690,
+          "rangeLength": 128493598
+        },
+        {
+          "destinationRangeStart": 2109055159,
+          "sourceRangeStart": 2018596226,
+          "rangeLength": 368399035
+        },
+        {
+          "destinationRangeStart": 343891384,
+          "sourceRangeStart": 811352094,
+          "rangeLength": 920120231
+        },
+        {
+          "destinationRangeStart": 154347384,
+          "sourceRangeStart": 2422980947,
+          "rangeLength": 189544000
+        },
+        {
+          "destinationRangeStart": 2075341504,
+          "sourceRangeStart": 1978947609,
+          "rangeLength": 33713655
+        },
+        {
+          "destinationRangeStart": 1444297100,
+          "sourceRangeStart": 2966984633,
+          "rangeLength": 193328057
+        },
+        {
+          "destinationRangeStart": 35985686,
+          "sourceRangeStart": 2689574649,
+          "rangeLength": 118361698
+        },
+        {
+          "destinationRangeStart": 2477454194,
+          "sourceRangeStart": 0,
+          "rangeLength": 811352094
+        },
+        {
+          "destinationRangeStart": 1772053717,
+          "sourceRangeStart": 1854798742,
+          "rangeLength": 124148867
+        },
+        {
+          "destinationRangeStart": 1264011615,
+          "sourceRangeStart": 2807936347,
+          "rangeLength": 159048286
+        },
+        {
+          "destinationRangeStart": 0,
+          "sourceRangeStart": 2386995261,
+          "rangeLength": 35985686
+        },
+        {
+          "destinationRangeStart": 1766118755,
+          "sourceRangeStart": 2012661264,
+          "rangeLength": 5934962
+        },
+        {
+          "destinationRangeStart": 3814029313,
+          "sourceRangeStart": 3392702182,
+          "rangeLength": 457326245
+        },
+        {
+          "destinationRangeStart": 3461072737,
+          "sourceRangeStart": 3911875887,
+          "rangeLength": 149178565
+        },
+        {
+          "destinationRangeStart": 1896202584,
+          "sourceRangeStart": 1731472325,
+          "rangeLength": 123326417
         }
       ]
     },
@@ -117,14 +993,89 @@
       "destination": "humidity",
       "items": [
         {
-          "destinationRangeStart": 0,
-          "sourceRangeStart": 69,
-          "rangeLength": 1
+          "destinationRangeStart": 3344602117,
+          "sourceRangeStart": 2991074372,
+          "rangeLength": 262457649
         },
         {
-          "destinationRangeStart": 1,
+          "destinationRangeStart": 1707309180,
+          "sourceRangeStart": 3911386116,
+          "rangeLength": 383581180
+        },
+        {
+          "destinationRangeStart": 3778482785,
+          "sourceRangeStart": 2130995124,
+          "rangeLength": 374719434
+        },
+        {
+          "destinationRangeStart": 3607059766,
+          "sourceRangeStart": 3253532021,
+          "rangeLength": 171423019
+        },
+        {
+          "destinationRangeStart": 584508486,
+          "sourceRangeStart": 478912361,
+          "rangeLength": 161371970
+        },
+        {
+          "destinationRangeStart": 1578590582,
+          "sourceRangeStart": 2505714558,
+          "rangeLength": 128718598
+        },
+        {
+          "destinationRangeStart": 3294145751,
+          "sourceRangeStart": 1806488186,
+          "rangeLength": 50456366
+        },
+        {
+          "destinationRangeStart": 1143023241,
+          "sourceRangeStart": 2829557603,
+          "rangeLength": 161516769
+        },
+        {
+          "destinationRangeStart": 1304540010,
+          "sourceRangeStart": 1856944552,
+          "rangeLength": 274050572
+        },
+        {
+          "destinationRangeStart": 2090890360,
+          "sourceRangeStart": 3424955040,
+          "rangeLength": 344665999
+        },
+        {
+          "destinationRangeStart": 2435556359,
+          "sourceRangeStart": 1143023241,
+          "rangeLength": 663464945
+        },
+        {
+          "destinationRangeStart": 496214964,
+          "sourceRangeStart": 1000471163,
+          "rangeLength": 88293522
+        },
+        {
+          "destinationRangeStart": 0,
+          "sourceRangeStart": 640284331,
+          "rangeLength": 360186832
+        },
+        {
+          "destinationRangeStart": 3099021304,
+          "sourceRangeStart": 2634433156,
+          "rangeLength": 195124447
+        },
+        {
+          "destinationRangeStart": 360186832,
+          "sourceRangeStart": 342884229,
+          "rangeLength": 136028132
+        },
+        {
+          "destinationRangeStart": 745880456,
           "sourceRangeStart": 0,
-          "rangeLength": 69
+          "rangeLength": 342884229
+        },
+        {
+          "destinationRangeStart": 4153202219,
+          "sourceRangeStart": 3769621039,
+          "rangeLength": 141765077
         }
       ]
     },
@@ -134,14 +1085,94 @@
       "destination": "location",
       "items": [
         {
-          "destinationRangeStart": 60,
-          "sourceRangeStart": 56,
-          "rangeLength": 37
+          "destinationRangeStart": 3114211644,
+          "sourceRangeStart": 984440400,
+          "rangeLength": 35385940
         },
         {
-          "destinationRangeStart": 56,
-          "sourceRangeStart": 93,
-          "rangeLength": 4
+          "destinationRangeStart": 3530465412,
+          "sourceRangeStart": 479339778,
+          "rangeLength": 128291026
+        },
+        {
+          "destinationRangeStart": 0,
+          "sourceRangeStart": 3699707734,
+          "rangeLength": 285474938
+        },
+        {
+          "destinationRangeStart": 2898087648,
+          "sourceRangeStart": 3606829306,
+          "rangeLength": 92878428
+        },
+        {
+          "destinationRangeStart": 2762235329,
+          "sourceRangeStart": 607630804,
+          "rangeLength": 135852319
+        },
+        {
+          "destinationRangeStart": 4210792153,
+          "sourceRangeStart": 4197161772,
+          "rangeLength": 84175143
+        },
+        {
+          "destinationRangeStart": 3149597584,
+          "sourceRangeStart": 31394121,
+          "rangeLength": 380867828
+        },
+        {
+          "destinationRangeStart": 1848709689,
+          "sourceRangeStart": 0,
+          "rangeLength": 31394121
+        },
+        {
+          "destinationRangeStart": 1880103810,
+          "sourceRangeStart": 412261949,
+          "rangeLength": 67077829
+        },
+        {
+          "destinationRangeStart": 285474938,
+          "sourceRangeStart": 1579019790,
+          "rangeLength": 1563234751
+        },
+        {
+          "destinationRangeStart": 2990966076,
+          "sourceRangeStart": 3566305423,
+          "rangeLength": 40523883
+        },
+        {
+          "destinationRangeStart": 2434079297,
+          "sourceRangeStart": 1019826340,
+          "rangeLength": 328156032
+        },
+        {
+          "destinationRangeStart": 2371232521,
+          "sourceRangeStart": 3985182672,
+          "rangeLength": 62846776
+        },
+        {
+          "destinationRangeStart": 1947181639,
+          "sourceRangeStart": 3142254541,
+          "rangeLength": 424050882
+        },
+        {
+          "destinationRangeStart": 3899713715,
+          "sourceRangeStart": 1347982372,
+          "rangeLength": 148315733
+        },
+        {
+          "destinationRangeStart": 3031489959,
+          "sourceRangeStart": 1496298105,
+          "rangeLength": 82721685
+        },
+        {
+          "destinationRangeStart": 4197161772,
+          "sourceRangeStart": 4281336915,
+          "rangeLength": 13630381
+        },
+        {
+          "destinationRangeStart": 3658756438,
+          "sourceRangeStart": 743483123,
+          "rangeLength": 240957277
         }
       ]
     }
