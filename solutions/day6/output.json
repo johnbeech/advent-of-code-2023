@@ -1,0 +1,32 @@
+{
+  "times": [
+    null,
+    7,
+    15,
+    30
+  ],
+  "distances": [
+    null,
+    9,
+    40,
+    200
+  ],
+  "pairs": [
+    {
+      "time": null,
+      "distance": null
+    },
+    {
+      "time": 7,
+      "distance": 9
+    },
+    {
+      "time": 15,
+      "distance": 40
+    },
+    {
+      "time": 30,
+      "distance": 200
+    }
+  ]
+}
