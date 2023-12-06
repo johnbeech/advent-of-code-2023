@@ -29,6 +29,17 @@ function parseInput (input) {
   }
 }
 
+function parseInputWithKerning (input) {
+  const lines = input.split('\n').map(line => line.trim()).filter(line => line.length)
+  const time = parseInt(lines[0].split(':')[1].trim().replace(/\s+/g, ''), 10)
+  const distance = parseInt(lines[1].split(':')[1].trim().replace(/\s+/g, ''), 10)
+
+  return {
+    time,
+    distance
+  }
+}
+
 function analyzeRaces (raceTimes) {
   const { pairs } = raceTimes
   return pairs.map(analyzeRace)
@@ -63,7 +74,12 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const raceTime = parseInputWithKerning(input)
+  const raceAnalysis = analyzeRace(raceTime)
+
+  report('Analysis:', raceAnalysis)
+  const solution = raceAnalysis.betterDistances.length
+
   report('Solution 2:', solution)
 }
 
