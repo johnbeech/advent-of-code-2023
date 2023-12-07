@@ -162,15 +162,9 @@ async function solveForFirstStar (input) {
   const handBids = parseHandBids(input)
   const cardTests = createCardTests(countOccurances)
   const rankedHands = rankHands(handBids, cardTests)
-
-  rankedHands.forEach(handBid => {
-    handBid.values = handBid.cards.map(card => card.value).join(', ')
-    handBid.cards = handBid.cards.map(card => card.face).join('')
-  })
-
-  await write(fromHere('output-part1.json'), JSON.stringify(rankedHands, null, 2), 'utf8')
-
   const sumOfScores = rankedHands.reduce((acc, handBid) => acc + handBid.score, 0)
+
+  await writeOutputs('output-part1.json', rankedHands)
 
   const solution = sumOfScores
   report('Solution 1:', solution)
@@ -183,15 +177,19 @@ async function solveForSecondStar (input) {
   const rankedHands = rankHands(handBids, cardTests)
   const sumOfScores = rankedHands.reduce((acc, handBid) => acc + handBid.score, 0)
 
+  await writeOutputs('output-part2.json', rankedHands)
+
+  const solution = sumOfScores
+  report('Solution 2:', solution)
+}
+
+async function writeOutputs (filename, rankedHands) {
   rankedHands.forEach(handBid => {
     handBid.values = handBid.cards.map(card => card.value).join(', ')
     handBid.cards = handBid.cards.map(card => card.face).join('')
   })
 
-  await write(fromHere('output-part2.json'), JSON.stringify(rankedHands, null, 2), 'utf8')
-
-  const solution = sumOfScores
-  report('Solution 2:', solution)
+  await write(fromHere(filename), JSON.stringify(rankedHands, null, 2), 'utf8')
 }
 
 run()
