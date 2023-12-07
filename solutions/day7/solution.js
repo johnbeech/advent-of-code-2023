@@ -37,56 +37,89 @@ function countOccurances (items) {
     return acc
   }, {})
 
+  // console.log('Normal occurrences:', occurrences)
+
   return occurrences
 }
 
-const cardTests = [{
-  description: 'Five of a kind',
-  fn: (cards) => cards.every(card => card.value === cards[0].value),
-  rank: 1
-}, {
-  description: 'Four of a kind',
-  fn: (cards) => {
-    const occurrences = countOccurances(cards)
-    return Object.values(occurrences).some(count => count === 4)
-  },
-  rank: 2
-}, {
-  description: 'Full house',
-  fn: (cards) => {
-    const occurrences = countOccurances(cards)
-    return Object.values(occurrences).some(count => count === 3) && Object.values(occurrences).some(count => count === 2)
-  },
-  rank: 3
-}, {
-  description: 'Three of a kind',
-  fn: (cards) => {
-    const occurrences = countOccurances(cards)
-    return Object.values(occurrences).some(count => count === 3) && Object.values(occurrences).some(count => count === 1)
-  },
-  rank: 4
-}, {
-  description: 'Two pair',
-  fn: (cards) => {
-    const occurrences = countOccurances(cards)
-    return Object.values(occurrences).filter(count => count === 2).length === 2
-  },
-  rank: 5
-}, {
-  description: 'One pair',
-  fn: (cards) => {
-    const occurrences = countOccurances(cards)
-    return Object.values(occurrences).filter(count => count === 2).length === 1
-  },
-  rank: 6
-}, {
-  description: 'High card',
-  fn: (cards) => {
-    const occurrences = countOccurances(cards)
-    return Object.values(occurrences).filter(count => count === 1).length === 5
-  },
-  rank: 7
-}]
+function countOccurancesWithJokers (items) {
+  const occurrences = items.reduce(function (acc, item) {
+    const key = item?.face ?? item
+    if (typeof acc[key] === 'undefined') {
+      acc[key] = 1
+    } else {
+      acc[key] += 1
+    }
+    return acc
+  }, {})
+
+  const jokers = occurrences.J
+  if (jokers && jokers !== 5) {
+    delete occurrences.J
+    const best = Object.entries(occurrences).sort((a, b) => {
+      return b[1] - a[1]
+    })[0][0]
+    occurrences[best] += jokers
+  }
+
+  // console.log('Joker occurrences:', occurrences)
+
+  return occurrences
+}
+
+function createCardTests (countFn) {
+  const cardTests = [{
+    description: 'Five of a kind',
+    fn: (cards) => {
+      const occurrences = countFn(cards)
+      return Object.values(occurrences).some(count => count === 5)
+    },
+    rank: 1
+  }, {
+    description: 'Four of a kind',
+    fn: (cards) => {
+      const occurrences = countFn(cards)
+      return Object.values(occurrences).some(count => count === 4)
+    },
+    rank: 2
+  }, {
+    description: 'Full house',
+    fn: (cards) => {
+      const occurrences = countFn(cards)
+      return Object.values(occurrences).some(count => count === 3) && Object.values(occurrences).some(count => count === 2)
+    },
+    rank: 3
+  }, {
+    description: 'Three of a kind',
+    fn: (cards) => {
+      const occurrences = countFn(cards)
+      return Object.values(occurrences).some(count => count === 3) && Object.values(occurrences).some(count => count === 1)
+    },
+    rank: 4
+  }, {
+    description: 'Two pair',
+    fn: (cards) => {
+      const occurrences = countFn(cards)
+      return Object.values(occurrences).filter(count => count === 2).length === 2
+    },
+    rank: 5
+  }, {
+    description: 'One pair',
+    fn: (cards) => {
+      const occurrences = countFn(cards)
+      return Object.values(occurrences).filter(count => count === 2).length === 1
+    },
+    rank: 6
+  }, {
+    description: 'High card',
+    fn: (cards) => {
+      const occurrences = countFn(cards)
+      return Object.values(occurrences).filter(count => count === 1).length === 5
+    },
+    rank: 7
+  }]
+  return cardTests
+}
 
 function parseHandBids (input) {
   return input.split('\n').filter(n => n).map(line => {
@@ -96,10 +129,8 @@ function parseHandBids (input) {
   })
 }
 
-async function solveForFirstStar (input) {
-  const handBids = parseHandBids(input)
-
-  const rankedHands = handBids.map(handBid => {
+function rankHands (handBids, cardTests) {
+  return handBids.map(handBid => {
     const { cards } = handBid
     const cardTest = cardTests.find(test => test.fn(cards))
     if (!cardTest) {
@@ -125,6 +156,12 @@ async function solveForFirstStar (input) {
     const score = rank * handBid.bid
     return { ...handBid, rank, score }
   })
+}
+
+async function solveForFirstStar (input) {
+  const handBids = parseHandBids(input)
+  const cardTests = createCardTests(countOccurances)
+  const rankedHands = rankHands(handBids, cardTests)
 
   await write(fromHere('output.json'), JSON.stringify(rankedHands, null, 2), 'utf8')
 
@@ -135,7 +172,20 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  cardTypes.J = { face: 'J', value: 0 }
+  const handBids = parseHandBids(input)
+  const cardTests = createCardTests(countOccurancesWithJokers)
+  const rankedHands = rankHands(handBids, cardTests)
+  const sumOfScores = rankedHands.reduce((acc, handBid) => acc + handBid.score, 0)
+
+  rankedHands.forEach(handBid => {
+    handBid.values = handBid.cards.map(card => card.value).join(', ')
+    handBid.cards = handBid.cards.map(card => card.face).join('')
+  })
+
+  await write(fromHere('output.json'), JSON.stringify(rankedHands, null, 2), 'utf8')
+
+  const solution = sumOfScores
   report('Solution 2:', solution)
 }
 
