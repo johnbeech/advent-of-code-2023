@@ -30,15 +30,15 @@ function parseCardLine (line) {
   const matches = line.match(matcher)
   const [, cardNumber, firstHalf, secondHalf] = matches
   // console.log('Matches', matches)
-  const pickedNumbers = firstHalf.split(' ').filter(n => n).map(n => parseInt(n, 10))
-  const drawnNumbers = secondHalf.split(' ').filter(n => n).map(n => parseInt(n, 10))
-  const winningNumbers = pickedNumbers.filter(n => drawnNumbers.includes(n))
+  const drawnNumbers = firstHalf.split(' ').filter(n => n).map(n => parseInt(n, 10))
+  const numbersYouHave = secondHalf.split(' ').filter(n => n).map(n => parseInt(n, 10))
+  const winningNumbers = drawnNumbers.filter(n => numbersYouHave.includes(n))
   const cardsToCopy = winningNumbers.map((n, i) => Number.parseInt(cardNumber) + i + 1)
 
   return {
     card: Number.parseInt(cardNumber),
-    pickedNumbers,
     drawnNumbers,
+    numbersYouHave,
     winningNumbers,
     points: winningNumbers.length ? Math.pow(2, winningNumbers.length - 1) : 0,
     cardsToCopy,
@@ -48,7 +48,7 @@ function parseCardLine (line) {
 
 async function solveForFirstStar (input) {
   const cards = parseCardsFromInput(input)
-  console.log('Cards', cards)
+  // console.log('Cards', cards)
 
   const totalPoints = cards.reduce((total, card) => total + card.points, 0)
   const solution = totalPoints
@@ -59,7 +59,7 @@ async function solveForFirstStar (input) {
 async function solveForSecondStar (input) {
   const cards = parseCardsFromInput(input)
   cards.forEach(card => {
-    console.log('Card:', card)
+    // console.log('Card:', card)
     card.cardsToCopy.forEach(cardId => {
       const cardToCopy = cards.find(card => card.card === cardId)
       cardToCopy.copies = cardToCopy.copies + card.copies
@@ -68,17 +68,23 @@ async function solveForSecondStar (input) {
 
   const sumOfCopies = cards.reduce((total, card) => total + card.copies, 0)
   const solution = sumOfCopies
+
+  bonusReportMostCopiedCard(cards)
+
   report('Solution 2:', solution)
 
+  await write(fromHere('cards.json'), JSON.stringify(cards, null, 2), 'utf8')
+}
+
+function bonusReportMostCopiedCard (cards) {
   const mostCopiedCard = cards.reduce((mostCopied, card) => {
     if (card.copies > mostCopied.copies) {
       return card
     }
     return mostCopied
   }, { copies: 0 })
-  console.log('Most copied card:', mostCopiedCard)
 
-  await write(fromHere('cards.json'), JSON.stringify(cards, null, 2), 'utf8')
+  console.log('Most copied card:', mostCopiedCard)
 }
 
 run()
