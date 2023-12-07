@@ -1,0 +1,9002 @@
+[
+  {
+    "cards": "23T4Q",
+    "bid": 181,
+    "rank": 1,
+    "testRank": 7,
+    "description": "High card",
+    "score": 181,
+    "values": "2, 3, 10, 4, 12"
+  },
+  {
+    "cards": "24368",
+    "bid": 854,
+    "rank": 2,
+    "testRank": 7,
+    "description": "High card",
+    "score": 1708,
+    "values": "2, 4, 3, 6, 8"
+  },
+  {
+    "cards": "248Q5",
+    "bid": 989,
+    "rank": 3,
+    "testRank": 7,
+    "description": "High card",
+    "score": 2967,
+    "values": "2, 4, 8, 12, 5"
+  },
+  {
+    "cards": "24A8J",
+    "bid": 220,
+    "rank": 4,
+    "testRank": 7,
+    "description": "High card",
+    "score": 880,
+    "values": "2, 4, 14, 8, 11"
+  },
+  {
+    "cards": "25TKJ",
+    "bid": 342,
+    "rank": 5,
+    "testRank": 7,
+    "description": "High card",
+    "score": 1710,
+    "values": "2, 5, 10, 13, 11"
+  },
+  {
+    "cards": "268Q4",
+    "bid": 214,
+    "rank": 6,
+    "testRank": 7,
+    "description": "High card",
+    "score": 1284,
+    "values": "2, 6, 8, 12, 4"
+  },
+  {
+    "cards": "28TKJ",
+    "bid": 737,
+    "rank": 7,
+    "testRank": 7,
+    "description": "High card",
+    "score": 5159,
+    "values": "2, 8, 10, 13, 11"
+  },
+  {
+    "cards": "28TAQ",
+    "bid": 530,
+    "rank": 8,
+    "testRank": 7,
+    "description": "High card",
+    "score": 4240,
+    "values": "2, 8, 10, 14, 12"
+  },
+  {
+    "cards": "297A8",
+    "bid": 994,
+    "rank": 9,
+    "testRank": 7,
+    "description": "High card",
+    "score": 8946,
+    "values": "2, 9, 7, 14, 8"
+  },
+  {
+    "cards": "29TQK",
+    "bid": 772,
+    "rank": 10,
+    "testRank": 7,
+    "description": "High card",
+    "score": 7720,
+    "values": "2, 9, 10, 12, 13"
+  },
+  {
+    "cards": "29K67",
+    "bid": 604,
+    "rank": 11,
+    "testRank": 7,
+    "description": "High card",
+    "score": 6644,
+    "values": "2, 9, 13, 6, 7"
+  },
+  {
+    "cards": "2T4J9",
+    "bid": 874,
+    "rank": 12,
+    "testRank": 7,
+    "description": "High card",
+    "score": 10488,
+    "values": "2, 10, 4, 11, 9"
+  },
+  {
+    "cards": "2T7KQ",
+    "bid": 184,
+    "rank": 13,
+    "testRank": 7,
+    "description": "High card",
+    "score": 2392,
+    "values": "2, 10, 7, 13, 12"
+  },
+  {
+    "cards": "2T8J4",
+    "bid": 367,
+    "rank": 14,
+    "testRank": 7,
+    "description": "High card",
+    "score": 5138,
+    "values": "2, 10, 8, 11, 4"
+  },
+  {
+    "cards": "2J95A",
+    "bid": 757,
+    "rank": 15,
+    "testRank": 7,
+    "description": "High card",
+    "score": 11355,
+    "values": "2, 11, 9, 5, 14"
+  },
+  {
+    "cards": "2A49T",
+    "bid": 163,
+    "rank": 16,
+    "testRank": 7,
+    "description": "High card",
+    "score": 2608,
+    "values": "2, 14, 4, 9, 10"
+  },
+  {
+    "cards": "32495",
+    "bid": 899,
+    "rank": 17,
+    "testRank": 7,
+    "description": "High card",
+    "score": 15283,
+    "values": "3, 2, 4, 9, 5"
+  },
+  {
+    "cards": "34T72",
+    "bid": 114,
+    "rank": 18,
+    "testRank": 7,
+    "description": "High card",
+    "score": 2052,
+    "values": "3, 4, 10, 7, 2"
+  },
+  {
+    "cards": "356A8",
+    "bid": 462,
+    "rank": 19,
+    "testRank": 7,
+    "description": "High card",
+    "score": 8778,
+    "values": "3, 5, 6, 14, 8"
+  },
+  {
+    "cards": "362A4",
+    "bid": 417,
+    "rank": 20,
+    "testRank": 7,
+    "description": "High card",
+    "score": 8340,
+    "values": "3, 6, 2, 14, 4"
+  },
+  {
+    "cards": "3752Q",
+    "bid": 58,
+    "rank": 21,
+    "testRank": 7,
+    "description": "High card",
+    "score": 1218,
+    "values": "3, 7, 5, 2, 12"
+  },
+  {
+    "cards": "37582",
+    "bid": 162,
+    "rank": 22,
+    "testRank": 7,
+    "description": "High card",
+    "score": 3564,
+    "values": "3, 7, 5, 8, 2"
+  },
+  {
+    "cards": "37JA9",
+    "bid": 432,
+    "rank": 23,
+    "testRank": 7,
+    "description": "High card",
+    "score": 9936,
+    "values": "3, 7, 11, 14, 9"
+  },
+  {
+    "cards": "3829J",
+    "bid": 593,
+    "rank": 24,
+    "testRank": 7,
+    "description": "High card",
+    "score": 14232,
+    "values": "3, 8, 2, 9, 11"
+  },
+  {
+    "cards": "3Q2A6",
+    "bid": 760,
+    "rank": 25,
+    "testRank": 7,
+    "description": "High card",
+    "score": 19000,
+    "values": "3, 12, 2, 14, 6"
+  },
+  {
+    "cards": "3Q925",
+    "bid": 670,
+    "rank": 26,
+    "testRank": 7,
+    "description": "High card",
+    "score": 17420,
+    "values": "3, 12, 9, 2, 5"
+  },
+  {
+    "cards": "3K25A",
+    "bid": 712,
+    "rank": 27,
+    "testRank": 7,
+    "description": "High card",
+    "score": 19224,
+    "values": "3, 13, 2, 5, 14"
+  },
+  {
+    "cards": "3KQ4T",
+    "bid": 985,
+    "rank": 28,
+    "testRank": 7,
+    "description": "High card",
+    "score": 27580,
+    "values": "3, 13, 12, 4, 10"
+  },
+  {
+    "cards": "3KQ87",
+    "bid": 718,
+    "rank": 29,
+    "testRank": 7,
+    "description": "High card",
+    "score": 20822,
+    "values": "3, 13, 12, 8, 7"
+  },
+  {
+    "cards": "3A7T9",
+    "bid": 961,
+    "rank": 30,
+    "testRank": 7,
+    "description": "High card",
+    "score": 28830,
+    "values": "3, 14, 7, 10, 9"
+  },
+  {
+    "cards": "3A9K2",
+    "bid": 861,
+    "rank": 31,
+    "testRank": 7,
+    "description": "High card",
+    "score": 26691,
+    "values": "3, 14, 9, 13, 2"
+  },
+  {
+    "cards": "42TK6",
+    "bid": 729,
+    "rank": 32,
+    "testRank": 7,
+    "description": "High card",
+    "score": 23328,
+    "values": "4, 2, 10, 13, 6"
+  },
+  {
+    "cards": "436K9",
+    "bid": 123,
+    "rank": 33,
+    "testRank": 7,
+    "description": "High card",
+    "score": 4059,
+    "values": "4, 3, 6, 13, 9"
+  },
+  {
+    "cards": "45J97",
+    "bid": 152,
+    "rank": 34,
+    "testRank": 7,
+    "description": "High card",
+    "score": 5168,
+    "values": "4, 5, 11, 9, 7"
+  },
+  {
+    "cards": "45QT8",
+    "bid": 581,
+    "rank": 35,
+    "testRank": 7,
+    "description": "High card",
+    "score": 20335,
+    "values": "4, 5, 12, 10, 8"
+  },
+  {
+    "cards": "47J69",
+    "bid": 924,
+    "rank": 36,
+    "testRank": 7,
+    "description": "High card",
+    "score": 33264,
+    "values": "4, 7, 11, 6, 9"
+  },
+  {
+    "cards": "48675",
+    "bid": 277,
+    "rank": 37,
+    "testRank": 7,
+    "description": "High card",
+    "score": 10249,
+    "values": "4, 8, 6, 7, 5"
+  },
+  {
+    "cards": "48T59",
+    "bid": 107,
+    "rank": 38,
+    "testRank": 7,
+    "description": "High card",
+    "score": 4066,
+    "values": "4, 8, 10, 5, 9"
+  },
+  {
+    "cards": "496JK",
+    "bid": 339,
+    "rank": 39,
+    "testRank": 7,
+    "description": "High card",
+    "score": 13221,
+    "values": "4, 9, 6, 11, 13"
+  },
+  {
+    "cards": "49J26",
+    "bid": 423,
+    "rank": 40,
+    "testRank": 7,
+    "description": "High card",
+    "score": 16920,
+    "values": "4, 9, 11, 2, 6"
+  },
+  {
+    "cards": "4T68Q",
+    "bid": 156,
+    "rank": 41,
+    "testRank": 7,
+    "description": "High card",
+    "score": 6396,
+    "values": "4, 10, 6, 8, 12"
+  },
+  {
+    "cards": "4Q23K",
+    "bid": 578,
+    "rank": 42,
+    "testRank": 7,
+    "description": "High card",
+    "score": 24276,
+    "values": "4, 12, 2, 3, 13"
+  },
+  {
+    "cards": "4Q28A",
+    "bid": 726,
+    "rank": 43,
+    "testRank": 7,
+    "description": "High card",
+    "score": 31218,
+    "values": "4, 12, 2, 8, 14"
+  },
+  {
+    "cards": "4K769",
+    "bid": 201,
+    "rank": 44,
+    "testRank": 7,
+    "description": "High card",
+    "score": 8844,
+    "values": "4, 13, 7, 6, 9"
+  },
+  {
+    "cards": "5368J",
+    "bid": 469,
+    "rank": 45,
+    "testRank": 7,
+    "description": "High card",
+    "score": 21105,
+    "values": "5, 3, 6, 8, 11"
+  },
+  {
+    "cards": "53974",
+    "bid": 640,
+    "rank": 46,
+    "testRank": 7,
+    "description": "High card",
+    "score": 29440,
+    "values": "5, 3, 9, 7, 4"
+  },
+  {
+    "cards": "5623J",
+    "bid": 292,
+    "rank": 47,
+    "testRank": 7,
+    "description": "High card",
+    "score": 13724,
+    "values": "5, 6, 2, 3, 11"
+  },
+  {
+    "cards": "5764T",
+    "bid": 315,
+    "rank": 48,
+    "testRank": 7,
+    "description": "High card",
+    "score": 15120,
+    "values": "5, 7, 6, 4, 10"
+  },
+  {
+    "cards": "57AJQ",
+    "bid": 897,
+    "rank": 49,
+    "testRank": 7,
+    "description": "High card",
+    "score": 43953,
+    "values": "5, 7, 14, 11, 12"
+  },
+  {
+    "cards": "5967J",
+    "bid": 827,
+    "rank": 50,
+    "testRank": 7,
+    "description": "High card",
+    "score": 41350,
+    "values": "5, 9, 6, 7, 11"
+  },
+  {
+    "cards": "596J8",
+    "bid": 259,
+    "rank": 51,
+    "testRank": 7,
+    "description": "High card",
+    "score": 13209,
+    "values": "5, 9, 6, 11, 8"
+  },
+  {
+    "cards": "5T267",
+    "bid": 659,
+    "rank": 52,
+    "testRank": 7,
+    "description": "High card",
+    "score": 34268,
+    "values": "5, 10, 2, 6, 7"
+  },
+  {
+    "cards": "5TQ79",
+    "bid": 602,
+    "rank": 53,
+    "testRank": 7,
+    "description": "High card",
+    "score": 31906,
+    "values": "5, 10, 12, 7, 9"
+  },
+  {
+    "cards": "5J329",
+    "bid": 21,
+    "rank": 54,
+    "testRank": 7,
+    "description": "High card",
+    "score": 1134,
+    "values": "5, 11, 3, 2, 9"
+  },
+  {
+    "cards": "5JA64",
+    "bid": 725,
+    "rank": 55,
+    "testRank": 7,
+    "description": "High card",
+    "score": 39875,
+    "values": "5, 11, 14, 6, 4"
+  },
+  {
+    "cards": "5K982",
+    "bid": 537,
+    "rank": 56,
+    "testRank": 7,
+    "description": "High card",
+    "score": 30072,
+    "values": "5, 13, 9, 8, 2"
+  },
+  {
+    "cards": "5A69K",
+    "bid": 881,
+    "rank": 57,
+    "testRank": 7,
+    "description": "High card",
+    "score": 50217,
+    "values": "5, 14, 6, 9, 13"
+  },
+  {
+    "cards": "5A8J2",
+    "bid": 960,
+    "rank": 58,
+    "testRank": 7,
+    "description": "High card",
+    "score": 55680,
+    "values": "5, 14, 8, 11, 2"
+  },
+  {
+    "cards": "62Q5J",
+    "bid": 665,
+    "rank": 59,
+    "testRank": 7,
+    "description": "High card",
+    "score": 39235,
+    "values": "6, 2, 12, 5, 11"
+  },
+  {
+    "cards": "632TK",
+    "bid": 948,
+    "rank": 60,
+    "testRank": 7,
+    "description": "High card",
+    "score": 56880,
+    "values": "6, 3, 2, 10, 13"
+  },
+  {
+    "cards": "63A7Q",
+    "bid": 941,
+    "rank": 61,
+    "testRank": 7,
+    "description": "High card",
+    "score": 57401,
+    "values": "6, 3, 14, 7, 12"
+  },
+  {
+    "cards": "65384",
+    "bid": 914,
+    "rank": 62,
+    "testRank": 7,
+    "description": "High card",
+    "score": 56668,
+    "values": "6, 5, 3, 8, 4"
+  },
+  {
+    "cards": "65Q78",
+    "bid": 488,
+    "rank": 63,
+    "testRank": 7,
+    "description": "High card",
+    "score": 30744,
+    "values": "6, 5, 12, 7, 8"
+  },
+  {
+    "cards": "674AQ",
+    "bid": 186,
+    "rank": 64,
+    "testRank": 7,
+    "description": "High card",
+    "score": 11904,
+    "values": "6, 7, 4, 14, 12"
+  },
+  {
+    "cards": "67K5T",
+    "bid": 632,
+    "rank": 65,
+    "testRank": 7,
+    "description": "High card",
+    "score": 41080,
+    "values": "6, 7, 13, 5, 10"
+  },
+  {
+    "cards": "685Q3",
+    "bid": 885,
+    "rank": 66,
+    "testRank": 7,
+    "description": "High card",
+    "score": 58410,
+    "values": "6, 8, 5, 12, 3"
+  },
+  {
+    "cards": "69743",
+    "bid": 254,
+    "rank": 67,
+    "testRank": 7,
+    "description": "High card",
+    "score": 17018,
+    "values": "6, 9, 7, 4, 3"
+  },
+  {
+    "cards": "69Q4A",
+    "bid": 764,
+    "rank": 68,
+    "testRank": 7,
+    "description": "High card",
+    "score": 51952,
+    "values": "6, 9, 12, 4, 14"
+  },
+  {
+    "cards": "6J234",
+    "bid": 615,
+    "rank": 69,
+    "testRank": 7,
+    "description": "High card",
+    "score": 42435,
+    "values": "6, 11, 2, 3, 4"
+  },
+  {
+    "cards": "6A2J4",
+    "bid": 870,
+    "rank": 70,
+    "testRank": 7,
+    "description": "High card",
+    "score": 60900,
+    "values": "6, 14, 2, 11, 4"
+  },
+  {
+    "cards": "6A49T",
+    "bid": 512,
+    "rank": 71,
+    "testRank": 7,
+    "description": "High card",
+    "score": 36352,
+    "values": "6, 14, 4, 9, 10"
+  },
+  {
+    "cards": "6A9K2",
+    "bid": 127,
+    "rank": 72,
+    "testRank": 7,
+    "description": "High card",
+    "score": 9144,
+    "values": "6, 14, 9, 13, 2"
+  },
+  {
+    "cards": "6AT95",
+    "bid": 696,
+    "rank": 73,
+    "testRank": 7,
+    "description": "High card",
+    "score": 50808,
+    "values": "6, 14, 10, 9, 5"
+  },
+  {
+    "cards": "745QA",
+    "bid": 486,
+    "rank": 74,
+    "testRank": 7,
+    "description": "High card",
+    "score": 35964,
+    "values": "7, 4, 5, 12, 14"
+  },
+  {
+    "cards": "7463Q",
+    "bid": 79,
+    "rank": 75,
+    "testRank": 7,
+    "description": "High card",
+    "score": 5925,
+    "values": "7, 4, 6, 3, 12"
+  },
+  {
+    "cards": "749TK",
+    "bid": 501,
+    "rank": 76,
+    "testRank": 7,
+    "description": "High card",
+    "score": 38076,
+    "values": "7, 4, 9, 10, 13"
+  },
+  {
+    "cards": "752A4",
+    "bid": 888,
+    "rank": 77,
+    "testRank": 7,
+    "description": "High card",
+    "score": 68376,
+    "values": "7, 5, 2, 14, 4"
+  },
+  {
+    "cards": "7548K",
+    "bid": 958,
+    "rank": 78,
+    "testRank": 7,
+    "description": "High card",
+    "score": 74724,
+    "values": "7, 5, 4, 8, 13"
+  },
+  {
+    "cards": "7629A",
+    "bid": 65,
+    "rank": 79,
+    "testRank": 7,
+    "description": "High card",
+    "score": 5135,
+    "values": "7, 6, 2, 9, 14"
+  },
+  {
+    "cards": "762AJ",
+    "bid": 637,
+    "rank": 80,
+    "testRank": 7,
+    "description": "High card",
+    "score": 50960,
+    "values": "7, 6, 2, 14, 11"
+  },
+  {
+    "cards": "76K95",
+    "bid": 940,
+    "rank": 81,
+    "testRank": 7,
+    "description": "High card",
+    "score": 76140,
+    "values": "7, 6, 13, 9, 5"
+  },
+  {
+    "cards": "78A5T",
+    "bid": 548,
+    "rank": 82,
+    "testRank": 7,
+    "description": "High card",
+    "score": 44936,
+    "values": "7, 8, 14, 5, 10"
+  },
+  {
+    "cards": "7945T",
+    "bid": 474,
+    "rank": 83,
+    "testRank": 7,
+    "description": "High card",
+    "score": 39342,
+    "values": "7, 9, 4, 5, 10"
+  },
+  {
+    "cards": "794T6",
+    "bid": 963,
+    "rank": 84,
+    "testRank": 7,
+    "description": "High card",
+    "score": 80892,
+    "values": "7, 9, 4, 10, 6"
+  },
+  {
+    "cards": "794TA",
+    "bid": 272,
+    "rank": 85,
+    "testRank": 7,
+    "description": "High card",
+    "score": 23120,
+    "values": "7, 9, 4, 10, 14"
+  },
+  {
+    "cards": "7TJK2",
+    "bid": 70,
+    "rank": 86,
+    "testRank": 7,
+    "description": "High card",
+    "score": 6020,
+    "values": "7, 10, 11, 13, 2"
+  },
+  {
+    "cards": "7Q594",
+    "bid": 303,
+    "rank": 87,
+    "testRank": 7,
+    "description": "High card",
+    "score": 26361,
+    "values": "7, 12, 5, 9, 4"
+  },
+  {
+    "cards": "7Q629",
+    "bid": 36,
+    "rank": 88,
+    "testRank": 7,
+    "description": "High card",
+    "score": 3168,
+    "values": "7, 12, 6, 2, 9"
+  },
+  {
+    "cards": "7Q6K2",
+    "bid": 4,
+    "rank": 89,
+    "testRank": 7,
+    "description": "High card",
+    "score": 356,
+    "values": "7, 12, 6, 13, 2"
+  },
+  {
+    "cards": "7QT86",
+    "bid": 926,
+    "rank": 90,
+    "testRank": 7,
+    "description": "High card",
+    "score": 83340,
+    "values": "7, 12, 10, 8, 6"
+  },
+  {
+    "cards": "7K249",
+    "bid": 288,
+    "rank": 91,
+    "testRank": 7,
+    "description": "High card",
+    "score": 26208,
+    "values": "7, 13, 2, 4, 9"
+  },
+  {
+    "cards": "7KA42",
+    "bid": 471,
+    "rank": 92,
+    "testRank": 7,
+    "description": "High card",
+    "score": 43332,
+    "values": "7, 13, 14, 4, 2"
+  },
+  {
+    "cards": "7A6TQ",
+    "bid": 101,
+    "rank": 93,
+    "testRank": 7,
+    "description": "High card",
+    "score": 9393,
+    "values": "7, 14, 6, 10, 12"
+  },
+  {
+    "cards": "836TK",
+    "bid": 476,
+    "rank": 94,
+    "testRank": 7,
+    "description": "High card",
+    "score": 44744,
+    "values": "8, 3, 6, 10, 13"
+  },
+  {
+    "cards": "83J27",
+    "bid": 197,
+    "rank": 95,
+    "testRank": 7,
+    "description": "High card",
+    "score": 18715,
+    "values": "8, 3, 11, 2, 7"
+  },
+  {
+    "cards": "83A2J",
+    "bid": 211,
+    "rank": 96,
+    "testRank": 7,
+    "description": "High card",
+    "score": 20256,
+    "values": "8, 3, 14, 2, 11"
+  },
+  {
+    "cards": "83A62",
+    "bid": 812,
+    "rank": 97,
+    "testRank": 7,
+    "description": "High card",
+    "score": 78764,
+    "values": "8, 3, 14, 6, 2"
+  },
+  {
+    "cards": "845QJ",
+    "bid": 589,
+    "rank": 98,
+    "testRank": 7,
+    "description": "High card",
+    "score": 57722,
+    "values": "8, 4, 5, 12, 11"
+  },
+  {
+    "cards": "8654T",
+    "bid": 575,
+    "rank": 99,
+    "testRank": 7,
+    "description": "High card",
+    "score": 56925,
+    "values": "8, 6, 5, 4, 10"
+  },
+  {
+    "cards": "8724K",
+    "bid": 89,
+    "rank": 100,
+    "testRank": 7,
+    "description": "High card",
+    "score": 8900,
+    "values": "8, 7, 2, 4, 13"
+  },
+  {
+    "cards": "875KJ",
+    "bid": 565,
+    "rank": 101,
+    "testRank": 7,
+    "description": "High card",
+    "score": 57065,
+    "values": "8, 7, 5, 13, 11"
+  },
+  {
+    "cards": "87JA5",
+    "bid": 758,
+    "rank": 102,
+    "testRank": 7,
+    "description": "High card",
+    "score": 77316,
+    "values": "8, 7, 11, 14, 5"
+  },
+  {
+    "cards": "87K49",
+    "bid": 142,
+    "rank": 103,
+    "testRank": 7,
+    "description": "High card",
+    "score": 14626,
+    "values": "8, 7, 13, 4, 9"
+  },
+  {
+    "cards": "8927T",
+    "bid": 717,
+    "rank": 104,
+    "testRank": 7,
+    "description": "High card",
+    "score": 74568,
+    "values": "8, 9, 2, 7, 10"
+  },
+  {
+    "cards": "893AQ",
+    "bid": 909,
+    "rank": 105,
+    "testRank": 7,
+    "description": "High card",
+    "score": 95445,
+    "values": "8, 9, 3, 14, 12"
+  },
+  {
+    "cards": "89T5A",
+    "bid": 33,
+    "rank": 106,
+    "testRank": 7,
+    "description": "High card",
+    "score": 3498,
+    "values": "8, 9, 10, 5, 14"
+  },
+  {
+    "cards": "89J64",
+    "bid": 188,
+    "rank": 107,
+    "testRank": 7,
+    "description": "High card",
+    "score": 20116,
+    "values": "8, 9, 11, 6, 4"
+  },
+  {
+    "cards": "8T23A",
+    "bid": 546,
+    "rank": 108,
+    "testRank": 7,
+    "description": "High card",
+    "score": 58968,
+    "values": "8, 10, 2, 3, 14"
+  },
+  {
+    "cards": "8TKJ4",
+    "bid": 660,
+    "rank": 109,
+    "testRank": 7,
+    "description": "High card",
+    "score": 71940,
+    "values": "8, 10, 13, 11, 4"
+  },
+  {
+    "cards": "8TKQ7",
+    "bid": 325,
+    "rank": 110,
+    "testRank": 7,
+    "description": "High card",
+    "score": 35750,
+    "values": "8, 10, 13, 12, 7"
+  },
+  {
+    "cards": "8J7K3",
+    "bid": 986,
+    "rank": 111,
+    "testRank": 7,
+    "description": "High card",
+    "score": 109446,
+    "values": "8, 11, 7, 13, 3"
+  },
+  {
+    "cards": "8JQ47",
+    "bid": 484,
+    "rank": 112,
+    "testRank": 7,
+    "description": "High card",
+    "score": 54208,
+    "values": "8, 11, 12, 4, 7"
+  },
+  {
+    "cards": "8JQK5",
+    "bid": 591,
+    "rank": 113,
+    "testRank": 7,
+    "description": "High card",
+    "score": 66783,
+    "values": "8, 11, 12, 13, 5"
+  },
+  {
+    "cards": "8JAQ2",
+    "bid": 901,
+    "rank": 114,
+    "testRank": 7,
+    "description": "High card",
+    "score": 102714,
+    "values": "8, 11, 14, 12, 2"
+  },
+  {
+    "cards": "8Q76K",
+    "bid": 140,
+    "rank": 115,
+    "testRank": 7,
+    "description": "High card",
+    "score": 16100,
+    "values": "8, 12, 7, 6, 13"
+  },
+  {
+    "cards": "8AT45",
+    "bid": 420,
+    "rank": 116,
+    "testRank": 7,
+    "description": "High card",
+    "score": 48720,
+    "values": "8, 14, 10, 4, 5"
+  },
+  {
+    "cards": "927QT",
+    "bid": 570,
+    "rank": 117,
+    "testRank": 7,
+    "description": "High card",
+    "score": 66690,
+    "values": "9, 2, 7, 12, 10"
+  },
+  {
+    "cards": "935Q4",
+    "bid": 543,
+    "rank": 118,
+    "testRank": 7,
+    "description": "High card",
+    "score": 64074,
+    "values": "9, 3, 5, 12, 4"
+  },
+  {
+    "cards": "93T62",
+    "bid": 550,
+    "rank": 119,
+    "testRank": 7,
+    "description": "High card",
+    "score": 65450,
+    "values": "9, 3, 10, 6, 2"
+  },
+  {
+    "cards": "93J8T",
+    "bid": 483,
+    "rank": 120,
+    "testRank": 7,
+    "description": "High card",
+    "score": 57960,
+    "values": "9, 3, 11, 8, 10"
+  },
+  {
+    "cards": "93JAQ",
+    "bid": 525,
+    "rank": 121,
+    "testRank": 7,
+    "description": "High card",
+    "score": 63525,
+    "values": "9, 3, 11, 14, 12"
+  },
+  {
+    "cards": "94273",
+    "bid": 719,
+    "rank": 122,
+    "testRank": 7,
+    "description": "High card",
+    "score": 87718,
+    "values": "9, 4, 2, 7, 3"
+  },
+  {
+    "cards": "94T28",
+    "bid": 258,
+    "rank": 123,
+    "testRank": 7,
+    "description": "High card",
+    "score": 31734,
+    "values": "9, 4, 10, 2, 8"
+  },
+  {
+    "cards": "95Q78",
+    "bid": 227,
+    "rank": 124,
+    "testRank": 7,
+    "description": "High card",
+    "score": 28148,
+    "values": "9, 5, 12, 7, 8"
+  },
+  {
+    "cards": "97832",
+    "bid": 290,
+    "rank": 125,
+    "testRank": 7,
+    "description": "High card",
+    "score": 36250,
+    "values": "9, 7, 8, 3, 2"
+  },
+  {
+    "cards": "9T43Q",
+    "bid": 93,
+    "rank": 126,
+    "testRank": 7,
+    "description": "High card",
+    "score": 11718,
+    "values": "9, 10, 4, 3, 12"
+  },
+  {
+    "cards": "9J6K8",
+    "bid": 340,
+    "rank": 127,
+    "testRank": 7,
+    "description": "High card",
+    "score": 43180,
+    "values": "9, 11, 6, 13, 8"
+  },
+  {
+    "cards": "9JQA2",
+    "bid": 511,
+    "rank": 128,
+    "testRank": 7,
+    "description": "High card",
+    "score": 65408,
+    "values": "9, 11, 12, 14, 2"
+  },
+  {
+    "cards": "9Q263",
+    "bid": 653,
+    "rank": 129,
+    "testRank": 7,
+    "description": "High card",
+    "score": 84237,
+    "values": "9, 12, 2, 6, 3"
+  },
+  {
+    "cards": "9A286",
+    "bid": 391,
+    "rank": 130,
+    "testRank": 7,
+    "description": "High card",
+    "score": 50830,
+    "values": "9, 14, 2, 8, 6"
+  },
+  {
+    "cards": "T254A",
+    "bid": 212,
+    "rank": 131,
+    "testRank": 7,
+    "description": "High card",
+    "score": 27772,
+    "values": "10, 2, 5, 4, 14"
+  },
+  {
+    "cards": "T2653",
+    "bid": 2,
+    "rank": 132,
+    "testRank": 7,
+    "description": "High card",
+    "score": 264,
+    "values": "10, 2, 6, 5, 3"
+  },
+  {
+    "cards": "T2J5A",
+    "bid": 198,
+    "rank": 133,
+    "testRank": 7,
+    "description": "High card",
+    "score": 26334,
+    "values": "10, 2, 11, 5, 14"
+  },
+  {
+    "cards": "T3QJ8",
+    "bid": 358,
+    "rank": 134,
+    "testRank": 7,
+    "description": "High card",
+    "score": 47972,
+    "values": "10, 3, 12, 11, 8"
+  },
+  {
+    "cards": "T495Q",
+    "bid": 798,
+    "rank": 135,
+    "testRank": 7,
+    "description": "High card",
+    "score": 107730,
+    "values": "10, 4, 9, 5, 12"
+  },
+  {
+    "cards": "T4J67",
+    "bid": 205,
+    "rank": 136,
+    "testRank": 7,
+    "description": "High card",
+    "score": 27880,
+    "values": "10, 4, 11, 6, 7"
+  },
+  {
+    "cards": "T5328",
+    "bid": 686,
+    "rank": 137,
+    "testRank": 7,
+    "description": "High card",
+    "score": 93982,
+    "values": "10, 5, 3, 2, 8"
+  },
+  {
+    "cards": "T583K",
+    "bid": 42,
+    "rank": 138,
+    "testRank": 7,
+    "description": "High card",
+    "score": 5796,
+    "values": "10, 5, 8, 3, 13"
+  },
+  {
+    "cards": "T5K98",
+    "bid": 463,
+    "rank": 139,
+    "testRank": 7,
+    "description": "High card",
+    "score": 64357,
+    "values": "10, 5, 13, 9, 8"
+  },
+  {
+    "cards": "T5A97",
+    "bid": 767,
+    "rank": 140,
+    "testRank": 7,
+    "description": "High card",
+    "score": 107380,
+    "values": "10, 5, 14, 9, 7"
+  },
+  {
+    "cards": "T6385",
+    "bid": 291,
+    "rank": 141,
+    "testRank": 7,
+    "description": "High card",
+    "score": 41031,
+    "values": "10, 6, 3, 8, 5"
+  },
+  {
+    "cards": "T73K6",
+    "bid": 664,
+    "rank": 142,
+    "testRank": 7,
+    "description": "High card",
+    "score": 94288,
+    "values": "10, 7, 3, 13, 6"
+  },
+  {
+    "cards": "T9572",
+    "bid": 731,
+    "rank": 143,
+    "testRank": 7,
+    "description": "High card",
+    "score": 104533,
+    "values": "10, 9, 5, 7, 2"
+  },
+  {
+    "cards": "T9A67",
+    "bid": 382,
+    "rank": 144,
+    "testRank": 7,
+    "description": "High card",
+    "score": 55008,
+    "values": "10, 9, 14, 6, 7"
+  },
+  {
+    "cards": "TJ584",
+    "bid": 169,
+    "rank": 145,
+    "testRank": 7,
+    "description": "High card",
+    "score": 24505,
+    "values": "10, 11, 5, 8, 4"
+  },
+  {
+    "cards": "TQ567",
+    "bid": 845,
+    "rank": 146,
+    "testRank": 7,
+    "description": "High card",
+    "score": 123370,
+    "values": "10, 12, 5, 6, 7"
+  },
+  {
+    "cards": "TA253",
+    "bid": 694,
+    "rank": 147,
+    "testRank": 7,
+    "description": "High card",
+    "score": 102018,
+    "values": "10, 14, 2, 5, 3"
+  },
+  {
+    "cards": "TA34K",
+    "bid": 229,
+    "rank": 148,
+    "testRank": 7,
+    "description": "High card",
+    "score": 33892,
+    "values": "10, 14, 3, 4, 13"
+  },
+  {
+    "cards": "TA385",
+    "bid": 605,
+    "rank": 149,
+    "testRank": 7,
+    "description": "High card",
+    "score": 90145,
+    "values": "10, 14, 3, 8, 5"
+  },
+  {
+    "cards": "TA4J3",
+    "bid": 296,
+    "rank": 150,
+    "testRank": 7,
+    "description": "High card",
+    "score": 44400,
+    "values": "10, 14, 4, 11, 3"
+  },
+  {
+    "cards": "J2759",
+    "bid": 46,
+    "rank": 151,
+    "testRank": 7,
+    "description": "High card",
+    "score": 6946,
+    "values": "11, 2, 7, 5, 9"
+  },
+  {
+    "cards": "J2K9T",
+    "bid": 305,
+    "rank": 152,
+    "testRank": 7,
+    "description": "High card",
+    "score": 46360,
+    "values": "11, 2, 13, 9, 10"
+  },
+  {
+    "cards": "J39AK",
+    "bid": 371,
+    "rank": 153,
+    "testRank": 7,
+    "description": "High card",
+    "score": 56763,
+    "values": "11, 3, 9, 14, 13"
+  },
+  {
+    "cards": "J72Q5",
+    "bid": 369,
+    "rank": 154,
+    "testRank": 7,
+    "description": "High card",
+    "score": 56826,
+    "values": "11, 7, 2, 12, 5"
+  },
+  {
+    "cards": "J9K38",
+    "bid": 784,
+    "rank": 155,
+    "testRank": 7,
+    "description": "High card",
+    "score": 121520,
+    "values": "11, 9, 13, 3, 8"
+  },
+  {
+    "cards": "JT236",
+    "bid": 249,
+    "rank": 156,
+    "testRank": 7,
+    "description": "High card",
+    "score": 38844,
+    "values": "11, 10, 2, 3, 6"
+  },
+  {
+    "cards": "JT2K3",
+    "bid": 137,
+    "rank": 157,
+    "testRank": 7,
+    "description": "High card",
+    "score": 21509,
+    "values": "11, 10, 2, 13, 3"
+  },
+  {
+    "cards": "JT479",
+    "bid": 736,
+    "rank": 158,
+    "testRank": 7,
+    "description": "High card",
+    "score": 116288,
+    "values": "11, 10, 4, 7, 9"
+  },
+  {
+    "cards": "JQA95",
+    "bid": 855,
+    "rank": 159,
+    "testRank": 7,
+    "description": "High card",
+    "score": 135945,
+    "values": "11, 12, 14, 9, 5"
+  },
+  {
+    "cards": "JK4A5",
+    "bid": 87,
+    "rank": 160,
+    "testRank": 7,
+    "description": "High card",
+    "score": 13920,
+    "values": "11, 13, 4, 14, 5"
+  },
+  {
+    "cards": "JK6AQ",
+    "bid": 117,
+    "rank": 161,
+    "testRank": 7,
+    "description": "High card",
+    "score": 18837,
+    "values": "11, 13, 6, 14, 12"
+  },
+  {
+    "cards": "JA37T",
+    "bid": 628,
+    "rank": 162,
+    "testRank": 7,
+    "description": "High card",
+    "score": 101736,
+    "values": "11, 14, 3, 7, 10"
+  },
+  {
+    "cards": "Q57JT",
+    "bid": 202,
+    "rank": 163,
+    "testRank": 7,
+    "description": "High card",
+    "score": 32926,
+    "values": "12, 5, 7, 11, 10"
+  },
+  {
+    "cards": "Q762J",
+    "bid": 180,
+    "rank": 164,
+    "testRank": 7,
+    "description": "High card",
+    "score": 29520,
+    "values": "12, 7, 6, 2, 11"
+  },
+  {
+    "cards": "Q79KA",
+    "bid": 477,
+    "rank": 165,
+    "testRank": 7,
+    "description": "High card",
+    "score": 78705,
+    "values": "12, 7, 9, 13, 14"
+  },
+  {
+    "cards": "Q7TK4",
+    "bid": 473,
+    "rank": 166,
+    "testRank": 7,
+    "description": "High card",
+    "score": 78518,
+    "values": "12, 7, 10, 13, 4"
+  },
+  {
+    "cards": "Q93A5",
+    "bid": 590,
+    "rank": 167,
+    "testRank": 7,
+    "description": "High card",
+    "score": 98530,
+    "values": "12, 9, 3, 14, 5"
+  },
+  {
+    "cards": "Q96AT",
+    "bid": 820,
+    "rank": 168,
+    "testRank": 7,
+    "description": "High card",
+    "score": 137760,
+    "values": "12, 9, 6, 14, 10"
+  },
+  {
+    "cards": "QT2J5",
+    "bid": 449,
+    "rank": 169,
+    "testRank": 7,
+    "description": "High card",
+    "score": 75881,
+    "values": "12, 10, 2, 11, 5"
+  },
+  {
+    "cards": "QT32K",
+    "bid": 672,
+    "rank": 170,
+    "testRank": 7,
+    "description": "High card",
+    "score": 114240,
+    "values": "12, 10, 3, 2, 13"
+  },
+  {
+    "cards": "QT492",
+    "bid": 865,
+    "rank": 171,
+    "testRank": 7,
+    "description": "High card",
+    "score": 147915,
+    "values": "12, 10, 4, 9, 2"
+  },
+  {
+    "cards": "QT563",
+    "bid": 308,
+    "rank": 172,
+    "testRank": 7,
+    "description": "High card",
+    "score": 52976,
+    "values": "12, 10, 5, 6, 3"
+  },
+  {
+    "cards": "QT869",
+    "bid": 813,
+    "rank": 173,
+    "testRank": 7,
+    "description": "High card",
+    "score": 140649,
+    "values": "12, 10, 8, 6, 9"
+  },
+  {
+    "cards": "QTK86",
+    "bid": 705,
+    "rank": 174,
+    "testRank": 7,
+    "description": "High card",
+    "score": 122670,
+    "values": "12, 10, 13, 8, 6"
+  },
+  {
+    "cards": "QJ746",
+    "bid": 430,
+    "rank": 175,
+    "testRank": 7,
+    "description": "High card",
+    "score": 75250,
+    "values": "12, 11, 7, 4, 6"
+  },
+  {
+    "cards": "QJ857",
+    "bid": 465,
+    "rank": 176,
+    "testRank": 7,
+    "description": "High card",
+    "score": 81840,
+    "values": "12, 11, 8, 5, 7"
+  },
+  {
+    "cards": "QJA23",
+    "bid": 40,
+    "rank": 177,
+    "testRank": 7,
+    "description": "High card",
+    "score": 7080,
+    "values": "12, 11, 14, 2, 3"
+  },
+  {
+    "cards": "QK543",
+    "bid": 485,
+    "rank": 178,
+    "testRank": 7,
+    "description": "High card",
+    "score": 86330,
+    "values": "12, 13, 5, 4, 3"
+  },
+  {
+    "cards": "QA397",
+    "bid": 29,
+    "rank": 179,
+    "testRank": 7,
+    "description": "High card",
+    "score": 5191,
+    "values": "12, 14, 3, 9, 7"
+  },
+  {
+    "cards": "QA869",
+    "bid": 422,
+    "rank": 180,
+    "testRank": 7,
+    "description": "High card",
+    "score": 75960,
+    "values": "12, 14, 8, 6, 9"
+  },
+  {
+    "cards": "K354A",
+    "bid": 540,
+    "rank": 181,
+    "testRank": 7,
+    "description": "High card",
+    "score": 97740,
+    "values": "13, 3, 5, 4, 14"
+  },
+  {
+    "cards": "K3647",
+    "bid": 276,
+    "rank": 182,
+    "testRank": 7,
+    "description": "High card",
+    "score": 50232,
+    "values": "13, 3, 6, 4, 7"
+  },
+  {
+    "cards": "K3845",
+    "bid": 19,
+    "rank": 183,
+    "testRank": 7,
+    "description": "High card",
+    "score": 3477,
+    "values": "13, 3, 8, 4, 5"
+  },
+  {
+    "cards": "K3QA5",
+    "bid": 840,
+    "rank": 184,
+    "testRank": 7,
+    "description": "High card",
+    "score": 154560,
+    "values": "13, 3, 12, 14, 5"
+  },
+  {
+    "cards": "K49JA",
+    "bid": 957,
+    "rank": 185,
+    "testRank": 7,
+    "description": "High card",
+    "score": 177045,
+    "values": "13, 4, 9, 11, 14"
+  },
+  {
+    "cards": "K4JQ5",
+    "bid": 442,
+    "rank": 186,
+    "testRank": 7,
+    "description": "High card",
+    "score": 82212,
+    "values": "13, 4, 11, 12, 5"
+  },
+  {
+    "cards": "K59AQ",
+    "bid": 175,
+    "rank": 187,
+    "testRank": 7,
+    "description": "High card",
+    "score": 32725,
+    "values": "13, 5, 9, 14, 12"
+  },
+  {
+    "cards": "K6258",
+    "bid": 466,
+    "rank": 188,
+    "testRank": 7,
+    "description": "High card",
+    "score": 87608,
+    "values": "13, 6, 2, 5, 8"
+  },
+  {
+    "cards": "K6287",
+    "bid": 646,
+    "rank": 189,
+    "testRank": 7,
+    "description": "High card",
+    "score": 122094,
+    "values": "13, 6, 2, 8, 7"
+  },
+  {
+    "cards": "K7JA6",
+    "bid": 873,
+    "rank": 190,
+    "testRank": 7,
+    "description": "High card",
+    "score": 165870,
+    "values": "13, 7, 11, 14, 6"
+  },
+  {
+    "cards": "K7QA8",
+    "bid": 459,
+    "rank": 191,
+    "testRank": 7,
+    "description": "High card",
+    "score": 87669,
+    "values": "13, 7, 12, 14, 8"
+  },
+  {
+    "cards": "K8QT5",
+    "bid": 587,
+    "rank": 192,
+    "testRank": 7,
+    "description": "High card",
+    "score": 112704,
+    "values": "13, 8, 12, 10, 5"
+  },
+  {
+    "cards": "K972Q",
+    "bid": 552,
+    "rank": 193,
+    "testRank": 7,
+    "description": "High card",
+    "score": 106536,
+    "values": "13, 9, 7, 2, 12"
+  },
+  {
+    "cards": "KT2JQ",
+    "bid": 927,
+    "rank": 194,
+    "testRank": 7,
+    "description": "High card",
+    "score": 179838,
+    "values": "13, 10, 2, 11, 12"
+  },
+  {
+    "cards": "KTA96",
+    "bid": 403,
+    "rank": 195,
+    "testRank": 7,
+    "description": "High card",
+    "score": 78585,
+    "values": "13, 10, 14, 9, 6"
+  },
+  {
+    "cards": "KQ293",
+    "bid": 915,
+    "rank": 196,
+    "testRank": 7,
+    "description": "High card",
+    "score": 179340,
+    "values": "13, 12, 2, 9, 3"
+  },
+  {
+    "cards": "A28T5",
+    "bid": 775,
+    "rank": 197,
+    "testRank": 7,
+    "description": "High card",
+    "score": 152675,
+    "values": "14, 2, 8, 10, 5"
+  },
+  {
+    "cards": "A5KJT",
+    "bid": 83,
+    "rank": 198,
+    "testRank": 7,
+    "description": "High card",
+    "score": 16434,
+    "values": "14, 5, 13, 11, 10"
+  },
+  {
+    "cards": "A69J5",
+    "bid": 331,
+    "rank": 199,
+    "testRank": 7,
+    "description": "High card",
+    "score": 65869,
+    "values": "14, 6, 9, 11, 5"
+  },
+  {
+    "cards": "A72K5",
+    "bid": 839,
+    "rank": 200,
+    "testRank": 7,
+    "description": "High card",
+    "score": 167800,
+    "values": "14, 7, 2, 13, 5"
+  },
+  {
+    "cards": "A73T6",
+    "bid": 569,
+    "rank": 201,
+    "testRank": 7,
+    "description": "High card",
+    "score": 114369,
+    "values": "14, 7, 3, 10, 6"
+  },
+  {
+    "cards": "A75J2",
+    "bid": 621,
+    "rank": 202,
+    "testRank": 7,
+    "description": "High card",
+    "score": 125442,
+    "values": "14, 7, 5, 11, 2"
+  },
+  {
+    "cards": "A7K4J",
+    "bid": 190,
+    "rank": 203,
+    "testRank": 7,
+    "description": "High card",
+    "score": 38570,
+    "values": "14, 7, 13, 4, 11"
+  },
+  {
+    "cards": "A84QT",
+    "bid": 616,
+    "rank": 204,
+    "testRank": 7,
+    "description": "High card",
+    "score": 125664,
+    "values": "14, 8, 4, 12, 10"
+  },
+  {
+    "cards": "A9T34",
+    "bid": 10,
+    "rank": 205,
+    "testRank": 7,
+    "description": "High card",
+    "score": 2050,
+    "values": "14, 9, 10, 3, 4"
+  },
+  {
+    "cards": "A9J5T",
+    "bid": 934,
+    "rank": 206,
+    "testRank": 7,
+    "description": "High card",
+    "score": 192404,
+    "values": "14, 9, 11, 5, 10"
+  },
+  {
+    "cards": "AT6K3",
+    "bid": 173,
+    "rank": 207,
+    "testRank": 7,
+    "description": "High card",
+    "score": 35811,
+    "values": "14, 10, 6, 13, 3"
+  },
+  {
+    "cards": "ATJQ5",
+    "bid": 727,
+    "rank": 208,
+    "testRank": 7,
+    "description": "High card",
+    "score": 151216,
+    "values": "14, 10, 11, 12, 5"
+  },
+  {
+    "cards": "AQ2K7",
+    "bid": 740,
+    "rank": 209,
+    "testRank": 7,
+    "description": "High card",
+    "score": 154660,
+    "values": "14, 12, 2, 13, 7"
+  },
+  {
+    "cards": "AQTK2",
+    "bid": 903,
+    "rank": 210,
+    "testRank": 7,
+    "description": "High card",
+    "score": 189630,
+    "values": "14, 12, 10, 13, 2"
+  },
+  {
+    "cards": "AQJT3",
+    "bid": 228,
+    "rank": 211,
+    "testRank": 7,
+    "description": "High card",
+    "score": 48108,
+    "values": "14, 12, 11, 10, 3"
+  },
+  {
+    "cards": "AK478",
+    "bid": 479,
+    "rank": 212,
+    "testRank": 7,
+    "description": "High card",
+    "score": 101548,
+    "values": "14, 13, 4, 7, 8"
+  },
+  {
+    "cards": "224JT",
+    "bid": 571,
+    "rank": 213,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 121623,
+    "values": "2, 2, 4, 11, 10"
+  },
+  {
+    "cards": "228TQ",
+    "bid": 747,
+    "rank": 214,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 159858,
+    "values": "2, 2, 8, 10, 12"
+  },
+  {
+    "cards": "22T69",
+    "bid": 414,
+    "rank": 215,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 89010,
+    "values": "2, 2, 10, 6, 9"
+  },
+  {
+    "cards": "22JQ8",
+    "bid": 789,
+    "rank": 216,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 170424,
+    "values": "2, 2, 11, 12, 8"
+  },
+  {
+    "cards": "23TTJ",
+    "bid": 165,
+    "rank": 217,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 35805,
+    "values": "2, 3, 10, 10, 11"
+  },
+  {
+    "cards": "24372",
+    "bid": 154,
+    "rank": 218,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 33572,
+    "values": "2, 4, 3, 7, 2"
+  },
+  {
+    "cards": "24K4Q",
+    "bid": 195,
+    "rank": 219,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 42705,
+    "values": "2, 4, 13, 4, 12"
+  },
+  {
+    "cards": "263Q3",
+    "bid": 655,
+    "rank": 220,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 144100,
+    "values": "2, 6, 3, 12, 3"
+  },
+  {
+    "cards": "26QKK",
+    "bid": 499,
+    "rank": 221,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 110279,
+    "values": "2, 6, 12, 13, 13"
+  },
+  {
+    "cards": "27433",
+    "bid": 32,
+    "rank": 222,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 7104,
+    "values": "2, 7, 4, 3, 3"
+  },
+  {
+    "cards": "28696",
+    "bid": 389,
+    "rank": 223,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 86747,
+    "values": "2, 8, 6, 9, 6"
+  },
+  {
+    "cards": "28T25",
+    "bid": 505,
+    "rank": 224,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 113120,
+    "values": "2, 8, 10, 2, 5"
+  },
+  {
+    "cards": "293T9",
+    "bid": 993,
+    "rank": 225,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 223425,
+    "values": "2, 9, 3, 10, 9"
+  },
+  {
+    "cards": "29JTT",
+    "bid": 5,
+    "rank": 226,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 1130,
+    "values": "2, 9, 11, 10, 10"
+  },
+  {
+    "cards": "2J74J",
+    "bid": 47,
+    "rank": 227,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 10669,
+    "values": "2, 11, 7, 4, 11"
+  },
+  {
+    "cards": "2J969",
+    "bid": 460,
+    "rank": 228,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 104880,
+    "values": "2, 11, 9, 6, 9"
+  },
+  {
+    "cards": "2JT23",
+    "bid": 592,
+    "rank": 229,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 135568,
+    "values": "2, 11, 10, 2, 3"
+  },
+  {
+    "cards": "2JT77",
+    "bid": 35,
+    "rank": 230,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 8050,
+    "values": "2, 11, 10, 7, 7"
+  },
+  {
+    "cards": "2KTAA",
+    "bid": 373,
+    "rank": 231,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 86163,
+    "values": "2, 13, 10, 14, 14"
+  },
+  {
+    "cards": "2KK7Q",
+    "bid": 39,
+    "rank": 232,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 9048,
+    "values": "2, 13, 13, 7, 12"
+  },
+  {
+    "cards": "2AA5T",
+    "bid": 301,
+    "rank": 233,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 70133,
+    "values": "2, 14, 14, 5, 10"
+  },
+  {
+    "cards": "32396",
+    "bid": 90,
+    "rank": 234,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 21060,
+    "values": "3, 2, 3, 9, 6"
+  },
+  {
+    "cards": "335T6",
+    "bid": 257,
+    "rank": 235,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 60395,
+    "values": "3, 3, 5, 10, 6"
+  },
+  {
+    "cards": "33897",
+    "bid": 343,
+    "rank": 236,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 80948,
+    "values": "3, 3, 8, 9, 7"
+  },
+  {
+    "cards": "33KJT",
+    "bid": 7,
+    "rank": 237,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 1659,
+    "values": "3, 3, 13, 11, 10"
+  },
+  {
+    "cards": "33KQ4",
+    "bid": 988,
+    "rank": 238,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 235144,
+    "values": "3, 3, 13, 12, 4"
+  },
+  {
+    "cards": "38Q55",
+    "bid": 234,
+    "rank": 239,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 55926,
+    "values": "3, 8, 12, 5, 5"
+  },
+  {
+    "cards": "39749",
+    "bid": 455,
+    "rank": 240,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 109200,
+    "values": "3, 9, 7, 4, 9"
+  },
+  {
+    "cards": "39J35",
+    "bid": 661,
+    "rank": 241,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 159301,
+    "values": "3, 9, 11, 3, 5"
+  },
+  {
+    "cards": "3T779",
+    "bid": 481,
+    "rank": 242,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 116402,
+    "values": "3, 10, 7, 7, 9"
+  },
+  {
+    "cards": "3T878",
+    "bid": 159,
+    "rank": 243,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 38637,
+    "values": "3, 10, 8, 7, 8"
+  },
+  {
+    "cards": "3J2T3",
+    "bid": 975,
+    "rank": 244,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 237900,
+    "values": "3, 11, 2, 10, 3"
+  },
+  {
+    "cards": "3J3AT",
+    "bid": 715,
+    "rank": 245,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 175175,
+    "values": "3, 11, 3, 14, 10"
+  },
+  {
+    "cards": "3J8AA",
+    "bid": 800,
+    "rank": 246,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 196800,
+    "values": "3, 11, 8, 14, 14"
+  },
+  {
+    "cards": "3JA73",
+    "bid": 375,
+    "rank": 247,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 92625,
+    "values": "3, 11, 14, 7, 3"
+  },
+  {
+    "cards": "3Q57Q",
+    "bid": 3,
+    "rank": 248,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 744,
+    "values": "3, 12, 5, 7, 12"
+  },
+  {
+    "cards": "3Q8K8",
+    "bid": 902,
+    "rank": 249,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 224598,
+    "values": "3, 12, 8, 13, 8"
+  },
+  {
+    "cards": "3A7AJ",
+    "bid": 302,
+    "rank": 250,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 75500,
+    "values": "3, 14, 7, 14, 11"
+  },
+  {
+    "cards": "434K9",
+    "bid": 356,
+    "rank": 251,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 89356,
+    "values": "4, 3, 4, 13, 9"
+  },
+  {
+    "cards": "43JAA",
+    "bid": 399,
+    "rank": 252,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 100548,
+    "values": "4, 3, 11, 14, 14"
+  },
+  {
+    "cards": "43A4J",
+    "bid": 529,
+    "rank": 253,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 133837,
+    "values": "4, 3, 14, 4, 11"
+  },
+  {
+    "cards": "44237",
+    "bid": 566,
+    "rank": 254,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 143764,
+    "values": "4, 4, 2, 3, 7"
+  },
+  {
+    "cards": "446A3",
+    "bid": 921,
+    "rank": 255,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 234855,
+    "values": "4, 4, 6, 14, 3"
+  },
+  {
+    "cards": "44KA5",
+    "bid": 708,
+    "rank": 256,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 181248,
+    "values": "4, 4, 13, 14, 5"
+  },
+  {
+    "cards": "47AA3",
+    "bid": 161,
+    "rank": 257,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 41377,
+    "values": "4, 7, 14, 14, 3"
+  },
+  {
+    "cards": "48465",
+    "bid": 450,
+    "rank": 258,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 116100,
+    "values": "4, 8, 4, 6, 5"
+  },
+  {
+    "cards": "4922A",
+    "bid": 263,
+    "rank": 259,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 68117,
+    "values": "4, 9, 2, 2, 14"
+  },
+  {
+    "cards": "4T6TJ",
+    "bid": 503,
+    "rank": 260,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 130780,
+    "values": "4, 10, 6, 10, 11"
+  },
+  {
+    "cards": "4J338",
+    "bid": 536,
+    "rank": 261,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 139896,
+    "values": "4, 11, 3, 3, 8"
+  },
+  {
+    "cards": "4J4AQ",
+    "bid": 193,
+    "rank": 262,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 50566,
+    "values": "4, 11, 4, 14, 12"
+  },
+  {
+    "cards": "4J549",
+    "bid": 752,
+    "rank": 263,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 197776,
+    "values": "4, 11, 5, 4, 9"
+  },
+  {
+    "cards": "4J877",
+    "bid": 284,
+    "rank": 264,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 74976,
+    "values": "4, 11, 8, 7, 7"
+  },
+  {
+    "cards": "4Q734",
+    "bid": 821,
+    "rank": 265,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 217565,
+    "values": "4, 12, 7, 3, 4"
+  },
+  {
+    "cards": "4QJQK",
+    "bid": 720,
+    "rank": 266,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 191520,
+    "values": "4, 12, 11, 12, 13"
+  },
+  {
+    "cards": "4K56K",
+    "bid": 383,
+    "rank": 267,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 102261,
+    "values": "4, 13, 5, 6, 13"
+  },
+  {
+    "cards": "4A339",
+    "bid": 439,
+    "rank": 268,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 117652,
+    "values": "4, 14, 3, 3, 9"
+  },
+  {
+    "cards": "4A36A",
+    "bid": 911,
+    "rank": 269,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 245059,
+    "values": "4, 14, 3, 6, 14"
+  },
+  {
+    "cards": "4AT7T",
+    "bid": 490,
+    "rank": 270,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 132300,
+    "values": "4, 14, 10, 7, 10"
+  },
+  {
+    "cards": "4AQJA",
+    "bid": 851,
+    "rank": 271,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 230621,
+    "values": "4, 14, 12, 11, 14"
+  },
+  {
+    "cards": "522J6",
+    "bid": 889,
+    "rank": 272,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 241808,
+    "values": "5, 2, 2, 11, 6"
+  },
+  {
+    "cards": "5262A",
+    "bid": 454,
+    "rank": 273,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 123942,
+    "values": "5, 2, 6, 2, 14"
+  },
+  {
+    "cards": "52A99",
+    "bid": 182,
+    "rank": 274,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 49868,
+    "values": "5, 2, 14, 9, 9"
+  },
+  {
+    "cards": "53424",
+    "bid": 561,
+    "rank": 275,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 154275,
+    "values": "5, 3, 4, 2, 4"
+  },
+  {
+    "cards": "55QJT",
+    "bid": 464,
+    "rank": 276,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 128064,
+    "values": "5, 5, 12, 11, 10"
+  },
+  {
+    "cards": "5677Q",
+    "bid": 146,
+    "rank": 277,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 40442,
+    "values": "5, 6, 7, 7, 12"
+  },
+  {
+    "cards": "57385",
+    "bid": 618,
+    "rank": 278,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 171804,
+    "values": "5, 7, 3, 8, 5"
+  },
+  {
+    "cards": "57J87",
+    "bid": 630,
+    "rank": 279,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 175770,
+    "values": "5, 7, 11, 8, 7"
+  },
+  {
+    "cards": "58226",
+    "bid": 346,
+    "rank": 280,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 96880,
+    "values": "5, 8, 2, 2, 6"
+  },
+  {
+    "cards": "59235",
+    "bid": 644,
+    "rank": 281,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 180964,
+    "values": "5, 9, 2, 3, 5"
+  },
+  {
+    "cards": "5969Q",
+    "bid": 622,
+    "rank": 282,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 175404,
+    "values": "5, 9, 6, 9, 12"
+  },
+  {
+    "cards": "5J3A5",
+    "bid": 246,
+    "rank": 283,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 69618,
+    "values": "5, 11, 3, 14, 5"
+  },
+  {
+    "cards": "5JJ8T",
+    "bid": 931,
+    "rank": 284,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 264404,
+    "values": "5, 11, 11, 8, 10"
+  },
+  {
+    "cards": "5K88T",
+    "bid": 270,
+    "rank": 285,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 76950,
+    "values": "5, 13, 8, 8, 10"
+  },
+  {
+    "cards": "5AA86",
+    "bid": 942,
+    "rank": 286,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 269412,
+    "values": "5, 14, 14, 8, 6"
+  },
+  {
+    "cards": "62599",
+    "bid": 72,
+    "rank": 287,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 20664,
+    "values": "6, 2, 5, 9, 9"
+  },
+  {
+    "cards": "633TJ",
+    "bid": 619,
+    "rank": 288,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 178272,
+    "values": "6, 3, 3, 10, 11"
+  },
+  {
+    "cards": "63979",
+    "bid": 871,
+    "rank": 289,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 251719,
+    "values": "6, 3, 9, 7, 9"
+  },
+  {
+    "cards": "63J38",
+    "bid": 18,
+    "rank": 290,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 5220,
+    "values": "6, 3, 11, 3, 8"
+  },
+  {
+    "cards": "63QQ7",
+    "bid": 443,
+    "rank": 291,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 128913,
+    "values": "6, 3, 12, 12, 7"
+  },
+  {
+    "cards": "63K83",
+    "bid": 444,
+    "rank": 292,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 129648,
+    "values": "6, 3, 13, 8, 3"
+  },
+  {
+    "cards": "64A48",
+    "bid": 965,
+    "rank": 293,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 282745,
+    "values": "6, 4, 14, 4, 8"
+  },
+  {
+    "cards": "65J33",
+    "bid": 990,
+    "rank": 294,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 291060,
+    "values": "6, 5, 11, 3, 3"
+  },
+  {
+    "cards": "65KK3",
+    "bid": 750,
+    "rank": 295,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 221250,
+    "values": "6, 5, 13, 13, 3"
+  },
+  {
+    "cards": "6687Q",
+    "bid": 53,
+    "rank": 296,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 15688,
+    "values": "6, 6, 8, 7, 12"
+  },
+  {
+    "cards": "66T54",
+    "bid": 416,
+    "rank": 297,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 123552,
+    "values": "6, 6, 10, 5, 4"
+  },
+  {
+    "cards": "66Q49",
+    "bid": 991,
+    "rank": 298,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 295318,
+    "values": "6, 6, 12, 4, 9"
+  },
+  {
+    "cards": "66AQ7",
+    "bid": 701,
+    "rank": 299,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 209599,
+    "values": "6, 6, 14, 12, 7"
+  },
+  {
+    "cards": "66AK4",
+    "bid": 168,
+    "rank": 300,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 50400,
+    "values": "6, 6, 14, 13, 4"
+  },
+  {
+    "cards": "67469",
+    "bid": 71,
+    "rank": 301,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 21371,
+    "values": "6, 7, 4, 6, 9"
+  },
+  {
+    "cards": "6898J",
+    "bid": 710,
+    "rank": 302,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 214420,
+    "values": "6, 8, 9, 8, 11"
+  },
+  {
+    "cards": "69657",
+    "bid": 576,
+    "rank": 303,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 174528,
+    "values": "6, 9, 6, 5, 7"
+  },
+  {
+    "cards": "696T2",
+    "bid": 699,
+    "rank": 304,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 212496,
+    "values": "6, 9, 6, 10, 2"
+  },
+  {
+    "cards": "69984",
+    "bid": 786,
+    "rank": 305,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 239730,
+    "values": "6, 9, 9, 8, 4"
+  },
+  {
+    "cards": "69987",
+    "bid": 66,
+    "rank": 306,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 20196,
+    "values": "6, 9, 9, 8, 7"
+  },
+  {
+    "cards": "6TJQ6",
+    "bid": 722,
+    "rank": 307,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 221654,
+    "values": "6, 10, 11, 12, 6"
+  },
+  {
+    "cards": "6TQQK",
+    "bid": 387,
+    "rank": 308,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 119196,
+    "values": "6, 10, 12, 12, 13"
+  },
+  {
+    "cards": "6J344",
+    "bid": 684,
+    "rank": 309,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 211356,
+    "values": "6, 11, 3, 4, 4"
+  },
+  {
+    "cards": "6K339",
+    "bid": 231,
+    "rank": 310,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 71610,
+    "values": "6, 13, 3, 3, 9"
+  },
+  {
+    "cards": "6AT3A",
+    "bid": 293,
+    "rank": 311,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 91123,
+    "values": "6, 14, 10, 3, 14"
+  },
+  {
+    "cards": "726T2",
+    "bid": 174,
+    "rank": 312,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 54288,
+    "values": "7, 2, 6, 10, 2"
+  },
+  {
+    "cards": "736Q6",
+    "bid": 392,
+    "rank": 313,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 122696,
+    "values": "7, 3, 6, 12, 6"
+  },
+  {
+    "cards": "73A44",
+    "bid": 250,
+    "rank": 314,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 78500,
+    "values": "7, 3, 14, 4, 4"
+  },
+  {
+    "cards": "745AA",
+    "bid": 312,
+    "rank": 315,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 98280,
+    "values": "7, 4, 5, 14, 14"
+  },
+  {
+    "cards": "74TTQ",
+    "bid": 17,
+    "rank": 316,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 5372,
+    "values": "7, 4, 10, 10, 12"
+  },
+  {
+    "cards": "758Q7",
+    "bid": 524,
+    "rank": 317,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 166108,
+    "values": "7, 5, 8, 12, 7"
+  },
+  {
+    "cards": "766JA",
+    "bid": 139,
+    "rank": 318,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 44202,
+    "values": "7, 6, 6, 11, 14"
+  },
+  {
+    "cards": "76847",
+    "bid": 130,
+    "rank": 319,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 41470,
+    "values": "7, 6, 8, 4, 7"
+  },
+  {
+    "cards": "7732J",
+    "bid": 514,
+    "rank": 320,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 164480,
+    "values": "7, 7, 3, 2, 11"
+  },
+  {
+    "cards": "7746J",
+    "bid": 639,
+    "rank": 321,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 205119,
+    "values": "7, 7, 4, 6, 11"
+  },
+  {
+    "cards": "778KA",
+    "bid": 594,
+    "rank": 322,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 191268,
+    "values": "7, 7, 8, 13, 14"
+  },
+  {
+    "cards": "77Q96",
+    "bid": 597,
+    "rank": 323,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 192831,
+    "values": "7, 7, 12, 9, 6"
+  },
+  {
+    "cards": "799AJ",
+    "bid": 299,
+    "rank": 324,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 96876,
+    "values": "7, 9, 9, 14, 11"
+  },
+  {
+    "cards": "79J8J",
+    "bid": 104,
+    "rank": 325,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 33800,
+    "values": "7, 9, 11, 8, 11"
+  },
+  {
+    "cards": "7T5T8",
+    "bid": 105,
+    "rank": 326,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 34230,
+    "values": "7, 10, 5, 10, 8"
+  },
+  {
+    "cards": "7J433",
+    "bid": 996,
+    "rank": 327,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 325692,
+    "values": "7, 11, 4, 3, 3"
+  },
+  {
+    "cards": "7JQ79",
+    "bid": 518,
+    "rank": 328,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 169904,
+    "values": "7, 11, 12, 7, 9"
+  },
+  {
+    "cards": "7QJ67",
+    "bid": 102,
+    "rank": 329,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 33558,
+    "values": "7, 12, 11, 6, 7"
+  },
+  {
+    "cards": "7A72J",
+    "bid": 762,
+    "rank": 330,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 251460,
+    "values": "7, 14, 7, 2, 11"
+  },
+  {
+    "cards": "82249",
+    "bid": 984,
+    "rank": 331,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 325704,
+    "values": "8, 2, 2, 4, 9"
+  },
+  {
+    "cards": "82AT8",
+    "bid": 721,
+    "rank": 332,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 239372,
+    "values": "8, 2, 14, 10, 8"
+  },
+  {
+    "cards": "83485",
+    "bid": 782,
+    "rank": 333,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 260406,
+    "values": "8, 3, 4, 8, 5"
+  },
+  {
+    "cards": "83667",
+    "bid": 306,
+    "rank": 334,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 102204,
+    "values": "8, 3, 6, 6, 7"
+  },
+  {
+    "cards": "83922",
+    "bid": 584,
+    "rank": 335,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 195640,
+    "values": "8, 3, 9, 2, 2"
+  },
+  {
+    "cards": "8669J",
+    "bid": 218,
+    "rank": 336,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 73248,
+    "values": "8, 6, 6, 9, 11"
+  },
+  {
+    "cards": "88J2K",
+    "bid": 627,
+    "rank": 337,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 211299,
+    "values": "8, 8, 11, 2, 13"
+  },
+  {
+    "cards": "895K9",
+    "bid": 203,
+    "rank": 338,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 68614,
+    "values": "8, 9, 5, 13, 9"
+  },
+  {
+    "cards": "899QK",
+    "bid": 867,
+    "rank": 339,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 293913,
+    "values": "8, 9, 9, 12, 13"
+  },
+  {
+    "cards": "89J8Q",
+    "bid": 753,
+    "rank": 340,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 256020,
+    "values": "8, 9, 11, 8, 12"
+  },
+  {
+    "cards": "8J3JK",
+    "bid": 560,
+    "rank": 341,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 190960,
+    "values": "8, 11, 3, 11, 13"
+  },
+  {
+    "cards": "8J47J",
+    "bid": 841,
+    "rank": 342,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 287622,
+    "values": "8, 11, 4, 7, 11"
+  },
+  {
+    "cards": "8ATJA",
+    "bid": 857,
+    "rank": 343,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 293951,
+    "values": "8, 14, 10, 11, 14"
+  },
+  {
+    "cards": "8AK44",
+    "bid": 875,
+    "rank": 344,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 301000,
+    "values": "8, 14, 13, 4, 4"
+  },
+  {
+    "cards": "92Q2T",
+    "bid": 558,
+    "rank": 345,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 192510,
+    "values": "9, 2, 12, 2, 10"
+  },
+  {
+    "cards": "94AAQ",
+    "bid": 380,
+    "rank": 346,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 131480,
+    "values": "9, 4, 14, 14, 12"
+  },
+  {
+    "cards": "959J6",
+    "bid": 545,
+    "rank": 347,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 189115,
+    "values": "9, 5, 9, 11, 6"
+  },
+  {
+    "cards": "97A39",
+    "bid": 491,
+    "rank": 348,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 170868,
+    "values": "9, 7, 14, 3, 9"
+  },
+  {
+    "cards": "99567",
+    "bid": 542,
+    "rank": 349,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 189158,
+    "values": "9, 9, 5, 6, 7"
+  },
+  {
+    "cards": "99J86",
+    "bid": 997,
+    "rank": 350,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 348950,
+    "values": "9, 9, 11, 8, 6"
+  },
+  {
+    "cards": "99Q7J",
+    "bid": 413,
+    "rank": 351,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 144963,
+    "values": "9, 9, 12, 7, 11"
+  },
+  {
+    "cards": "9T3TJ",
+    "bid": 26,
+    "rank": 352,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 9152,
+    "values": "9, 10, 3, 10, 11"
+  },
+  {
+    "cards": "9T92J",
+    "bid": 248,
+    "rank": 353,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 87544,
+    "values": "9, 10, 9, 2, 11"
+  },
+  {
+    "cards": "9JTT4",
+    "bid": 457,
+    "rank": 354,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 161778,
+    "values": "9, 11, 10, 10, 4"
+  },
+  {
+    "cards": "9KK4J",
+    "bid": 970,
+    "rank": 355,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 344350,
+    "values": "9, 13, 13, 4, 11"
+  },
+  {
+    "cards": "9KK8Q",
+    "bid": 57,
+    "rank": 356,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 20292,
+    "values": "9, 13, 13, 8, 12"
+  },
+  {
+    "cards": "9A9T6",
+    "bid": 502,
+    "rank": 357,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 179214,
+    "values": "9, 14, 9, 10, 6"
+  },
+  {
+    "cards": "9AJA7",
+    "bid": 658,
+    "rank": 358,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 235564,
+    "values": "9, 14, 11, 14, 7"
+  },
+  {
+    "cards": "T27JJ",
+    "bid": 317,
+    "rank": 359,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 113803,
+    "values": "10, 2, 7, 11, 11"
+  },
+  {
+    "cards": "T28AA",
+    "bid": 832,
+    "rank": 360,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 299520,
+    "values": "10, 2, 8, 14, 14"
+  },
+  {
+    "cards": "T2T45",
+    "bid": 6,
+    "rank": 361,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 2166,
+    "values": "10, 2, 10, 4, 5"
+  },
+  {
+    "cards": "T4J6J",
+    "bid": 360,
+    "rank": 362,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 130320,
+    "values": "10, 4, 11, 6, 11"
+  },
+  {
+    "cards": "T4A22",
+    "bid": 409,
+    "rank": 363,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 148467,
+    "values": "10, 4, 14, 2, 2"
+  },
+  {
+    "cards": "T5T9A",
+    "bid": 122,
+    "rank": 364,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 44408,
+    "values": "10, 5, 10, 9, 14"
+  },
+  {
+    "cards": "T5TKQ",
+    "bid": 563,
+    "rank": 365,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 205495,
+    "values": "10, 5, 10, 13, 12"
+  },
+  {
+    "cards": "T5J44",
+    "bid": 868,
+    "rank": 366,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 317688,
+    "values": "10, 5, 11, 4, 4"
+  },
+  {
+    "cards": "T67Q6",
+    "bid": 507,
+    "rank": 367,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 186069,
+    "values": "10, 6, 7, 12, 6"
+  },
+  {
+    "cards": "T6TJK",
+    "bid": 952,
+    "rank": 368,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 350336,
+    "values": "10, 6, 10, 11, 13"
+  },
+  {
+    "cards": "T7QKK",
+    "bid": 329,
+    "rank": 369,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 121401,
+    "values": "10, 7, 12, 13, 13"
+  },
+  {
+    "cards": "T8T67",
+    "bid": 116,
+    "rank": 370,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 42920,
+    "values": "10, 8, 10, 6, 7"
+  },
+  {
+    "cards": "T9228",
+    "bid": 266,
+    "rank": 371,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 98686,
+    "values": "10, 9, 2, 2, 8"
+  },
+  {
+    "cards": "T94J4",
+    "bid": 878,
+    "rank": 372,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 326616,
+    "values": "10, 9, 4, 11, 4"
+  },
+  {
+    "cards": "T99J6",
+    "bid": 677,
+    "rank": 373,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 252521,
+    "values": "10, 9, 9, 11, 6"
+  },
+  {
+    "cards": "TTJ67",
+    "bid": 376,
+    "rank": 374,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 140624,
+    "values": "10, 10, 11, 6, 7"
+  },
+  {
+    "cards": "TTK7Q",
+    "bid": 13,
+    "rank": 375,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 4875,
+    "values": "10, 10, 13, 7, 12"
+  },
+  {
+    "cards": "TQ5Q4",
+    "bid": 624,
+    "rank": 376,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 234624,
+    "values": "10, 12, 5, 12, 4"
+  },
+  {
+    "cards": "TQ8AT",
+    "bid": 980,
+    "rank": 377,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 369460,
+    "values": "10, 12, 8, 14, 10"
+  },
+  {
+    "cards": "TQT4A",
+    "bid": 149,
+    "rank": 378,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 56322,
+    "values": "10, 12, 10, 4, 14"
+  },
+  {
+    "cards": "TAT43",
+    "bid": 748,
+    "rank": 379,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 283492,
+    "values": "10, 14, 10, 4, 3"
+  },
+  {
+    "cards": "TAQTJ",
+    "bid": 969,
+    "rank": 380,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 368220,
+    "values": "10, 14, 12, 10, 11"
+  },
+  {
+    "cards": "J2A82",
+    "bid": 106,
+    "rank": 381,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 40386,
+    "values": "11, 2, 14, 8, 2"
+  },
+  {
+    "cards": "J3634",
+    "bid": 945,
+    "rank": 382,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 360990,
+    "values": "11, 3, 6, 3, 4"
+  },
+  {
+    "cards": "J3868",
+    "bid": 97,
+    "rank": 383,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 37151,
+    "values": "11, 3, 8, 6, 8"
+  },
+  {
+    "cards": "J45A4",
+    "bid": 216,
+    "rank": 384,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 82944,
+    "values": "11, 4, 5, 14, 4"
+  },
+  {
+    "cards": "J5223",
+    "bid": 732,
+    "rank": 385,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 281820,
+    "values": "11, 5, 2, 2, 3"
+  },
+  {
+    "cards": "J58T8",
+    "bid": 831,
+    "rank": 386,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 320766,
+    "values": "11, 5, 8, 10, 8"
+  },
+  {
+    "cards": "J6T77",
+    "bid": 241,
+    "rank": 387,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 93267,
+    "values": "11, 6, 10, 7, 7"
+  },
+  {
+    "cards": "J7479",
+    "bid": 647,
+    "rank": 388,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 251036,
+    "values": "11, 7, 4, 7, 9"
+  },
+  {
+    "cards": "J7725",
+    "bid": 452,
+    "rank": 389,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 175828,
+    "values": "11, 7, 7, 2, 5"
+  },
+  {
+    "cards": "J799T",
+    "bid": 883,
+    "rank": 390,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 344370,
+    "values": "11, 7, 9, 9, 10"
+  },
+  {
+    "cards": "J7K47",
+    "bid": 482,
+    "rank": 391,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 188462,
+    "values": "11, 7, 13, 4, 7"
+  },
+  {
+    "cards": "J83JQ",
+    "bid": 185,
+    "rank": 392,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 72520,
+    "values": "11, 8, 3, 11, 12"
+  },
+  {
+    "cards": "J8A9J",
+    "bid": 920,
+    "rank": 393,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 361560,
+    "values": "11, 8, 14, 9, 11"
+  },
+  {
+    "cards": "J92AA",
+    "bid": 171,
+    "rank": 394,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 67374,
+    "values": "11, 9, 2, 14, 14"
+  },
+  {
+    "cards": "J96Q6",
+    "bid": 884,
+    "rank": 395,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 349180,
+    "values": "11, 9, 6, 12, 6"
+  },
+  {
+    "cards": "J9K97",
+    "bid": 680,
+    "rank": 396,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 269280,
+    "values": "11, 9, 13, 9, 7"
+  },
+  {
+    "cards": "J9KAK",
+    "bid": 557,
+    "rank": 397,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 221129,
+    "values": "11, 9, 13, 14, 13"
+  },
+  {
+    "cards": "JT5J6",
+    "bid": 814,
+    "rank": 398,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 323972,
+    "values": "11, 10, 5, 11, 6"
+  },
+  {
+    "cards": "JTQ6T",
+    "bid": 155,
+    "rank": 399,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 61845,
+    "values": "11, 10, 12, 6, 10"
+  },
+  {
+    "cards": "JJ87K",
+    "bid": 667,
+    "rank": 400,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 266800,
+    "values": "11, 11, 8, 7, 13"
+  },
+  {
+    "cards": "JK556",
+    "bid": 816,
+    "rank": 401,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 327216,
+    "values": "11, 13, 5, 5, 6"
+  },
+  {
+    "cards": "JKQAK",
+    "bid": 412,
+    "rank": 402,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 165624,
+    "values": "11, 13, 12, 14, 13"
+  },
+  {
+    "cards": "JAJK7",
+    "bid": 25,
+    "rank": 403,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 10075,
+    "values": "11, 14, 11, 13, 7"
+  },
+  {
+    "cards": "Q48KQ",
+    "bid": 206,
+    "rank": 404,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 83224,
+    "values": "12, 4, 8, 13, 12"
+  },
+  {
+    "cards": "Q52Q8",
+    "bid": 905,
+    "rank": 405,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 366525,
+    "values": "12, 5, 2, 12, 8"
+  },
+  {
+    "cards": "Q82J8",
+    "bid": 734,
+    "rank": 406,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 298004,
+    "values": "12, 8, 2, 11, 8"
+  },
+  {
+    "cards": "Q838T",
+    "bid": 307,
+    "rank": 407,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 124949,
+    "values": "12, 8, 3, 8, 10"
+  },
+  {
+    "cards": "Q8393",
+    "bid": 157,
+    "rank": 408,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 64056,
+    "values": "12, 8, 3, 9, 3"
+  },
+  {
+    "cards": "Q87QJ",
+    "bid": 600,
+    "rank": 409,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 245400,
+    "values": "12, 8, 7, 12, 11"
+  },
+  {
+    "cards": "QT7T3",
+    "bid": 648,
+    "rank": 410,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 265680,
+    "values": "12, 10, 7, 10, 3"
+  },
+  {
+    "cards": "QJJ58",
+    "bid": 370,
+    "rank": 411,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 152070,
+    "values": "12, 11, 11, 5, 8"
+  },
+  {
+    "cards": "QJQ53",
+    "bid": 626,
+    "rank": 412,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 257912,
+    "values": "12, 11, 12, 5, 3"
+  },
+  {
+    "cards": "QJQ54",
+    "bid": 467,
+    "rank": 413,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 192871,
+    "values": "12, 11, 12, 5, 4"
+  },
+  {
+    "cards": "QQK6J",
+    "bid": 669,
+    "rank": 414,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 276966,
+    "values": "12, 12, 13, 6, 11"
+  },
+  {
+    "cards": "QK477",
+    "bid": 41,
+    "rank": 415,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 17015,
+    "values": "12, 13, 4, 7, 7"
+  },
+  {
+    "cards": "QAQ5T",
+    "bid": 52,
+    "rank": 416,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 21632,
+    "values": "12, 14, 12, 5, 10"
+  },
+  {
+    "cards": "K2J28",
+    "bid": 835,
+    "rank": 417,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 348195,
+    "values": "13, 2, 11, 2, 8"
+  },
+  {
+    "cards": "K39A3",
+    "bid": 160,
+    "rank": 418,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 66880,
+    "values": "13, 3, 9, 14, 3"
+  },
+  {
+    "cards": "K3Q63",
+    "bid": 92,
+    "rank": 419,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 38548,
+    "values": "13, 3, 12, 6, 3"
+  },
+  {
+    "cards": "K585J",
+    "bid": 361,
+    "rank": 420,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 151620,
+    "values": "13, 5, 8, 5, 11"
+  },
+  {
+    "cards": "K7525",
+    "bid": 75,
+    "rank": 421,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 31575,
+    "values": "13, 7, 5, 2, 5"
+  },
+  {
+    "cards": "K84KJ",
+    "bid": 143,
+    "rank": 422,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 60346,
+    "values": "13, 8, 4, 13, 11"
+  },
+  {
+    "cards": "K85TK",
+    "bid": 610,
+    "rank": 423,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 258030,
+    "values": "13, 8, 5, 10, 13"
+  },
+  {
+    "cards": "K8K64",
+    "bid": 535,
+    "rank": 424,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 226840,
+    "values": "13, 8, 13, 6, 4"
+  },
+  {
+    "cards": "K9488",
+    "bid": 245,
+    "rank": 425,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 104125,
+    "values": "13, 9, 4, 8, 8"
+  },
+  {
+    "cards": "KTJ7T",
+    "bid": 255,
+    "rank": 426,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 108630,
+    "values": "13, 10, 11, 7, 10"
+  },
+  {
+    "cards": "KJ773",
+    "bid": 844,
+    "rank": 427,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 360388,
+    "values": "13, 11, 7, 7, 3"
+  },
+  {
+    "cards": "KJQ8Q",
+    "bid": 829,
+    "rank": 428,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 354812,
+    "values": "13, 11, 12, 8, 12"
+  },
+  {
+    "cards": "KQJ2Q",
+    "bid": 742,
+    "rank": 429,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 318318,
+    "values": "13, 12, 11, 2, 12"
+  },
+  {
+    "cards": "KQJK5",
+    "bid": 80,
+    "rank": 430,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 34400,
+    "values": "13, 12, 11, 13, 5"
+  },
+  {
+    "cards": "KK698",
+    "bid": 336,
+    "rank": 431,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 144816,
+    "values": "13, 13, 6, 9, 8"
+  },
+  {
+    "cards": "KK8TA",
+    "bid": 894,
+    "rank": 432,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 386208,
+    "values": "13, 13, 8, 10, 14"
+  },
+  {
+    "cards": "A3384",
+    "bid": 751,
+    "rank": 433,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 325183,
+    "values": "14, 3, 3, 8, 4"
+  },
+  {
+    "cards": "A3Q8A",
+    "bid": 519,
+    "rank": 434,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 225246,
+    "values": "14, 3, 12, 8, 14"
+  },
+  {
+    "cards": "A4TJ4",
+    "bid": 60,
+    "rank": 435,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 26100,
+    "values": "14, 4, 10, 11, 4"
+  },
+  {
+    "cards": "A4JQJ",
+    "bid": 685,
+    "rank": 436,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 298660,
+    "values": "14, 4, 11, 12, 11"
+  },
+  {
+    "cards": "A58TT",
+    "bid": 654,
+    "rank": 437,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 285798,
+    "values": "14, 5, 8, 10, 10"
+  },
+  {
+    "cards": "A5J7A",
+    "bid": 385,
+    "rank": 438,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 168630,
+    "values": "14, 5, 11, 7, 14"
+  },
+  {
+    "cards": "A5A2K",
+    "bid": 577,
+    "rank": 439,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 253303,
+    "values": "14, 5, 14, 2, 13"
+  },
+  {
+    "cards": "A6J33",
+    "bid": 88,
+    "rank": 440,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 38720,
+    "values": "14, 6, 11, 3, 3"
+  },
+  {
+    "cards": "A7J7K",
+    "bid": 415,
+    "rank": 441,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 183015,
+    "values": "14, 7, 11, 7, 13"
+  },
+  {
+    "cards": "A8557",
+    "bid": 553,
+    "rank": 442,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 244426,
+    "values": "14, 8, 5, 5, 7"
+  },
+  {
+    "cards": "A9575",
+    "bid": 261,
+    "rank": 443,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 115623,
+    "values": "14, 9, 5, 7, 5"
+  },
+  {
+    "cards": "A95AT",
+    "bid": 164,
+    "rank": 444,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 72816,
+    "values": "14, 9, 5, 14, 10"
+  },
+  {
+    "cards": "AT9QT",
+    "bid": 153,
+    "rank": 445,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 68085,
+    "values": "14, 10, 9, 12, 10"
+  },
+  {
+    "cards": "ATJQJ",
+    "bid": 690,
+    "rank": 446,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 307740,
+    "values": "14, 10, 11, 12, 11"
+  },
+  {
+    "cards": "AJJ68",
+    "bid": 583,
+    "rank": 447,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 260601,
+    "values": "14, 11, 11, 6, 8"
+  },
+  {
+    "cards": "AJK22",
+    "bid": 649,
+    "rank": 448,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 290752,
+    "values": "14, 11, 13, 2, 2"
+  },
+  {
+    "cards": "AK4A8",
+    "bid": 352,
+    "rank": 449,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 158048,
+    "values": "14, 13, 4, 14, 8"
+  },
+  {
+    "cards": "AK73A",
+    "bid": 951,
+    "rank": 450,
+    "testRank": 6,
+    "description": "One pair",
+    "score": 427950,
+    "values": "14, 13, 7, 3, 14"
+  },
+  {
+    "cards": "22488",
+    "bid": 144,
+    "rank": 451,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 64944,
+    "values": "2, 2, 4, 8, 8"
+  },
+  {
+    "cards": "2255K",
+    "bid": 183,
+    "rank": 452,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 82716,
+    "values": "2, 2, 5, 5, 13"
+  },
+  {
+    "cards": "22A3A",
+    "bid": 656,
+    "rank": 453,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 297168,
+    "values": "2, 2, 14, 3, 14"
+  },
+  {
+    "cards": "24249",
+    "bid": 348,
+    "rank": 454,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 157992,
+    "values": "2, 4, 2, 4, 9"
+  },
+  {
+    "cards": "2424J",
+    "bid": 666,
+    "rank": 455,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 303030,
+    "values": "2, 4, 2, 4, 11"
+  },
+  {
+    "cards": "24334",
+    "bid": 281,
+    "rank": 456,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 128136,
+    "values": "2, 4, 3, 3, 4"
+  },
+  {
+    "cards": "24342",
+    "bid": 500,
+    "rank": 457,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 228500,
+    "values": "2, 4, 3, 4, 2"
+  },
+  {
+    "cards": "24JJ4",
+    "bid": 410,
+    "rank": 458,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 187780,
+    "values": "2, 4, 11, 11, 4"
+  },
+  {
+    "cards": "2552Q",
+    "bid": 532,
+    "rank": 459,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 244188,
+    "values": "2, 5, 5, 2, 12"
+  },
+  {
+    "cards": "25TT2",
+    "bid": 267,
+    "rank": 460,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 122820,
+    "values": "2, 5, 10, 10, 2"
+  },
+  {
+    "cards": "25AA5",
+    "bid": 338,
+    "rank": 461,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 155818,
+    "values": "2, 5, 14, 14, 5"
+  },
+  {
+    "cards": "2662K",
+    "bid": 838,
+    "rank": 462,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 387156,
+    "values": "2, 6, 6, 2, 13"
+  },
+  {
+    "cards": "28Q82",
+    "bid": 521,
+    "rank": 463,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 241223,
+    "values": "2, 8, 12, 8, 2"
+  },
+  {
+    "cards": "2Q2TT",
+    "bid": 200,
+    "rank": 464,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 92800,
+    "values": "2, 12, 2, 10, 10"
+  },
+  {
+    "cards": "2Q2JQ",
+    "bid": 334,
+    "rank": 465,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 155310,
+    "values": "2, 12, 2, 11, 12"
+  },
+  {
+    "cards": "32883",
+    "bid": 378,
+    "rank": 466,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 176148,
+    "values": "3, 2, 8, 8, 3"
+  },
+  {
+    "cards": "3322Q",
+    "bid": 781,
+    "rank": 467,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 364727,
+    "values": "3, 3, 2, 2, 12"
+  },
+  {
+    "cards": "33QKQ",
+    "bid": 448,
+    "rank": 468,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 209664,
+    "values": "3, 3, 12, 13, 12"
+  },
+  {
+    "cards": "35885",
+    "bid": 551,
+    "rank": 469,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 258419,
+    "values": "3, 5, 8, 8, 5"
+  },
+  {
+    "cards": "36436",
+    "bid": 126,
+    "rank": 470,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 59220,
+    "values": "3, 6, 4, 3, 6"
+  },
+  {
+    "cards": "36AA6",
+    "bid": 998,
+    "rank": 471,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 470058,
+    "values": "3, 6, 14, 14, 6"
+  },
+  {
+    "cards": "39395",
+    "bid": 289,
+    "rank": 472,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 136408,
+    "values": "3, 9, 3, 9, 5"
+  },
+  {
+    "cards": "3JQ3Q",
+    "bid": 904,
+    "rank": 473,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 427592,
+    "values": "3, 11, 12, 3, 12"
+  },
+  {
+    "cards": "3Q39Q",
+    "bid": 641,
+    "rank": 474,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 303834,
+    "values": "3, 12, 3, 9, 12"
+  },
+  {
+    "cards": "3K66K",
+    "bid": 834,
+    "rank": 475,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 396150,
+    "values": "3, 13, 6, 6, 13"
+  },
+  {
+    "cards": "3A77A",
+    "bid": 217,
+    "rank": 476,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 103292,
+    "values": "3, 14, 7, 7, 14"
+  },
+  {
+    "cards": "3AA99",
+    "bid": 794,
+    "rank": 477,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 378738,
+    "values": "3, 14, 14, 9, 9"
+  },
+  {
+    "cards": "424Q2",
+    "bid": 846,
+    "rank": 478,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 404388,
+    "values": "4, 2, 4, 12, 2"
+  },
+  {
+    "cards": "43483",
+    "bid": 599,
+    "rank": 479,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 286921,
+    "values": "4, 3, 4, 8, 3"
+  },
+  {
+    "cards": "43A3A",
+    "bid": 652,
+    "rank": 480,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 312960,
+    "values": "4, 3, 14, 3, 14"
+  },
+  {
+    "cards": "4455T",
+    "bid": 150,
+    "rank": 481,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 72150,
+    "values": "4, 4, 5, 5, 10"
+  },
+  {
+    "cards": "447J7",
+    "bid": 273,
+    "rank": 482,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 131586,
+    "values": "4, 4, 7, 11, 7"
+  },
+  {
+    "cards": "44KK7",
+    "bid": 892,
+    "rank": 483,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 430836,
+    "values": "4, 4, 13, 13, 7"
+  },
+  {
+    "cards": "47422",
+    "bid": 82,
+    "rank": 484,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 39688,
+    "values": "4, 7, 4, 2, 2"
+  },
+  {
+    "cards": "4J343",
+    "bid": 638,
+    "rank": 485,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 309430,
+    "values": "4, 11, 3, 4, 3"
+  },
+  {
+    "cards": "4QQ47",
+    "bid": 956,
+    "rank": 486,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 464616,
+    "values": "4, 12, 12, 4, 7"
+  },
+  {
+    "cards": "4QQ4T",
+    "bid": 651,
+    "rank": 487,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 317037,
+    "values": "4, 12, 12, 4, 10"
+  },
+  {
+    "cards": "4K4KJ",
+    "bid": 327,
+    "rank": 488,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 159576,
+    "values": "4, 13, 4, 13, 11"
+  },
+  {
+    "cards": "4KAKA",
+    "bid": 386,
+    "rank": 489,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 188754,
+    "values": "4, 13, 14, 13, 14"
+  },
+  {
+    "cards": "52454",
+    "bid": 634,
+    "rank": 490,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 310660,
+    "values": "5, 2, 4, 5, 4"
+  },
+  {
+    "cards": "53935",
+    "bid": 224,
+    "rank": 491,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 109984,
+    "values": "5, 3, 9, 3, 5"
+  },
+  {
+    "cards": "54745",
+    "bid": 398,
+    "rank": 492,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 195816,
+    "values": "5, 4, 7, 4, 5"
+  },
+  {
+    "cards": "54J54",
+    "bid": 559,
+    "rank": 493,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 275587,
+    "values": "5, 4, 11, 5, 4"
+  },
+  {
+    "cards": "55889",
+    "bid": 445,
+    "rank": 494,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 219830,
+    "values": "5, 5, 8, 8, 9"
+  },
+  {
+    "cards": "58A85",
+    "bid": 673,
+    "rank": 495,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 333135,
+    "values": "5, 8, 14, 8, 5"
+  },
+  {
+    "cards": "59795",
+    "bid": 226,
+    "rank": 496,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 112096,
+    "values": "5, 9, 7, 9, 5"
+  },
+  {
+    "cards": "5T52T",
+    "bid": 446,
+    "rank": 497,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 221662,
+    "values": "5, 10, 5, 2, 10"
+  },
+  {
+    "cards": "5T885",
+    "bid": 896,
+    "rank": 498,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 446208,
+    "values": "5, 10, 8, 8, 5"
+  },
+  {
+    "cards": "5TTQ5",
+    "bid": 324,
+    "rank": 499,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 161676,
+    "values": "5, 10, 10, 12, 5"
+  },
+  {
+    "cards": "5TJJT",
+    "bid": 930,
+    "rank": 500,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 465000,
+    "values": "5, 10, 11, 11, 10"
+  },
+  {
+    "cards": "5JJ66",
+    "bid": 265,
+    "rank": 501,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 132765,
+    "values": "5, 11, 11, 6, 6"
+  },
+  {
+    "cards": "5AA35",
+    "bid": 132,
+    "rank": 502,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 66264,
+    "values": "5, 14, 14, 3, 5"
+  },
+  {
+    "cards": "62767",
+    "bid": 333,
+    "rank": 503,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 167499,
+    "values": "6, 2, 7, 6, 7"
+  },
+  {
+    "cards": "66227",
+    "bid": 262,
+    "rank": 504,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 132048,
+    "values": "6, 6, 2, 2, 7"
+  },
+  {
+    "cards": "66499",
+    "bid": 674,
+    "rank": 505,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 340370,
+    "values": "6, 6, 4, 9, 9"
+  },
+  {
+    "cards": "668T8",
+    "bid": 8,
+    "rank": 506,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 4048,
+    "values": "6, 6, 8, 10, 8"
+  },
+  {
+    "cards": "66TKT",
+    "bid": 918,
+    "rank": 507,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 465426,
+    "values": "6, 6, 10, 13, 10"
+  },
+  {
+    "cards": "66QQJ",
+    "bid": 939,
+    "rank": 508,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 477012,
+    "values": "6, 6, 12, 12, 11"
+  },
+  {
+    "cards": "66K55",
+    "bid": 341,
+    "rank": 509,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 173569,
+    "values": "6, 6, 13, 5, 5"
+  },
+  {
+    "cards": "67647",
+    "bid": 1,
+    "rank": 510,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 510,
+    "values": "6, 7, 6, 4, 7"
+  },
+  {
+    "cards": "67QQ6",
+    "bid": 350,
+    "rank": 511,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 178850,
+    "values": "6, 7, 12, 12, 6"
+  },
+  {
+    "cards": "688QQ",
+    "bid": 836,
+    "rank": 512,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 428032,
+    "values": "6, 8, 8, 12, 12"
+  },
+  {
+    "cards": "69655",
+    "bid": 461,
+    "rank": 513,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 236493,
+    "values": "6, 9, 6, 5, 5"
+  },
+  {
+    "cards": "699J6",
+    "bid": 922,
+    "rank": 514,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 473908,
+    "values": "6, 9, 9, 11, 6"
+  },
+  {
+    "cards": "69Q6Q",
+    "bid": 314,
+    "rank": 515,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 161710,
+    "values": "6, 9, 12, 6, 12"
+  },
+  {
+    "cards": "6K6K2",
+    "bid": 675,
+    "rank": 516,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 348300,
+    "values": "6, 13, 6, 13, 2"
+  },
+  {
+    "cards": "6AJJ6",
+    "bid": 631,
+    "rank": 517,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 326227,
+    "values": "6, 14, 11, 11, 6"
+  },
+  {
+    "cards": "6AJJA",
+    "bid": 716,
+    "rank": 518,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 370888,
+    "values": "6, 14, 11, 11, 14"
+  },
+  {
+    "cards": "72732",
+    "bid": 78,
+    "rank": 519,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 40482,
+    "values": "7, 2, 7, 3, 2"
+  },
+  {
+    "cards": "72AA7",
+    "bid": 623,
+    "rank": 520,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 323960,
+    "values": "7, 2, 14, 14, 7"
+  },
+  {
+    "cards": "7373J",
+    "bid": 950,
+    "rank": 521,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 494950,
+    "values": "7, 3, 7, 3, 11"
+  },
+  {
+    "cards": "73878",
+    "bid": 549,
+    "rank": 522,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 286578,
+    "values": "7, 3, 8, 7, 8"
+  },
+  {
+    "cards": "744AA",
+    "bid": 300,
+    "rank": 523,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 156900,
+    "values": "7, 4, 4, 14, 14"
+  },
+  {
+    "cards": "74547",
+    "bid": 401,
+    "rank": 524,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 210124,
+    "values": "7, 4, 5, 4, 7"
+  },
+  {
+    "cards": "74784",
+    "bid": 973,
+    "rank": 525,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 510825,
+    "values": "7, 4, 7, 8, 4"
+  },
+  {
+    "cards": "772T2",
+    "bid": 730,
+    "rank": 526,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 383980,
+    "values": "7, 7, 2, 10, 2"
+  },
+  {
+    "cards": "773TT",
+    "bid": 862,
+    "rank": 527,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 454274,
+    "values": "7, 7, 3, 10, 10"
+  },
+  {
+    "cards": "77J55",
+    "bid": 880,
+    "rank": 528,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 464640,
+    "values": "7, 7, 11, 5, 5"
+  },
+  {
+    "cards": "7TKTK",
+    "bid": 280,
+    "rank": 529,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 148120,
+    "values": "7, 10, 13, 10, 13"
+  },
+  {
+    "cards": "7KQK7",
+    "bid": 681,
+    "rank": 530,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 360930,
+    "values": "7, 13, 12, 13, 7"
+  },
+  {
+    "cards": "7KK27",
+    "bid": 724,
+    "rank": 531,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 384444,
+    "values": "7, 13, 13, 2, 7"
+  },
+  {
+    "cards": "82929",
+    "bid": 121,
+    "rank": 532,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 64372,
+    "values": "8, 2, 9, 2, 9"
+  },
+  {
+    "cards": "8448T",
+    "bid": 598,
+    "rank": 533,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 318734,
+    "values": "8, 4, 4, 8, 10"
+  },
+  {
+    "cards": "84899",
+    "bid": 807,
+    "rank": 534,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 430938,
+    "values": "8, 4, 8, 9, 9"
+  },
+  {
+    "cards": "8833Q",
+    "bid": 67,
+    "rank": 535,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 35845,
+    "values": "8, 8, 3, 3, 12"
+  },
+  {
+    "cards": "88TTA",
+    "bid": 129,
+    "rank": 536,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 69144,
+    "values": "8, 8, 10, 10, 14"
+  },
+  {
+    "cards": "88JTT",
+    "bid": 59,
+    "rank": 537,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 31683,
+    "values": "8, 8, 11, 10, 10"
+  },
+  {
+    "cards": "88JAA",
+    "bid": 37,
+    "rank": 538,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 19906,
+    "values": "8, 8, 11, 14, 14"
+  },
+  {
+    "cards": "88QQ5",
+    "bid": 76,
+    "rank": 539,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 40964,
+    "values": "8, 8, 12, 12, 5"
+  },
+  {
+    "cards": "8J338",
+    "bid": 332,
+    "rank": 540,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 179280,
+    "values": "8, 11, 3, 3, 8"
+  },
+  {
+    "cards": "8J3J8",
+    "bid": 833,
+    "rank": 541,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 450653,
+    "values": "8, 11, 3, 11, 8"
+  },
+  {
+    "cards": "8Q5Q5",
+    "bid": 828,
+    "rank": 542,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 448776,
+    "values": "8, 12, 5, 12, 5"
+  },
+  {
+    "cards": "8K866",
+    "bid": 379,
+    "rank": 543,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 205797,
+    "values": "8, 13, 8, 6, 6"
+  },
+  {
+    "cards": "8A787",
+    "bid": 187,
+    "rank": 544,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 101728,
+    "values": "8, 14, 7, 8, 7"
+  },
+  {
+    "cards": "92279",
+    "bid": 541,
+    "rank": 545,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 294845,
+    "values": "9, 2, 2, 7, 9"
+  },
+  {
+    "cards": "92T92",
+    "bid": 436,
+    "rank": 546,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 238056,
+    "values": "9, 2, 10, 9, 2"
+  },
+  {
+    "cards": "944T9",
+    "bid": 335,
+    "rank": 547,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 183245,
+    "values": "9, 4, 4, 10, 9"
+  },
+  {
+    "cards": "94K94",
+    "bid": 271,
+    "rank": 548,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 148508,
+    "values": "9, 4, 13, 9, 4"
+  },
+  {
+    "cards": "95449",
+    "bid": 756,
+    "rank": 549,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 415044,
+    "values": "9, 5, 4, 4, 9"
+  },
+  {
+    "cards": "95544",
+    "bid": 860,
+    "rank": 550,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 473000,
+    "values": "9, 5, 5, 4, 4"
+  },
+  {
+    "cards": "95598",
+    "bid": 564,
+    "rank": 551,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 310764,
+    "values": "9, 5, 5, 9, 8"
+  },
+  {
+    "cards": "96976",
+    "bid": 243,
+    "rank": 552,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 134136,
+    "values": "9, 6, 9, 7, 6"
+  },
+  {
+    "cards": "97474",
+    "bid": 86,
+    "rank": 553,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 47558,
+    "values": "9, 7, 4, 7, 4"
+  },
+  {
+    "cards": "97J7J",
+    "bid": 778,
+    "rank": 554,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 431012,
+    "values": "9, 7, 11, 7, 11"
+  },
+  {
+    "cards": "98494",
+    "bid": 907,
+    "rank": 555,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 503385,
+    "values": "9, 8, 4, 9, 4"
+  },
+  {
+    "cards": "98839",
+    "bid": 64,
+    "rank": 556,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 35584,
+    "values": "9, 8, 8, 3, 9"
+  },
+  {
+    "cards": "9898T",
+    "bid": 595,
+    "rank": 557,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 331415,
+    "values": "9, 8, 9, 8, 10"
+  },
+  {
+    "cards": "99JQJ",
+    "bid": 886,
+    "rank": 558,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 494388,
+    "values": "9, 9, 11, 12, 11"
+  },
+  {
+    "cards": "99KK8",
+    "bid": 24,
+    "rank": 559,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 13416,
+    "values": "9, 9, 13, 13, 8"
+  },
+  {
+    "cards": "9J449",
+    "bid": 596,
+    "rank": 560,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 333760,
+    "values": "9, 11, 4, 4, 9"
+  },
+  {
+    "cards": "9JJ95",
+    "bid": 81,
+    "rank": 561,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 45441,
+    "values": "9, 11, 11, 9, 5"
+  },
+  {
+    "cards": "9QTT9",
+    "bid": 120,
+    "rank": 562,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 67440,
+    "values": "9, 12, 10, 10, 9"
+  },
+  {
+    "cards": "9QQK9",
+    "bid": 63,
+    "rank": 563,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 35469,
+    "values": "9, 12, 12, 13, 9"
+  },
+  {
+    "cards": "9K6K6",
+    "bid": 34,
+    "rank": 564,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 19176,
+    "values": "9, 13, 6, 13, 6"
+  },
+  {
+    "cards": "9K9KA",
+    "bid": 869,
+    "rank": 565,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 490985,
+    "values": "9, 13, 9, 13, 14"
+  },
+  {
+    "cards": "9A9AJ",
+    "bid": 585,
+    "rank": 566,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 331110,
+    "values": "9, 14, 9, 14, 11"
+  },
+  {
+    "cards": "T33AA",
+    "bid": 613,
+    "rank": 567,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 347571,
+    "values": "10, 3, 3, 14, 14"
+  },
+  {
+    "cards": "T3883",
+    "bid": 866,
+    "rank": 568,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 491888,
+    "values": "10, 3, 8, 8, 3"
+  },
+  {
+    "cards": "T44KK",
+    "bid": 408,
+    "rank": 569,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 232152,
+    "values": "10, 4, 4, 13, 13"
+  },
+  {
+    "cards": "T4QT4",
+    "bid": 112,
+    "rank": 570,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 63840,
+    "values": "10, 4, 12, 10, 4"
+  },
+  {
+    "cards": "T655T",
+    "bid": 54,
+    "rank": 571,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 30834,
+    "values": "10, 6, 5, 5, 10"
+  },
+  {
+    "cards": "T686T",
+    "bid": 617,
+    "rank": 572,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 352924,
+    "values": "10, 6, 8, 6, 10"
+  },
+  {
+    "cards": "T6TA6",
+    "bid": 932,
+    "rank": 573,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 534036,
+    "values": "10, 6, 10, 14, 6"
+  },
+  {
+    "cards": "T9TQQ",
+    "bid": 451,
+    "rank": 574,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 258874,
+    "values": "10, 9, 10, 12, 12"
+  },
+  {
+    "cards": "TT44J",
+    "bid": 964,
+    "rank": 575,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 554300,
+    "values": "10, 10, 4, 4, 11"
+  },
+  {
+    "cards": "TT949",
+    "bid": 498,
+    "rank": 576,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 286848,
+    "values": "10, 10, 9, 4, 9"
+  },
+  {
+    "cards": "TT99K",
+    "bid": 830,
+    "rank": 577,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 478910,
+    "values": "10, 10, 9, 9, 13"
+  },
+  {
+    "cards": "TJTJ4",
+    "bid": 663,
+    "rank": 578,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 383214,
+    "values": "10, 11, 10, 11, 4"
+  },
+  {
+    "cards": "TJTKK",
+    "bid": 134,
+    "rank": 579,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 77586,
+    "values": "10, 11, 10, 13, 13"
+  },
+  {
+    "cards": "TJJT9",
+    "bid": 698,
+    "rank": 580,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 404840,
+    "values": "10, 11, 11, 10, 9"
+  },
+  {
+    "cards": "TQKKT",
+    "bid": 938,
+    "rank": 581,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 544978,
+    "values": "10, 12, 13, 13, 10"
+  },
+  {
+    "cards": "TA9TA",
+    "bid": 318,
+    "rank": 582,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 185076,
+    "values": "10, 14, 9, 10, 14"
+  },
+  {
+    "cards": "TATA4",
+    "bid": 12,
+    "rank": 583,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 6996,
+    "values": "10, 14, 10, 14, 4"
+  },
+  {
+    "cards": "J22J3",
+    "bid": 609,
+    "rank": 584,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 355656,
+    "values": "11, 2, 2, 11, 3"
+  },
+  {
+    "cards": "J252J",
+    "bid": 683,
+    "rank": 585,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 399555,
+    "values": "11, 2, 5, 2, 11"
+  },
+  {
+    "cards": "J3J36",
+    "bid": 955,
+    "rank": 586,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 559630,
+    "values": "11, 3, 11, 3, 6"
+  },
+  {
+    "cards": "J3AA3",
+    "bid": 808,
+    "rank": 587,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 474296,
+    "values": "11, 3, 14, 14, 3"
+  },
+  {
+    "cards": "J49J9",
+    "bid": 363,
+    "rank": 588,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 213444,
+    "values": "11, 4, 9, 11, 9"
+  },
+  {
+    "cards": "J55J9",
+    "bid": 645,
+    "rank": 589,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 379905,
+    "values": "11, 5, 5, 11, 9"
+  },
+  {
+    "cards": "J5995",
+    "bid": 22,
+    "rank": 590,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 12980,
+    "values": "11, 5, 9, 9, 5"
+  },
+  {
+    "cards": "J5KJK",
+    "bid": 580,
+    "rank": 591,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 342780,
+    "values": "11, 5, 13, 11, 13"
+  },
+  {
+    "cards": "J828J",
+    "bid": 769,
+    "rank": 592,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 455248,
+    "values": "11, 8, 2, 8, 11"
+  },
+  {
+    "cards": "J8448",
+    "bid": 972,
+    "rank": 593,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 576396,
+    "values": "11, 8, 4, 4, 8"
+  },
+  {
+    "cards": "J99J2",
+    "bid": 937,
+    "rank": 594,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 556578,
+    "values": "11, 9, 9, 11, 2"
+  },
+  {
+    "cards": "JJ667",
+    "bid": 974,
+    "rank": 595,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 579530,
+    "values": "11, 11, 6, 6, 7"
+  },
+  {
+    "cards": "JJ9K9",
+    "bid": 612,
+    "rank": 596,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 364752,
+    "values": "11, 11, 9, 13, 9"
+  },
+  {
+    "cards": "JA2AJ",
+    "bid": 992,
+    "rank": 597,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 592224,
+    "values": "11, 14, 2, 14, 11"
+  },
+  {
+    "cards": "Q4433",
+    "bid": 119,
+    "rank": 598,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 71162,
+    "values": "12, 4, 4, 3, 3"
+  },
+  {
+    "cards": "Q646Q",
+    "bid": 96,
+    "rank": 599,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 57504,
+    "values": "12, 6, 4, 6, 12"
+  },
+  {
+    "cards": "Q737Q",
+    "bid": 470,
+    "rank": 600,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 282000,
+    "values": "12, 7, 3, 7, 12"
+  },
+  {
+    "cards": "Q799Q",
+    "bid": 573,
+    "rank": 601,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 344373,
+    "values": "12, 7, 9, 9, 12"
+  },
+  {
+    "cards": "Q8Q98",
+    "bid": 953,
+    "rank": 602,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 573706,
+    "values": "12, 8, 12, 9, 8"
+  },
+  {
+    "cards": "Q9J9Q",
+    "bid": 625,
+    "rank": 603,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 376875,
+    "values": "12, 9, 11, 9, 12"
+  },
+  {
+    "cards": "QTTAA",
+    "bid": 804,
+    "rank": 604,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 485616,
+    "values": "12, 10, 10, 14, 14"
+  },
+  {
+    "cards": "QJ7J7",
+    "bid": 434,
+    "rank": 605,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 262570,
+    "values": "12, 11, 7, 11, 7"
+  },
+  {
+    "cards": "QJ88Q",
+    "bid": 745,
+    "rank": 606,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 451470,
+    "values": "12, 11, 8, 8, 12"
+  },
+  {
+    "cards": "QQ464",
+    "bid": 213,
+    "rank": 607,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 129291,
+    "values": "12, 12, 4, 6, 4"
+  },
+  {
+    "cards": "QQ8T8",
+    "bid": 682,
+    "rank": 608,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 414656,
+    "values": "12, 12, 8, 10, 8"
+  },
+  {
+    "cards": "QKK6Q",
+    "bid": 567,
+    "rank": 609,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 345303,
+    "values": "12, 13, 13, 6, 12"
+  },
+  {
+    "cards": "QA4AQ",
+    "bid": 601,
+    "rank": 610,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 366610,
+    "values": "12, 14, 4, 14, 12"
+  },
+  {
+    "cards": "K22JK",
+    "bid": 662,
+    "rank": 611,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 404482,
+    "values": "13, 2, 2, 11, 13"
+  },
+  {
+    "cards": "K252K",
+    "bid": 298,
+    "rank": 612,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 182376,
+    "values": "13, 2, 5, 2, 13"
+  },
+  {
+    "cards": "K2K26",
+    "bid": 402,
+    "rank": 613,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 246426,
+    "values": "13, 2, 13, 2, 6"
+  },
+  {
+    "cards": "K5577",
+    "bid": 431,
+    "rank": 614,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 264634,
+    "values": "13, 5, 5, 7, 7"
+  },
+  {
+    "cards": "K5KJ5",
+    "bid": 687,
+    "rank": 615,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 422505,
+    "values": "13, 5, 13, 11, 5"
+  },
+  {
+    "cards": "K6336",
+    "bid": 908,
+    "rank": 616,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 559328,
+    "values": "13, 6, 3, 3, 6"
+  },
+  {
+    "cards": "K77QQ",
+    "bid": 744,
+    "rank": 617,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 459048,
+    "values": "13, 7, 7, 12, 12"
+  },
+  {
+    "cards": "KT6TK",
+    "bid": 825,
+    "rank": 618,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 509850,
+    "values": "13, 10, 6, 10, 13"
+  },
+  {
+    "cards": "KKTAA",
+    "bid": 311,
+    "rank": 619,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 192509,
+    "values": "13, 13, 10, 14, 14"
+  },
+  {
+    "cards": "KA7KA",
+    "bid": 847,
+    "rank": 620,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 525140,
+    "values": "13, 14, 7, 13, 14"
+  },
+  {
+    "cards": "A44KA",
+    "bid": 418,
+    "rank": 621,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 259578,
+    "values": "14, 4, 4, 13, 14"
+  },
+  {
+    "cards": "A7227",
+    "bid": 68,
+    "rank": 622,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 42296,
+    "values": "14, 7, 2, 2, 7"
+  },
+  {
+    "cards": "A73A3",
+    "bid": 780,
+    "rank": 623,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 485940,
+    "values": "14, 7, 3, 14, 3"
+  },
+  {
+    "cards": "A8A48",
+    "bid": 959,
+    "rank": 624,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 598416,
+    "values": "14, 8, 14, 4, 8"
+  },
+  {
+    "cards": "A9229",
+    "bid": 125,
+    "rank": 625,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 78125,
+    "values": "14, 9, 2, 2, 9"
+  },
+  {
+    "cards": "AJ66A",
+    "bid": 51,
+    "rank": 626,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 31926,
+    "values": "14, 11, 6, 6, 14"
+  },
+  {
+    "cards": "AQAJQ",
+    "bid": 611,
+    "rank": 627,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 383097,
+    "values": "14, 12, 14, 11, 12"
+  },
+  {
+    "cards": "AA44J",
+    "bid": 538,
+    "rank": 628,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 337864,
+    "values": "14, 14, 4, 4, 11"
+  },
+  {
+    "cards": "AA858",
+    "bid": 891,
+    "rank": 629,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 560439,
+    "values": "14, 14, 8, 5, 8"
+  },
+  {
+    "cards": "AAKKJ",
+    "bid": 247,
+    "rank": 630,
+    "testRank": 5,
+    "description": "Two pair",
+    "score": 155610,
+    "values": "14, 14, 13, 13, 11"
+  },
+  {
+    "cards": "22264",
+    "bid": 179,
+    "rank": 631,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 112949,
+    "values": "2, 2, 2, 6, 4"
+  },
+  {
+    "cards": "226J2",
+    "bid": 966,
+    "rank": 632,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 610512,
+    "values": "2, 2, 6, 11, 2"
+  },
+  {
+    "cards": "22924",
+    "bid": 954,
+    "rank": 633,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 603882,
+    "values": "2, 2, 9, 2, 4"
+  },
+  {
+    "cards": "22J32",
+    "bid": 823,
+    "rank": 634,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 521782,
+    "values": "2, 2, 11, 3, 2"
+  },
+  {
+    "cards": "23228",
+    "bid": 608,
+    "rank": 635,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 386080,
+    "values": "2, 3, 2, 2, 8"
+  },
+  {
+    "cards": "23337",
+    "bid": 768,
+    "rank": 636,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 488448,
+    "values": "2, 3, 3, 3, 7"
+  },
+  {
+    "cards": "26J66",
+    "bid": 108,
+    "rank": 637,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 68796,
+    "values": "2, 6, 11, 6, 6"
+  },
+  {
+    "cards": "28666",
+    "bid": 191,
+    "rank": 638,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 121858,
+    "values": "2, 8, 6, 6, 6"
+  },
+  {
+    "cards": "29282",
+    "bid": 260,
+    "rank": 639,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 166140,
+    "values": "2, 9, 2, 8, 2"
+  },
+  {
+    "cards": "292Q2",
+    "bid": 282,
+    "rank": 640,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 180480,
+    "values": "2, 9, 2, 12, 2"
+  },
+  {
+    "cards": "2TTJT",
+    "bid": 785,
+    "rank": 641,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 503185,
+    "values": "2, 10, 10, 11, 10"
+  },
+  {
+    "cards": "2J229",
+    "bid": 381,
+    "rank": 642,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 244602,
+    "values": "2, 11, 2, 2, 9"
+  },
+  {
+    "cards": "2J22K",
+    "bid": 1000,
+    "rank": 643,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 643000,
+    "values": "2, 11, 2, 2, 13"
+  },
+  {
+    "cards": "2JJJ9",
+    "bid": 480,
+    "rank": 644,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 309120,
+    "values": "2, 11, 11, 11, 9"
+  },
+  {
+    "cards": "2Q262",
+    "bid": 967,
+    "rank": 645,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 623715,
+    "values": "2, 12, 2, 6, 2"
+  },
+  {
+    "cards": "2K229",
+    "bid": 458,
+    "rank": 646,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 295868,
+    "values": "2, 13, 2, 2, 9"
+  },
+  {
+    "cards": "2KKKJ",
+    "bid": 509,
+    "rank": 647,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 329323,
+    "values": "2, 13, 13, 13, 11"
+  },
+  {
+    "cards": "32363",
+    "bid": 233,
+    "rank": 648,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 150984,
+    "values": "3, 2, 3, 6, 3"
+  },
+  {
+    "cards": "32555",
+    "bid": 739,
+    "rank": 649,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 479611,
+    "values": "3, 2, 5, 5, 5"
+  },
+  {
+    "cards": "33347",
+    "bid": 916,
+    "rank": 650,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 595400,
+    "values": "3, 3, 3, 4, 7"
+  },
+  {
+    "cards": "333J4",
+    "bid": 344,
+    "rank": 651,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 223944,
+    "values": "3, 3, 3, 11, 4"
+  },
+  {
+    "cards": "333J6",
+    "bid": 328,
+    "rank": 652,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 213856,
+    "values": "3, 3, 3, 11, 6"
+  },
+  {
+    "cards": "34A44",
+    "bid": 689,
+    "rank": 653,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 449917,
+    "values": "3, 4, 14, 4, 4"
+  },
+  {
+    "cards": "3533K",
+    "bid": 384,
+    "rank": 654,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 251136,
+    "values": "3, 5, 3, 3, 13"
+  },
+  {
+    "cards": "355T5",
+    "bid": 777,
+    "rank": 655,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 508935,
+    "values": "3, 5, 5, 10, 5"
+  },
+  {
+    "cards": "383J3",
+    "bid": 99,
+    "rank": 656,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 64944,
+    "values": "3, 8, 3, 11, 3"
+  },
+  {
+    "cards": "39338",
+    "bid": 177,
+    "rank": 657,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 116289,
+    "values": "3, 9, 3, 3, 8"
+  },
+  {
+    "cards": "39433",
+    "bid": 935,
+    "rank": 658,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 615230,
+    "values": "3, 9, 4, 3, 3"
+  },
+  {
+    "cards": "3T33J",
+    "bid": 362,
+    "rank": 659,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 238558,
+    "values": "3, 10, 3, 3, 11"
+  },
+  {
+    "cards": "3T633",
+    "bid": 221,
+    "rank": 660,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 145860,
+    "values": "3, 10, 6, 3, 3"
+  },
+  {
+    "cards": "3Q334",
+    "bid": 728,
+    "rank": 661,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 481208,
+    "values": "3, 12, 3, 3, 4"
+  },
+  {
+    "cards": "3A33Q",
+    "bid": 788,
+    "rank": 662,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 521656,
+    "values": "3, 14, 3, 3, 12"
+  },
+  {
+    "cards": "3AA9A",
+    "bid": 981,
+    "rank": 663,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 650403,
+    "values": "3, 14, 14, 9, 14"
+  },
+  {
+    "cards": "42494",
+    "bid": 85,
+    "rank": 664,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 56440,
+    "values": "4, 2, 4, 9, 4"
+  },
+  {
+    "cards": "4344J",
+    "bid": 208,
+    "rank": 665,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 138320,
+    "values": "4, 3, 4, 4, 11"
+  },
+  {
+    "cards": "43833",
+    "bid": 230,
+    "rank": 666,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 153180,
+    "values": "4, 3, 8, 3, 3"
+  },
+  {
+    "cards": "4447A",
+    "bid": 178,
+    "rank": 667,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 118726,
+    "values": "4, 4, 4, 7, 14"
+  },
+  {
+    "cards": "444TJ",
+    "bid": 397,
+    "rank": 668,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 265196,
+    "values": "4, 4, 4, 10, 11"
+  },
+  {
+    "cards": "45655",
+    "bid": 771,
+    "rank": 669,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 515799,
+    "values": "4, 5, 6, 5, 5"
+  },
+  {
+    "cards": "45J55",
+    "bid": 824,
+    "rank": 670,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 552080,
+    "values": "4, 5, 11, 5, 5"
+  },
+  {
+    "cards": "46443",
+    "bid": 620,
+    "rank": 671,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 416020,
+    "values": "4, 6, 4, 4, 3"
+  },
+  {
+    "cards": "46544",
+    "bid": 377,
+    "rank": 672,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 253344,
+    "values": "4, 6, 5, 4, 4"
+  },
+  {
+    "cards": "48944",
+    "bid": 799,
+    "rank": 673,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 537727,
+    "values": "4, 8, 9, 4, 4"
+  },
+  {
+    "cards": "49443",
+    "bid": 741,
+    "rank": 674,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 499434,
+    "values": "4, 9, 4, 4, 3"
+  },
+  {
+    "cards": "49777",
+    "bid": 244,
+    "rank": 675,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 164700,
+    "values": "4, 9, 7, 7, 7"
+  },
+  {
+    "cards": "49JJJ",
+    "bid": 657,
+    "rank": 676,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 444132,
+    "values": "4, 9, 11, 11, 11"
+  },
+  {
+    "cards": "4J4K4",
+    "bid": 495,
+    "rank": 677,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 335115,
+    "values": "4, 11, 4, 13, 4"
+  },
+  {
+    "cards": "4A4J4",
+    "bid": 983,
+    "rank": 678,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 666474,
+    "values": "4, 14, 4, 11, 4"
+  },
+  {
+    "cards": "52242",
+    "bid": 999,
+    "rank": 679,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 678321,
+    "values": "5, 2, 2, 4, 2"
+  },
+  {
+    "cards": "5535J",
+    "bid": 809,
+    "rank": 680,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 550120,
+    "values": "5, 5, 3, 5, 11"
+  },
+  {
+    "cards": "55534",
+    "bid": 704,
+    "rank": 681,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 479424,
+    "values": "5, 5, 5, 3, 4"
+  },
+  {
+    "cards": "555J7",
+    "bid": 359,
+    "rank": 682,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 244838,
+    "values": "5, 5, 5, 11, 7"
+  },
+  {
+    "cards": "555JK",
+    "bid": 337,
+    "rank": 683,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 230171,
+    "values": "5, 5, 5, 11, 13"
+  },
+  {
+    "cards": "555KQ",
+    "bid": 877,
+    "rank": 684,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 599868,
+    "values": "5, 5, 5, 13, 12"
+  },
+  {
+    "cards": "5565J",
+    "bid": 252,
+    "rank": 685,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 172620,
+    "values": "5, 5, 6, 5, 11"
+  },
+  {
+    "cards": "55Q5J",
+    "bid": 141,
+    "rank": 686,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 96726,
+    "values": "5, 5, 12, 5, 11"
+  },
+  {
+    "cards": "5777Q",
+    "bid": 526,
+    "rank": 687,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 361362,
+    "values": "5, 7, 7, 7, 12"
+  },
+  {
+    "cards": "57877",
+    "bid": 702,
+    "rank": 688,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 482976,
+    "values": "5, 7, 8, 7, 7"
+  },
+  {
+    "cards": "5TT8T",
+    "bid": 533,
+    "rank": 689,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 367237,
+    "values": "5, 10, 10, 8, 10"
+  },
+  {
+    "cards": "5KJKK",
+    "bid": 237,
+    "rank": 690,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 163530,
+    "values": "5, 13, 11, 13, 13"
+  },
+  {
+    "cards": "5A8AA",
+    "bid": 189,
+    "rank": 691,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 130599,
+    "values": "5, 14, 8, 14, 14"
+  },
+  {
+    "cards": "622K2",
+    "bid": 364,
+    "rank": 692,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 251888,
+    "values": "6, 2, 2, 13, 2"
+  },
+  {
+    "cards": "62444",
+    "bid": 124,
+    "rank": 693,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 85932,
+    "values": "6, 2, 4, 4, 4"
+  },
+  {
+    "cards": "66469",
+    "bid": 588,
+    "rank": 694,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 408072,
+    "values": "6, 6, 4, 6, 9"
+  },
+  {
+    "cards": "66654",
+    "bid": 111,
+    "rank": 695,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 77145,
+    "values": "6, 6, 6, 5, 4"
+  },
+  {
+    "cards": "666QJ",
+    "bid": 876,
+    "rank": 696,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 609696,
+    "values": "6, 6, 6, 12, 11"
+  },
+  {
+    "cards": "6676J",
+    "bid": 192,
+    "rank": 697,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 133824,
+    "values": "6, 6, 7, 6, 11"
+  },
+  {
+    "cards": "66786",
+    "bid": 433,
+    "rank": 698,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 302234,
+    "values": "6, 6, 7, 8, 6"
+  },
+  {
+    "cards": "66J46",
+    "bid": 489,
+    "rank": 699,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 341811,
+    "values": "6, 6, 11, 4, 6"
+  },
+  {
+    "cards": "66A56",
+    "bid": 215,
+    "rank": 700,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 150500,
+    "values": "6, 6, 14, 5, 6"
+  },
+  {
+    "cards": "6T665",
+    "bid": 441,
+    "rank": 701,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 309141,
+    "values": "6, 10, 6, 6, 5"
+  },
+  {
+    "cards": "6JA66",
+    "bid": 428,
+    "rank": 702,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 300456,
+    "values": "6, 11, 14, 6, 6"
+  },
+  {
+    "cards": "6K466",
+    "bid": 703,
+    "rank": 703,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 494209,
+    "values": "6, 13, 4, 6, 6"
+  },
+  {
+    "cards": "6A4AA",
+    "bid": 84,
+    "rank": 704,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 59136,
+    "values": "6, 14, 4, 14, 14"
+  },
+  {
+    "cards": "6A636",
+    "bid": 629,
+    "rank": 705,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 443445,
+    "values": "6, 14, 6, 3, 6"
+  },
+  {
+    "cards": "7222T",
+    "bid": 636,
+    "rank": 706,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 449016,
+    "values": "7, 2, 2, 2, 10"
+  },
+  {
+    "cards": "74434",
+    "bid": 806,
+    "rank": 707,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 569842,
+    "values": "7, 4, 4, 3, 4"
+  },
+  {
+    "cards": "7444Q",
+    "bid": 944,
+    "rank": 708,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 668352,
+    "values": "7, 4, 4, 4, 12"
+  },
+  {
+    "cards": "747J7",
+    "bid": 863,
+    "rank": 709,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 611867,
+    "values": "7, 4, 7, 11, 7"
+  },
+  {
+    "cards": "75KKK",
+    "bid": 427,
+    "rank": 710,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 303170,
+    "values": "7, 5, 13, 13, 13"
+  },
+  {
+    "cards": "7797Q",
+    "bid": 94,
+    "rank": 711,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 66834,
+    "values": "7, 7, 9, 7, 12"
+  },
+  {
+    "cards": "77J79",
+    "bid": 635,
+    "rank": 712,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 452120,
+    "values": "7, 7, 11, 7, 9"
+  },
+  {
+    "cards": "77QK7",
+    "bid": 309,
+    "rank": 713,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 220317,
+    "values": "7, 7, 12, 13, 7"
+  },
+  {
+    "cards": "788J8",
+    "bid": 738,
+    "rank": 714,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 526932,
+    "values": "7, 8, 8, 11, 8"
+  },
+  {
+    "cards": "79737",
+    "bid": 893,
+    "rank": 715,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 638495,
+    "values": "7, 9, 7, 3, 7"
+  },
+  {
+    "cards": "7T555",
+    "bid": 404,
+    "rank": 716,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 289264,
+    "values": "7, 10, 5, 5, 5"
+  },
+  {
+    "cards": "7TJ77",
+    "bid": 987,
+    "rank": 717,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 707679,
+    "values": "7, 10, 11, 7, 7"
+  },
+  {
+    "cards": "7TAAA",
+    "bid": 118,
+    "rank": 718,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 84724,
+    "values": "7, 10, 14, 14, 14"
+  },
+  {
+    "cards": "7K2KK",
+    "bid": 528,
+    "rank": 719,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 379632,
+    "values": "7, 13, 2, 13, 13"
+  },
+  {
+    "cards": "7KKK8",
+    "bid": 492,
+    "rank": 720,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 354240,
+    "values": "7, 13, 13, 13, 8"
+  },
+  {
+    "cards": "82878",
+    "bid": 405,
+    "rank": 721,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 292005,
+    "values": "8, 2, 8, 7, 8"
+  },
+  {
+    "cards": "828J8",
+    "bid": 62,
+    "rank": 722,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 44764,
+    "values": "8, 2, 8, 11, 8"
+  },
+  {
+    "cards": "838J8",
+    "bid": 755,
+    "rank": 723,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 545865,
+    "values": "8, 3, 8, 11, 8"
+  },
+  {
+    "cards": "84442",
+    "bid": 706,
+    "rank": 724,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 511144,
+    "values": "8, 4, 4, 4, 2"
+  },
+  {
+    "cards": "84544",
+    "bid": 579,
+    "rank": 725,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 419775,
+    "values": "8, 4, 5, 4, 4"
+  },
+  {
+    "cards": "84K44",
+    "bid": 310,
+    "rank": 726,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 225060,
+    "values": "8, 4, 13, 4, 4"
+  },
+  {
+    "cards": "86848",
+    "bid": 232,
+    "rank": 727,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 168664,
+    "values": "8, 6, 8, 4, 8"
+  },
+  {
+    "cards": "88284",
+    "bid": 923,
+    "rank": 728,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 671944,
+    "values": "8, 8, 2, 8, 4"
+  },
+  {
+    "cards": "88285",
+    "bid": 805,
+    "rank": 729,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 586845,
+    "values": "8, 8, 2, 8, 5"
+  },
+  {
+    "cards": "88358",
+    "bid": 849,
+    "rank": 730,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 619770,
+    "values": "8, 8, 3, 5, 8"
+  },
+  {
+    "cards": "8858T",
+    "bid": 69,
+    "rank": 731,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 50439,
+    "values": "8, 8, 5, 8, 10"
+  },
+  {
+    "cards": "88A87",
+    "bid": 390,
+    "rank": 732,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 285480,
+    "values": "8, 8, 14, 8, 7"
+  },
+  {
+    "cards": "89299",
+    "bid": 802,
+    "rank": 733,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 587866,
+    "values": "8, 9, 2, 9, 9"
+  },
+  {
+    "cards": "8T688",
+    "bid": 135,
+    "rank": 734,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 99090,
+    "values": "8, 10, 6, 8, 8"
+  },
+  {
+    "cards": "8JJJA",
+    "bid": 792,
+    "rank": 735,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 582120,
+    "values": "8, 11, 11, 11, 14"
+  },
+  {
+    "cards": "8Q889",
+    "bid": 131,
+    "rank": 736,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 96416,
+    "values": "8, 12, 8, 8, 9"
+  },
+  {
+    "cards": "8A588",
+    "bid": 43,
+    "rank": 737,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 31691,
+    "values": "8, 14, 5, 8, 8"
+  },
+  {
+    "cards": "93733",
+    "bid": 98,
+    "rank": 738,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 72324,
+    "values": "9, 3, 7, 3, 3"
+  },
+  {
+    "cards": "93K33",
+    "bid": 995,
+    "rank": 739,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 735305,
+    "values": "9, 3, 13, 3, 3"
+  },
+  {
+    "cards": "94998",
+    "bid": 55,
+    "rank": 740,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 40700,
+    "values": "9, 4, 9, 9, 8"
+  },
+  {
+    "cards": "977T7",
+    "bid": 910,
+    "rank": 741,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 674310,
+    "values": "9, 7, 7, 10, 7"
+  },
+  {
+    "cards": "99392",
+    "bid": 887,
+    "rank": 742,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 658154,
+    "values": "9, 9, 3, 9, 2"
+  },
+  {
+    "cards": "9949T",
+    "bid": 714,
+    "rank": 743,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 530502,
+    "values": "9, 9, 4, 9, 10"
+  },
+  {
+    "cards": "996T9",
+    "bid": 779,
+    "rank": 744,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 579576,
+    "values": "9, 9, 6, 10, 9"
+  },
+  {
+    "cards": "99934",
+    "bid": 393,
+    "rank": 745,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 292785,
+    "values": "9, 9, 9, 3, 4"
+  },
+  {
+    "cards": "999J6",
+    "bid": 269,
+    "rank": 746,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 200674,
+    "values": "9, 9, 9, 11, 6"
+  },
+  {
+    "cards": "99A9J",
+    "bid": 95,
+    "rank": 747,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 70965,
+    "values": "9, 9, 14, 9, 11"
+  },
+  {
+    "cards": "9T555",
+    "bid": 735,
+    "rank": 748,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 549780,
+    "values": "9, 10, 5, 5, 5"
+  },
+  {
+    "cards": "9Q299",
+    "bid": 572,
+    "rank": 749,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 428428,
+    "values": "9, 12, 2, 9, 9"
+  },
+  {
+    "cards": "9Q993",
+    "bid": 256,
+    "rank": 750,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 192000,
+    "values": "9, 12, 9, 9, 3"
+  },
+  {
+    "cards": "T3TTJ",
+    "bid": 472,
+    "rank": 751,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 354472,
+    "values": "10, 3, 10, 10, 11"
+  },
+  {
+    "cards": "T5444",
+    "bid": 354,
+    "rank": 752,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 266208,
+    "values": "10, 5, 4, 4, 4"
+  },
+  {
+    "cards": "T5JTT",
+    "bid": 912,
+    "rank": 753,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 686736,
+    "values": "10, 5, 11, 10, 10"
+  },
+  {
+    "cards": "TT35T",
+    "bid": 668,
+    "rank": 754,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 503672,
+    "values": "10, 10, 3, 5, 10"
+  },
+  {
+    "cards": "TTJT8",
+    "bid": 209,
+    "rank": 755,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 157795,
+    "values": "10, 10, 11, 10, 8"
+  },
+  {
+    "cards": "TTJTK",
+    "bid": 100,
+    "rank": 756,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 75600,
+    "values": "10, 10, 11, 10, 13"
+  },
+  {
+    "cards": "TTJAT",
+    "bid": 236,
+    "rank": 757,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 178652,
+    "values": "10, 10, 11, 14, 10"
+  },
+  {
+    "cards": "TJAAA",
+    "bid": 316,
+    "rank": 758,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 239528,
+    "values": "10, 11, 14, 14, 14"
+  },
+  {
+    "cards": "TQ4TT",
+    "bid": 678,
+    "rank": 759,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 514602,
+    "values": "10, 12, 4, 10, 10"
+  },
+  {
+    "cards": "TK7TT",
+    "bid": 366,
+    "rank": 760,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 278160,
+    "values": "10, 13, 7, 10, 10"
+  },
+  {
+    "cards": "TKATT",
+    "bid": 242,
+    "rank": 761,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 184162,
+    "values": "10, 13, 14, 10, 10"
+  },
+  {
+    "cards": "TAAA5",
+    "bid": 793,
+    "rank": 762,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 604266,
+    "values": "10, 14, 14, 14, 5"
+  },
+  {
+    "cards": "J2777",
+    "bid": 774,
+    "rank": 763,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 590562,
+    "values": "11, 2, 7, 7, 7"
+  },
+  {
+    "cards": "J5855",
+    "bid": 978,
+    "rank": 764,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 747192,
+    "values": "11, 5, 8, 5, 5"
+  },
+  {
+    "cards": "J6866",
+    "bid": 982,
+    "rank": 765,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 751230,
+    "values": "11, 6, 8, 6, 6"
+  },
+  {
+    "cards": "J7773",
+    "bid": 357,
+    "rank": 766,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 273462,
+    "values": "11, 7, 7, 7, 3"
+  },
+  {
+    "cards": "J8488",
+    "bid": 313,
+    "rank": 767,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 240071,
+    "values": "11, 8, 4, 8, 8"
+  },
+  {
+    "cards": "J8889",
+    "bid": 14,
+    "rank": 768,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 10752,
+    "values": "11, 8, 8, 8, 9"
+  },
+  {
+    "cards": "J9555",
+    "bid": 151,
+    "rank": 769,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 116119,
+    "values": "11, 9, 5, 5, 5"
+  },
+  {
+    "cards": "J9599",
+    "bid": 879,
+    "rank": 770,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 676830,
+    "values": "11, 9, 5, 9, 9"
+  },
+  {
+    "cards": "J9939",
+    "bid": 15,
+    "rank": 771,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 11565,
+    "values": "11, 9, 9, 3, 9"
+  },
+  {
+    "cards": "JQ999",
+    "bid": 16,
+    "rank": 772,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 12352,
+    "values": "11, 12, 9, 9, 9"
+  },
+  {
+    "cards": "Q3J33",
+    "bid": 971,
+    "rank": 773,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 750583,
+    "values": "12, 3, 11, 3, 3"
+  },
+  {
+    "cards": "Q3QKQ",
+    "bid": 515,
+    "rank": 774,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 398610,
+    "values": "12, 3, 12, 13, 12"
+  },
+  {
+    "cards": "Q8AQQ",
+    "bid": 148,
+    "rank": 775,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 114700,
+    "values": "12, 8, 14, 12, 12"
+  },
+  {
+    "cards": "QJ2QQ",
+    "bid": 882,
+    "rank": 776,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 684432,
+    "values": "12, 11, 2, 12, 12"
+  },
+  {
+    "cards": "QQ82Q",
+    "bid": 946,
+    "rank": 777,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 735042,
+    "values": "12, 12, 8, 2, 12"
+  },
+  {
+    "cards": "QAAA9",
+    "bid": 113,
+    "rank": 778,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 87914,
+    "values": "12, 14, 14, 14, 9"
+  },
+  {
+    "cards": "K2555",
+    "bid": 297,
+    "rank": 779,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 231363,
+    "values": "13, 2, 5, 5, 5"
+  },
+  {
+    "cards": "K28KK",
+    "bid": 395,
+    "rank": 780,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 308100,
+    "values": "13, 2, 8, 13, 13"
+  },
+  {
+    "cards": "K2K6K",
+    "bid": 77,
+    "rank": 781,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 60137,
+    "values": "13, 2, 13, 6, 13"
+  },
+  {
+    "cards": "K54KK",
+    "bid": 176,
+    "rank": 782,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 137632,
+    "values": "13, 5, 4, 13, 13"
+  },
+  {
+    "cards": "K66J6",
+    "bid": 819,
+    "rank": 783,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 641277,
+    "values": "13, 6, 6, 11, 6"
+  },
+  {
+    "cards": "K7773",
+    "bid": 61,
+    "rank": 784,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 47824,
+    "values": "13, 7, 7, 7, 3"
+  },
+  {
+    "cards": "K9989",
+    "bid": 671,
+    "rank": 785,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 526735,
+    "values": "13, 9, 9, 8, 9"
+  },
+  {
+    "cards": "K9KK6",
+    "bid": 44,
+    "rank": 786,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 34584,
+    "values": "13, 9, 13, 13, 6"
+  },
+  {
+    "cards": "KT2TT",
+    "bid": 517,
+    "rank": 787,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 406879,
+    "values": "13, 10, 2, 10, 10"
+  },
+  {
+    "cards": "KJQQQ",
+    "bid": 761,
+    "rank": 788,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 599668,
+    "values": "13, 11, 12, 12, 12"
+  },
+  {
+    "cards": "KQTKK",
+    "bid": 837,
+    "rank": 789,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 660393,
+    "values": "13, 12, 10, 13, 13"
+  },
+  {
+    "cards": "KK6K4",
+    "bid": 274,
+    "rank": 790,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 216460,
+    "values": "13, 13, 6, 13, 4"
+  },
+  {
+    "cards": "KK9KJ",
+    "bid": 268,
+    "rank": 791,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 211988,
+    "values": "13, 13, 9, 13, 11"
+  },
+  {
+    "cards": "KKK4T",
+    "bid": 394,
+    "rank": 792,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 312048,
+    "values": "13, 13, 13, 4, 10"
+  },
+  {
+    "cards": "KKK68",
+    "bid": 372,
+    "rank": 793,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 294996,
+    "values": "13, 13, 13, 6, 8"
+  },
+  {
+    "cards": "KKKQ9",
+    "bid": 407,
+    "rank": 794,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 323158,
+    "values": "13, 13, 13, 12, 9"
+  },
+  {
+    "cards": "KAAAJ",
+    "bid": 906,
+    "rank": 795,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 720270,
+    "values": "13, 14, 14, 14, 11"
+  },
+  {
+    "cards": "A2Q22",
+    "bid": 607,
+    "rank": 796,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 483172,
+    "values": "14, 2, 12, 2, 2"
+  },
+  {
+    "cards": "A5AKA",
+    "bid": 145,
+    "rank": 797,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 115565,
+    "values": "14, 5, 14, 13, 14"
+  },
+  {
+    "cards": "A5AA9",
+    "bid": 440,
+    "rank": 798,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 351120,
+    "values": "14, 5, 14, 14, 9"
+  },
+  {
+    "cards": "A8828",
+    "bid": 73,
+    "rank": 799,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 58327,
+    "values": "14, 8, 8, 2, 8"
+  },
+  {
+    "cards": "A8A6A",
+    "bid": 133,
+    "rank": 800,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 106400,
+    "values": "14, 8, 14, 6, 14"
+  },
+  {
+    "cards": "A8AA3",
+    "bid": 679,
+    "rank": 801,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 543879,
+    "values": "14, 8, 14, 14, 3"
+  },
+  {
+    "cards": "A9AKA",
+    "bid": 711,
+    "rank": 802,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 570222,
+    "values": "14, 9, 14, 13, 14"
+  },
+  {
+    "cards": "AATA8",
+    "bid": 606,
+    "rank": 803,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 486618,
+    "values": "14, 14, 10, 14, 8"
+  },
+  {
+    "cards": "AATAK",
+    "bid": 864,
+    "rank": 804,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 694656,
+    "values": "14, 14, 10, 14, 13"
+  },
+  {
+    "cards": "AAJ2A",
+    "bid": 50,
+    "rank": 805,
+    "testRank": 4,
+    "description": "Three of a kind",
+    "score": 40250,
+    "values": "14, 14, 11, 2, 14"
+  },
+  {
+    "cards": "222TT",
+    "bid": 295,
+    "rank": 806,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 237770,
+    "values": "2, 2, 2, 10, 10"
+  },
+  {
+    "cards": "222QQ",
+    "bid": 968,
+    "rank": 807,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 781176,
+    "values": "2, 2, 2, 12, 12"
+  },
+  {
+    "cards": "222KK",
+    "bid": 496,
+    "rank": 808,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 400768,
+    "values": "2, 2, 2, 13, 13"
+  },
+  {
+    "cards": "22525",
+    "bid": 287,
+    "rank": 809,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 232183,
+    "values": "2, 2, 5, 2, 5"
+  },
+  {
+    "cards": "22662",
+    "bid": 556,
+    "rank": 810,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 450360,
+    "values": "2, 2, 6, 6, 2"
+  },
+  {
+    "cards": "22999",
+    "bid": 170,
+    "rank": 811,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 137870,
+    "values": "2, 2, 9, 9, 9"
+  },
+  {
+    "cards": "22JJ2",
+    "bid": 534,
+    "rank": 812,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 433608,
+    "values": "2, 2, 11, 11, 2"
+  },
+  {
+    "cards": "22KKK",
+    "bid": 494,
+    "rank": 813,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 401622,
+    "values": "2, 2, 13, 13, 13"
+  },
+  {
+    "cards": "23232",
+    "bid": 204,
+    "rank": 814,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 166056,
+    "values": "2, 3, 2, 3, 2"
+  },
+  {
+    "cards": "2A2AA",
+    "bid": 326,
+    "rank": 815,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 265690,
+    "values": "2, 14, 2, 14, 14"
+  },
+  {
+    "cards": "32323",
+    "bid": 438,
+    "rank": 816,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 357408,
+    "values": "3, 2, 3, 2, 3"
+  },
+  {
+    "cards": "33666",
+    "bid": 574,
+    "rank": 817,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 468958,
+    "values": "3, 3, 6, 6, 6"
+  },
+  {
+    "cards": "33JJ3",
+    "bid": 900,
+    "rank": 818,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 736200,
+    "values": "3, 3, 11, 11, 3"
+  },
+  {
+    "cards": "33JJJ",
+    "bid": 746,
+    "rank": 819,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 610974,
+    "values": "3, 3, 11, 11, 11"
+  },
+  {
+    "cards": "33KKK",
+    "bid": 478,
+    "rank": 820,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 391960,
+    "values": "3, 3, 13, 13, 13"
+  },
+  {
+    "cards": "36363",
+    "bid": 322,
+    "rank": 821,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 264362,
+    "values": "3, 6, 3, 6, 3"
+  },
+  {
+    "cards": "3TT3T",
+    "bid": 400,
+    "rank": 822,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 328800,
+    "values": "3, 10, 10, 3, 10"
+  },
+  {
+    "cards": "3Q3QQ",
+    "bid": 688,
+    "rank": 823,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 566224,
+    "values": "3, 12, 3, 12, 12"
+  },
+  {
+    "cards": "42242",
+    "bid": 743,
+    "rank": 824,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 612232,
+    "values": "4, 2, 2, 4, 2"
+  },
+  {
+    "cards": "42442",
+    "bid": 797,
+    "rank": 825,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 657525,
+    "values": "4, 2, 4, 4, 2"
+  },
+  {
+    "cards": "444QQ",
+    "bid": 853,
+    "rank": 826,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 704578,
+    "values": "4, 4, 4, 12, 12"
+  },
+  {
+    "cards": "444AA",
+    "bid": 210,
+    "rank": 827,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 173670,
+    "values": "4, 4, 4, 14, 14"
+  },
+  {
+    "cards": "44884",
+    "bid": 848,
+    "rank": 828,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 702144,
+    "values": "4, 4, 8, 8, 4"
+  },
+  {
+    "cards": "48884",
+    "bid": 766,
+    "rank": 829,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 635014,
+    "values": "4, 8, 8, 8, 4"
+  },
+  {
+    "cards": "4TT44",
+    "bid": 396,
+    "rank": 830,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 328680,
+    "values": "4, 10, 10, 4, 4"
+  },
+  {
+    "cards": "53335",
+    "bid": 238,
+    "rank": 831,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 197778,
+    "values": "5, 3, 3, 3, 5"
+  },
+  {
+    "cards": "54545",
+    "bid": 20,
+    "rank": 832,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 16640,
+    "values": "5, 4, 5, 4, 5"
+  },
+  {
+    "cards": "55335",
+    "bid": 713,
+    "rank": 833,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 593929,
+    "values": "5, 5, 3, 3, 5"
+  },
+  {
+    "cards": "55577",
+    "bid": 167,
+    "rank": 834,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 139278,
+    "values": "5, 5, 5, 7, 7"
+  },
+  {
+    "cards": "555JJ",
+    "bid": 890,
+    "rank": 835,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 743150,
+    "values": "5, 5, 5, 11, 11"
+  },
+  {
+    "cards": "55TT5",
+    "bid": 919,
+    "rank": 836,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 768284,
+    "values": "5, 5, 10, 10, 5"
+  },
+  {
+    "cards": "56656",
+    "bid": 351,
+    "rank": 837,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 293787,
+    "values": "5, 6, 6, 5, 6"
+  },
+  {
+    "cards": "57757",
+    "bid": 355,
+    "rank": 838,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 297490,
+    "values": "5, 7, 7, 5, 7"
+  },
+  {
+    "cards": "5K5KK",
+    "bid": 172,
+    "rank": 839,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 144308,
+    "values": "5, 13, 5, 13, 13"
+  },
+  {
+    "cards": "5A5A5",
+    "bid": 539,
+    "rank": 840,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 452760,
+    "values": "5, 14, 5, 14, 5"
+  },
+  {
+    "cards": "62626",
+    "bid": 928,
+    "rank": 841,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 780448,
+    "values": "6, 2, 6, 2, 6"
+  },
+  {
+    "cards": "64644",
+    "bid": 898,
+    "rank": 842,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 756116,
+    "values": "6, 4, 6, 4, 4"
+  },
+  {
+    "cards": "66555",
+    "bid": 614,
+    "rank": 843,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 517602,
+    "values": "6, 6, 5, 5, 5"
+  },
+  {
+    "cards": "66777",
+    "bid": 109,
+    "rank": 844,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 91996,
+    "values": "6, 6, 7, 7, 7"
+  },
+  {
+    "cards": "66996",
+    "bid": 962,
+    "rank": 845,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 812890,
+    "values": "6, 6, 9, 9, 6"
+  },
+  {
+    "cards": "6K6KK",
+    "bid": 158,
+    "rank": 846,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 133668,
+    "values": "6, 13, 6, 13, 13"
+  },
+  {
+    "cards": "73733",
+    "bid": 147,
+    "rank": 847,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 124509,
+    "values": "7, 3, 7, 3, 3"
+  },
+  {
+    "cards": "77474",
+    "bid": 504,
+    "rank": 848,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 427392,
+    "values": "7, 7, 4, 7, 4"
+  },
+  {
+    "cards": "77666",
+    "bid": 497,
+    "rank": 849,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 421953,
+    "values": "7, 7, 6, 6, 6"
+  },
+  {
+    "cards": "77722",
+    "bid": 136,
+    "rank": 850,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 115600,
+    "values": "7, 7, 7, 2, 2"
+  },
+  {
+    "cards": "7QQQ7",
+    "bid": 765,
+    "rank": 851,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 651015,
+    "values": "7, 12, 12, 12, 7"
+  },
+  {
+    "cards": "7A7A7",
+    "bid": 166,
+    "rank": 852,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 141432,
+    "values": "7, 14, 7, 14, 7"
+  },
+  {
+    "cards": "82282",
+    "bid": 419,
+    "rank": 853,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 357407,
+    "values": "8, 2, 2, 8, 2"
+  },
+  {
+    "cards": "82882",
+    "bid": 48,
+    "rank": 854,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 40992,
+    "values": "8, 2, 8, 8, 2"
+  },
+  {
+    "cards": "85558",
+    "bid": 555,
+    "rank": 855,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 474525,
+    "values": "8, 5, 5, 5, 8"
+  },
+  {
+    "cards": "87877",
+    "bid": 196,
+    "rank": 856,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 167776,
+    "values": "8, 7, 8, 7, 7"
+  },
+  {
+    "cards": "88585",
+    "bid": 796,
+    "rank": 857,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 682172,
+    "values": "8, 8, 5, 8, 5"
+  },
+  {
+    "cards": "88877",
+    "bid": 279,
+    "rank": 858,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 239382,
+    "values": "8, 8, 8, 7, 7"
+  },
+  {
+    "cards": "88TT8",
+    "bid": 128,
+    "rank": 859,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 109952,
+    "values": "8, 8, 10, 10, 8"
+  },
+  {
+    "cards": "88QQ8",
+    "bid": 321,
+    "rank": 860,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 276060,
+    "values": "8, 8, 12, 12, 8"
+  },
+  {
+    "cards": "8QQ8Q",
+    "bid": 803,
+    "rank": 861,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 691383,
+    "values": "8, 12, 12, 8, 12"
+  },
+  {
+    "cards": "93993",
+    "bid": 207,
+    "rank": 862,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 178434,
+    "values": "9, 3, 9, 9, 3"
+  },
+  {
+    "cards": "99222",
+    "bid": 582,
+    "rank": 863,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 502266,
+    "values": "9, 9, 2, 2, 2"
+  },
+  {
+    "cards": "99696",
+    "bid": 811,
+    "rank": 864,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 700704,
+    "values": "9, 9, 6, 9, 6"
+  },
+  {
+    "cards": "99797",
+    "bid": 319,
+    "rank": 865,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 275935,
+    "values": "9, 9, 7, 9, 7"
+  },
+  {
+    "cards": "99888",
+    "bid": 103,
+    "rank": 866,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 89198,
+    "values": "9, 9, 8, 8, 8"
+  },
+  {
+    "cards": "99TT9",
+    "bid": 508,
+    "rank": 867,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 440436,
+    "values": "9, 9, 10, 10, 9"
+  },
+  {
+    "cards": "99K9K",
+    "bid": 199,
+    "rank": 868,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 172732,
+    "values": "9, 9, 13, 9, 13"
+  },
+  {
+    "cards": "99A9A",
+    "bid": 527,
+    "rank": 869,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 457963,
+    "values": "9, 9, 14, 9, 14"
+  },
+  {
+    "cards": "9KK9K",
+    "bid": 707,
+    "rank": 870,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 615090,
+    "values": "9, 13, 13, 9, 13"
+  },
+  {
+    "cards": "T4TT4",
+    "bid": 795,
+    "rank": 871,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 692445,
+    "values": "10, 4, 10, 10, 4"
+  },
+  {
+    "cards": "T66TT",
+    "bid": 475,
+    "rank": 872,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 414200,
+    "values": "10, 6, 6, 10, 10"
+  },
+  {
+    "cards": "TT333",
+    "bid": 516,
+    "rank": 873,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 450468,
+    "values": "10, 10, 3, 3, 3"
+  },
+  {
+    "cards": "TT7T7",
+    "bid": 235,
+    "rank": 874,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 205390,
+    "values": "10, 10, 7, 10, 7"
+  },
+  {
+    "cards": "TTT22",
+    "bid": 692,
+    "rank": 875,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 605500,
+    "values": "10, 10, 10, 2, 2"
+  },
+  {
+    "cards": "TTTAA",
+    "bid": 285,
+    "rank": 876,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 249660,
+    "values": "10, 10, 10, 14, 14"
+  },
+  {
+    "cards": "TTJJJ",
+    "bid": 791,
+    "rank": 877,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 693707,
+    "values": "10, 10, 11, 11, 11"
+  },
+  {
+    "cards": "TJTTJ",
+    "bid": 603,
+    "rank": 878,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 529434,
+    "values": "10, 11, 10, 10, 11"
+  },
+  {
+    "cards": "J5JJ5",
+    "bid": 411,
+    "rank": 879,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 361269,
+    "values": "11, 5, 11, 11, 5"
+  },
+  {
+    "cards": "J666J",
+    "bid": 425,
+    "rank": 880,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 374000,
+    "values": "11, 6, 6, 6, 11"
+  },
+  {
+    "cards": "J6J6J",
+    "bid": 642,
+    "rank": 881,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 565602,
+    "values": "11, 6, 11, 6, 11"
+  },
+  {
+    "cards": "J77J7",
+    "bid": 733,
+    "rank": 882,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 646506,
+    "values": "11, 7, 7, 11, 7"
+  },
+  {
+    "cards": "JJ999",
+    "bid": 929,
+    "rank": 883,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 820307,
+    "values": "11, 11, 9, 9, 9"
+  },
+  {
+    "cards": "JJJ44",
+    "bid": 643,
+    "rank": 884,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 568412,
+    "values": "11, 11, 11, 4, 4"
+  },
+  {
+    "cards": "JJJ88",
+    "bid": 330,
+    "rank": 885,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 292050,
+    "values": "11, 11, 11, 8, 8"
+  },
+  {
+    "cards": "Q4Q4Q",
+    "bid": 759,
+    "rank": 886,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 672474,
+    "values": "12, 4, 12, 4, 12"
+  },
+  {
+    "cards": "QTTQQ",
+    "bid": 388,
+    "rank": 887,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 344156,
+    "values": "12, 10, 10, 12, 12"
+  },
+  {
+    "cards": "QQ22Q",
+    "bid": 222,
+    "rank": 888,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 197136,
+    "values": "12, 12, 2, 2, 12"
+  },
+  {
+    "cards": "QQ666",
+    "bid": 435,
+    "rank": 889,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 386715,
+    "values": "12, 12, 6, 6, 6"
+  },
+  {
+    "cards": "QQ99Q",
+    "bid": 925,
+    "rank": 890,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 823250,
+    "values": "12, 12, 9, 9, 12"
+  },
+  {
+    "cards": "QQQ66",
+    "bid": 110,
+    "rank": 891,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 98010,
+    "values": "12, 12, 12, 6, 6"
+  },
+  {
+    "cards": "QQQJJ",
+    "bid": 770,
+    "rank": 892,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 686840,
+    "values": "12, 12, 12, 11, 11"
+  },
+  {
+    "cards": "QAAAQ",
+    "bid": 723,
+    "rank": 893,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 645639,
+    "values": "12, 14, 14, 14, 12"
+  },
+  {
+    "cards": "K333K",
+    "bid": 426,
+    "rank": 894,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 380844,
+    "values": "13, 3, 3, 3, 13"
+  },
+  {
+    "cards": "K444K",
+    "bid": 9,
+    "rank": 895,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 8055,
+    "values": "13, 4, 4, 4, 13"
+  },
+  {
+    "cards": "KTTKT",
+    "bid": 506,
+    "rank": 896,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 453376,
+    "values": "13, 10, 10, 13, 10"
+  },
+  {
+    "cards": "KJJKK",
+    "bid": 523,
+    "rank": 897,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 469131,
+    "values": "13, 11, 11, 13, 13"
+  },
+  {
+    "cards": "KK555",
+    "bid": 38,
+    "rank": 898,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 34124,
+    "values": "13, 13, 5, 5, 5"
+  },
+  {
+    "cards": "KK88K",
+    "bid": 219,
+    "rank": 899,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 196881,
+    "values": "13, 13, 8, 8, 13"
+  },
+  {
+    "cards": "A222A",
+    "bid": 858,
+    "rank": 900,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 772200,
+    "values": "14, 2, 2, 2, 14"
+  },
+  {
+    "cards": "A7AA7",
+    "bid": 818,
+    "rank": 901,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 737018,
+    "values": "14, 7, 14, 14, 7"
+  },
+  {
+    "cards": "A888A",
+    "bid": 850,
+    "rank": 902,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 766700,
+    "values": "14, 8, 8, 8, 14"
+  },
+  {
+    "cards": "AKAAK",
+    "bid": 859,
+    "rank": 903,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 775677,
+    "values": "14, 13, 14, 14, 13"
+  },
+  {
+    "cards": "AATTA",
+    "bid": 568,
+    "rank": 904,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 513472,
+    "values": "14, 14, 10, 10, 14"
+  },
+  {
+    "cards": "AAJJA",
+    "bid": 872,
+    "rank": 905,
+    "testRank": 3,
+    "description": "Full house",
+    "score": 789160,
+    "values": "14, 14, 11, 11, 14"
+  },
+  {
+    "cards": "22242",
+    "bid": 45,
+    "rank": 906,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 40770,
+    "values": "2, 2, 2, 4, 2"
+  },
+  {
+    "cards": "222Q2",
+    "bid": 697,
+    "rank": 907,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 632179,
+    "values": "2, 2, 2, 12, 2"
+  },
+  {
+    "cards": "22822",
+    "bid": 275,
+    "rank": 908,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 249700,
+    "values": "2, 2, 8, 2, 2"
+  },
+  {
+    "cards": "2J222",
+    "bid": 368,
+    "rank": 909,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 334512,
+    "values": "2, 11, 2, 2, 2"
+  },
+  {
+    "cards": "32222",
+    "bid": 56,
+    "rank": 910,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 50960,
+    "values": "3, 2, 2, 2, 2"
+  },
+  {
+    "cards": "33335",
+    "bid": 294,
+    "rank": 911,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 267834,
+    "values": "3, 3, 3, 3, 5"
+  },
+  {
+    "cards": "3333J",
+    "bid": 138,
+    "rank": 912,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 125856,
+    "values": "3, 3, 3, 3, 11"
+  },
+  {
+    "cards": "3333Q",
+    "bid": 801,
+    "rank": 913,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 731313,
+    "values": "3, 3, 3, 3, 12"
+  },
+  {
+    "cards": "33T33",
+    "bid": 49,
+    "rank": 914,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 44786,
+    "values": "3, 3, 10, 3, 3"
+  },
+  {
+    "cards": "36333",
+    "bid": 429,
+    "rank": 915,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 392535,
+    "values": "3, 6, 3, 3, 3"
+  },
+  {
+    "cards": "3K333",
+    "bid": 562,
+    "rank": 916,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 514792,
+    "values": "3, 13, 3, 3, 3"
+  },
+  {
+    "cards": "44424",
+    "bid": 979,
+    "rank": 917,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 897743,
+    "values": "4, 4, 4, 2, 4"
+  },
+  {
+    "cards": "44449",
+    "bid": 790,
+    "rank": 918,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 725220,
+    "values": "4, 4, 4, 4, 9"
+  },
+  {
+    "cards": "444T4",
+    "bid": 947,
+    "rank": 919,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 870293,
+    "values": "4, 4, 4, 10, 4"
+  },
+  {
+    "cards": "4K444",
+    "bid": 826,
+    "rank": 920,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 759920,
+    "values": "4, 13, 4, 4, 4"
+  },
+  {
+    "cards": "54444",
+    "bid": 91,
+    "rank": 921,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 83811,
+    "values": "5, 4, 4, 4, 4"
+  },
+  {
+    "cards": "55554",
+    "bid": 700,
+    "rank": 922,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 645400,
+    "values": "5, 5, 5, 5, 4"
+  },
+  {
+    "cards": "5555K",
+    "bid": 895,
+    "rank": 923,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 826085,
+    "values": "5, 5, 5, 5, 13"
+  },
+  {
+    "cards": "55755",
+    "bid": 278,
+    "rank": 924,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 256872,
+    "values": "5, 5, 7, 5, 5"
+  },
+  {
+    "cards": "5T555",
+    "bid": 349,
+    "rank": 925,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 322825,
+    "values": "5, 10, 5, 5, 5"
+  },
+  {
+    "cards": "5Q555",
+    "bid": 691,
+    "rank": 926,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 639866,
+    "values": "5, 12, 5, 5, 5"
+  },
+  {
+    "cards": "5KKKK",
+    "bid": 852,
+    "rank": 927,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 789804,
+    "values": "5, 13, 13, 13, 13"
+  },
+  {
+    "cards": "5AAAA",
+    "bid": 520,
+    "rank": 928,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 482560,
+    "values": "5, 14, 14, 14, 14"
+  },
+  {
+    "cards": "66466",
+    "bid": 456,
+    "rank": 929,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 423624,
+    "values": "6, 6, 4, 6, 6"
+  },
+  {
+    "cards": "66636",
+    "bid": 23,
+    "rank": 930,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 21390,
+    "values": "6, 6, 6, 3, 6"
+  },
+  {
+    "cards": "6666K",
+    "bid": 709,
+    "rank": 931,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 660079,
+    "values": "6, 6, 6, 6, 13"
+  },
+  {
+    "cards": "66686",
+    "bid": 320,
+    "rank": 932,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 298240,
+    "values": "6, 6, 6, 8, 6"
+  },
+  {
+    "cards": "666T6",
+    "bid": 554,
+    "rank": 933,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 516882,
+    "values": "6, 6, 6, 10, 6"
+  },
+  {
+    "cards": "67666",
+    "bid": 810,
+    "rank": 934,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 756540,
+    "values": "6, 7, 6, 6, 6"
+  },
+  {
+    "cards": "67777",
+    "bid": 822,
+    "rank": 935,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 768570,
+    "values": "6, 7, 7, 7, 7"
+  },
+  {
+    "cards": "68888",
+    "bid": 223,
+    "rank": 936,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 208728,
+    "values": "6, 8, 8, 8, 8"
+  },
+  {
+    "cards": "69666",
+    "bid": 749,
+    "rank": 937,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 701813,
+    "values": "6, 9, 6, 6, 6"
+  },
+  {
+    "cards": "72777",
+    "bid": 754,
+    "rank": 938,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 707252,
+    "values": "7, 2, 7, 7, 7"
+  },
+  {
+    "cards": "77377",
+    "bid": 856,
+    "rank": 939,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 803784,
+    "values": "7, 7, 3, 7, 7"
+  },
+  {
+    "cards": "7777J",
+    "bid": 406,
+    "rank": 940,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 381640,
+    "values": "7, 7, 7, 7, 11"
+  },
+  {
+    "cards": "77T77",
+    "bid": 253,
+    "rank": 941,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 238073,
+    "values": "7, 7, 10, 7, 7"
+  },
+  {
+    "cards": "7Q777",
+    "bid": 650,
+    "rank": 942,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 612300,
+    "values": "7, 12, 7, 7, 7"
+  },
+  {
+    "cards": "7KKKK",
+    "bid": 345,
+    "rank": 943,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 325335,
+    "values": "7, 13, 13, 13, 13"
+  },
+  {
+    "cards": "85888",
+    "bid": 347,
+    "rank": 944,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 327568,
+    "values": "8, 5, 8, 8, 8"
+  },
+  {
+    "cards": "88883",
+    "bid": 194,
+    "rank": 945,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 183330,
+    "values": "8, 8, 8, 8, 3"
+  },
+  {
+    "cards": "888T8",
+    "bid": 31,
+    "rank": 946,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 29326,
+    "values": "8, 8, 8, 10, 8"
+  },
+  {
+    "cards": "88988",
+    "bid": 842,
+    "rank": 947,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 797374,
+    "values": "8, 8, 9, 8, 8"
+  },
+  {
+    "cards": "8J888",
+    "bid": 676,
+    "rank": 948,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 640848,
+    "values": "8, 11, 8, 8, 8"
+  },
+  {
+    "cards": "8K888",
+    "bid": 468,
+    "rank": 949,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 444132,
+    "values": "8, 13, 8, 8, 8"
+  },
+  {
+    "cards": "93333",
+    "bid": 353,
+    "rank": 950,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 335350,
+    "values": "9, 3, 3, 3, 3"
+  },
+  {
+    "cards": "99899",
+    "bid": 695,
+    "rank": 951,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 660945,
+    "values": "9, 9, 8, 9, 9"
+  },
+  {
+    "cards": "99969",
+    "bid": 447,
+    "rank": 952,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 425544,
+    "values": "9, 9, 9, 6, 9"
+  },
+  {
+    "cards": "99992",
+    "bid": 453,
+    "rank": 953,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 431709,
+    "values": "9, 9, 9, 9, 2"
+  },
+  {
+    "cards": "99994",
+    "bid": 817,
+    "rank": 954,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 779418,
+    "values": "9, 9, 9, 9, 4"
+  },
+  {
+    "cards": "9999K",
+    "bid": 11,
+    "rank": 955,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 10505,
+    "values": "9, 9, 9, 9, 13"
+  },
+  {
+    "cards": "99J99",
+    "bid": 239,
+    "rank": 956,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 228484,
+    "values": "9, 9, 11, 9, 9"
+  },
+  {
+    "cards": "9A999",
+    "bid": 365,
+    "rank": 957,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 349305,
+    "values": "9, 14, 9, 9, 9"
+  },
+  {
+    "cards": "T2222",
+    "bid": 544,
+    "rank": 958,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 521152,
+    "values": "10, 2, 2, 2, 2"
+  },
+  {
+    "cards": "T5TTT",
+    "bid": 424,
+    "rank": 959,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 406616,
+    "values": "10, 5, 10, 10, 10"
+  },
+  {
+    "cards": "T7TTT",
+    "bid": 843,
+    "rank": 960,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 809280,
+    "values": "10, 7, 10, 10, 10"
+  },
+  {
+    "cards": "TT4TT",
+    "bid": 251,
+    "rank": 961,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 241211,
+    "values": "10, 10, 4, 10, 10"
+  },
+  {
+    "cards": "TT6TT",
+    "bid": 783,
+    "rank": 962,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 753246,
+    "values": "10, 10, 6, 10, 10"
+  },
+  {
+    "cards": "TTT2T",
+    "bid": 283,
+    "rank": 963,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 272529,
+    "values": "10, 10, 10, 2, 10"
+  },
+  {
+    "cards": "TTT3T",
+    "bid": 522,
+    "rank": 964,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 503208,
+    "values": "10, 10, 10, 3, 10"
+  },
+  {
+    "cards": "TTT8T",
+    "bid": 513,
+    "rank": 965,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 495045,
+    "values": "10, 10, 10, 8, 10"
+  },
+  {
+    "cards": "TTT9T",
+    "bid": 27,
+    "rank": 966,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 26082,
+    "values": "10, 10, 10, 9, 10"
+  },
+  {
+    "cards": "TTTJT",
+    "bid": 977,
+    "rank": 967,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 944759,
+    "values": "10, 10, 10, 11, 10"
+  },
+  {
+    "cards": "TTATT",
+    "bid": 74,
+    "rank": 968,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 71632,
+    "values": "10, 10, 14, 10, 10"
+  },
+  {
+    "cards": "TQQQQ",
+    "bid": 933,
+    "rank": 969,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 904077,
+    "values": "10, 12, 12, 12, 12"
+  },
+  {
+    "cards": "TKTTT",
+    "bid": 115,
+    "rank": 970,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 111550,
+    "values": "10, 13, 10, 10, 10"
+  },
+  {
+    "cards": "J4444",
+    "bid": 240,
+    "rank": 971,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 233040,
+    "values": "11, 4, 4, 4, 4"
+  },
+  {
+    "cards": "J5555",
+    "bid": 493,
+    "rank": 972,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 479196,
+    "values": "11, 5, 5, 5, 5"
+  },
+  {
+    "cards": "J6666",
+    "bid": 323,
+    "rank": 973,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 314279,
+    "values": "11, 6, 6, 6, 6"
+  },
+  {
+    "cards": "JJJJ8",
+    "bid": 943,
+    "rank": 974,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 918482,
+    "values": "11, 11, 11, 11, 8"
+  },
+  {
+    "cards": "JAAAA",
+    "bid": 787,
+    "rank": 975,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 767325,
+    "values": "11, 14, 14, 14, 14"
+  },
+  {
+    "cards": "Q2QQQ",
+    "bid": 949,
+    "rank": 976,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 926224,
+    "values": "12, 2, 12, 12, 12"
+  },
+  {
+    "cards": "Q4QQQ",
+    "bid": 547,
+    "rank": 977,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 534419,
+    "values": "12, 4, 12, 12, 12"
+  },
+  {
+    "cards": "Q8888",
+    "bid": 30,
+    "rank": 978,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 29340,
+    "values": "12, 8, 8, 8, 8"
+  },
+  {
+    "cards": "Q9999",
+    "bid": 763,
+    "rank": 979,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 746977,
+    "values": "12, 9, 9, 9, 9"
+  },
+  {
+    "cards": "QTTTT",
+    "bid": 586,
+    "rank": 980,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 574280,
+    "values": "12, 10, 10, 10, 10"
+  },
+  {
+    "cards": "QJQQQ",
+    "bid": 487,
+    "rank": 981,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 477747,
+    "values": "12, 11, 12, 12, 12"
+  },
+  {
+    "cards": "QQ6QQ",
+    "bid": 421,
+    "rank": 982,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 413422,
+    "values": "12, 12, 6, 12, 12"
+  },
+  {
+    "cards": "QQ8QQ",
+    "bid": 776,
+    "rank": 983,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 762808,
+    "values": "12, 12, 8, 12, 12"
+  },
+  {
+    "cards": "QQQQ5",
+    "bid": 633,
+    "rank": 984,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 622872,
+    "values": "12, 12, 12, 12, 5"
+  },
+  {
+    "cards": "QQQQ7",
+    "bid": 773,
+    "rank": 985,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 761405,
+    "values": "12, 12, 12, 12, 7"
+  },
+  {
+    "cards": "QQKQQ",
+    "bid": 304,
+    "rank": 986,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 299744,
+    "values": "12, 12, 13, 12, 12"
+  },
+  {
+    "cards": "QKKKK",
+    "bid": 437,
+    "rank": 987,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 431319,
+    "values": "12, 13, 13, 13, 13"
+  },
+  {
+    "cards": "QAQQQ",
+    "bid": 374,
+    "rank": 988,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 369512,
+    "values": "12, 14, 12, 12, 12"
+  },
+  {
+    "cards": "K2KKK",
+    "bid": 264,
+    "rank": 989,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 261096,
+    "values": "13, 2, 13, 13, 13"
+  },
+  {
+    "cards": "K9KKK",
+    "bid": 225,
+    "rank": 990,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 222750,
+    "values": "13, 9, 13, 13, 13"
+  },
+  {
+    "cards": "KKTKK",
+    "bid": 815,
+    "rank": 991,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 807665,
+    "values": "13, 13, 10, 13, 13"
+  },
+  {
+    "cards": "KKKJK",
+    "bid": 693,
+    "rank": 992,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 687456,
+    "values": "13, 13, 13, 11, 13"
+  },
+  {
+    "cards": "KKKK3",
+    "bid": 913,
+    "rank": 993,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 906609,
+    "values": "13, 13, 13, 13, 3"
+  },
+  {
+    "cards": "KAAAA",
+    "bid": 936,
+    "rank": 994,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 930384,
+    "values": "13, 14, 14, 14, 14"
+  },
+  {
+    "cards": "A3333",
+    "bid": 531,
+    "rank": 995,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 528345,
+    "values": "14, 3, 3, 3, 3"
+  },
+  {
+    "cards": "A7AAA",
+    "bid": 286,
+    "rank": 996,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 284856,
+    "values": "14, 7, 14, 14, 14"
+  },
+  {
+    "cards": "AQAAA",
+    "bid": 976,
+    "rank": 997,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 973072,
+    "values": "14, 12, 14, 14, 14"
+  },
+  {
+    "cards": "AA2AA",
+    "bid": 28,
+    "rank": 998,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 27944,
+    "values": "14, 14, 2, 14, 14"
+  },
+  {
+    "cards": "AAA8A",
+    "bid": 510,
+    "rank": 999,
+    "testRank": 2,
+    "description": "Four of a kind",
+    "score": 509490,
+    "values": "14, 14, 14, 8, 14"
+  },
+  {
+    "cards": "JJJJJ",
+    "bid": 917,
+    "rank": 1000,
+    "testRank": 1,
+    "description": "Five of a kind",
+    "score": 917000,
+    "values": "11, 11, 11, 11, 11"
+  }
+]
