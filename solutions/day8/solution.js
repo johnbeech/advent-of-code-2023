@@ -3,6 +3,17 @@ const { read, write, position } = require('promise-path')
 const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
+class MathHelpers {
+  static gcd (a, b) {
+    if (b === 0) return a
+    return MathHelpers.gcd(b, a % b)
+  }
+
+  static lcm (a, b) {
+    return (a * b) / MathHelpers.gcd(a, b)
+  }
+}
+
 async function run () {
   const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
@@ -48,26 +59,14 @@ function countSteps (start, destination, directions, locationMap) {
 function findDistancetoZ (start, directions, locationMap) {
   let current = start
   let steps = 0
-  console.log('Start:', start, 'Directions:', directions)
-  const path = []
-  let currentLocationId = start.locId
-  while (currentLocationId.charAt(2) !== 'Z') {
+  console.log('Find distance to Z from:', start)
+  while (!current.locId.endsWith('Z')) {
     const direction = directions[steps % directions.length]
-    const executionKey = `${direction}+${current.locId}+${locationMap[direction === 'L' ? current.leftId : current.rightId].locId}`
-    if (path.includes(executionKey)) {
-      console.log('Loop detected:', executionKey, 'Steps:', steps)
-      break
-    }
-    path.push(executionKey)
-    console.log('Direction:', direction, 'Current:', current, 'Steps:', steps, 'Char:', current.locId.charAt(2))
+    const nextNode = locationMap[direction === 'L' ? current.leftId : current.rightId]
     steps++
-    if (direction === 'L') {
-      current = locationMap[current.leftId]
-    } else if (direction === 'R') {
-      current = locationMap[current.rightId]
-    }
-    currentLocationId = current.locId
+    current = nextNode
   }
+  console.log('Found Z at:', current, 'after', steps, 'steps')
   const end = current
   const distance = steps
   return { end, distance }
@@ -95,12 +94,11 @@ async function solveForFirstStar (input) {
 async function solveForSecondStar (input) {
   const puzzleMap = parsePuzzleMap(input)
 
-  const directions = ['L', 'R']
-  const startLocations = puzzleMap.locations.filter(location => location.locId.charAt(2) === 'A')
-  const endLocations = puzzleMap.locations.filter(location => location.locId.charAt(2) === 'Z')
+  const directions = puzzleMap.directions // ['L', 'R']
+  const startLocations = puzzleMap.locations.filter(location => location.locId.endsWith('A'))
+  const endLocations = puzzleMap.locations.filter(location => location.locId.endsWith('Z'))
 
   console.log('Start locations:', startLocations)
-  console.log('End locations:', endLocations)
 
   const distanceMap = startLocations.reduce((map, start) => {
     console.log('Path from start:', start)
@@ -110,30 +108,16 @@ async function solveForSecondStar (input) {
     return map
   }, {})
 
+  console.log('End locations:', endLocations)
+  console.log('Distance map:', distanceMap)
+
   await write(fromHere('distance-map.json'), JSON.stringify(distanceMap, null, 2), 'utf8')
 
-  /*
-  let currentLocations = startLocations
-  let steps = 0
-  let destinationCheck = []
-  console.log('Start locations:', startLocations)
-  while (destinationCheck.length < currentLocations.length) {
-    const direction = directions[steps % directions.length]
-    steps++
-    if (direction === 'L') {
-      currentLocations = currentLocations.map(current => puzzleMap.locationMap[current.leftId])
-    } else if (direction === 'R') {
-      currentLocations = currentLocations.map(current => puzzleMap.locationMap[current.rightId])
-    }
-    destinationCheck = currentLocations.filter(current => current.locId.charAt(2) === 'Z')
-    if (steps % 10000000 === 0) {
-      console.log('Steps:', steps, 'Current locations:', currentLocations)
-    }
-  }
-  console.log('End locations:', currentLocations)
-  */
+  const stepsToAlign = Object.values(distanceMap)
+    .map(item => item.distance)
+    .reduce((acc, curr) => MathHelpers.lcm(acc, curr), 1)
 
-  const solution = '???'
+  const solution = stepsToAlign
   report('Solution 2:', solution)
 }
 

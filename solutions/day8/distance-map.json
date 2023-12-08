@@ -1,80 +1,80 @@
 {
-  "PBA-->RVX": {
+  "PBA-->RGZ": {
     "start": {
       "locId": "PBA",
       "leftId": "RVX",
       "rightId": "RFP"
     },
     "end": {
-      "locId": "RVX",
-      "leftId": "RNG",
-      "rightId": "KXH"
+      "locId": "RGZ",
+      "leftId": "RFP",
+      "rightId": "RVX"
     },
-    "distance": 143
+    "distance": 20093
   },
-  "LSA-->VRQ": {
+  "LSA-->VQZ": {
     "start": {
       "locId": "LSA",
       "leftId": "VRQ",
       "rightId": "RDR"
     },
     "end": {
-      "locId": "VRQ",
-      "leftId": "BPL",
-      "rightId": "TSN"
+      "locId": "VQZ",
+      "leftId": "RDR",
+      "rightId": "VRQ"
     },
-    "distance": 87
+    "distance": 12169
   },
-  "VSA-->XVJ": {
+  "VSA-->BLZ": {
     "start": {
       "locId": "VSA",
       "leftId": "XVJ",
       "rightId": "LPN"
     },
     "end": {
-      "locId": "XVJ",
-      "leftId": "XKD",
-      "rightId": "SPT"
+      "locId": "BLZ",
+      "leftId": "LPN",
+      "rightId": "XVJ"
     },
-    "distance": 95
+    "distance": 13301
   },
-  "QVA-->QRD": {
+  "QVA-->XSZ": {
     "start": {
       "locId": "QVA",
       "leftId": "QRD",
       "rightId": "XVM"
     },
     "end": {
-      "locId": "QRD",
-      "leftId": "LQD",
-      "rightId": "RKN"
+      "locId": "XSZ",
+      "leftId": "XVM",
+      "rightId": "QRD"
     },
-    "distance": 147
+    "distance": 20659
   },
-  "AAA-->KNJ": {
+  "AAA-->ZZZ": {
     "start": {
       "locId": "AAA",
       "leftId": "KNJ",
       "rightId": "MTL"
     },
     "end": {
-      "locId": "KNJ",
-      "leftId": "PJX",
-      "rightId": "MVX"
+      "locId": "ZZZ",
+      "leftId": "MTL",
+      "rightId": "KNJ"
     },
-    "distance": 119
+    "distance": 16697
   },
-  "VKA-->LRB": {
+  "VKA-->KKZ": {
     "start": {
       "locId": "VKA",
       "leftId": "LRB",
       "rightId": "GDB"
     },
     "end": {
-      "locId": "LRB",
-      "leftId": "PDX",
-      "rightId": "JPL"
+      "locId": "KKZ",
+      "leftId": "GDB",
+      "rightId": "LRB"
     },
-    "distance": 123
+    "distance": 17263
   }
 }
