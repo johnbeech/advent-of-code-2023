@@ -30,9 +30,7 @@ function reduceValues (values) {
   }, [])
 }
 
-async function solveForFirstStar (input) {
-  const measurements = parseInput(input)
-
+function computerEnhance (measurements) {
   measurements.forEach(records => {
     let layer = records.values
     records.layers = [layer]
@@ -51,25 +49,38 @@ async function solveForFirstStar (input) {
       layer.push(prediction)
       return layer
     })
-
-    console.log('Layers', records)
     const topLayer = records.layers[records.layers.length - 1]
     records.prediction = topLayer[topLayer.length - 1]
   })
+}
+
+function sumPredictions (measurements) {
+  return measurements.reduce((acc, records) => {
+    return acc + records.prediction
+  }, 0)
+}
+
+async function solveForFirstStar (input) {
+  const measurements = parseInput(input)
+  computerEnhance(measurements)
 
   await write(fromHere('output.json'), JSON.stringify(measurements, null, '  '), 'utf8')
 
-  const sumOfAllPredictions = measurements.reduce((acc, records) => {
-    return acc + records.prediction
-  }, 0)
-
-  const solution = sumOfAllPredictions
+  const solution = sumPredictions(measurements)
   report('Input:', input)
   report('Solution 1:', solution)
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const measurements = parseInput(input)
+  measurements.forEach(records => {
+    records.values.reverse()
+  })
+  computerEnhance(measurements)
+
+  await write(fromHere('output.json'), JSON.stringify(measurements, null, '  '), 'utf8')
+
+  const solution = sumPredictions(measurements)
   report('Solution 2:', solution)
 }
 
