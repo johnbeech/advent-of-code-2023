@@ -52,16 +52,22 @@ function followRoute (pipeMap, startDirection) {
   let currentDirection = startDirection
   while (route.includes(currentLocation) === false) {
     route.push(currentLocation)
-
-    const nextLocation = pipeMap.locations[`${currentLocation.x + currentDirection.x},${currentLocation.y + currentDirection.y}`]
+    const nextKey = `${currentLocation.x + currentDirection.x},${currentLocation.y + currentDirection.y}`
+    const nextLocation = pipeMap.locations[nextKey]
     if (nextLocation === undefined) {
       console.log('Hit a dead end', currentLocation, currentDirection)
       break
     }
     const newDirection = nextLocation.exits.find(exit => {
-      const exitLocation = pipeMap.locations[`${currentLocation.x + exit.x},${currentLocation.y + exit.y}`]
+      const exitKey = `${nextLocation.x + exit.x},${nextLocation.y + exit.y}`
+      const exitLocation = pipeMap.locations[exitKey]
       return exitLocation !== currentLocation
     })
+
+    if (!newDirection) {
+      console.log('Couldn\'t find an exit', { currentLocation, nextLocation, currentDirection })
+      break
+    }
 
     currentDirection = newDirection
     currentLocation = nextLocation
@@ -70,7 +76,7 @@ function followRoute (pipeMap, startDirection) {
 
   const routeStart = route[0]
   const routeEnd = route[route.length - 1]
-  console.log('Completed loop', routeStart === routeEnd ? 'Back at start' : 'Not back at start', routeStart, routeEnd, route.length, 'locations')
+  console.log('Completed loop', routeStart === routeEnd ? 'Back at start' : 'Not back at start', { routeStart, routeEnd, length: route.length }, 'locations')
   return route
 }
 
@@ -81,10 +87,12 @@ async function solveForFirstStar (input) {
     return followRoute(pipeMap, direction)
   })
 
+  const fullRoute = routes.find(route => route.filter(location => location.name === 'start').length === 2)
+
   await write(fromHere('output.json'), JSON.stringify(pipeMap, null, 2), 'utf8')
   await write(fromHere('routes.json'), JSON.stringify(routes, null, 2), 'utf8')
 
-  const solution = 'UNSOLVED'
+  const solution = Math.floor(fullRoute.length / 2)
   report('Solution 1:', solution)
 }
 
