@@ -25,6 +25,7 @@ const pipeTypes = {
   L: { exits: [directions.UP, directions.RIGHT], name: 'L corner' },
   J: { exits: [directions.UP, directions.LEFT], name: 'J corner' },
   '.': { exits: [], name: 'floor' },
+  S: { exits: [...Object.values(directions)], name: 'start' },
   '?': { exits: [], name: 'unknown' }
 }
 
@@ -36,7 +37,7 @@ function parsePipeMap (input) {
   pipeMap.pipes = input.split('\n').map(line => line.trim()).filter(line => line.length > 0).forEach((line, y) => {
     const row = line.split('').map((char, x) => {
       const pipe = pipeTypes[char] ?? pipeTypes['?']
-      pipeMap.locations[`${x},${y}`] = pipe
+      pipeMap.locations[`${x},${y}`] = { x, y, ...pipe }
       return pipe
     })
     return row
@@ -44,13 +45,46 @@ function parsePipeMap (input) {
   return pipeMap
 }
 
+function followRoute (pipeMap, startDirection) {
+  const route = []
+  const startLocation = Object.values(pipeMap.locations).find(location => location.name === 'start')
+  let currentLocation = startLocation
+  let currentDirection = startDirection
+  while (route.includes(currentLocation) === false) {
+    route.push(currentLocation)
+
+    const nextLocation = pipeMap.locations[`${currentLocation.x + currentDirection.x},${currentLocation.y + currentDirection.y}`]
+    if (nextLocation === undefined) {
+      console.log('Hit a dead end', currentLocation, currentDirection)
+      break
+    }
+    const newDirection = nextLocation.exits.find(exit => {
+      const exitLocation = pipeMap.locations[`${currentLocation.x + exit.x},${currentLocation.y + exit.y}`]
+      return exitLocation !== currentLocation
+    })
+
+    currentDirection = newDirection
+    currentLocation = nextLocation
+  }
+  route.push(currentLocation)
+
+  const routeStart = route[0]
+  const routeEnd = route[route.length - 1]
+  console.log('Completed loop', routeStart === routeEnd ? 'Back at start' : 'Not back at start', routeStart, routeEnd, route.length, 'locations')
+  return route
+}
+
 async function solveForFirstStar (input) {
   const pipeMap = parsePipeMap(input)
 
+  const routes = Object.values(directions).map(direction => {
+    return followRoute(pipeMap, direction)
+  })
+
   await write(fromHere('output.json'), JSON.stringify(pipeMap, null, 2), 'utf8')
+  await write(fromHere('routes.json'), JSON.stringify(routes, null, 2), 'utf8')
 
   const solution = 'UNSOLVED'
-  report('Input:', input)
   report('Solution 1:', solution)
 }
 
