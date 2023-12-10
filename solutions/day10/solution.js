@@ -82,7 +82,7 @@ function followRoute (pipeMap, startDirection) {
     nextLocation.exit = newDirection
     const pipeRotation = (newDirection === nextLocation.exits[0]) ? nextLocation.rotation : -nextLocation.rotation
     rotation = (720 + rotation - pipeRotation) % 360
-    console.log(rotations[rotation].symbol, pipeRotation)
+    // console.log(rotations[rotation].symbol, pipeRotation)
     if (nextLocation.symbol !== 'S') {
       nextLocation.travel = rotations[rotation]?.symbol
       nextLocation.leftOf = rotations[(360 + rotation - 90) % 360].direction
@@ -121,7 +121,6 @@ function floodFill (locations, x, y, symbol) {
   const startSymbol = start.symbol
   const unvisited = [start]
   const exits = Object.values(directions)
-  console.log('Flood filling', { x, y, symbol, startSymbol })
   while (unvisited.length > 0) {
     const location = unvisited.pop()
     if (location === undefined) {
@@ -163,14 +162,15 @@ async function solveForSecondStar (input) {
 
   const outside = 'o'
   const inside = 'i'
+  // Flood fill outside
   floodFill(pipeMap.locations, 0, 0, outside)
   const halfSize = Math.floor(pipeMap.pipes.length / 2)
   if (pipeMap.locations[`${halfSize},${halfSize}`].symbol !== outside) {
+    // Flood fill inside
     floodFill(pipeMap.locations, halfSize, halfSize, inside)
   }
 
   fullRoute.forEach(location => {
-    // location.symbol = location.travel ?? location.symbol
     if (location.leftOf) {
       const insideKey = `${location.x + location.leftOf.x},${location.y + location.leftOf.y}`
       const insideLocation = pipeMap.locations[insideKey]
@@ -189,8 +189,15 @@ async function solveForSecondStar (input) {
 
   const insideLocations = Object.values(pipeMap.locations).filter(location => location.symbol === inside)
 
-  const outputText = pipeMap.pipes.map(row => row.map(pipe => pipe.symbol).join('')).join('\n')
-  await write(fromHere('output.txt'), outputText, 'utf8')
+  const outputInsideOut = pipeMap.pipes.map(row => row.map(pipe => pipe.symbol).join('')).join('\n')
+  await write(fromHere('output.txt'), outputInsideOut, 'utf8')
+
+  fullRoute.forEach(location => {
+    location.symbol = location.travel ?? location.symbol
+  })
+
+  const outputArrows = pipeMap.pipes.map(row => row.map(pipe => pipe.symbol).join('')).join('\n')
+  await write(fromHere('output-arrows.txt'), outputArrows, 'utf8')
 
   const solution = insideLocations.length
   report('Solution 2:', solution)
