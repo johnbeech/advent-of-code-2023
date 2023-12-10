@@ -4,18 +4,19 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
 }
 
 const directions = {
-  UP: { name: 'up', x: 0, y: -1, symbol: '↑', startRotation: 0 },
-  DOWN: { name: 'down', x: 0, y: 1, symbol: '↓', startRotation: 180 },
   LEFT: { name: 'left', x: -1, y: 0, symbol: '←', startRotation: 270 },
-  RIGHT: { name: 'right', x: 1, y: 0, symbol: '→', startRotation: 90 }
+  DOWN: { name: 'down', x: 0, y: 1, symbol: '↓', startRotation: 180 },
+  RIGHT: { name: 'right', x: 1, y: 0, symbol: '→', startRotation: 90 },
+  UP: { name: 'up', x: 0, y: -1, symbol: '↑', startRotation: 0 }
 }
+const directionList = Object.values(directions)
 
 const rotations = {
   0: { direction: directions.UP, symbol: '↑' },
@@ -84,6 +85,7 @@ function followRoute (pipeMap, startDirection) {
     console.log(rotations[rotation].symbol, pipeRotation)
     if (nextLocation.symbol !== 'S') {
       nextLocation.travel = rotations[rotation]?.symbol
+      nextLocation.leftOf = rotations[(360 + rotation - 90) % 360].direction
     }
 
     currentDirection = newDirection
@@ -162,19 +164,35 @@ async function solveForSecondStar (input) {
   const outside = 'o'
   const inside = 'i'
   floodFill(pipeMap.locations, 0, 0, outside)
-  const halfSize = Math.round(pipeMap.pipes.length / 2)
+  const halfSize = Math.floor(pipeMap.pipes.length / 2)
   if (pipeMap.locations[`${halfSize},${halfSize}`].symbol !== outside) {
     floodFill(pipeMap.locations, halfSize, halfSize, inside)
   }
 
   fullRoute.forEach(location => {
-    location.symbol = location.travel ?? location.symbol
+    // location.symbol = location.travel ?? location.symbol
+    if (location.leftOf) {
+      const insideKey = `${location.x + location.leftOf.x},${location.y + location.leftOf.y}`
+      const insideLocation = pipeMap.locations[insideKey]
+      if (insideLocation?.symbol === '.') {
+        insideLocation.symbol = inside
+      }
+
+      const leftOfLeft = directionList[(directionList.indexOf(location.leftOf) - 1 + directionList.length) % directionList.length]
+      const insideInsideKey = `${insideLocation.x + leftOfLeft.x},${insideLocation.y + leftOfLeft.y}`
+      const insideInsideLocation = pipeMap.locations[insideInsideKey]
+      if (insideInsideLocation?.symbol === '.') {
+        insideInsideLocation.symbol = inside
+      }
+    }
   })
+
+  const insideLocations = Object.values(pipeMap.locations).filter(location => location.symbol === inside)
 
   const outputText = pipeMap.pipes.map(row => row.map(pipe => pipe.symbol).join('')).join('\n')
   await write(fromHere('output.txt'), outputText, 'utf8')
 
-  const solution = 'UNSOLVED'
+  const solution = insideLocations.length
   report('Solution 2:', solution)
 }
 
