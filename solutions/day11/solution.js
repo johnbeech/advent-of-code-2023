@@ -57,15 +57,16 @@ function findDistance (a, b, rowExpansion, columnExpansion) {
 
 async function solveForFirstStar (input) {
   const galaxies = parseGalaxies(input)
+  const expansionRatio = 2
 
   const rowExpansion = createSequence(galaxies.height).map(y => {
     const expandRow = !galaxies.list.some(location => location.y === y)
-    const expansion = expandRow ? 2 : 1
+    const expansion = expandRow ? expansionRatio : 1
     return { y, expansion }
   })
   const columnExpansion = createSequence(galaxies.width).map(x => {
     const expandColumn = !galaxies.list.some(location => location.x === x)
-    const expansion = expandColumn ? 2 : 1
+    const expansion = expandColumn ? expansionRatio : 1
     return { x, expansion }
   })
 
@@ -73,18 +74,37 @@ async function solveForFirstStar (input) {
   const distances = galaxies.pairs.map(([a, b], index) => {
     return findDistance(a, b, rowExpansion, columnExpansion)
   })
-  // console.log('Distances:', distances)
-
-  const sumOfDistances = distances.reduce((acc, item) => acc + item.distance, 0)
 
   await write(fromHere('output.json'), JSON.stringify({ rowExpansion, columnExpansion, galaxies }, null, 2), 'utf8')
 
+  const sumOfDistances = distances.reduce((acc, item) => acc + item.distance, 0)
   const solution = sumOfDistances
   report('Solution 1:', solution)
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const galaxies = parseGalaxies(input)
+  const expansionRatio = 1000000
+
+  const rowExpansion = createSequence(galaxies.height).map(y => {
+    const expandRow = !galaxies.list.some(location => location.y === y)
+    const expansion = expandRow ? expansionRatio : 1
+    return { y, expansion }
+  })
+  const columnExpansion = createSequence(galaxies.width).map(x => {
+    const expandColumn = !galaxies.list.some(location => location.x === x)
+    const expansion = expandColumn ? expansionRatio : 1
+    return { x, expansion }
+  })
+
+  console.log('Pairs:', galaxies.pairs.length)
+  const distances = galaxies.pairs.map(([a, b], index) => {
+    return findDistance(a, b, rowExpansion, columnExpansion)
+  })
+
+  const sumOfDistances = distances.reduce((acc, item) => acc + item.distance, 0)
+  const solution = sumOfDistances
+
   report('Solution 2:', solution)
 }
 
