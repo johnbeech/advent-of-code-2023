@@ -19,18 +19,26 @@ function parseGalaxies (input) {
         return
       }
       const location = {
-        x, y, symbol: char, num: galaxies.length
+        x, y, symbol: char, num: galaxies.length + 1
       }
       locations[`${x},${y}`] = location
       galaxies.push(location)
     })
     return locations
   }, {})
+  const pairs = galaxies.reduce((acc, galaxy, index) => {
+    while (index < galaxies.length - 1) {
+      const other = galaxies[++index]
+      acc.push([galaxy, other])
+    }
+    return acc
+  }, [])
   return {
     locations,
     width: lines[0].length,
     height: lines.length,
-    list: galaxies
+    list: galaxies,
+    pairs
   }
 }
 
@@ -38,24 +46,40 @@ function createSequence (length) {
   return Array.from({ length }, (_, i) => i)
 }
 
+function findDistance (a, b, rowExpansion, columnExpansion) {
+  const rowsCrossed = rowExpansion.slice(Math.min(a.y, b.y), Math.max(a.y, b.y))
+  const columnsCrossed = columnExpansion.slice(Math.min(a.x, b.x), Math.max(a.x, b.x))
+
+  const rowDistance = rowsCrossed.reduce((acc, { expansion }) => acc + expansion, 0)
+  const columnDistance = columnsCrossed.reduce((acc, { expansion }) => acc + expansion, 0)
+  return { a, b, distance: rowDistance + columnDistance, rowsCrossed: rowsCrossed.map(n => n.expansion), columnsCrossed: columnsCrossed.map(n => n.expansion) }
+}
+
 async function solveForFirstStar (input) {
   const galaxies = parseGalaxies(input)
-  const solution = 'UNSOLVED'
 
-  const rowsWithoutGalaxies = createSequence(galaxies.height).map(y => {
-    const expandRow = galaxies.list.every(location => !location.y === y)
-    const expansion = expandRow ? 1 : 2
+  const rowExpansion = createSequence(galaxies.height).map(y => {
+    const expandRow = !galaxies.list.some(location => location.y === y)
+    const expansion = expandRow ? 2 : 1
     return { y, expansion }
   })
-  const columnsWithoutGalaxies = createSequence(galaxies.width).map(x => {
-    const expandColumn = galaxies.list.every(location => !location.x === x)
-    const expansion = expandColumn ? 1 : 2
+  const columnExpansion = createSequence(galaxies.width).map(x => {
+    const expandColumn = !galaxies.list.some(location => location.x === x)
+    const expansion = expandColumn ? 2 : 1
     return { x, expansion }
   })
 
-  await write(fromHere('output.json'), JSON.stringify({ rowsWithoutGalaxies, columnsWithoutGalaxies, galaxies }, null, 2), 'utf8')
+  console.log('Pairs:', galaxies.pairs.length)
+  const distances = galaxies.pairs.map(([a, b], index) => {
+    return findDistance(a, b, rowExpansion, columnExpansion)
+  })
+  // console.log('Distances:', distances)
 
-  report('Input:', input)
+  const sumOfDistances = distances.reduce((acc, item) => acc + item.distance, 0)
+
+  await write(fromHere('output.json'), JSON.stringify({ rowExpansion, columnExpansion, galaxies }, null, 2), 'utf8')
+
+  const solution = sumOfDistances
   report('Solution 1:', solution)
 }
 
