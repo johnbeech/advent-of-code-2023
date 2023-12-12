@@ -23,7 +23,28 @@ function parseSprings (input) {
   return springs
 }
 
-function countArrangements (inputs, index) {
+function memoize (func) {
+  const cacheSet = new Set()
+  const cache = {}
+
+  return function (...args) {
+    const key = args.join(',')
+
+    if (!cacheSet.has(key)) {
+      cacheSet.add(key)
+      cache[key] = func.apply(this, args)
+    }
+
+    return cache[key]
+  }
+}
+
+let iterations = 0
+function _countArrangements (inputs, index) {
+  iterations++
+  if (iterations % 1000000 === 0) {
+    console.log('Iterations', iterations)
+  }
   const [[curr, ...rest], checks] = inputs
   if (!curr) {
     return (checks.length === 1 && checks[0] === index) ||
@@ -44,6 +65,8 @@ function countArrangements (inputs, index) {
     .reduce((sum, v) => sum + v, 0)
 }
 
+const countArrangements = memoize(_countArrangements)
+
 async function solveForFirstStar (input) {
   const springs = parseSprings(input)
 
@@ -57,7 +80,26 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const springs = parseSprings(input)
+
+  const unfurledSprings = springs.map(spring => {
+    const [conditions, checks] = spring
+    return [
+      '?????'.split('').map(c => conditions).join('?'),
+      '12345'.split('').map(c => checks).flat()
+    ]
+  })
+
+  const arrangements = unfurledSprings.map((spring, index) => {
+    console.log('Spring', (index + 1), spring[0], spring[1].join(', '))
+    const count = countArrangements(spring, 0)
+    console.log({ count, iterations })
+    iterations = 0
+    return count
+  })
+  const sumOfArrangements = arrangements.reduce((sum, v) => sum + v, 0)
+
+  const solution = sumOfArrangements
   report('Solution 2:', solution)
 }
 
