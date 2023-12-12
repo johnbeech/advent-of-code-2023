@@ -4,7 +4,7 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
@@ -13,67 +13,46 @@ async function run () {
 function parseSprings (input) {
   const lines = input.split('\n').map(line => line.trim()).filter(line => line.length)
   const springs = lines.map((line, index) => {
-    const [conditionString, checkString] = line.split(' ')
-    const conditions = conditionString
-    const compressed = conditionString.replaceAll(/\.[.]+/g, '.')
+    const [conditions, checkString] = line.split(' ')
     const checks = checkString.split(',').map(check => Number.parseInt(check, 10))
-    const blocks = compressed.split('.').filter(block => block.length).map(block => {
-      return {
-        str: block,
-        contiguous: block.split('').every(char => char === '#')
-      }
-    })
-    return {
-      index,
+    return [
       conditions,
-      compressed,
-      checks,
-      blocks
-    }
+      checks
+    ]
   })
   return springs
 }
 
-function placeChecks (spring) {
-  const checks = [...spring.checks]
-  const blocks = [...spring.blocks]
-  let currentCheckBlock = []
-  while (blocks.length > 0) {
-    const currentBlock = blocks.shift()
-    while (checks.length > 0) {
-      const nextCheck = checks.shift()
-      currentCheckBlock.push(nextCheck)
-      const checkLength = currentCheckBlock.reduce((total, check) => total + check, currentCheckBlock.length - 1)
-      if (checkLength === currentBlock.str.length) {
-        // exact match
-        currentBlock.checks = [...currentCheckBlock]
-        break
-      } else if (checkLength > currentBlock.str.length) {
-        // step back
-        currentCheckBlock.pop()
-        checks.unshift(nextCheck)
-        break
-      } else {
-        // add more blocks
-      }
-    }
-    currentBlock.checks = [...currentCheckBlock]
-    currentCheckBlock = []
+function countArrangements (inputs, index) {
+  const [[curr, ...rest], checks] = inputs
+  if (!curr) {
+    return (checks.length === 1 && checks[0] === index) ||
+      (!checks.length && !index)
+      ? 1
+      : 0
   }
-  console.log('Checked blocks:', spring.blocks, spring.checks)
-  return spring
+  return [...(curr === '?' ? '.#' : curr)]
+    .map(c => {
+      if (c === '#') { return countArrangements([rest, checks], index + 1) }
+      // if no new group yet, keep moving
+      if (!index) return countArrangements([rest, checks], 0)
+      // if we started counting and count matches then check next portion
+      if (index === checks[0]) { return countArrangements([rest, checks.slice(1)], 0) }
+      // no match
+      return 0
+    })
+    .reduce((sum, v) => sum + v, 0)
 }
 
 async function solveForFirstStar (input) {
   const springs = parseSprings(input)
 
-  springs.forEach(spring => {
-    placeChecks(spring)
-  })
+  const arrangements = springs.map(spring => countArrangements(spring, 0))
+  const sumOfArrangements = arrangements.reduce((sum, v) => sum + v, 0)
 
   await write(fromHere('springs.json'), JSON.stringify(springs, null, 2), 'utf8')
 
-  const solution = 'UNSOLVED'
+  const solution = sumOfArrangements
   report('Solution 1:', solution)
 }
 
