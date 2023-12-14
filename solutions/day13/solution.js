@@ -26,7 +26,7 @@ function parseMaps (input) {
 function tryAndMirror (map, type) {
   // move through each row index and try to find mirroring row position (if any)
   let i = 1
-  while (i < map.length - 2) {
+  while (i < map.length) {
     const a = map.slice(0, i).join('')
     const b = map.slice(i).reverse().join('')
     if (a.length > b.length && a.endsWith(b)) {
