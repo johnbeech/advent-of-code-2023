@@ -192,7 +192,6 @@ async function solveForSecondStar (input) {
 
   const solutions = {}
   let i = 0
-  // 1000000000
   const limit = 1000000000
   let layout
   while (i < limit) {
@@ -207,11 +206,6 @@ async function solveForSecondStar (input) {
       layoutCache[layout] = i
     }
     solutions[i] = northLoad
-    if (i % 10000 === 0) {
-      console.log('Solutions at', i, 'of', limit - i, ':', Object.entries(solutions)
-        .map(([k, v]) => `${k}: ${v % 10000}`).join(', '))
-      // displayResult(puzzle)
-    }
     i++
   }
 
