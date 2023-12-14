@@ -4,7 +4,7 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
@@ -185,6 +185,8 @@ function _runCycle (puzzle) {
 
 const runCycle = memoize(_runCycle)
 
+const layoutCache = {}
+
 async function solveForSecondStar (input) {
   let puzzle = parseInput(input)
 
@@ -192,10 +194,19 @@ async function solveForSecondStar (input) {
   let i = 0
   // 1000000000
   const limit = 1000000000
+  let layout
   while (i < limit) {
     puzzle = runCycle(puzzle)
-    const solution = _calculateNorthLoad(puzzle)
-    solutions[solution] = i
+    layout = flattenResult(puzzle)
+    const northLoad = _calculateNorthLoad(puzzle)
+    if (layoutCache[layout]) {
+      console.log('Found a loop at', i, 'of', limit - i, ':', Object.entries(solutions))
+      console.log(layout)
+      break
+    } else {
+      layoutCache[layout] = i
+    }
+    solutions[i] = northLoad
     if (i % 10000 === 0) {
       console.log('Solutions at', i, 'of', limit - i, ':', Object.entries(solutions)
         .map(([k, v]) => `${k}: ${v % 10000}`).join(', '))
@@ -204,7 +215,12 @@ async function solveForSecondStar (input) {
     i++
   }
 
-  const solution = _calculateNorthLoad(puzzle)
+  const repeatsFrom = layoutCache[layout]
+  const cycleLength = Object.keys(layoutCache).length - repeatsFrom
+  const modulo = (limit - repeatsFrom - 1) % cycleLength
+
+  const finalPosition = Object.entries(layoutCache).find(([k, v]) => v === repeatsFrom + modulo)[1]
+  const solution = solutions[finalPosition]
   report('Solution 2:', solution)
 }
 
