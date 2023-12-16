@@ -105,27 +105,33 @@ function displayLayout (layout) {
   return output
 }
 
-async function solveForFirstStar (input) {
-  const layout = parseMirrorLayout(input)
+function countEnergisedTiles (layout) {
+  return layout.reduce((acc, row) => {
+    return acc + row.reduce((acc, tile) => {
+      tile.energyTotal = tile.energised.up + tile.energised.down + tile.energised.left + tile.energised.right
+      return acc + (tile.energyTotal > 0 ? 1 : 0)
+    }, 0)
+  }, 0)
+}
 
-  console.log('Directions', directions)
-
-  const start = layout[0][0]
-  const startDirection = 'right'
+function energiseLayout (layout, start, startDirection) {
   const nextInstructions = [{ tile: start, direction: startDirection }]
   while (nextInstructions.length > 0) {
     const { tile, direction } = nextInstructions.shift()
     const newInstructions = travelLight(layout, tile, direction)
     nextInstructions.push(...newInstructions)
   }
+  return layout
+}
 
-  const solution = layout.reduce((acc, row) => {
-    return acc + row.reduce((acc, tile) => {
-      tile.energyTotal = tile.energised.up + tile.energised.down + tile.energised.left + tile.energised.right
-      return acc + (tile.energyTotal > 0 ? 1 : 0)
-    }, 0)
-  }, 0)
-  report('Mirrors:', layout)
+async function solveForFirstStar (input) {
+  const layout = parseMirrorLayout(input)
+
+  const start = layout[0][0]
+  const startDirection = 'right'
+  energiseLayout(layout, start, startDirection)
+  const solution = countEnergisedTiles(layout)
+
   report(displayLayout(layout))
   report('Solution 1:', solution)
 }
