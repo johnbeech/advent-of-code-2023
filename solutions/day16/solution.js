@@ -4,7 +4,7 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
@@ -71,13 +71,62 @@ function parseMirrorLayout (input) {
   return layout
 }
 
+function travelLight (layout, tile, direction) {
+  if (tile === undefined) {
+    return []
+  }
+  if (tile.energised[direction] > 1) {
+    return []
+  }
+  const results = []
+  tile.energised[direction]++
+  if (tile.empty) {
+    const directionOffset = directions[direction]
+    const nextTile = layout[tile.y + directionOffset.y]?.[tile.x + directionOffset.x]
+    if (nextTile === undefined) {
+      return []
+    }
+    results.push({ tile: nextTile, direction })
+  } else {
+    tile.mirror[direction].forEach(newDirection => {
+      const directionOffset = directions[newDirection]
+      const nextTile = layout[tile.y + directionOffset.y]?.[tile.x + directionOffset.x]
+      if (nextTile === undefined) {
+        return
+      }
+      results.push({ tile: nextTile, direction: newDirection })
+    })
+  }
+  return results
+}
+
+function displayLayout (layout) {
+  const output = layout.map(row => row.map(tile => tile.energyTotal).join('')).join('\n')
+  return output
+}
+
 async function solveForFirstStar (input) {
   const layout = parseMirrorLayout(input)
 
   console.log('Directions', directions)
 
-  const solution = 'UNSOLVED'
+  const start = layout[0][0]
+  const startDirection = 'right'
+  const nextInstructions = [{ tile: start, direction: startDirection }]
+  while (nextInstructions.length > 0) {
+    const { tile, direction } = nextInstructions.shift()
+    const newInstructions = travelLight(layout, tile, direction)
+    nextInstructions.push(...newInstructions)
+  }
+
+  const solution = layout.reduce((acc, row) => {
+    return acc + row.reduce((acc, tile) => {
+      tile.energyTotal = tile.energised.up + tile.energised.down + tile.energised.left + tile.energised.right
+      return acc + (tile.energyTotal > 0 ? 1 : 0)
+    }, 0)
+  }, 0)
   report('Mirrors:', layout)
+  report(displayLayout(layout))
   report('Solution 1:', solution)
 }
 
