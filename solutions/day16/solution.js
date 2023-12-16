@@ -65,7 +65,7 @@ function createTile (char, x, y) {
 function parseMirrorLayout (input) {
   const layout = []
   input.split('\n').forEach((line, y) => {
-    const row = line.split('').map((char, x) => createTile(char, x, y))
+    const row = line.trim().split('').map((char, x) => createTile(char, x, y))
     layout.push(row)
   })
   return layout
@@ -115,12 +115,16 @@ function countEnergisedTiles (layout) {
 }
 
 function energiseLayout (layout, start, startDirection) {
+  start = layout[start.y]?.[start.x]
   const nextInstructions = [{ tile: start, direction: startDirection }]
+  let i = 0
   while (nextInstructions.length > 0) {
     const { tile, direction } = nextInstructions.shift()
     const newInstructions = travelLight(layout, tile, direction)
     nextInstructions.push(...newInstructions)
+    i++
   }
+  layout.processed = i
   return layout
 }
 
@@ -137,7 +141,38 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const layout = parseMirrorLayout(input)
+
+  const topEdge = []
+  const bottomEdge = []
+  const leftEdge = []
+  const rightEdge = []
+  while (topEdge.length < layout[0].length) {
+    topEdge.push({ tile: layout[0][topEdge.length], direction: 'down' })
+  }
+  while (bottomEdge.length < layout[0].length) {
+    bottomEdge.push({ tile: layout[layout.length - 1][bottomEdge.length], direction: 'up' })
+  }
+  while (leftEdge.length < layout.length) {
+    leftEdge.push({ tile: layout[leftEdge.length][0], direction: 'right' })
+  }
+  while (rightEdge.length < layout.length) {
+    rightEdge.push({ tile: layout[rightEdge.length][layout[0].length - 1], direction: 'left' })
+  }
+  const startPositions = [...topEdge, ...bottomEdge, ...leftEdge, ...rightEdge]
+
+  console.log('Start positions:', { topEdge, bottomEdge, leftEdge, rightEdge })
+
+  const results = startPositions.map(({ tile, direction }) => {
+    const layoutCopy = JSON.parse(JSON.stringify(layout))
+    const result = energiseLayout(layoutCopy, tile, direction)
+    const count = countEnergisedTiles(layoutCopy)
+    console.log('Result:', [tile.x, tile.y].join(','), direction, 'Energised:', count, 'Iterations:', result.processed)
+    console.log(displayLayout(result))
+    return count
+  })
+
+  const solution = Math.max(...results)
   report('Solution 2:', solution)
 }
 
