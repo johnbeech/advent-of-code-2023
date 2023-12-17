@@ -112,7 +112,9 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const cityMap = parseCityBlocks(input)
+  const solution = minHeat(cityMap, 4, 10)
+
   report('Solution 2:', solution)
 }
 
