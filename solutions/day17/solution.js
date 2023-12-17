@@ -1,19 +1,20 @@
 const path = require('path')
 const { read, position } = require('promise-path')
+const { Heap } = require('heap-js')
 const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
 }
 
 const directions = {
-  down: { x: 0, y: 1 },
   right: { x: 1, y: 0 },
   left: { x: -1, y: 0 },
+  down: { x: 0, y: 1 },
   up: { x: 0, y: -1 }
 }
 const neighbors = Object.values(directions)
@@ -36,102 +37,76 @@ function parseCityBlocks (input) {
   return remapped
 }
 
-function findPath (start, end) {
-  const openSet = [start]
-  const closedSet = []
-  const cameFrom = {}
-
-  const gScore = {}
-
-  gScore[start.x + ',' + start.y] = 0
-
-  while (openSet.length > 0) {
-    openSet.sort((a, b) => gScore[a.x + ',' + a.y] - gScore[b.x + ',' + b.y])
-
-    let current = openSet.shift()
-
-    if (current.x === end.x && current.y === end.y) {
-      // Reconstruct path
-      const path = [current]
-      while (cameFrom[current.x + ',' + current.y]) {
-        path.unshift(cameFrom[current.x + ',' + current.y])
-        current = cameFrom[current.x + ',' + current.y]
-      }
-      return path
-    }
-
-    closedSet.push(current)
-
-    for (const neighbor of current.neighbors) {
-      if (!neighbor || closedSet.some(c => c.x === neighbor.x && c.y === neighbor.y)) {
-        continue
-      }
-
-      const cx = current.x
-      const parent = cameFrom[current.x + ',' + current.y]
-      const grandParent = parent && cameFrom[parent.x + ',' + parent.y]
-      const greatGrandParent = grandParent && cameFrom[grandParent.x + ',' + grandParent.y]
-      if (
-        parent?.x === cx &&
-        grandParent?.x === cx &&
-        greatGrandParent?.x === cx &&
-        neighbor.x === cx
-      ) {
-        console.log('Can not move in the same X direction a fourth time')
-        continue
-      }
-
-      const cy = current.y
-      if (
-        parent?.y === cy &&
-        grandParent?.y === cy &&
-        greatGrandParent?.y === cy &&
-        neighbor.y === cy
-      ) {
-        console.log('Can not move in the same Y direction a fourth time')
-        continue
-      }
-
-      const tentativeGScore = gScore[current.x + ',' + current.y] + neighbor.val
-
-      const neighborKey = neighbor.x + ',' + neighbor.y
-
-      if (!openSet.some(o => o.x === neighbor.x && o.y === neighbor.y) || tentativeGScore < gScore[neighborKey]) {
-        cameFrom[neighborKey] = current
-        gScore[neighborKey] = tentativeGScore
-
-        if (!openSet.some(o => o.x === neighbor.x && o.y === neighbor.y)) {
-          openSet.push(neighbor)
-        }
-      }
-    }
+class Visited {
+  visited = new Set()
+  minSteps = 0
+  maxSteps = 0
+  constructor (minSteps, maxSteps) {
+    this.minSteps = minSteps
+    this.maxSteps = maxSteps
   }
 
-  // No path found
-  return null
+  check ({ row, col, rowDir, colDir, consecutive }) {
+    const key =
+      (row << 24) | (col << 16) | ((rowDir & 3) << 14) | ((colDir & 3) << 12) | consecutive
+    if (this.visited.has(key)) return true
+    if (consecutive >= this.minSteps) { for (let i = 0; i <= this.maxSteps - consecutive; ++i) this.visited.add(key + i) } else this.visited.add(key)
+    return false
+  }
 }
 
-function displayCity (city, path) {
-  const lines = city.map(row => row.map(block => {
-    if (path.some(p => p.x === block.x && p.y === block.y)) {
-      return block.val
+function tryDirection (cityMap, positions,
+  pos,
+  rowDir,
+  colDir,
+  minSteps,
+  maxSteps
+) {
+  const nextRow = pos.row + rowDir
+  const nextCol = pos.col + colDir
+  const sameDirection = rowDir === pos.rowDir && colDir === pos.colDir
+
+  // Boundary check
+  if (nextRow < 0 || nextRow >= cityMap.length || nextCol < 0 || nextCol >= cityMap[0].length) return
+  // Backwards check
+  if (rowDir === -pos.rowDir && colDir === -pos.colDir) return
+  // Max steps check
+  if (pos.consecutive === maxSteps && sameDirection) return
+  // Min steps check
+  if (pos.consecutive < minSteps && !sameDirection && !(pos.row === 0 && pos.col === 0)) return
+
+  positions.push({
+    row: nextRow,
+    col: nextCol,
+    rowDir,
+    colDir,
+    consecutive: sameDirection ? pos.consecutive + 1 : 1,
+    heat: pos.heat + cityMap[nextRow][nextCol].val
+  })
+}
+
+function minHeat (cityMap, minSteps, maxSteps) {
+  const positions = new Heap((a, b) => a.heat - b.heat)
+  const visited = new Visited(minSteps, maxSteps)
+  positions.push({ row: 0, col: 0, rowDir: 0, colDir: 0, consecutive: 0, heat: 0 })
+  while (positions.length > 0) {
+    const pos = positions.pop()
+    if (visited.check(pos)) {
+      continue
     }
-    return '.' // block.val
-  }).join('')).join('\n')
-  console.log(lines)
+    if (pos.row === cityMap.length - 1 && pos.col === cityMap[0].length - 1 && pos.consecutive >= minSteps) {
+      return pos.heat
+    }
+    for (const direction in directions) {
+      tryDirection(cityMap, positions, pos, directions[direction].x, directions[direction].y, minSteps, maxSteps)
+    }
+  }
+  throw new Error("Didn't find anything :(")
 }
 
 async function solveForFirstStar (input) {
-  const city = parseCityBlocks(input)
-  const start = city[0][1]
-  const end = city[city.length - 1][city[0].length - 1]
-
-  const path = findPath(start, end, city)
-  const pathScore = path.reduce((acc, block) => acc + block.val, 0)
-
-  const solution = pathScore
-
-  displayCity(city, path)
+  const cityMap = parseCityBlocks(input)
+  const solution = minHeat(cityMap, 0, 3)
 
   report('Solution 1:', solution)
 }
