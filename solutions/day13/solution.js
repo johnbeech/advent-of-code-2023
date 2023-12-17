@@ -11,114 +11,97 @@ async function run () {
 }
 
 function parseMaps (input) {
-  const lines = input.split('\n').map(line => line.trim())
-  const maps = lines.reduce((acc, line) => {
-    if (line.length === 0) {
-      acc.push([])
-    } else {
-      acc[acc.length - 1].push(line)
-    }
-    return acc
-  }, [[]])
-  return maps
+  return input.split('\n\n')
+    .filter(n => n)
+    .map(strGroup => strGroup.split('\n').filter(n => n))
 }
 
-function tryAndMirror (map) {
-  // move through each row index and try to find mirroring row position (if any)
-  let i = 1
-  while (i < map.length) {
-    const a = map.slice(0, i).join('')
-    const b = map.slice(i).reverse().join('')
-    if (a.length > b.length && a.endsWith(b)) {
-      // console.log(`Found ${type} mirror:`, i)
-      // console.log(map.join('\n'))
-      return i
-    } else if (b.length > a.length && b.endsWith(a)) {
-      // console.log(`Found mirror: ${type}`, i)
-      // console.log(map.join('\n'))
-      return i
+function transposeMatrix (matrix) {
+  return matrix[0].map((_, colIndex) => matrix.map(row => row[colIndex]))
+}
+
+function subtractStrings (str1, str2) {
+  return str1
+    .split('')
+    .map((str, index) => (str !== str2[index] ? str : undefined))
+    .filter(Boolean)
+    .join('')
+}
+
+function findReflection (stringArray, onlySmudge = false) {
+  const hasSmudge = (str1, str2) => Boolean(str1) && Boolean(str2) && onlySmudge && subtractStrings(str1, str2).length === 1
+
+  let reflectionIndex = 0
+  let isReflection = false
+
+  while (reflectionIndex < stringArray.length - 1 && !isReflection) {
+    const centerLeft = stringArray[reflectionIndex]
+    const centerRight = stringArray[reflectionIndex + 1]
+    let smudgeCount = hasSmudge(centerLeft, centerRight) ? 1 : 0
+
+    if (centerLeft === centerRight || hasSmudge(centerLeft, centerRight)) {
+      for (let comparisonIndex = 1; reflectionIndex + comparisonIndex < stringArray.length; comparisonIndex++) {
+        const firstItemToCompare = stringArray[reflectionIndex - comparisonIndex]
+        const secondItemToCompare = stringArray[reflectionIndex + 1 + comparisonIndex]
+        if (
+          firstItemToCompare === secondItemToCompare ||
+          (!firstItemToCompare && Boolean(secondItemToCompare)) ||
+          (Boolean(firstItemToCompare) && !secondItemToCompare) ||
+          (hasSmudge(firstItemToCompare, secondItemToCompare) && smudgeCount < 1)
+        ) {
+          if (hasSmudge(firstItemToCompare, secondItemToCompare)) {
+            smudgeCount += 1
+          }
+          isReflection = true
+        } else {
+          isReflection = false
+          break
+        }
+      }
     }
-    i++
+    if (onlySmudge && smudgeCount !== 1) {
+      isReflection = false
+    }
+
+    reflectionIndex += 1
   }
-  // console.log({ i, a, b })
-  // console.log(`No ${type} mirror found`)
+
+  if (isReflection) {
+    return reflectionIndex
+  }
   return 0
 }
 
-function tryAndMirrorVariations (map, type) {
-  const columns = map[0].length
-  const rows = map.length
-  const variations = columns * rows
-  let i = 0
-  // for each i; toggle a . to a #, or a # to a .
-  const mirrors = new Set()
-  while (i < variations) {
-    const row = Math.floor(i / columns)
-    const column = i % columns
-    const originalLine = map[row]
-    const line = map[row].split('')
-    line[column] = line[column] === '.' ? '#' : '.'
-    map[row] = line.join('')
-    const mirror = tryAndMirror(map, type)
-    map[row] = originalLine
-    if (mirror > 0) {
-      mirrors.add(mirror)
-    }
-    i++
+function findAndScoreReflection (groupLines, onlySmudge = false) {
+  const horizontalLine = findReflection(groupLines, onlySmudge)
+  if (horizontalLine) {
+    return horizontalLine * 100
   }
-  console.log('Mirror sizes:', mirrors)
-  return mirrors.size > 0 ? Math.min(...mirrors) : 0
-}
-
-function enhanceMap (horizontal, index, mirrorFn) {
-  // rotate map 90 degrees
-  const vertical = horizontal[0].split('').map((_, i) => horizontal.map(row => row[i]).join(''))
-
-  let horizontalMirror = mirrorFn(horizontal, 'horizontal')
-  let verticalMirror = mirrorFn(vertical, 'vertical')
-
-  if (horizontalMirror === 0 && verticalMirror === 0) {
-    console.log(index, 'No mirror found', { horizontal, vertical })
+  const verticalLinePosition = findReflection(
+    transposeMatrix(groupLines.map(line => line.split(''))).map(line => line.join('')),
+    onlySmudge
+  )
+  if (verticalLinePosition) {
+    return verticalLinePosition
   }
 
-  if (horizontalMirror > 0 && verticalMirror > 0) {
-    console.log('More than one mirror found', { horizontalMirror, horizontal, verticalMirror, vertical })
-    if (horizontalMirror < verticalMirror) {
-      verticalMirror = 0
-    } else {
-      horizontalMirror = 0
-    }
-  }
-
-  return {
-    horizontal,
-    vertical,
-    horizontalMirror,
-    verticalMirror
-  }
+  return 0
 }
 
 async function solveForFirstStar (input) {
-  const maps = parseMaps(input).map((map, index) => enhanceMap(map, index, tryAndMirror))
+  const maps = parseMaps(input).map(map => findAndScoreReflection(map, false))
+  console.log('Maps', maps)
+  const totalScore = maps.reduce((acc, score) => acc + score, 0)
 
-  const rowOffset = maps.reduce((acc, map) => acc + map.horizontalMirror, 0)
-  const columnOffset = maps.reduce((acc, map) => acc + map.verticalMirror, 0)
-
-  const solution = (rowOffset * 100) + columnOffset
+  const solution = totalScore
   report('Solution 1:', solution)
 }
 
 async function solveForSecondStar (input) {
-  const maps = parseMaps(input).map((map, index) => enhanceMap(map, index, tryAndMirrorVariations))
+  const maps = parseMaps(input).map(map => findAndScoreReflection(map, true))
+  const totalScore = maps.reduce((acc, score) => acc + score, 0)
 
-  const rowOffset = maps.reduce((acc, map) => acc + map.horizontalMirror, 0)
-  const columnOffset = maps.reduce((acc, map) => acc + map.verticalMirror, 0)
-
-  const noMirrors = maps.filter(map => map.horizontalMirror === 0 && map.verticalMirror === 0).length
-  console.log('No mirrors:', noMirrors)
-
-  const solution = (rowOffset * 100) + columnOffset
-
+  const solution = totalScore
   report('Solution 2:', solution)
 }
 
