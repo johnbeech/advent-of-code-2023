@@ -27,14 +27,7 @@ function parseCityBlocks (input) {
       val: Number.parseInt(char)
     }
   }))
-
-  const remapped = blocks.map(row => row.map(block => {
-    block.neighbors = neighbors.map(dir => blocks[block.y + dir.y] && blocks[block.y + dir.y][block.x + dir.x]).filter(block => block !== undefined)
-    block.nhl = block.neighbors.reduce((acc, neighbor) => acc + neighbor.val, 0)
-    return block
-  }))
-
-  return remapped
+  return blocks
 }
 
 class Visited {
@@ -55,13 +48,7 @@ class Visited {
   }
 }
 
-function tryDirection (cityMap, positions,
-  pos,
-  rowDir,
-  colDir,
-  minSteps,
-  maxSteps
-) {
+function checkNeighbour (cityMap, positions, pos, rowDir, colDir, minSteps, maxSteps) {
   const nextRow = pos.row + rowDir
   const nextCol = pos.col + colDir
   const sameDirection = rowDir === pos.rowDir && colDir === pos.colDir
@@ -76,6 +63,7 @@ function tryDirection (cityMap, positions,
   if (pos.consecutive < minSteps && !sameDirection && !(pos.row === 0 && pos.col === 0)) return
 
   positions.push({
+    parent: pos,
     row: nextRow,
     col: nextCol,
     rowDir,
@@ -85,37 +73,69 @@ function tryDirection (cityMap, positions,
   })
 }
 
-function minHeat (cityMap, minSteps, maxSteps) {
+function tracePath (pos) {
+  const path = [pos]
+  while (pos.parent) {
+    path.push(pos.parent)
+    pos = pos.parent
+  }
+  return path
+}
+
+function findPath (cityMap, start, end, minSteps, maxSteps) {
   const positions = new Heap((a, b) => a.heat - b.heat)
   const visited = new Visited(minSteps, maxSteps)
-  positions.push({ row: 0, col: 0, rowDir: 0, colDir: 0, consecutive: 0, heat: 0 })
+  positions.push({ row: start.x, col: start.y, rowDir: 0, colDir: 0, consecutive: 0, heat: 0 })
   while (positions.length > 0) {
     const pos = positions.pop()
     if (visited.check(pos)) {
       continue
     }
-    if (pos.row === cityMap.length - 1 && pos.col === cityMap[0].length - 1 && pos.consecutive >= minSteps) {
-      return pos.heat
+    if (pos.row === end.y && pos.col === end.x && pos.consecutive >= minSteps) {
+      return {
+        path: tracePath(pos),
+        pos,
+        heat: pos.heat
+      }
     }
-    for (const direction in directions) {
-      tryDirection(cityMap, positions, pos, directions[direction].x, directions[direction].y, minSteps, maxSteps)
-    }
+    neighbors.forEach(direction => {
+      checkNeighbour(cityMap, positions, pos, direction.x, direction.y, minSteps, maxSteps)
+    })
   }
-  throw new Error("Didn't find anything :(")
+  throw new Error('Could not reach destination:' + JSON.stringify(end))
 }
 
 async function solveForFirstStar (input) {
   const cityMap = parseCityBlocks(input)
-  const solution = minHeat(cityMap, 0, 3)
+  const start = cityMap[0][0]
+  const end = cityMap[cityMap.length - 1][cityMap[0].length - 1]
+  const { path, heat } = findPath(cityMap, start, end, 0, 3)
+
+  displayCityMap(cityMap, path)
+
+  const solution = heat
 
   report('Solution 1:', solution)
 }
-
 async function solveForSecondStar (input) {
   const cityMap = parseCityBlocks(input)
-  const solution = minHeat(cityMap, 4, 10)
+  const start = cityMap[0][0]
+  const end = cityMap[cityMap.length - 1][cityMap[0].length - 1]
+  const { path, heat } = findPath(cityMap, start, end, 4, 10)
+
+  displayCityMap(cityMap, path)
+
+  const solution = heat
 
   report('Solution 2:', solution)
+}
+
+function displayCityMap (cityMap, path) {
+  const map = cityMap.map(row => row.map(col => '.'))
+  path.forEach(pos => {
+    map[pos.row][pos.col] = 'X'
+  })
+  console.log(map.map(row => row.join('')).join('\n'))
 }
 
 run()
