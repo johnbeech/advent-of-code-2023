@@ -4,7 +4,7 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
@@ -77,26 +77,26 @@ async function solveForSecondStar (input) {
   let x = 0
   let y = 0
   const vertices = []
-  let d = 0
+  let p = 0
 
   for (const { direction, distance } of instructions) {
-    x = x + directions[direction].x * distance
-    y = y + directions[direction].y * distance
-    vertices.push([x, y])
-    d = d + distance - 1
+    x = x + (directions[direction].x * distance)
+    y = y + (directions[direction].y * distance)
+    vertices.push({ x, y })
+    p = p + distance
   }
 
   // Apply the Shoelace Formula to calculate the area
   const n = vertices.length
   let area = 0
   for (let i = 0; i < n - 1; i++) {
-    area += vertices[i][0] * vertices[i + 1][1]
-    area -= vertices[i + 1][0] * vertices[i][1]
+    area += vertices[i].x * vertices[i + 1].y
+    area -= vertices[i + 1].x * vertices[i].y
   }
-  area = Math.abs(area + d) / 2
+  area = Math.abs(area) / 2 + (p / 2) + 1
 
-  console.log('Area:', area, 'Distance:', d, 'Vertices:', vertices.length, 'Difference:', area - 952408144115)
-
+  console.log('Area:', area, 'Perimeter:', p, 'Vertices:', vertices.length
+  )
   const solution = area
   report('Solution 2:', solution)
 }
