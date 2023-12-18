@@ -87,16 +87,17 @@ async function solveForSecondStar (input) {
   }
 
   // Apply the Shoelace Formula to calculate the area
-  const n = vertices.length
-  let area = 0
-  for (let i = 0; i < n - 1; i++) {
-    area += vertices[i].x * vertices[i + 1].y
-    area -= vertices[i + 1].x * vertices[i].y
-  }
-  area = Math.abs(area) / 2 + (p / 2) + 1
+  const calc = vertices.reduce((area, vertex, i, vertices) => {
+    const next = vertices[i + 1]
+    if (next) {
+      return area + (vertex.x * next.y) - (next.x * vertex.y)
+    }
+    return area
+  }, 0)
+  const area = Math.abs(calc) / 2 + (p / 2) + 1
 
-  console.log('Area:', area, 'Perimeter:', p, 'Vertices:', vertices.length
-  )
+  console.log('Area:', area, 'Perimeter:', p, 'Vertices:', vertices.length)
+
   const solution = area
   report('Solution 2:', solution)
 }
