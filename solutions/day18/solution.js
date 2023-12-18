@@ -4,7 +4,7 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
@@ -57,8 +57,47 @@ async function solveForFirstStar (input) {
   report('Solution 1:', solution)
 }
 
+function parseColors (input) {
+  /**
+   * Each hexadecimal code is six hexadecimal digits long. The first five hexadecimal digits encode the distance in meters as a five-digit hexadecimal number.
+   * The last hexadecimal digit encodes the direction to dig: 0 means R, 1 means D, 2 means L, and 3 means U.
+   *
+   * e.g. #70c710 = R 461937
+   */
+  return input.split('\n').filter(n => n).map((line) => {
+    const match = /#([0-9a-f]{5})([0-3])/.exec(line)
+    const [, distance, direction] = match
+    return { direction: ['R', 'D', 'L', 'U'][Number(direction)], distance: Number.parseInt('0x' + distance) }
+  })
+}
+
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const instructions = parseColors(input)
+
+  let x = 0
+  let y = 0
+  const vertices = []
+  let d = 0
+
+  for (const { direction, distance } of instructions) {
+    x = x + directions[direction].x * distance
+    y = y + directions[direction].y * distance
+    vertices.push([x, y])
+    d = d + distance - 1
+  }
+
+  // Apply the Shoelace Formula to calculate the area
+  const n = vertices.length
+  let area = 0
+  for (let i = 0; i < n - 1; i++) {
+    area += vertices[i][0] * vertices[i + 1][1]
+    area -= vertices[i + 1][0] * vertices[i][1]
+  }
+  area = Math.abs(area + d) / 2
+
+  console.log('Area:', area, 'Distance:', d, 'Vertices:', vertices.length, 'Difference:', area - 952408144115)
+
+  const solution = area
   report('Solution 2:', solution)
 }
 
