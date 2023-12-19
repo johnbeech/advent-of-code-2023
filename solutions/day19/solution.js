@@ -10,36 +10,6 @@ async function run () {
   await solveForSecondStar(input)
 }
 
-const acceptedParts = new Set()
-const rejectedParts = new Set()
-
-function acceptPart (part) {
-  if (acceptedParts.has(part)) {
-    throw new Error(`Part ${JSON.stringify(part)} was already accepted`)
-  }
-  console.log('Accept part:', part)
-  acceptedParts.add(part)
-}
-
-function rejectPart (part) {
-  if (rejectedParts.has(part)) {
-    throw new Error(`Part ${JSON.stringify(part)} was already rejected`)
-  }
-  console.log('Reject part:', part)
-  rejectedParts.add(part)
-}
-
-function findVal (key, part) {
-  if (typeof key === 'number') {
-    return key
-  }
-  const val = part[key]
-  if (val === undefined) {
-    throw new Error(`Unknown key ${key} in part ${JSON.stringify(part)}`)
-  }
-  return val
-}
-
 /**
  * Example workflows:
 px{a<2006:qkq,m>2090:A,rfg}
@@ -105,19 +75,38 @@ function parseInput (lines) {
   return { workflows, parts }
 }
 
-async function solveForFirstStar (input) {
-  const { workflows, parts } = parseInput(input)
+function drainTokens (tokens) {
+  while (tokens.length > 0) {
+    tokens.pop()
+  }
+}
 
-  const tokenFn = {}
+function evalulateParts (workflows, parts) {
+  const acceptedParts = new Set()
 
-  function drainTokens (tokens) {
-    while (tokens.length > 0) {
-      tokens.pop()
+  function acceptPart (part) {
+    if (acceptedParts.has(part)) {
+      throw new Error(`Part ${JSON.stringify(part)} was already accepted`)
     }
+    acceptedParts.add(part)
   }
 
+  function rejectPart () {}
+
+  function findVal (key, part) {
+    if (typeof key === 'number') {
+      return key
+    }
+    const val = part[key]
+    if (val === undefined) {
+      throw new Error(`Unknown key ${key} in part ${JSON.stringify(part)}`)
+    }
+    return val
+  }
+
+  const fnTable = {}
   function startWorkflow (workflowId, part) {
-    const workflow = workflows.find(w => w.workflowId === workflowId)
+    const workflow = workflows[workflowId]
     if (!workflow) {
       throw new Error(`Unknown workflow ${workflowId}`)
     }
@@ -127,8 +116,7 @@ async function solveForFirstStar (input) {
     const stack = []
     while (tokens.length > 0) {
       const token = tokens.pop()
-      console.log('P:', part, 'T:', token, 'TS:', tokens, 'S:', stack, 'W:', workflowId, 'OTS:', originalTokens.join(' '))
-      const fn = tokenFn[token]
+      const fn = fnTable[token]
       if (fn === undefined) {
         stack.push(token)
       } else {
@@ -137,18 +125,16 @@ async function solveForFirstStar (input) {
     }
   }
 
-  Object.assign(tokenFn, {
+  Object.assign(fnTable, {
     '<': (part, stack, tokens) => {
       const a = stack.pop()
       const b = tokens.pop()
-      console.log('Compare', a, '<', b, 'stack:', stack, 'tokens:', tokens)
       const result = findVal(a, part) < findVal(b, part)
       stack.push(result)
     },
     '>': (part, stack, tokens) => {
       const a = stack.pop()
       const b = tokens.pop()
-      console.log('Compare', a, '>', b, 'stack:', stack, 'tokens:', tokens)
       const result = findVal(a, part) > findVal(b, part)
       stack.push(result)
     },
@@ -196,8 +182,22 @@ async function solveForFirstStar (input) {
     startWorkflow('in', part)
   })
 
-  report('Rejected parts:', rejectedParts)
-  report('Accepted parts:', acceptedParts)
+  return {
+    acceptedParts
+  }
+}
+
+async function solveForFirstStar (input) {
+  const { workflows, parts } = parseInput(input)
+
+  const workflowMap = workflows.reduce((acc, workflow) => {
+    acc[workflow.workflowId] = workflow
+    return acc
+  }, {})
+
+  const { acceptedParts } = evalulateParts(workflowMap, parts)
+
+  report('Accepted parts:', acceptedParts.size)
 
   const solution = [...acceptedParts].reduce((acc, part) => {
     return acc + (part.x + part.m + part.a + part.s)
