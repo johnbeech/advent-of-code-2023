@@ -4,7 +4,7 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
@@ -17,6 +17,7 @@ function acceptPart (part) {
   if (acceptedParts.has(part)) {
     throw new Error(`Part ${JSON.stringify(part)} was already accepted`)
   }
+  console.log('Accept part:', part)
   acceptedParts.add(part)
 }
 
@@ -24,6 +25,7 @@ function rejectPart (part) {
   if (rejectedParts.has(part)) {
     throw new Error(`Part ${JSON.stringify(part)} was already rejected`)
   }
+  console.log('Reject part:', part)
   rejectedParts.add(part)
 }
 
@@ -180,11 +182,11 @@ async function solveForFirstStar (input) {
         throw new Error(`Unknown value (b: ${b} ${typeof b}) in stack: ${JSON.stringify(stack)}, ${JSON.stringify(tokens)}`)
       }
     },
-    A: (part, tokens) => {
+    A: (part, stack, tokens) => {
       drainTokens(tokens)
       acceptPart(part)
     },
-    R: (part, tokens) => {
+    R: (part, stack, tokens) => {
       drainTokens(tokens)
       rejectPart(part)
     }
