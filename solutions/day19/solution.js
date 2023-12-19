@@ -4,21 +4,21 @@ const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
 async function run () {
-  const input = (await read(fromHere('example.txt'), 'utf8')).trim()
+  const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
   await solveForFirstStar(input)
   await solveForSecondStar(input)
 }
 
-const acceptedParts = []
-const rejectedParts = []
+const acceptedParts = new Set()
+const rejectedParts = new Set()
 
 function acceptPart (part) {
-  acceptedParts.push(part)
+  acceptedParts.add(part)
 }
 
 function rejectPart (part) {
-  rejectedParts.push(part)
+  rejectedParts.add(part)
 }
 
 function findVal (key, part) {
@@ -148,6 +148,7 @@ async function solveForFirstStar (input) {
         tokens.push(b)
       } else if (a === true && b.length === 1) {
         // continue
+        tokens.push(b)
       } else if (a === true && b.length > 1) {
         while (tokens.length > 0) {
           tokens.pop()
@@ -161,6 +162,7 @@ async function solveForFirstStar (input) {
       const b = tokens.pop()
       if (b.length === 1) {
         // continue
+        tokens.push(b)
       } else if (b.length > 1) {
         while (tokens.length > 0) {
           tokens.pop()
@@ -178,10 +180,13 @@ async function solveForFirstStar (input) {
     startWorkflow('in', part)
   })
 
-  const solution = 'UNSOLVED'
-  report('Input:', workflows, parts)
   report('Rejected parts:', rejectedParts)
   report('Accepted parts:', acceptedParts)
+
+  const solution = [...acceptedParts].reduce((acc, part) => {
+    return acc + (part.x + part.m + part.a + part.s)
+  }, 0)
+
   report('Solution 1:', solution)
 }
 
