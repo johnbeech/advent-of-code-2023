@@ -72,7 +72,14 @@ function parseInput (lines) {
   const [input1, input2] = lines.split('\n\n')
   const workflows = input1.split('\n').map(n => n.trim()).filter(n => n).map(parseWorkflow)
   const parts = input2.split('\n').map(n => n.trim()).filter(n => n).map(parsePartRating)
-  return { workflows, parts }
+  return { workflows: mapWorkflows(workflows), parts }
+}
+
+function mapWorkflows (workflows) {
+  return workflows.reduce((acc, workflow) => {
+    acc[workflow.workflowId] = workflow
+    return acc
+  }, {})
 }
 
 function drainTokens (tokens) {
@@ -81,8 +88,27 @@ function drainTokens (tokens) {
   }
 }
 
-function evalulateParts (workflows, parts) {
+function memoize (func) {
+  const cacheSet = new Set()
+  const cache = {}
+
+  return function (...args) {
+    const key = args.join(',')
+
+    if (!cacheSet.has(key)) {
+      cacheSet.add(key)
+      cache[key] = func.apply(this, args)
+    }
+
+    return cache[key]
+  }
+}
+
+console.log(memoize)
+
+function constructWorkflowProcessor (workflows, storeParts = true) {
   const acceptedParts = new Set()
+  let a = 0
 
   function acceptPart (part) {
     if (acceptedParts.has(part)) {
@@ -91,26 +117,16 @@ function evalulateParts (workflows, parts) {
     acceptedParts.add(part)
   }
 
-  function rejectPart () {}
-
-  function findVal (key, part) {
-    if (typeof key === 'number') {
-      return key
-    }
-    const val = part[key]
-    if (val === undefined) {
-      throw new Error(`Unknown key ${key} in part ${JSON.stringify(part)}`)
-    }
-    return val
+  function fv (key, part) {
+    return part[key] ?? key
   }
 
   const fnTable = {}
-  function startWorkflow (workflowId, part) {
+  function startWorkflow (workflowId, part, subWorkflow = false) {
     const workflow = workflows[workflowId]
     if (!workflow) {
       throw new Error(`Unknown workflow ${workflowId}`)
     }
-    console.log('Starting workflow for', part)
     const originalTokens = workflow.tokens
     const tokens = [...originalTokens].reverse()
     const stack = []
@@ -120,7 +136,10 @@ function evalulateParts (workflows, parts) {
       if (fn === undefined) {
         stack.push(token)
       } else {
-        fn(part, stack, tokens)
+        const result = fn(part, stack, tokens)
+        if (typeof result === 'boolean') {
+          return result
+        }
       }
     }
   }
@@ -129,13 +148,13 @@ function evalulateParts (workflows, parts) {
     '<': (part, stack, tokens) => {
       const a = stack.pop()
       const b = tokens.pop()
-      const result = findVal(a, part) < findVal(b, part)
+      const result = fv(a, part) < fv(b, part)
       stack.push(result)
     },
     '>': (part, stack, tokens) => {
       const a = stack.pop()
       const b = tokens.pop()
-      const result = findVal(a, part) > findVal(b, part)
+      const result = fv(a, part) > fv(b, part)
       stack.push(result)
     },
     ':': (part, stack, tokens) => {
@@ -151,7 +170,7 @@ function evalulateParts (workflows, parts) {
         tokens.push(b)
       } else if (a === true && b.length > 1) {
         drainTokens(tokens)
-        return startWorkflow(b, part)
+        return startWorkflow(b, part, true)
       } else {
         throw new Error(`Unknown value (a: ${a} ${typeof a}), (b: ${b}) in stack: ${JSON.stringify(stack)}, ${JSON.stringify(tokens)}`)
       }
@@ -170,13 +189,26 @@ function evalulateParts (workflows, parts) {
     },
     A: (part, stack, tokens) => {
       drainTokens(tokens)
-      acceptPart(part)
+      if (storeParts) {
+        acceptPart(part)
+      }
+      a++
+      return true
     },
     R: (part, stack, tokens) => {
       drainTokens(tokens)
-      rejectPart(part)
+      return false
     }
   })
+
+  return {
+    acceptedParts: storeParts ? acceptedParts : { size: () => a },
+    startWorkflow
+  }
+}
+
+function evalulateParts (workflows, parts) {
+  const { acceptedParts, startWorkflow } = constructWorkflowProcessor(workflows)
 
   parts.forEach(part => {
     startWorkflow('in', part)
@@ -189,13 +221,7 @@ function evalulateParts (workflows, parts) {
 
 async function solveForFirstStar (input) {
   const { workflows, parts } = parseInput(input)
-
-  const workflowMap = workflows.reduce((acc, workflow) => {
-    acc[workflow.workflowId] = workflow
-    return acc
-  }, {})
-
-  const { acceptedParts } = evalulateParts(workflowMap, parts)
+  const { acceptedParts } = evalulateParts(workflows, parts)
 
   report('Accepted parts:', acceptedParts.size)
 
@@ -207,7 +233,99 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  // Solution adapted from: https://github.com/yolocheezwhiz/adventofcode/blob/main/2023/day19.js
+  const lines = input.split('\n')
+  const len = lines.indexOf('')
+
+  const workflows = {}
+  // for each workflow
+  for (let i = 0; i < len; i++) {
+    // get function name
+    const fnName = lines[i].split('{')[0]
+    // replace that func_name in every workflow
+    // avoid partial matches by ensuring the func_name is not immediately preceeded or followed by an alphabetic character
+    const reg = new RegExp('(?<![a-z])' + fnName + '(?![a-z])')
+    // avoid modifying the function name at the beginning of the string
+    for (let j = 0; j < len; j++) lines[j] = lines[j].split('{')[0] + '{' + lines[j].split('{')[1].replace(reg, 'wf.' + fnName + '(xmas)')
+  }
+
+  // Loop again, this time to build workflow functions
+  for (let i = 0; i < len; i++) {
+    // get function name
+    const fnName = lines[i].split('{')[0]
+    // build functions with ternary logic from workflows
+    /* eslint-disable no-new-func */
+    workflows[fnName] = new Function('x', 'm', 'a', 's', 'wf', lines[i]
+      .replaceAll(':', '?')
+      .replaceAll(',', ':')
+      .replace('}', ';')
+      .replace(/.*{/, 'return ')
+      .replaceAll('A', 'x+m+a+s')
+      .replaceAll('R', '0')
+      .replaceAll('xmas', 'x,m,a,s,wf'))
+    /* eslint-enable no-new-func */
+  }
+
+  const ranges = {
+    x: [4000],
+    m: [4000],
+    a: [4000],
+    s: [4000]
+  }
+
+  // find ranges
+  for (let i = 0; i < len; i++) {
+    // get function elements
+    const split = lines[i].split('{')[1].split('}')[0].split(/:|,/)
+    for (const el of split) {
+      // find bool evaluations
+      if (el.match(/(<|>)/)) {
+        // log numbers (ranges) to look for, for x,m,a & s
+        // if "<" decrement by 1
+        ranges[el.substring(0, 1)].push(+el.substring(2) + (el.substring(1, 2) === '>' ? 0 : -1))
+      }
+    }
+  }
+
+  const x = [...new Set(ranges.x)].sort((a, b) => a - b)
+  const m = [...new Set(ranges.m)].sort((a, b) => a - b)
+  const a = [...new Set(ranges.a)].sort((a, b) => a - b)
+  const s = [...new Set(ranges.s)].sort((a, b) => a - b)
+
+  const log = x.length * m.length * a.length * s.length
+  let bean = 0
+  let accepted = 0
+  console.time('Bean count')
+  for (let i = 0; i < x.length; i++) {
+    for (let j = 0; j < m.length; j++) {
+      for (let k = 0; k < a.length; k++) {
+        for (let l = 0; l < s.length; l++, bean++) {
+          /* Try every number in the range,
+          * if it passes, we check the diff with the previous num - or use the num if it's the first in the array,
+          * and multiply together
+          * e.g suppose we compare 245 (previous num 243), 14 (first num in array), 150 (previous num 140), 3333 (previous num 3332)
+          * if it passes the validations, we return ((245-243) * 14 * (150-140) * (3333-3332))
+          * 2 * 14 * 10 * 1 = 280
+          * which represents the range of values that pass this test
+          */
+          if (workflows.in(x[i], m[j], a[k], s[l], workflows) > 0) {
+            accepted += (x[i] - x[i - 1] || x[i]) * (m[j] - m[j - 1] || m[j]) * (a[k] - a[k - 1] || a[k]) * (s[l] - s[l - 1] || s[l])
+          }
+          // beancounting prints
+          if (bean % 50000000 === 0) {
+            console.timeEnd('Bean count')
+            console.log(bean / 1000000 + 'M/' + log / 1000000 + 'M processed, Accepted:', accepted)
+            console.time('Bean count')
+          }
+        }
+      }
+    }
+  }
+  console.timeEnd('Bean count')
+
+  console.log('Accepted parts:', accepted)
+
+  const solution = accepted
   report('Solution 2:', solution)
 }
 
