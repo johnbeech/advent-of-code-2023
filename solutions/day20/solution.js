@@ -322,55 +322,161 @@ async function solveForFirstStar (input) {
 }
 
 async function solveForSecondStar (input) {
-  const { moduleMap } = parseModules(input)
-  const rx = moduleMap.rx.instance
-  const sendsToRx = rx.connections[0]
-
-  const context = {
-    satisfied: false
+  // Solution adapted from: https://github.com/surgi1/adventofcode/blob/main/2023/day20/script.js
+  const MODULE_STATE = {
+    OFF: 0,
+    ON: 1
   }
 
-  console.log('Sends to RX:', sendsToRx)
+  const PULSE_TYPE = {
+    LOW: 0,
+    HIGH: 1
+  }
 
-  const clicks = []
-  signalLogging = false
+  const MODULE_TYPE = {
+    NONE: 0,
+    BUTTON: 1,
+    BROADCAST: 2,
+    FLIP_FLOP: 3,
+    CONJUNCTION: 4
+  }
 
-  for (let id = 0; id < sendsToRx.connections.length; id++) {
-    const { moduleMap } = parseModules(input)
-    const rx = moduleMap.rx.instance
-    const sendsToRx = rx.connections[0]
+  function init () {
+    const modules = {}
 
-    const button = new ButtonModule('button', [moduleMap.broadcaster.instance])
+    input.split('\n').forEach(line => {
+      let [from, to] = line.split(' -> ')
+      let type = MODULE_TYPE.NONE
+      if (from === 'broadcaster') type = MODULE_TYPE.BROADCAST
+      if (from[0] === '%') type = MODULE_TYPE.FLIP_FLOP
+      if (from[0] === '&') type = MODULE_TYPE.CONJUNCTION
+      if (from[0] === '%' || from[0] === '&') from = from.slice(1)
+      modules[from] = {
+        type,
+        outputs: to.split(', '),
+        inputs: [],
+        state: (type === MODULE_TYPE.FLIP_FLOP ? MODULE_STATE.OFF : ({}))
+      }
+    })
 
-    let buttonPresses = 0
-    context.satisfied = false
-    const moduleToSatisfy = sendsToRx.connections[id]
+    // add extra outputs
+    Object.entries(modules).forEach(([id, mod]) => {
+      mod.outputs.forEach(out => {
+        if (modules[out] === undefined) {
+          modules[out] = {
+            type: MODULE_TYPE.NONE,
+            outputs: [],
+            inputs: [],
+            state: MODULE_STATE.OFF
+          }
+        }
+      })
+    })
 
-    const originalSignal = rx.signal
-    rx.signal = (source, signal) => {
-      originalSignal.call(moduleToSatisfy, source, signal)
-      if (signal === HighPulse && source === moduleToSatisfy) {
-        console.log('Satisfied; received high pulse from', moduleToSatisfy.id, 'with', buttonPresses, 'clicks')
-        context.satisfied = true
+    // determine inputs and set default states
+    Object.entries(modules).forEach(([id, mod]) => {
+      mod.outputs.forEach(out => {
+        if (modules[out] === undefined) {
+          return modules
+        }
+        if (!modules[out].inputs.includes(id)) {
+          modules[out].inputs.push(id)
+        }
+      })
+    })
+
+    Object.entries(modules).forEach(([id, mod]) => {
+      if (mod.type !== MODULE_TYPE.CONJUNCTION) return true
+      mod.inputs.forEach(inp => {
+        mod.state[inp] = PULSE_TYPE.LOW
+      })
+    })
+
+    return modules
+  }
+
+  // flip flop receives HIGH -> ignored
+  // flip flop receives LOW -> if it was OFF it turns on and sends HIGH; if it was ON it turns off and sends LOW
+
+  // conjunction remembers most recent pulse from each input modules (def LOW for all). on receiving, it updates the recent from that input
+  // if all recent inputs are HIGH, sends LOW. otherwise sends LOW
+
+  const pulses = [0, 0]
+  const context = {
+    satisfied: false,
+    sends2rxId: null,
+    satisfyFromId: null
+  }
+  const stack = []
+
+  function sendPulse ({ targetId, senderId, pulseType }) {
+    // console.log('sending', targetId, senderId, pulseType);
+    if (targetId === context.sends2rxId && pulseType === PULSE_TYPE.HIGH && senderId === context.satisfyFromId) {
+      context.satisfied = true // this is just for part2
+    }
+
+    pulses[pulseType]++
+
+    const mod = modules[targetId]
+
+    if (mod.type === MODULE_TYPE.BROADCAST) {
+      mod.outputs.forEach(out => {
+        stack.push({ targetId: out, senderId: targetId, pulseType })
+      })
+      return
+    }
+
+    if (mod.type === MODULE_TYPE.FLIP_FLOP) {
+      if (pulseType === PULSE_TYPE.LOW) {
+        if (mod.state === MODULE_STATE.OFF) {
+          mod.state = MODULE_STATE.ON
+          mod.outputs.forEach(out => {
+            stack.push({ targetId: out, senderId: targetId, pulseType: PULSE_TYPE.HIGH })
+          })
+        } else {
+          mod.state = MODULE_STATE.OFF
+          mod.outputs.forEach(out => {
+            stack.push({ targetId: out, senderId: targetId, pulseType: PULSE_TYPE.LOW })
+          })
+        }
+      }
+      return
+    }
+
+    if (mod.type === MODULE_TYPE.CONJUNCTION) {
+      mod.state[senderId] = pulseType
+      if (Object.values(mod.state).every(pt => pt === PULSE_TYPE.HIGH)) {
+        mod.outputs.forEach(out => {
+          stack.push({ targetId: out, senderId: targetId, pulseType: PULSE_TYPE.LOW })
+        })
+      } else {
+        mod.outputs.forEach(out => {
+          stack.push({ targetId: out, senderId: targetId, pulseType: PULSE_TYPE.HIGH })
+        })
       }
     }
+  }
+
+  let modules = init()
+
+  context.sends2rxId = modules.rx.inputs[0]
+  const clicks = []
+
+  for (let id = 0; id < modules[context.sends2rxId].inputs.length; id++) {
+    modules = init()
+
+    let i = 0
+    context.satisfied = false
+    context.satisfyFromId = modules[context.sends2rxId].inputs[id]
 
     while (context.satisfied === false) {
-      const future = new Promise(resolve => {
-        WorkQueue.finally(() => {
-          resolve()
-        })
-      })
-      if (buttonPresses % 1000 === 0) {
-        console.log('')
-        console.log('Starting button press', buttonPresses, 'for', moduleToSatisfy.id)
+      stack.push({ targetId: 'broadcaster', senderId: 'button', pulseType: PULSE_TYPE.LOW })
+      while (stack.length) {
+        sendPulse(stack.shift())
       }
-      buttonPresses++
-      button.signal()
-      await future
+      i++
     }
-
-    clicks.push(buttonPresses)
+    clicks.push(i)
   }
 
   const solution = lcmAll(clicks)
