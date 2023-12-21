@@ -54,9 +54,10 @@ class WorkQueue {
   add (workFn) {
     this.queue.push(workFn)
     clearTimeout(this.timeout)
+    this.processQueue()
     this.timeout = setTimeout(() => {
       this.processQueue()
-    }, 1)
+    }, 0)
   }
 
   async processQueue () {
@@ -76,7 +77,7 @@ class WorkQueue {
         clearInterval(interval)
         fn()
       }
-    }, 10)
+    }, 0)
   }
 }
 
@@ -282,7 +283,7 @@ async function solveForFirstStar (input) {
   const { moduleMap } = parseModules(input)
   const button = new ButtonModule('button', [moduleMap.broadcaster.instance])
   const buttonPresses = []
-  const limit = 1000
+  const limit = 1
   for (let i = 1; i <= limit; i++) {
     const index = i
     buttonPresses.push(() => {
@@ -304,18 +305,88 @@ async function solveForFirstStar (input) {
     await buttonPress()
   }
 
+  let finish
+  const future = new Promise(resolve => {
+    finish = resolve
+  })
   WorkQueue.finally(() => {
     console.log('Low pulses:', lowPulses)
     console.log('High pulses:', highPulses)
 
     const solution = lowPulses * highPulses
     report('Solution 1:', solution)
+    finish()
   })
+
+  return future
 }
 
 async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
+  const { moduleMap } = parseModules(input)
+  const rx = moduleMap.rx.instance
+  const sendsToRx = rx.connections[0]
+
+  const context = {
+    satisfied: false
+  }
+
+  console.log('Sends to RX:', sendsToRx)
+
+  const clicks = []
+  signalLogging = false
+
+  for (let id = 0; id < sendsToRx.connections.length; id++) {
+    const { moduleMap } = parseModules(input)
+    const rx = moduleMap.rx.instance
+    const sendsToRx = rx.connections[0]
+
+    const button = new ButtonModule('button', [moduleMap.broadcaster.instance])
+
+    let buttonPresses = 0
+    context.satisfied = false
+    const moduleToSatisfy = sendsToRx.connections[id]
+
+    const originalSignal = rx.signal
+    rx.signal = (source, signal) => {
+      originalSignal.call(moduleToSatisfy, source, signal)
+      if (signal === HighPulse && source === moduleToSatisfy) {
+        console.log('Satisfied; received high pulse from', moduleToSatisfy.id, 'with', buttonPresses, 'clicks')
+        context.satisfied = true
+      }
+    }
+
+    while (context.satisfied === false) {
+      const future = new Promise(resolve => {
+        WorkQueue.finally(() => {
+          resolve()
+        })
+      })
+      if (buttonPresses % 1000 === 0) {
+        console.log('')
+        console.log('Starting button press', buttonPresses, 'for', moduleToSatisfy.id)
+      }
+      buttonPresses++
+      button.signal()
+      await future
+    }
+
+    clicks.push(buttonPresses)
+  }
+
+  const solution = lcmAll(clicks)
   report('Solution 2:', solution)
+}
+
+function gcd (a, b) {
+  return b === 0 ? a : gcd(b, a % b)
+}
+
+function lcm (a, b) {
+  return a * b / gcd(a, b)
+}
+
+function lcmAll (numbers) {
+  return numbers.reduce(lcm, 1)
 }
 
 run()
