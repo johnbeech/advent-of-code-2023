@@ -44,10 +44,16 @@ function parseGardenMap (input) {
   }
 }
 
+function displayGardenMap (gardenMap) {
+  return gardenMap.map(line => line.map(tile => tile.char).join('')).join('\n')
+}
+
 async function solveForFirstStar (input) {
   const { gardenMap, gardenTiles, width, height, startTile } = parseGardenMap(input)
 
   console.log({ gardenMap, gardenTiles, width, height, startTile })
+
+  console.log(displayGardenMap(gardenMap))
 
   const solution = 'UNSOLVED'
   report('Solution 1:', solution)
