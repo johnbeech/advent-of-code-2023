@@ -6,8 +6,7 @@ const report = (...messages) => console.log(`[${require(fromHere('../../package.
 async function run () {
   const input = (await read(fromHere('input.txt'), 'utf8')).trim()
 
-  await solveForFirstStar(input)
-  await solveForSecondStar(input)
+  await solveForBothStars(input)
 }
 
 function parseBlocks (input) {
@@ -175,19 +174,92 @@ function printLinesSideBySide (...lineBlocks) {
   return lines.join('\n')
 }
 
-async function solveForFirstStar (input) {
+function findBlockCoords (block) {
+  const coords = []
+  for (let x = block.bottomCorner.x; x <= block.topCorner.x; x++) {
+    for (let y = block.bottomCorner.y; y <= block.topCorner.y; y++) {
+      for (let z = block.bottomCorner.z; z <= block.topCorner.z; z++) {
+        coords.push({ x, y, z })
+      }
+    }
+  }
+  return coords
+}
+
+function moveBlocks (blocks, computeSpace) {
+  const blocksToMove = [...blocks]
+  const movedBlocks = new Set()
+  let steps = 0
+  while (blocksToMove.length > 0) {
+    const block = blocksToMove.shift()
+    const coordsToCheck = findBlockCoords(block, computeSpace)
+    const moveable = coordsToCheck.every(coord => {
+      const blockAtCoord = computeSpace.find(coord.x, coord.y, coord.z - 1)
+      return (!blockAtCoord || blockAtCoord.id === block.id)
+    })
+
+    if (moveable) {
+      block.bottomCorner.z--
+      block.topCorner.z--
+      blocksToMove.push(block)
+      movedBlocks.add(block)
+    }
+
+    computeSpace = placeBlocks(blocks).computeSpace
+    steps++
+    if (steps % 1000 === 0) {
+      console.log('Steps:', steps)
+    }
+  }
+  return {
+    steps,
+    movedBlocks
+  }
+}
+
+function findAdjacentBlocks (blocks, computeSpace) {
+  return blocks.map(block => {
+    // use placement map to find blocks below this one
+    const coordsToCheck = findBlockCoords(block)
+    const blocksAbove = coordsToCheck.reduce((acc, coord) => {
+      const blockAtCoord = computeSpace.find(coord.x, coord.y, coord.z + 1)
+      if (blockAtCoord && blockAtCoord.id !== block.id) {
+        acc.add(blockAtCoord)
+      }
+      return acc
+    }, new Set())
+    const blocksBelow = coordsToCheck.reduce((acc, coord) => {
+      const blockAtCoord = computeSpace.find(coord.x, coord.y, coord.z - 1)
+      if (blockAtCoord && blockAtCoord.id !== block.id) {
+        acc.add(blockAtCoord)
+      }
+      return acc
+    }, new Set())
+    block.blocksAbove = [...blocksAbove].map(block => block.id)
+    block.blocksBelow = [...blocksBelow].map(block => block.id)
+    return block
+  })
+}
+
+function clone (obj) {
+  return JSON.parse(JSON.stringify(obj))
+}
+
+async function solveForBothStars (input) {
   const blocks = parseBlocks(input).sort((a, b) => a.bottomCorner.z - b.bottomCorner.z)
 
   const highestBlock = blocks[blocks.length - 1]
   const lowestBlock = blocks[0]
 
-  const { computeSpace, xSize, ySize, zSize } = placeBlocks(blocks)
+  let { computeSpace, xSize, ySize, zSize } = placeBlocks(blocks)
 
-  console.log('Blocks:', blocks)
+  console.log('Blocks:', blocks.map(block => block.id))
   console.log('Highest Block:', highestBlock)
   console.log('Lowest Block:', lowestBlock)
 
-  console.log('Compute Space:', computeSpace)
+  const result = moveBlocks(blocks, computeSpace)
+  console.log('Moved blocks:', result.movedBlocks.size, [...result.movedBlocks].map(block => block.id))
+  computeSpace = placeBlocks(blocks).computeSpace
 
   console.log('')
   console.log(printLinesSideBySide(
@@ -198,13 +270,32 @@ async function solveForFirstStar (input) {
     ['RS ', ...renderFromFarSide(computeSpace, xSize, ySize, zSize).split('\n')]
   ))
 
-  const solution = 'UNSOLVED'
-  report('Solution 1:', solution)
-}
+  const adjacentBlocks = findAdjacentBlocks(blocks, computeSpace)
 
-async function solveForSecondStar (input) {
-  const solution = 'UNSOLVED'
-  report('Solution 2:', solution)
+  const safeToDisintegrate = adjacentBlocks.filter(block => {
+    return block.blocksAbove.every(id => {
+      const blockAbove = adjacentBlocks.find(block => block.id === id)
+      return blockAbove.blocksBelow.length >= 2
+    })
+  })
+
+  console.log('Safe to disintegrate:', safeToDisintegrate.map(block => block.id))
+  report('Solution 1:', safeToDisintegrate.length)
+
+  const affectedBlockCounts = adjacentBlocks.map(block => {
+    const blocksToMove = clone(adjacentBlocks.filter(b => b.id !== block.id))
+    const { computeSpace } = placeBlocks(blocksToMove)
+    const result = moveBlocks(blocksToMove, computeSpace)
+    const movedBlocks = result.movedBlocks
+    console.log('Moved block:', block.id, result.steps, 'steps', [...result.movedBlocks].map(block => block.id))
+    return {
+      id: block.id,
+      count: movedBlocks.size
+    }
+  })
+  const sumOfAffectedBlocks = affectedBlockCounts.reduce((acc, block) => acc + block.count, 0)
+
+  report('Solution 2:', sumOfAffectedBlocks)
 }
 
 run()
