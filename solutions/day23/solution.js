@@ -218,6 +218,8 @@ async function solveForSecondStar (input) {
 
   const nodes = getGraph(startPos, endPos, forestMap)
 
+  await write(fromHere('graph.json'), JSON.stringify(nodes, null, 2), 'utf8')
+
   const stack = [{ p: 0, steps: 0, seen: {} }]
   const endNodeId = nodes.length - 1
   let maxSteps = 0

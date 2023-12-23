@@ -1,0 +1,770 @@
+[
+  {
+    "p": [
+      1,
+      0
+    ],
+    "connections": [
+      {
+        "id": 1,
+        "distance": 59
+      }
+    ]
+  },
+  {
+    "p": [
+      15,
+      5
+    ],
+    "connections": [
+      {
+        "id": 0,
+        "distance": 59
+      },
+      {
+        "id": 2,
+        "distance": 84
+      },
+      {
+        "id": 11,
+        "distance": 370
+      }
+    ]
+  },
+  {
+    "p": [
+      29,
+      11
+    ],
+    "connections": [
+      {
+        "id": 1,
+        "distance": 84
+      },
+      {
+        "id": 3,
+        "distance": 168
+      },
+      {
+        "id": 10,
+        "distance": 92
+      }
+    ]
+  },
+  {
+    "p": [
+      55,
+      13
+    ],
+    "connections": [
+      {
+        "id": 2,
+        "distance": 168
+      },
+      {
+        "id": 4,
+        "distance": 240
+      },
+      {
+        "id": 9,
+        "distance": 96
+      }
+    ]
+  },
+  {
+    "p": [
+      79,
+      13
+    ],
+    "connections": [
+      {
+        "id": 3,
+        "distance": 240
+      },
+      {
+        "id": 5,
+        "distance": 350
+      },
+      {
+        "id": 8,
+        "distance": 62
+      }
+    ]
+  },
+  {
+    "p": [
+      113,
+      17
+    ],
+    "connections": [
+      {
+        "id": 4,
+        "distance": 350
+      },
+      {
+        "id": 6,
+        "distance": 420
+      },
+      {
+        "id": 7,
+        "distance": 60
+      }
+    ]
+  },
+  {
+    "p": [
+      123,
+      35
+    ],
+    "connections": [
+      {
+        "id": 5,
+        "distance": 420
+      },
+      {
+        "id": 7,
+        "distance": 52
+      },
+      {
+        "id": 17,
+        "distance": 236
+      }
+    ]
+  },
+  {
+    "p": [
+      109,
+      33
+    ],
+    "connections": [
+      {
+        "id": 6,
+        "distance": 52
+      },
+      {
+        "id": 8,
+        "distance": 184
+      },
+      {
+        "id": 16,
+        "distance": 124
+      },
+      {
+        "id": 5,
+        "distance": 60
+      }
+    ]
+  },
+  {
+    "p": [
+      79,
+      31
+    ],
+    "connections": [
+      {
+        "id": 7,
+        "distance": 184
+      },
+      {
+        "id": 9,
+        "distance": 142
+      },
+      {
+        "id": 15,
+        "distance": 120
+      },
+      {
+        "id": 4,
+        "distance": 62
+      }
+    ]
+  },
+  {
+    "p": [
+      55,
+      37
+    ],
+    "connections": [
+      {
+        "id": 8,
+        "distance": 142
+      },
+      {
+        "id": 10,
+        "distance": 88
+      },
+      {
+        "id": 14,
+        "distance": 162
+      },
+      {
+        "id": 3,
+        "distance": 96
+      }
+    ]
+  },
+  {
+    "p": [
+      39,
+      29
+    ],
+    "connections": [
+      {
+        "id": 9,
+        "distance": 88
+      },
+      {
+        "id": 11,
+        "distance": 186
+      },
+      {
+        "id": 13,
+        "distance": 212
+      },
+      {
+        "id": 2,
+        "distance": 92
+      }
+    ]
+  },
+  {
+    "p": [
+      19,
+      43
+    ],
+    "connections": [
+      {
+        "id": 10,
+        "distance": 186
+      },
+      {
+        "id": 12,
+        "distance": 170
+      },
+      {
+        "id": 1,
+        "distance": 370
+      }
+    ]
+  },
+  {
+    "p": [
+      13,
+      63
+    ],
+    "connections": [
+      {
+        "id": 11,
+        "distance": 170
+      },
+      {
+        "id": 13,
+        "distance": 140
+      },
+      {
+        "id": 23,
+        "distance": 82
+      }
+    ]
+  },
+  {
+    "p": [
+      41,
+      63
+    ],
+    "connections": [
+      {
+        "id": 12,
+        "distance": 140
+      },
+      {
+        "id": 14,
+        "distance": 146
+      },
+      {
+        "id": 22,
+        "distance": 46
+      },
+      {
+        "id": 10,
+        "distance": 212
+      }
+    ]
+  },
+  {
+    "p": [
+      63,
+      59
+    ],
+    "connections": [
+      {
+        "id": 13,
+        "distance": 146
+      },
+      {
+        "id": 15,
+        "distance": 52
+      },
+      {
+        "id": 21,
+        "distance": 166
+      },
+      {
+        "id": 9,
+        "distance": 162
+      }
+    ]
+  },
+  {
+    "p": [
+      85,
+      53
+    ],
+    "connections": [
+      {
+        "id": 14,
+        "distance": 52
+      },
+      {
+        "id": 16,
+        "distance": 224
+      },
+      {
+        "id": 20,
+        "distance": 216
+      },
+      {
+        "id": 8,
+        "distance": 120
+      }
+    ]
+  },
+  {
+    "p": [
+      111,
+      59
+    ],
+    "connections": [
+      {
+        "id": 15,
+        "distance": 224
+      },
+      {
+        "id": 17,
+        "distance": 52
+      },
+      {
+        "id": 19,
+        "distance": 116
+      },
+      {
+        "id": 7,
+        "distance": 124
+      }
+    ]
+  },
+  {
+    "p": [
+      127,
+      55
+    ],
+    "connections": [
+      {
+        "id": 16,
+        "distance": 52
+      },
+      {
+        "id": 18,
+        "distance": 206
+      },
+      {
+        "id": 6,
+        "distance": 236
+      }
+    ]
+  },
+  {
+    "p": [
+      129,
+      79
+    ],
+    "connections": [
+      {
+        "id": 17,
+        "distance": 206
+      },
+      {
+        "id": 19,
+        "distance": 86
+      },
+      {
+        "id": 29,
+        "distance": 116
+      }
+    ]
+  },
+  {
+    "p": [
+      113,
+      81
+    ],
+    "connections": [
+      {
+        "id": 18,
+        "distance": 86
+      },
+      {
+        "id": 20,
+        "distance": 188
+      },
+      {
+        "id": 28,
+        "distance": 74
+      },
+      {
+        "id": 16,
+        "distance": 116
+      }
+    ]
+  },
+  {
+    "p": [
+      83,
+      87
+    ],
+    "connections": [
+      {
+        "id": 19,
+        "distance": 188
+      },
+      {
+        "id": 21,
+        "distance": 58
+      },
+      {
+        "id": 27,
+        "distance": 102
+      },
+      {
+        "id": 15,
+        "distance": 216
+      }
+    ]
+  },
+  {
+    "p": [
+      67,
+      85
+    ],
+    "connections": [
+      {
+        "id": 20,
+        "distance": 58
+      },
+      {
+        "id": 22,
+        "distance": 122
+      },
+      {
+        "id": 26,
+        "distance": 68
+      },
+      {
+        "id": 14,
+        "distance": 166
+      }
+    ]
+  },
+  {
+    "p": [
+      43,
+      75
+    ],
+    "connections": [
+      {
+        "id": 21,
+        "distance": 122
+      },
+      {
+        "id": 23,
+        "distance": 156
+      },
+      {
+        "id": 25,
+        "distance": 286
+      },
+      {
+        "id": 13,
+        "distance": 46
+      }
+    ]
+  },
+  {
+    "p": [
+      9,
+      81
+    ],
+    "connections": [
+      {
+        "id": 22,
+        "distance": 156
+      },
+      {
+        "id": 24,
+        "distance": 288
+      },
+      {
+        "id": 12,
+        "distance": 82
+      }
+    ]
+  },
+  {
+    "p": [
+      11,
+      111
+    ],
+    "connections": [
+      {
+        "id": 23,
+        "distance": 288
+      },
+      {
+        "id": 25,
+        "distance": 86
+      },
+      {
+        "id": 34,
+        "distance": 408
+      }
+    ]
+  },
+  {
+    "p": [
+      31,
+      113
+    ],
+    "connections": [
+      {
+        "id": 24,
+        "distance": 86
+      },
+      {
+        "id": 26,
+        "distance": 156
+      },
+      {
+        "id": 34,
+        "distance": 102
+      },
+      {
+        "id": 22,
+        "distance": 286
+      }
+    ]
+  },
+  {
+    "p": [
+      53,
+      99
+    ],
+    "connections": [
+      {
+        "id": 25,
+        "distance": 156
+      },
+      {
+        "id": 27,
+        "distance": 132
+      },
+      {
+        "id": 33,
+        "distance": 240
+      },
+      {
+        "id": 21,
+        "distance": 68
+      }
+    ]
+  },
+  {
+    "p": [
+      77,
+      111
+    ],
+    "connections": [
+      {
+        "id": 26,
+        "distance": 132
+      },
+      {
+        "id": 28,
+        "distance": 224
+      },
+      {
+        "id": 32,
+        "distance": 220
+      },
+      {
+        "id": 20,
+        "distance": 102
+      }
+    ]
+  },
+  {
+    "p": [
+      109,
+      99
+    ],
+    "connections": [
+      {
+        "id": 27,
+        "distance": 224
+      },
+      {
+        "id": 29,
+        "distance": 148
+      },
+      {
+        "id": 31,
+        "distance": 274
+      },
+      {
+        "id": 19,
+        "distance": 74
+      }
+    ]
+  },
+  {
+    "p": [
+      131,
+      101
+    ],
+    "connections": [
+      {
+        "id": 28,
+        "distance": 148
+      },
+      {
+        "id": 30,
+        "distance": 216
+      },
+      {
+        "id": 18,
+        "distance": 116
+      }
+    ]
+  },
+  {
+    "p": [
+      135,
+      129
+    ],
+    "connections": [
+      {
+        "id": 29,
+        "distance": 216
+      },
+      {
+        "id": 31,
+        "distance": 126
+      },
+      {
+        "id": 35,
+        "distance": 35
+      }
+    ]
+  },
+  {
+    "p": [
+      113,
+      137
+    ],
+    "connections": [
+      {
+        "id": 30,
+        "distance": 126
+      },
+      {
+        "id": 32,
+        "distance": 98
+      },
+      {
+        "id": 28,
+        "distance": 274
+      }
+    ]
+  },
+  {
+    "p": [
+      89,
+      135
+    ],
+    "connections": [
+      {
+        "id": 31,
+        "distance": 98
+      },
+      {
+        "id": 33,
+        "distance": 124
+      },
+      {
+        "id": 27,
+        "distance": 220
+      }
+    ]
+  },
+  {
+    "p": [
+      67,
+      133
+    ],
+    "connections": [
+      {
+        "id": 32,
+        "distance": 124
+      },
+      {
+        "id": 34,
+        "distance": 190
+      },
+      {
+        "id": 26,
+        "distance": 240
+      }
+    ]
+  },
+  {
+    "p": [
+      41,
+      129
+    ],
+    "connections": [
+      {
+        "id": 33,
+        "distance": 190
+      },
+      {
+        "id": 24,
+        "distance": 408
+      },
+      {
+        "id": 25,
+        "distance": 102
+      }
+    ]
+  },
+  {
+    "p": [
+      139,
+      140
+    ],
+    "connections": [
+      {
+        "id": 30,
+        "distance": 35
+      }
+    ]
+  }
+]
