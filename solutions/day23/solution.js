@@ -71,7 +71,7 @@ function parseForestMap (input) {
 
 async function solveForFirstStar (input) {
   const { forestMap, entryTile, exitTile } = parseForestMap(input)
-  console.log('Forest Map', forestMap)
+
   console.log('Entry:', entryTile)
   console.log('Exit', exitTile)
 
@@ -93,6 +93,9 @@ async function solveForFirstStar (input) {
         open.push({ path: [...path, neighbor], tile: neighbor })
       }
     })
+    if (steps % 1000 === 0) {
+      console.log('Step', steps, 'Open', open.length, 'Paths', paths.length)
+    }
     steps++
   }
 
