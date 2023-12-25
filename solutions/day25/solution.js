@@ -1,5 +1,5 @@
 const path = require('path')
-const { read, position } = require('promise-path')
+const { read, write, position } = require('promise-path')
 const fromHere = position(__dirname)
 const report = (...messages) => console.log(`[${require(fromHere('../../package.json')).logName} / ${__dirname.split(path.sep).pop()}]`, ...messages)
 
@@ -50,12 +50,21 @@ function parseConnections (input) {
   })
 
   // Make single list of connections
-  const connections = moduleList.reduce((connections, module) => {
+  const allConnections = moduleList.reduce((connections, module) => {
     module.connections.forEach(connection => {
-      connections.push([module, connection])
+      const link = [module, connection].sort((a, b) => a.id.localeCompare(b.id))
+      connections.push(link)
     })
     return connections
   }, [])
+  const connections = Object.values(allConnections.reduce((connections, connection) => {
+    // Remove duplicates
+    const key = connection.map(module => module.id).join('-')
+    if (!connections[key]) {
+      connections[key] = connection
+    }
+    return connections
+  }, {}))
 
   // Tree search each connection to see how many modules are connected; breaking loops as we go
   connections.forEach(connection => {
@@ -81,12 +90,44 @@ function parseConnections (input) {
   }
 }
 
+function colorFromId (id) {
+  // hash string to hexidecimal color 6 chars
+  const hash = id.split('').reduce((hash, char) => {
+    hash = ((hash << 5) - hash) + char.charCodeAt(0)
+    return hash & hash
+  }, 0)
+  const color = Math.abs(hash).toString(16).substr(0, 6).padStart(6, '0')
+  return `${color}`
+}
+
+function displayAsMermaid (connections) {
+  const template = [
+    '```mermaid',
+    'graph LR',
+    '{{ edges }}',
+    '',
+    '{{ styles }}',
+    '```'].join('\n')
+  const edges = connections.map(connection => {
+    const [moduleA, moduleB] = connection
+    return `  ${moduleA.id}---|${colorFromId(moduleA.id)}| ${moduleB.id}`
+  })
+  const colors = ['blue', 'green', 'yellow', 'red', 'purple', 'orange', 'pink', 'brown', 'black', 'white']
+  //    linkStyle 0 stroke-width:2px,fill:none,stroke:blue;
+  const styles = connections.map((c, index) => {
+    return `  linkStyle ${index} stroke-width:2px,fill:none,stroke:${colors[index % colors.length]};`
+  })
+  return template.replace('{{ edges }}', edges.join('\n')).replace('{{ styles }}', styles.join('\n'))
+}
+
 async function solveForFirstStar (input) {
   const { connections } = parseConnections(input)
 
   connections.forEach(connection => {
     console.log(connection.map(module => module.id).join(' <-> '), connection.modules.size)
   })
+
+  await write(fromHere('diagram.md'), displayAsMermaid(connections), 'utf8')
 
   const solution = 'UNSOLVED'
   report('Solution 1:', solution)
